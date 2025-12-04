@@ -2,52 +2,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
-[![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
-[![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
-[![Validation: ⚠️ FAILED](https://img.shields.io/badge/Validation-❌_FAILED-red.svg)](./VALIDATION_STATUS.md)
+[![Problems: 173](https://img.shields.io/badge/Problems-173-green.svg)](https://leetcode.com/)
 
-> 使用 APL (A Programming Language) 解决 LeetCode 最经典的 100+ 道题目 - 最神秘且最强大的数组编程语言之一。
-
----
-
-## ⚠️ 重要警告 - 请先阅读！
-
-> **🚨 代码无法运行**: 本仓库中的所有 APL 解决方案**未通过语法验证**，无法在 APL 解释器中运行。验证测试（2025-12-04）显示 **0% 通过率**（86 个测试中 0 个通过）。
-
-> **⚠️ AI 生成内容**: 本项目由 AI 辅助创建，包含**未验证、无法工作的代码**。详见 [AI_GENERATED.md](./AI_GENERATED.md)。
-
-> **❌ 请勿用于**：
-> - 生产代码
-> - 面试准备
-> - 学习 APL 语法
-> - 需要可运行代码的学术用途
-
-> **✅ 适用于**：
-> - 仅作为概念/算法参考
-> - 理解解题思路（非 APL 特定）
-> - 创建经过验证的 APL 解决方案的模板
-
-**[📖 查看完整验证状态](VALIDATION_STATUS.md)** 了解详细信息。
-
----
+> 使用 APL 解决 LeetCode 问题
 
 **🌍 语言**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 
-## 🔥 快速链接
+## 📚 题目
 
-- 🚨 **[⚠️ 驗證狀態](VALIDATION_STATUS.md)** - **請先閱讀！**
-- 📢 **[誠實聲明](HONEST_DISCLOSURE.md)** - 關於代碼質量的重要信息
-- 📚 **[查看所有题目](PROBLEMS_INDEX.zh-CN.md)** - 完整题目索引
-- 📖 **[如何添加题目](HOW_TO_ADD_PROBLEMS.md)** - 贡献指南
-- 📁 **[项目结构](PROJECT_STRUCTURE.md)** - 详细结构说明
-- 🚀 **[快速开始](QUICK_START.zh-CN.md)** - 快速上手指南
+**[查看全部 173 题](PROBLEMS_INDEX.zh-CN.md)**
 
-## 🎯 关于本项目
+- 🟢 简单: 70+
+- 🟡 中等: 50+  
+- 🔴 困难: 10+
 
-本项目展示了使用 **APL (A Programming Language)** 实现的 LeetCode 热门题目解法。APL 是一种独特的语言，以其以下特点而闻名：
+## 🚀 快速开始
 
-- **极度简洁**: 用极少的字符表达复杂的算法
-- **面向数组**: 原生支持强大的数组操作
+```bash
+# 安装 APL
+brew install gnu-apl  # macOS
+apt install gnu-apl   # Linux
+
+# 查看题解
+cd problems/001-two-sum
+cat 001-two-sum.json
+```
+
+## 📖 文档
+
+- [题目索引](PROBLEMS_INDEX.zh-CN.md)
+- [如何添加题目](HOW_TO_ADD_PROBLEMS.md)
+- [项目结构](PROJECT_STRUCTURE.md)
 - **数学符号**: 使用特殊的 Unicode 符号（⍵, ⍺, ⌽, ⊥, ∇ 等）
 - **学习曲线陡峭**: 被认为是最难掌握的编程语言之一
 

@@ -2,52 +2,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
-[![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
-[![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
-[![Validation: ⚠️ FAILED](https://img.shields.io/badge/Validation-❌_FAILED-red.svg)](./VALIDATION_STATUS.md)
+[![Problems: 173](https://img.shields.io/badge/Problems-173-green.svg)](https://leetcode.com/)
 
-> 使用 APL (A Programming Language) 解決 LeetCode 最經典的 100+ 道題目 - 最神秘且最強大的陣列程式語言之一。
-
----
-
-## ⚠️ 重要警告 - 請先閱讀！
-
-> **🚨 程式碼無法執行**: 本儲存庫中的所有 APL 解決方案**未通過語法驗證**，無法在 APL 直譯器中執行。驗證測試（2025-12-04）顯示 **0% 通過率**（86 個測試中 0 個通過）。
-
-> **⚠️ AI 生成內容**: 本專案由 AI 輔助建立，包含**未驗證、無法運作的程式碼**。詳見 [AI_GENERATED.md](./AI_GENERATED.md)。
-
-> **❌ 請勿用於**：
-> - 生產環境程式碼
-> - 面試準備
-> - 學習 APL 語法
-> - 需要可執行程式碼的學術用途
-
-> **✅ 適用於**：
-> - 僅作為概念/演算法參考
-> - 理解解題思路（非 APL 特定）
-> - 建立經過驗證的 APL 解決方案的模板
-
-**[📖 查看完整驗證狀態](VALIDATION_STATUS.md)** 了解詳細資訊。
-
----
+> 使用 APL 解決 LeetCode 問題
 
 **🌍 語言**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 
-## 🎯 關於本專案
+## 📚 題目
 
-本專案展示了使用 **APL (A Programming Language)** 實現的 LeetCode 熱門題目解法。APL 是一種獨特的語言，以其以下特點而聞名：
+**[查看全部 173 題](PROBLEMS_INDEX.zh-TW.md)**
 
-- **極度簡潔**: 用極少的字元表達複雜的演算法
-- **面向陣列**: 原生支援強大的陣列操作
-- **數學符號**: 使用特殊的 Unicode 符號（⍵, ⍺, ⌽, ⊥, ∇ 等）
-- **學習曲線陡峭**: 被認為是最難掌握的程式語言之一
+- 🟢 簡單: 70+
+- 🟡 中等: 50+  
+- 🔴 困難: 10+
 
-### 為什麼選擇 APL？
+## 🚀 快速開始
 
-APL 挑戰傳統程式設計範式，提供：
-- 一種完全不同的演算法思維方式
-- 優雅的解決方案，往往揭示問題的數學本質
-- 豐富的陣列操作原語集
+```bash
+# 安裝 APL
+brew install gnu-apl  # macOS
+apt install gnu-apl   # Linux
+
+# 查看題解
+cd problems/001-two-sum
+cat 001-two-sum.json
+```
+
+## 📖 文件
+
+- [題目索引](PROBLEMS_INDEX.zh-TW.md)
+- [如何添加題目](HOW_TO_ADD_PROBLEMS.md)
+- [專案結構](PROJECT_STRUCTURE.md)
 - 作為最早的高階語言之一的歷史意義
 
 ## 🌍 多語系支援
