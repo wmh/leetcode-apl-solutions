@@ -11,9 +11,9 @@
     "de": "Check if s is subsequence of t",
     "fr": "Check if s is subsequence of t"
   },
-  "aplSolution": "IsSubsequence ← {⍺∧.∊⍵}",
+  "aplSolution": "IsSubsequence ← {⍺≡⍵/⍨⍺∊⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Filters ⍵ to elements in ⍺ (⍵/⍨⍺∊⍵), checks if equals ⍺.",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Gegeben eine Zeichenkette s, die nur die Zeichen '(', ')', '{', '}', '[' und ']' enthält, bestimme, ob die Eingabezeichenkette gültig ist. Eine Eingabezeichenkette ist gültig, wenn: Öffnende Klammern müssen durch denselben Typ von Klammern geschlossen werden. Öffnende Klammern müssen in der richtigen Reihenfolge geschlossen werden. Jede schließende Klammer hat eine entsprechende öffnende Klammer desselben Typs.",
     "fr": "Étant donné une chaîne s contenant uniquement les caractères '(', ')', '{', '}', '[' et ']', déterminez si la chaîne d'entrée est valide. Une chaîne d'entrée est valide si : Les crochets ouvrants doivent être fermés par le même type de crochets. Les crochets ouvrants doivent être fermés dans le bon ordre. Chaque crochet fermant a un crochet ouvrant correspondant du même type."
   },
-  "aplSolution": "ValidParentheses ← {\n    ⍝ Simple balance check for single type\n    0=+/('('=⍵)-')'=⍵\n}\n\n⍝ For full validation with multiple types:\nValidParentheses2 ← {\n    pairs←'()' '[]' '{}'\n    stack←⍬\n    valid←1\n    {valid∧←ProcessChar ⍵}¨⍵\n    valid∧0=≢stack\n}\n\n⍝ Example usage:\n⍝ ValidParentheses '()'        → 1\n⍝ ValidParentheses '()[]{}'    → 1\n⍝ ValidParentheses '(]'        → 0",
+  "aplSolution": "IsValid ← {0=≢{(⊃⌽⍵)∊'([{':⍵,⍨⊃⌽⍵⋄1↓⍵}⍣≡⍵}",
   "explanation": {
-    "en": "For simple case (version 1): counts opening parens '(' and subtracts closing parens ')'. Valid if sum is 0. For full validation (version 2): would need stack-based matching of bracket pairs.",
+    "en": "Stack-based validation: push openers, pop for closers, check if stack empty at end.",
     "zh-CN": "對於簡單情況（版本 1）：計算開括號 '(' 並減去閉括號 ')'。如果和為 0 則有效。對於完整驗證（版本 2）：需要基於堆棧的括號對匹配。",
     "zh-TW": "對於簡單情況（版本 1）：計算開括號 '(' 並減去閉括號 ')'。如果和為 0 則有效。對於完整驗證（版本 2）：需要基於堆疊的括號對匹配。",
     "ja": "単純なケース（バージョン 1）：開き括弧 '(' をカウントし、閉じ括弧 ')' を減算します。合計が 0 であれば有効です。完全な検証（バージョン 2）：括弧ペアのスタックベースのマッチングが必要です。",
@@ -24,11 +24,20 @@
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "()", "output": "1"},
-    {"input": "()[]{}", "output": "1"},
-    {"input": "(]", "output": "0"}
+    {
+      "input": "()",
+      "output": "1"
+    },
+    {
+      "input": "()[]{}",
+      "output": "1"
+    },
+    {
+      "input": "(]",
+      "output": "0"
+    }
   ],
   "notes": "Note: Full bracket matching is complex in APL. Version 1 shows simple balance check for single bracket type."
 }

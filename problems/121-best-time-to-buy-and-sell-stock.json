@@ -11,9 +11,9 @@
     "de": "Du erhältst ein Array prices, wobei prices[i] der Preis einer bestimmten Aktie am i-ten Tag ist. Du möchtest deinen Gewinn maximieren, indem du einen einzelnen Tag zum Kauf einer Aktie wählst und einen anderen Tag in der Zukunft zum Verkauf dieser Aktie wählst. Gib den maximalen Gewinn zurück, den du aus dieser Transaktion erzielen kannst. Wenn du keinen Gewinn erzielen kannst, gib 0 zurück.",
     "fr": "On vous donne un tableau prices où prices[i] est le prix d'une action donnée le i-ème jour. Vous voulez maximiser votre profit en choisissant un seul jour pour acheter une action et en choisissant un jour différent dans le futur pour vendre cette action. Renvoyez le profit maximum que vous pouvez réaliser de cette transaction. Si vous ne pouvez réaliser aucun profit, renvoyez 0."
   },
-  "aplSolution": "MaxProfit ← {⌈/0,⍵-⌊\\⍵}\n\n⍝ Example usage:\n⍝ MaxProfit 7 1 5 3 6 4    → 5\n⍝ MaxProfit 7 6 4 3 1      → 0",
+  "aplSolution": "MaxProfit ← {⌈/0,⍵-⌊\\⍵}",
   "explanation": {
-    "en": "Tracks running minimum with scan (⌊\\⍵). Subtracts minimum from each price (⍵-⌊\\⍵) to get profit at each point. Takes maximum with ⌈/ and compares with 0 to handle no-profit case.",
+    "en": "Computes running minimum (⌊\\⍵), subtracts from prices (⍵-), prepends 0 to handle negative case (0,), takes maximum (⌈/). This gives max profit or 0 if no profit possible.",
     "zh-CN": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
     "zh-TW": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
     "ja": "スキャン (⌊\\⍵) で実行中の最小値を追跡します。各価格から最小値を引いて (⍵-⌊\\⍵) 各ポイントでの利益を取得します。⌈/ で最大値を取り、0 と比較して利益なしのケースを処理します。",
@@ -24,9 +24,15 @@
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "7 1 5 3 6 4", "output": "5"},
-    {"input": "7 6 4 3 1", "output": "0"}
+    {
+      "input": "7 1 5 3 6 4",
+      "output": "5"
+    },
+    {
+      "input": "7 6 4 3 1",
+      "output": "0"
+    }
   ]
 }

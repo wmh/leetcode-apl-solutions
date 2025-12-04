@@ -11,9 +11,9 @@
     "de": "Gegeben ein Array von Ganzzahlen nums und eine Ganzzahl target, gib die Indizes der zwei Zahlen zurück, die sich zu target addieren. Du kannst annehmen, dass jede Eingabe genau eine Lösung hat, und du darfst dasselbe Element nicht zweimal verwenden. Du kannst die Antwort in beliebiger Reihenfolge zurückgeben.",
     "fr": "Étant donné un tableau d'entiers nums et un entier target, renvoyez les indices des deux nombres qui totalisent target. Vous pouvez supposer que chaque entrée aurait exactement une solution, et vous ne pouvez pas utiliser le même élément deux fois. Vous pouvez renvoyer la réponse dans n'importe quel ordre."
   },
-  "aplSolution": "TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}\n\n⍝ Example usage:\n⍝ 9 TwoSum 2 7 11 15    → 0 1\n⍝ 6 TwoSum 3 2 4        → 1 2\n⍝ 6 TwoSum 3 3          → 0 1",
+  "aplSolution": "TwoSum ← {(¯1+2↑⍸((⍵∘.+⍵)=⍺)∧∘.≠⍨⍳≢⍵)}",
   "explanation": {
-    "en": "Creates outer product (∘.+) of array with itself to get all possible sums. Uses mask to exclude same-index pairs (∘.≠⍨⍳≢arr). Finds positions where sum equals target with ⍸. Takes first 2 indices with 2↑.",
+    "en": "Creates outer product of array with itself (⍵∘.+⍵), compares with target (=⍺), masks out same indices (∧∘.≠⍨⍳≢⍵), finds first 2 positions (2↑⍸), converts to 0-indexed (¯1+).",
     "zh-CN": "創建數組與自身的外積 (∘.+) 以獲得所有可能的和。使用掩碼排除相同索引的配對 (∘.≠⍨⍳≢arr)。用 ⍸ 找到和等於目標的位置。用 2↑ 取前 2 個索引。",
     "zh-TW": "創建陣列與自身的外積 (∘.+) 以獲得所有可能的和。使用遮罩排除相同索引的配對 (∘.≠⍨⍳≢arr)。用 ⍸ 找到和等於目標的位置。用 2↑ 取前 2 個索引。",
     "ja": "配列と自身の外積 (∘.+) を作成して、すべての可能な合計を取得します。マスクを使用して同じインデックスのペアを除外します (∘.≠⍨⍳≢arr)。⍸ で合計が目標と等しい位置を見つけます。2↑ で最初の 2 つのインデックスを取得します。",
@@ -24,10 +24,19 @@
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n²)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "target=9, nums=2 7 11 15", "output": "0 1"},
-    {"input": "target=6, nums=3 2 4", "output": "1 2"},
-    {"input": "target=6, nums=3 3", "output": "0 1"}
+    {
+      "input": "target=9, nums=2 7 11 15",
+      "output": "0 1"
+    },
+    {
+      "input": "target=6, nums=3 2 4",
+      "output": "1 2"
+    },
+    {
+      "input": "target=6, nums=3 3",
+      "output": "0 1"
+    }
   ]
 }

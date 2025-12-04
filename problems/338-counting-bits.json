@@ -11,9 +11,9 @@
     "de": "Gegeben eine Ganzzahl n, gib ein Array ans der Länge n + 1 zurück, sodass für jedes i (0 <= i <= n), ans[i] die Anzahl der 1en in der Binärdarstellung von i ist.",
     "fr": "Étant donné un entier n, renvoyez un tableau ans de longueur n + 1 tel que pour chaque i (0 <= i <= n), ans[i] est le nombre de 1 dans la représentation binaire de i."
   },
-  "aplSolution": "CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}\n\n⍝ Example usage:\n⍝ CountBits 2    → 0 1 1\n⍝ CountBits 5    → 0 1 1 2 1 2",
+  "aplSolution": "CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}",
   "explanation": {
-    "en": "For each number 0 to n (⍳⍵+1), converts to binary using base-2 encode (⊤⍨32⍴2), then sums the bits (+/). The ¨ operator applies operation to each number.",
+    "en": "Generates range (⍳⍵+1), converts each to binary (2⊥⍣¯1¨), sums bits (+/¨).",
     "zh-CN": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進制 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 操作符將操作應用於每個數字。",
     "zh-TW": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進位 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 運算子將操作應用於每個數字。",
     "ja": "0 から n までの各数値 (⍳⍵+1) について、基数 2 エンコードを使用して 2 進数に変換し (⊤⍨32⍴2)、ビットを合計します (+/)。¨ 演算子は各数値に操作を適用します。",
@@ -26,7 +26,13 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "2", "output": "0 1 1"},
-    {"input": "5", "output": "0 1 1 2 1 2"}
+    {
+      "input": "2",
+      "output": "0 1 1"
+    },
+    {
+      "input": "5",
+      "output": "0 1 1 2 1 2"
+    }
   ]
 }

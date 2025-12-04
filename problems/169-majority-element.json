@@ -11,9 +11,9 @@
     "de": "Gegeben ein Array nums der Größe n, gib das Mehrheitselement zurück. Das Mehrheitselement ist das Element, das mehr als ⌊n/2⌋ Mal erscheint.",
     "fr": "Étant donné un tableau nums de taille n, renvoyez l'élément majoritaire. L'élément majoritaire est l'élément qui apparaît plus de ⌊n/2⌋ fois."
   },
-  "aplSolution": "MajorityElement ← {⊃⍵[⍒≢¨⊆⍵]}\n\n⍝ Using group: \nMajorityElement2 ← {⊃⊃⌽↓[1]{⍵[⍒⍵[;2]]}⍉↑{⍵(≢⍵)}⌸⍵}\n\n⍝ Example: MajorityElement 3 2 3 → 3",
+  "aplSolution": "MajorityElement ← {⊃⍵[⍒+⌿∘.=⍨⍵]}",
   "explanation": {
-    "en": "Groups elements, sorts by frequency descending, takes first. Uses partition (⊆) and grade down (⍒) with tally.",
+    "en": "Creates equality matrix (∘.=⍨⍵), sums to count occurrences (+⌿), sorts descending (⍒), takes first element (⊃) which has highest count.",
     "zh-CN": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
     "zh-TW": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
     "ja": "要素をグループ化し、頻度の降順でソートし、最初を取ります。パーティション (⊆) と降順 (⍒) をカウントとともに使用します。",
@@ -25,5 +25,10 @@
   "spaceComplexity": "O(n)",
   "verified": true,
   "verifiedDate": "2025-12-04",
-  "testCases": [{"input": "3 2 3", "output": "3"}]
+  "testCases": [
+    {
+      "input": "3 2 3",
+      "output": "3"
+    }
+  ]
 }

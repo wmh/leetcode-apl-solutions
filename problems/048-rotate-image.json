@@ -11,9 +11,9 @@
     "de": "Rotate NxN matrix 90 degrees clockwise",
     "fr": "Rotate NxN matrix 90 degrees clockwise"
   },
-  "aplSolution": "Rotate ← {⍉⌽⍵}",
+  "aplSolution": "Rotate ← {⌽⍉⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Transpose matrix (⍉⍵), then reverse each row (⌽). This rotates matrix 90 degrees clockwise.",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

@@ -296,3 +296,11 @@ Rob2 ← {
 n←≢⍵
 ⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)
 }
+⍝ Test #1 Two Sum - Original version
+TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
+9 TwoSum 2 7 11 15
+⍝ Fixed version - return 0-indexed
+TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ ¯1+2↑⍸mask}
+9 TwoSum 2 7 11 15
+6 TwoSum 3 2 4
+6 TwoSum 3 3

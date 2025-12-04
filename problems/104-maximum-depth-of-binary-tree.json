@@ -11,9 +11,9 @@
     "de": "Gegeben die Wurzel eines Binärbaums, gib seine maximale Tiefe zurück. Die maximale Tiefe eines Binärbaums ist die Anzahl der Knoten entlang des längsten Pfades vom Wurzelknoten bis zum entferntesten Blattknoten.",
     "fr": "Étant donné la racine d'un arbre binaire, renvoyez sa profondeur maximale. La profondeur maximale d'un arbre binaire est le nombre de nœuds le long du chemin le plus long du nœud racine au nœud feuille le plus éloigné."
   },
-  "aplSolution": "MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}\n\n⍝ For nested arrays:\n⍝ Example usage:\n⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3\n⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2",
+  "aplSolution": "MaxDepth ← {0=≢⍵:0⋄1+⌈/∇¨⍵}",
   "explanation": {
-    "en": "Recursively counts depth. Base case: empty tree has depth 0. Recursive case: 1 + maximum depth of children. Uses self-reference (∇) to recurse over each child, then takes maximum with ⌈/.",
+    "en": "Recursive: returns 0 for empty, otherwise 1 plus max depth of children. Works on nested arrays representing trees.",
     "zh-CN": "遞歸計算深度。基本情況：空樹深度為 0。遞歸情況：1 + 子節點的最大深度。使用自引用 (∇) 遞歸每個子節點，然後用 ⌈/ 取最大值。",
     "zh-TW": "遞迴計算深度。基本情況：空樹深度為 0。遞迴情況：1 + 子節點的最大深度。使用自引用 (∇) 遞迴每個子節點，然後用 ⌈/ 取最大值。",
     "ja": "再帰的に深さをカウントします。ベースケース：空のツリーは深さ 0。再帰ケース：1 + 子の最大深さ。自己参照 (∇) を使用して各子を再帰し、⌈/ で最大値を取ります。",
@@ -26,7 +26,13 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "(3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))", "output": "3"},
-    {"input": "(1 ⍬ (2 ⍬ ⍬))", "output": "2"}
+    {
+      "input": "(3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))",
+      "output": "3"
+    },
+    {
+      "input": "(1 ⍬ (2 ⍬ ⍬))",
+      "output": "2"
+    }
   ]
 }

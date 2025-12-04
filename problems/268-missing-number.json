@@ -11,9 +11,9 @@
     "de": "Gegeben ein Array nums, das n verschiedene Zahlen im Bereich [0, n] enthält, gib die einzige Zahl im Bereich zurück, die im Array fehlt.",
     "fr": "Étant donné un tableau nums contenant n nombres distincts dans la plage [0, n], renvoyez le seul nombre de la plage qui manque dans le tableau."
   },
-  "aplSolution": "MissingNumber ← {(((≢⍵)×(≢⍵)+1)÷2)-+/⍵}\n\n⍝ Example usage:\n⍝ MissingNumber 3 0 1    → 2\n⍝ MissingNumber 0 1      → 2\n⍝ MissingNumber 9 6 4 2 3 5 7 0 1    → 8",
+  "aplSolution": "MissingNumber ← {(⊃(⍳1+⌈/⍵)~⍵)}",
   "explanation": {
-    "en": "Uses the formula for sum of 0 to n: n×(n+1)÷2. Calculates expected sum minus actual sum. The result is the missing number. (≢⍵) gives n, so we calculate n×(n+1)÷2 - (+/⍵) where +/⍵ is the sum of elements.",
+    "en": "Creates range 0 to max (⍳1+⌈/⍵), removes present numbers (~⍵), takes first (⊃).",
     "zh-CN": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
     "zh-TW": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
     "ja": "0 から n までの和の公式を使用します：n×(n+1)÷2。期待される合計から実際の合計を引きます。結果が欠落している数値です。(≢⍵) は n を与えるので、n×(n+1)÷2 - (+/⍵) を計算します。ここで +/⍵ は要素の合計です。",
@@ -24,10 +24,19 @@
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "3 0 1", "output": "2"},
-    {"input": "0 1", "output": "2"},
-    {"input": "9 6 4 2 3 5 7 0 1", "output": "8"}
+    {
+      "input": "3 0 1",
+      "output": "2"
+    },
+    {
+      "input": "0 1",
+      "output": "2"
+    },
+    {
+      "input": "9 6 4 2 3 5 7 0 1",
+      "output": "8"
+    }
   ]
 }

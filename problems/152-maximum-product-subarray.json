@@ -13,7 +13,7 @@
   },
   "aplSolution": "MaxProduct ← {⌈/×/¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Generates all subarrays, computes products (×/¨), takes maximum (⌈/).",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

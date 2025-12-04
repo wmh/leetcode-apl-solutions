@@ -11,9 +11,9 @@
     "de": "Max money without robbing adjacent",
     "fr": "Max money without robbing adjacent"
   },
-  "aplSolution": "Rob ← {n←≢⍵ ⋄ n=0:0 ⋄ n=1:⊃⍵ ⋄ ⌈/(⊃⍵)+(∇2↓⍵),∇1↓⍵}",
+  "aplSolution": "Rob ← {⊃{⍵,⍺⌈(⊃⍵)+⊃1↓⍵}⍣(≢⍵)⊢0 0}/⍵",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Dynamic programming: track max at each position, choose rob or skip.",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

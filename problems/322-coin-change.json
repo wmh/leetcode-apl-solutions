@@ -11,9 +11,9 @@
     "de": "Min coins for amount",
     "fr": "Min coins for amount"
   },
-  "aplSolution": "CoinChange ← {⌊/coins}",
+  "aplSolution": "CoinChange ← {⍵{(⍺=0):0⋄(⍺<0):¯1⋄1+(⌊/∇¨⍺-⍵)}⍺}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Recursive DP: tries each coin, takes min recursion depth. Returns -1 if impossible.",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

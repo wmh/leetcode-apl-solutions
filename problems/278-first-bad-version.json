@@ -11,9 +11,9 @@
     "de": "Find first bad version",
     "fr": "Find first bad version"
   },
-  "aplSolution": "FirstBadVersion ← {⊃⍸isBadVersion¨⍳⍵}",
+  "aplSolution": "FirstBadVersion ← {⊃⍸⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Finds first 1 in boolean array. Requires isBadVersion as boolean array input.",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

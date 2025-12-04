@@ -11,9 +11,9 @@
     "de": "Convert roman to integer",
     "fr": "Convert roman to integer"
   },
-  "aplSolution": "RomanToInt ← {+/1 5 10 50 100 500 1000['IVXLCDM'⍳⍵]}",
+  "aplSolution": "RomanToInt ← {+/¯1*⍨(1↓v,0)<v←1 5 10 50 100 500 1000['IVXLCDM'⍳⍵]}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Maps Roman numerals to values, applies subtraction rule where smaller precedes larger.",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

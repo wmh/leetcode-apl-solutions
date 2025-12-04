@@ -11,9 +11,9 @@
     "de": "Check if number is palindrome",
     "fr": "Check if number is palindrome"
   },
-  "aplSolution": "IsPalindrome ← {⍵≡⌽⍕⍵}",
+  "aplSolution": "IsPalindrome ← {(⍵<0):(0)⋄(⍕⍵)≡⌽⍕⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Checks if negative (returns 0), converts to string (⍕⍵), compares with reverse (≡⌽⍕⍵).",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Gegeben ein Integer-Array nums, gib true zurück, wenn ein Wert mindestens zweimal im Array erscheint, und gib false zurück, wenn jedes Element eindeutig ist.",
     "fr": "Étant donné un tableau d'entiers nums, renvoyez true si une valeur apparaît au moins deux fois dans le tableau, et renvoyez false si chaque élément est distinct."
   },
-  "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}\n\n⍝ Example usage:\n⍝ ContainsDuplicate 1 2 3 1    → 1 (true)\n⍝ ContainsDuplicate 1 2 3 4    → 0 (false)\n⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)",
+  "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}",
   "explanation": {
-    "en": "Compares the length of the array (≢⍵) with the length of unique elements (≢∪⍵). If they differ, there must be duplicates. The ≢ operator gives the length, ∪ gives unique elements, and ≠ checks if they're not equal.",
+    "en": "Compares length of original array (≢⍵) with length of unique elements (≢∪⍵). Returns 1 if different (duplicates exist), 0 otherwise.",
     "zh-CN": "比較數組的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 操作符給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
     "zh-TW": "比較陣列的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 運算子給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
     "ja": "配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。",
@@ -24,10 +24,19 @@
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "1 2 3 1", "output": "1"},
-    {"input": "1 2 3 4", "output": "0"},
-    {"input": "1 1 1 3 3 4 3 2 4 2", "output": "1"}
+    {
+      "input": "1 2 3 1",
+      "output": "1"
+    },
+    {
+      "input": "1 2 3 4",
+      "output": "0"
+    },
+    {
+      "input": "1 1 1 3 3 4 3 2 4 2",
+      "output": "1"
+    }
   ]
 }

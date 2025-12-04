@@ -11,9 +11,9 @@
     "de": "Kehre die Bits einer gegebenen 32-Bit-Ganzzahl ohne Vorzeichen um.",
     "fr": "Inversez les bits d'un entier non signé de 32 bits donné."
   },
-  "aplSolution": "ReverseBits ← {2⊥⌽⍵⊤⍨32⍴2}\n\n⍝ Example: ReverseBits 43261596 → 964176192",
+  "aplSolution": "ReverseBits ← {2⊥⌽32↑2⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Encodes to 32-bit binary (⊤⍨32⍴2), reverses (⌽), decodes back to decimal (2⊥).",
+    "en": "Converts to binary (2⊥⍣¯1), pads to 32 bits (32↑), reverses (⌽), converts back to decimal (2⊥).",
     "zh-CN": "編碼為 32 位二進制 (⊤⍨32⍴2)，反轉 (⌽)，解碼回十進制 (2⊥)。",
     "zh-TW": "編碼為 32 位元二進位 (⊤⍨32⍴2)，反轉 (⌽)，解碼回十進位 (2⊥)。",
     "ja": "32 ビットバイナリにエンコード (⊤⍨32⍴2)、反転 (⌽)、10 進数にデコード (2⊥)。",
@@ -25,5 +25,10 @@
   "spaceComplexity": "O(1)",
   "verified": true,
   "verifiedDate": "2025-12-04",
-  "testCases": [{"input": "43261596", "output": "964176192"}]
+  "testCases": [
+    {
+      "input": "43261596",
+      "output": "964176192"
+    }
+  ]
 }

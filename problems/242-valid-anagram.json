@@ -11,9 +11,9 @@
     "de": "Gegeben zwei Zeichenketten s und t, gib true zurück, wenn t ein Anagramm von s ist, andernfalls false. Ein Anagramm ist ein Wort oder eine Phrase, die durch Umordnung der Buchstaben eines anderen Wortes oder einer anderen Phrase gebildet wird, typischerweise unter Verwendung aller ursprünglichen Buchstaben genau einmal.",
     "fr": "Étant donné deux chaînes s et t, renvoyez true si t est un anagramme de s, et false sinon. Un anagramme est un mot ou une phrase formé en réarrangeant les lettres d'un mot ou d'une phrase différent, en utilisant généralement toutes les lettres d'origine exactement une fois."
   },
-  "aplSolution": "IsAnagram ← {(⍺[⍋⍺])≡⍵[⍋⍵]}\n\n⍝ Example usage:\n⍝ 'anagram' IsAnagram 'nagaram'    → 1\n⍝ 'rat' IsAnagram 'car'            → 0",
+  "aplSolution": "IsAnagram ← {(⍋⍺)≡⍋⍵}",
   "explanation": {
-    "en": "Sorts both strings using grade up (⍋) then checks if they match (≡). If sorted strings are identical, they're anagrams.",
+    "en": "Sorts both strings (⍋⍺ and ⍋⍵), compares if identical (≡). Anagrams have same sorted form.",
     "zh-CN": "使用升序 (⍋) 對兩個字符串排序，然後檢查它們是否匹配 (≡)。如果排序後的字符串相同，則它們是字母異位詞。",
     "zh-TW": "使用升序 (⍋) 對兩個字串排序，然後檢查它們是否匹配 (≡)。如果排序後的字串相同，則它們是字母異位詞。",
     "ja": "昇順 (⍋) を使用して両方の文字列をソートし、それらが一致するかを確認します (≡)。ソートされた文字列が同一である場合、それらはアナグラムです。",
@@ -26,7 +26,13 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "s='anagram', t='nagaram'", "output": "1"},
-    {"input": "s='rat', t='car'", "output": "0"}
+    {
+      "input": "s='anagram', t='nagaram'",
+      "output": "1"
+    },
+    {
+      "input": "s='rat', t='car'",
+      "output": "0"
+    }
   ]
 }

@@ -11,9 +11,9 @@
     "de": "Check if linked list is palindrome",
     "fr": "Check if linked list is palindrome"
   },
-  "aplSolution": "IsPalindrome ← {⍵≡⌽⍵}",
+  "aplSolution": "IsPalindromeList ← {⍵≡⌽⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Compares array with its reverse (⍵≡⌽⍵). Works for arrays representing linked lists.",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

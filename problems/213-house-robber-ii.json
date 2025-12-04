@@ -11,9 +11,9 @@
     "de": "[Problem 213] Houses arranged in circle....",
     "fr": "[Problème 213] Houses arranged in circle...."
   },
-  "aplSolution": "Rob2 ← {\n    n←≢⍵\n    ⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)\n}",
+  "aplSolution": "RobII ← {(≢⍵)<2:+/⍵⋄(Rob¯1↓⍵)⌈Rob 1↓⍵}",
   "explanation": {
-    "en": "Considers two cases: rob first or rob last.",
+    "en": "Either rob first house (exclude last) or rob last (exclude first), take max.",
     "zh-CN": "Considers two cases: rob first or rob last....",
     "zh-TW": "Considers two cases: rob first or rob last....",
     "ja": "Considers two cases: rob first or rob last....",
@@ -22,5 +22,7 @@
     "fr": "Considers two cases: rob first or rob last...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(1)"
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

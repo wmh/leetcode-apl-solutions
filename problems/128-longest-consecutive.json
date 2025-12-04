@@ -11,9 +11,9 @@
     "de": "Longest consecutive sequence",
     "fr": "Longest consecutive sequence"
   },
-  "aplSolution": "LongestConsecutive ← {⌈/≢¨{⍵⊂⍨1,2≠/⍵}∪⍵[⍋⍵]}",
+  "aplSolution": "LongestConsecutive ← {⌈/≢¨⍵⌸⍨1++\\1,2≠/⍵[⍋⍵]}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Sorts array, finds gaps (2≠/), groups consecutive runs (⌸⍨), takes max length (⌈/).",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

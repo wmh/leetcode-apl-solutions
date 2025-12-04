@@ -11,9 +11,9 @@
     "de": "Gegeben die Wurzeln von zwei Binärbäumen p und q, schreibe eine Funktion, um zu überprüfen, ob sie gleich sind oder nicht. Zwei Binärbäume werden als gleich betrachtet, wenn sie strukturell identisch sind und die Knoten denselben Wert haben.",
     "fr": "Étant donné les racines de deux arbres binaires p et q, écrivez une fonction pour vérifier s'ils sont identiques ou non. Deux arbres binaires sont considérés comme identiques s'ils sont structurellement identiques et que les nœuds ont la même valeur."
   },
-  "aplSolution": "SameTree ← {⍺≡⍵}\n\n⍝ For arrays representing trees:\n⍝ Example usage:\n⍝ (1 2 3) SameTree (1 2 3)    → 1\n⍝ (1 2) SameTree (1 ⍬ 2)     → 0\n⍝ (1 2 1) SameTree (1 1 2)   → 0",
+  "aplSolution": "SameTree ← {⍺≡⍵}",
   "explanation": {
-    "en": "Uses match operator (≡) which returns 1 if arrays are identical in structure and values, 0 otherwise. This is the simplest possible solution - just one symbol!",
+    "en": "Simple match using APL's match operator (≡). Works for nested arrays representing trees.",
     "zh-CN": "使用匹配運算符 (≡)，如果數組在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
     "zh-TW": "使用匹配運算子 (≡)，如果陣列在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
     "ja": "マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！",
@@ -26,8 +26,17 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "p=1 2 3, q=1 2 3", "output": "1"},
-    {"input": "p=1 2, q=1 ⍬ 2", "output": "0"},
-    {"input": "p=1 2 1, q=1 1 2", "output": "0"}
+    {
+      "input": "p=1 2 3, q=1 2 3",
+      "output": "1"
+    },
+    {
+      "input": "p=1 2, q=1 ⍬ 2",
+      "output": "0"
+    },
+    {
+      "input": "p=1 2 1, q=1 1 2",
+      "output": "0"
+    }
   ]
 }

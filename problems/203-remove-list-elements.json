@@ -11,9 +11,9 @@
     "de": "Remove all elements with value",
     "fr": "Remove all elements with value"
   },
-  "aplSolution": "RemoveElements ← {(⍵≠⍺)/⍵}",
+  "aplSolution": "RemoveElements ← {⍵~⍺}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Removes all occurrences of ⍺ from array ⍵ using APL's without (~).",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Gegeben der Kopf einer einfach verketteten Liste, kehre die Liste um und gib die umgekehrte Liste zurück.",
     "fr": "Étant donné la tête d'une liste chaînée simple, inversez la liste et renvoyez la liste inversée."
   },
-  "aplSolution": "ReverseList ← {⌽⍵}\n\n⍝ Example usage:\n⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1\n⍝ ReverseList 1 2          → 2 1\n⍝ ReverseList 1            → 1",
+  "aplSolution": "ReverseList ← {⌽⍵}",
   "explanation": {
-    "en": "Uses the reverse operator (⌽). In APL, ⌽ reverses the elements of a vector along its last axis. This is the simplest possible solution - just one symbol!",
+    "en": "Simple reversal using APL's reverse operator (⌽). Works for arrays representing linked list values.",
     "zh-CN": "使用反轉操作符（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
     "zh-TW": "使用反轉運算子（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
     "ja": "リバース演算子（⌽）を使用します。APL では、⌽ はベクトルの要素を最後の軸に沿って反転します。これは最も簡単な解決策です - たった 1 つの記号！",
@@ -24,10 +24,19 @@
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
   "verified": true,
-  "verifiedDate": "2024-12-04",
+  "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "1 2 3 4 5", "output": "5 4 3 2 1"},
-    {"input": "1 2", "output": "2 1"},
-    {"input": "1", "output": "1"}
+    {
+      "input": "1 2 3 4 5",
+      "output": "5 4 3 2 1"
+    },
+    {
+      "input": "1 2",
+      "output": "2 1"
+    },
+    {
+      "input": "1",
+      "output": "1"
+    }
   ]
 }
