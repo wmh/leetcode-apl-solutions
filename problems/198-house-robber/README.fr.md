@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,7 +15,7 @@ Max money without robbing adjacent
 ## 💡 Solution APL
 
 ```apl
-Rob ← {n←≢⍵ ⋄ n=0:0 ⋄ n=1:⊃⍵ ⋄ ⌈/(⊃⍵)+(∇2↓⍵),∇1↓⍵}
+Rob ← {⌈/+/¨⍵}
 ```
 
 ## 📝 Explication

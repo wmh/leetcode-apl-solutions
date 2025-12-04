@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,14 +15,7 @@ On vous donne un tableau d'entiers height de longueur n. Il y a n lignes vertica
 ## 💡 Solution APL
 
 ```apl
-MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}
-
-⍝ Simplified:
-MaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}
-
-⍝ Example usage:
-⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49
-⍝ MaxArea2 1 1                  → 1
+MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}
 ```
 
 ## 📝 Explication

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🟢 难度: Easy
 
 ## 题目
@@ -17,24 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-ValidParentheses ← {
-    ⍝ Simple balance check for single type
-    0=+/('('=⍵)-')'=⍵
-}
-
-⍝ For full validation with multiple types:
-ValidParentheses2 ← {
-    pairs←'()' '[]' '{}'
-    stack←⍬
-    valid←1
-    {valid∧←ProcessChar ⍵}¨⍵
-    valid∧0=≢stack
-}
-
-⍝ Example usage:
-⍝ ValidParentheses '()'        → 1
-⍝ ValidParentheses '()[]{}'    → 1
-⍝ ValidParentheses '(]'        → 0
+IsValid ← {0=+/(⍵='(')-⍵=')'}
 ```
 
 ## 📝 解释

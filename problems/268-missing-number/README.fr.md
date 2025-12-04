@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,12 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-MissingNumber ← {(((≢⍵)×(≢⍵)+1)÷2)-+/⍵}
-
-⍝ Example usage:
-⍝ MissingNumber 3 0 1    → 2
-⍝ MissingNumber 0 1      → 2
-⍝ MissingNumber 9 6 4 2 3 5 7 0 1    → 8
+MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 ```
 
 ## 📝 Explication

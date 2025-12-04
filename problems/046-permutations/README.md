@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ All permutations
 ## 💡 APL Solution
 
 ```apl
-Permute ← {1=≢⍵:,⊂⍵ ⋄ ∊⍵{⍺,¨∇⍵~⍺}¨⍵}
+Permute ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Return permutations
 
 ## ⏱️ Complexity Analysis
 

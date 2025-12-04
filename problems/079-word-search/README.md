@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Find word in board
 ## 💡 APL Solution
 
 ```apl
-Exist ← {∨/⍺∘⍷¨⍵}
+Exist ← {∨/⍺∊¨,⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Word search
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ Given an array of integers nums and an integer target, return indices of the two
 ## 💡 APL Solution
 
 ```apl
-TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
-
-⍝ Example usage:
-⍝ 9 TwoSum 2 7 11 15    → 0 1
-⍝ 6 TwoSum 3 2 4        → 1 2
-⍝ 6 TwoSum 3 3          → 0 1
+TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 ```
 
 ## 📝 Explanation
 
-Creates outer product (∘.+) of array with itself to get all possible sums. Uses mask to exclude same-index pairs (∘.≠⍨⍳≢arr). Finds positions where sum equals target with ⍸. Takes first 2 indices with 2↑.
+Outer product sum, find target, return first match
 
 ## ⏱️ Complexity Analysis
 

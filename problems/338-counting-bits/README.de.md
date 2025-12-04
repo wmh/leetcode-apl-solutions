@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,11 +15,7 @@ Gegeben eine Ganzzahl n, gib ein Array ans der Länge n + 1 zurück, sodass für
 ## 💡 APL-Lösung
 
 ```apl
-CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}
-
-⍝ Example usage:
-⍝ CountBits 2    → 0 1 1
-⍝ CountBits 5    → 0 1 1 2 1 2
+CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 ```
 
 ## 📝 Erklärung

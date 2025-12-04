@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,12 +15,7 @@ On vous donne un grand entier représenté sous forme de tableau d'entiers digit
 ## 💡 Solution APL
 
 ```apl
-PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
-
-⍝ Example usage:
-⍝ PlusOne 1 2 3    → 1 2 4
-⍝ PlusOne 4 3 2 1  → 4 3 2 2
-⍝ PlusOne 9        → 1 0
+PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Explication

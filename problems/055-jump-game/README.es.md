@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,7 +15,7 @@ Can reach end
 ## 💡 Solución APL
 
 ```apl
-CanJump ← {reach←0 ⋄ ∧/{reach⌈←⍺+⍵}¨⍵⍳⍨⍳≢⍵ ⋄ reach≥¯1+≢⍵}
+CanJump ← {(≢⍵)∊⍸⍵>0}
 ```
 
 ## 📝 Explicación

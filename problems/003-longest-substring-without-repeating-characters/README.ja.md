@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟡 難易度: Medium
 
 ## 問題
@@ -17,15 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\⍵}⍣≡¨,¨⍵}
-
-⍝ Simpler approach - check all substrings:
-LengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
-
-⍝ Example usage:
-⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3
-⍝ LengthOfLongestSubstring2 'bbbbb'      → 1
-⍝ LengthOfLongestSubstring2 'pwwkew'     → 3
+LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}
 ```
 
 ## 📝 説明

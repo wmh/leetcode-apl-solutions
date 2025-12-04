@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🔴 Dificultad: Hard
 
 ## Problema
@@ -17,7 +15,7 @@ Trap rain water
 ## 💡 Solución APL
 
 ```apl
-Trap ← {+/0⌈((⌈\⍵)⌊⌈\⌽⍵)-⍵}
+Trap ← {+/0⌈(⌊/⌈\⍵,⌈\⌽⍵)-⍵}
 ```
 
 ## 📝 Explicación

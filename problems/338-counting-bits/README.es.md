@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,11 +15,7 @@ Dado un entero n, devuelve un array ans de longitud n + 1 tal que para cada i (0
 ## 💡 Solución APL
 
 ```apl
-CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}
-
-⍝ Example usage:
-⍝ CountBits 2    → 0 1 1
-⍝ CountBits 5    → 0 1 1 2 1 2
+CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 ```
 
 ## 📝 Explicación

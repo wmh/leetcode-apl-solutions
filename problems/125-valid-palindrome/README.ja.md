@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟢 難易度: Easy
 
 ## 問題
@@ -17,12 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
-
-⍝ Example usage:
-⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
-⍝ IsPalindrome 'race a car'                        → 0
-⍝ IsPalindrome ' '                                 → 1
+IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 ```
 
 ## 📝 説明

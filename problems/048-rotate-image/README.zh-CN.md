@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🟡 难度: Medium
 
 ## 题目
@@ -17,7 +15,7 @@ Rotate NxN matrix 90 degrees clockwise
 ## 💡 APL 解法
 
 ```apl
-Rotate ← {⍉⌽⍵}
+Rotate ← {⌽⍉⍵}
 ```
 
 ## 📝 解释

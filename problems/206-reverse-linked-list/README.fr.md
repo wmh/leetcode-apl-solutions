@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -18,11 +16,6 @@
 
 ```apl
 ReverseList ← {⌽⍵}
-
-⍝ Example usage:
-⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1
-⍝ ReverseList 1 2          → 2 1
-⍝ ReverseList 1            → 1
 ```
 
 ## 📝 Explication

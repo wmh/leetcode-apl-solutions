@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,18 +15,7 @@ Dado un array de enteros nums, encuentra el subarray con la suma más grande y d
 ## 💡 Solución APL
 
 ```apl
-MaxSubArray ← {⌈/+\0⌈⍵-+\0,⍨⌊\+\⍵}
-
-⍝ Simpler Kadane's algorithm:
-MaxSubArray2 ← {⌈/{⌈/+\⍵}¨↓∘.,⍨⍳≢⍵}
-
-⍝ Most readable:
-MaxSubArray3 ← {⌈/⌈\0,+\⍵}
-
-⍝ Example usage:
-⍝ MaxSubArray3 ¯2 1 ¯3 4 ¯1 2 1 ¯5 4    → 6
-⍝ MaxSubArray3 1                        → 1
-⍝ MaxSubArray3 5 4 ¯1 7 8               → 23
+MaxSubArray ← {⌈/+\0⌈⍵}
 ```
 
 ## 📝 Explicación

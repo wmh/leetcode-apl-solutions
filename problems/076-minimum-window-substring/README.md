@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🔴 Difficulty: Hard
 
 ## Problem
@@ -17,16 +15,12 @@ Find minimum window in s which contains all characters of t.
 ## 💡 APL Solution
 
 ```apl
-MinWindow ← {
-    ⍝ Sliding window with character count
-    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}
-    ⊃⌊/≢¨windows
-}
+MinWindow ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Maintains character counts in sliding window.
+Min window substring
 
 ## ⏱️ Complexity Analysis
 

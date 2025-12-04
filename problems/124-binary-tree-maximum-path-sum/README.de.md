@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🔴 Schwierigkeit: Hard
 
 ## Problem
@@ -17,10 +15,7 @@
 ## 💡 APL-Lösung
 
 ```apl
-MaxPathSum ← {
-    ⍝ Consider all paths
-    ⌈/+/¨paths
-}
+MaxPathSum ← {+/⍵}
 ```
 
 ## 📝 Erklärung

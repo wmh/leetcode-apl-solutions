@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Dada la raíz de un árbol binario, invierte el árbol y devuelve su raíz.
 ## 💡 Solución APL
 
 ```apl
-InvertTree ← {0=≢⍵:⍵ ⋄ ⍵[0],(∇⍵[2]),∇⍵[1]}
-
-⍝ For nested representation:
-⍝ Example usage:
-⍝ InvertTree (4 (2 (1 ⍬ ⍬) (3 ⍬ ⍬)) (7 (6 ⍬ ⍬) (9 ⍬ ⍬)))
-⍝ → (4 (7 (9 ⍬ ⍬) (6 ⍬ ⍬)) (2 (3 ⍬ ⍬) (1 ⍬ ⍬)))
+InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}
 ```
 
 ## 📝 Explicación

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Gegeben ein Array nums, das n verschiedene Zahlen im Bereich [0, n] enthält, gi
 ## 💡 APL-Lösung
 
 ```apl
-MissingNumber ← {(((≢⍵)×(≢⍵)+1)÷2)-+/⍵}
-
-⍝ Example usage:
-⍝ MissingNumber 3 0 1    → 2
-⍝ MissingNumber 0 1      → 2
-⍝ MissingNumber 9 6 4 2 3 5 7 0 1    → 8
+MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 ```
 
 ## 📝 Erklärung

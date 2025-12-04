@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,15 +15,7 @@ On vous donne les têtes de deux listes chaînées triées list1 et list2. Fusio
 ## 💡 Solution APL
 
 ```apl
-MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}
-
-⍝ Simpler version:
-MergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}
-
-⍝ Example usage:
-⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4
-⍝ ⍬ MergeTwoLists2 0            → 0
-⍝ ⍬ MergeTwoLists2 ⍬            → ⍬
+MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 ```
 
 ## 📝 Explication

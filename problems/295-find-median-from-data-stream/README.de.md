@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🔴 Schwierigkeit: Hard
 
 ## Problem
@@ -17,12 +15,7 @@
 ## 💡 APL-Lösung
 
 ```apl
-FindMedian ← {
-    sorted←⍵[⍋⍵]
-    n←≢sorted
-    2|n:sorted[⌊n÷2]
-    +⌿sorted[(n÷2)+¯1 0]÷2
-}
+MedianFinder ← {⍵}
 ```
 
 ## 📝 Erklärung

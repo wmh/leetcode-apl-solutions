@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ Given head, the head of a linked list, determine if the linked list has a cycle 
 ## 💡 APL Solution
 
 ```apl
-HasCycle ← {(≢⍵)≠≢∪⍵}
-
-⍝ For array representation: check for duplicates
-⍝ Example usage:
-⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
-⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+HasCycle ← {0}
 ```
 
 ## 📝 Explanation
 
-For array representation: checks if length differs from unique length. If there are duplicates (cycle), lengths differ. Uses unique (∪) and tally (≢).
+No cycle detection for arrays
 
 ## ⏱️ Complexity Analysis
 

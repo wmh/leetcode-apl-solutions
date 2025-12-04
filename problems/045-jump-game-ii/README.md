@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Min jumps to end
 ## 💡 APL Solution
 
 ```apl
-Jump ← {jumps}
+Jump ← {+/2≠/0,⍸0<+\⌈\⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Counts level changes in BFS traversal of jump positions.
 
 ## ⏱️ Complexity Analysis
 

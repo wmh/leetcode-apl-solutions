@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,10 +15,7 @@
 ## 💡 Solución APL
 
 ```apl
-Rob2 ← {
-    n←≢⍵
-    ⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)
-}
+RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}
 ```
 
 ## 📝 Explicación

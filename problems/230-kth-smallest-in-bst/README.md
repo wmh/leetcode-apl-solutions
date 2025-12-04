@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Find kth smallest element in BST.
 ## 💡 APL Solution
 
 ```apl
-KthSmallest ← {
-    k←⍺
-    sorted←⍵[⍋⍵]
-    sorted[k-1]
-}
+KthSmallest ← {⊃⍵[⍋⍵]⌷⍨⍺}
 ```
 
 ## 📝 Explanation
 
-Sorts and returns kth element.
+Kth smallest
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,23 +15,12 @@ Given an integer array nums, find the subarray with the largest sum, and return 
 ## 💡 APL Solution
 
 ```apl
-MaxSubArray ← {⌈/+\0⌈⍵-+\0,⍨⌊\+\⍵}
-
-⍝ Simpler Kadane's algorithm:
-MaxSubArray2 ← {⌈/{⌈/+\⍵}¨↓∘.,⍨⍳≢⍵}
-
-⍝ Most readable:
-MaxSubArray3 ← {⌈/⌈\0,+\⍵}
-
-⍝ Example usage:
-⍝ MaxSubArray3 ¯2 1 ¯3 4 ¯1 2 1 ¯5 4    → 6
-⍝ MaxSubArray3 1                        → 1
-⍝ MaxSubArray3 5 4 ¯1 7 8               → 23
+MaxSubArray ← {⌈/+\0⌈⍵}
 ```
 
 ## 📝 Explanation
 
-Uses Kadane's algorithm. Version 3 is simplest: cumulative sum with running maximum (⌈\), prepending 0 to handle all-negative arrays. Takes max of running max sums.
+Kadane's algorithm
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -18,11 +16,6 @@ Gegeben die Wurzel eines Binärbaums, gib seine maximale Tiefe zurück. Die maxi
 
 ```apl
 MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
-
-⍝ For nested arrays:
-⍝ Example usage:
-⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3
-⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2
 ```
 
 ## 📝 Erklärung

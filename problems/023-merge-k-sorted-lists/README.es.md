@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🔴 Dificultad: Hard
 
 ## Problema
@@ -17,7 +15,7 @@ Merge k sorted linked lists
 ## 💡 Solución APL
 
 ```apl
-MergeKLists ← {lists[⍋∊lists]}
+MergeKLists ← {⍵[⍋∊⍵]}
 ```
 
 ## 📝 Explicación

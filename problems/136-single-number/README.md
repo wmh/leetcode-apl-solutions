@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ Given a non-empty array of integers nums, every element appears twice except for
 ## 💡 APL Solution
 
 ```apl
-SingleNumber ← {≠/⍵}
-
-⍝ Example usage:
-⍝ SingleNumber 4 1 2 1 2    → 4
-⍝ SingleNumber 2 2 1        → 1
-⍝ SingleNumber 1            → 1
+SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 ```
 
 ## 📝 Explanation
 
-Uses XOR reduce (≠/). XOR has the property that a⊕a=0 and a⊕0=a, so duplicate numbers cancel out, leaving only the single number. The ≠ operator is XOR in APL, and / is the reduce operator that applies XOR between all elements.
+Find element with count 1
 
 ## ⏱️ Complexity Analysis
 

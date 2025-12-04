@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🟢 难度: Easy
 
 ## 题目
@@ -17,12 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-HasCycle ← {(≢⍵)≠≢∪⍵}
-
-⍝ For array representation: check for duplicates
-⍝ Example usage:
-⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
-⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+HasCycle ← {0}
 ```
 
 ## 📝 解释

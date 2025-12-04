@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Se te da un entero grande representado como un array de enteros digits, donde ca
 ## 💡 Solución APL
 
 ```apl
-PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
-
-⍝ Example usage:
-⍝ PlusOne 1 2 3    → 1 2 4
-⍝ PlusOne 4 3 2 1  → 4 3 2 2
-⍝ PlusOne 9        → 1 0
+PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Explicación

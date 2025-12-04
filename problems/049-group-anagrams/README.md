@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Group anagrams
 ## 💡 APL Solution
 
 ```apl
-GroupAnagrams ← {{⍵}⌸⍵[⍋¨⍵]}
+GroupAnagrams ← {⍵⌸⍨⍋¨⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Group by sorted form
 
 ## ⏱️ Complexity Analysis
 

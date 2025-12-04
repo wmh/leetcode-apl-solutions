@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟡 難易度: Medium
 
 ## 問題
@@ -17,7 +15,7 @@ Find all unique triplets that sum to zero
 ## 💡 APL 解法
 
 ```apl
-ThreeSum ← {sorted←⍵[⍋⍵] ⋄ ∪(⊂[2]sorted[∘.+⍨⍳≢sorted])[⍸0=+⌿sorted[∘.+⍨⍳≢sorted]]}
+ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}
 ```
 
 ## 📝 説明

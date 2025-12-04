@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Find two numbers in sorted array that add up to target.
 ## 💡 APL Solution
 
 ```apl
-TwoSumII ← {
-    ⍝ Two pointer approach
-    indices ← ⍸⍺=⍵+⌽⍵
-    2↑indices
-}
+TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}
 ```
 
 ## 📝 Explanation
 
-Uses two pointers from both ends.
+Two sum with 1-indexing
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,15 +15,7 @@ Se te dan las cabezas de dos listas enlazadas ordenadas list1 y list2. Fusiona l
 ## 💡 Solución APL
 
 ```apl
-MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}
-
-⍝ Simpler version:
-MergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}
-
-⍝ Example usage:
-⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4
-⍝ ⍬ MergeTwoLists2 0            → 0
-⍝ ⍬ MergeTwoLists2 ⍬            → ⍬
+MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 ```
 
 ## 📝 Explicación

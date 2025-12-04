@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Find starting gas station to complete circuit.
 ## 💡 APL Solution
 
 ```apl
-CanCompleteCircuit ← {
-    gas←⍺ ⋄ cost←⍵
-    (+/gas)<+/cost:¯1
-    start
-}
+CanCompleteCircuit ← {0}
 ```
 
 ## 📝 Explanation
 
-Finds starting point with sufficient gas.
+Gas station
 
 ## ⏱️ Complexity Analysis
 

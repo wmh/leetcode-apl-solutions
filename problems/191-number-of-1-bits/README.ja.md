@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟢 難易度: Easy
 
 ## 問題
@@ -17,12 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-HammingWeight ← {+/⍵⊤⍨32⍴2}
-
-⍝ Example usage:
-⍝ HammingWeight 11    → 3  (binary: 1011)
-⍝ HammingWeight 128   → 1  (binary: 10000000)
-⍝ HammingWeight 2147483645 → 30
+HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 説明

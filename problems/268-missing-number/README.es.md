@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Dado un array nums que contiene n números distintos en el rango [0, n], devuelv
 ## 💡 Solución APL
 
 ```apl
-MissingNumber ← {(((≢⍵)×(≢⍵)+1)÷2)-+/⍵}
-
-⍝ Example usage:
-⍝ MissingNumber 3 0 1    → 2
-⍝ MissingNumber 0 1      → 2
-⍝ MissingNumber 9 6 4 2 3 5 7 0 1    → 8
+MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 ```
 
 ## 📝 Explicación

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,11 +15,7 @@
 ## 💡 Solución APL
 
 ```apl
-TwoSumII ← {
-    ⍝ Two pointer approach
-    indices ← ⍸⍺=⍵+⌽⍵
-    2↑indices
-}
+TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}
 ```
 
 ## 📝 Explicación

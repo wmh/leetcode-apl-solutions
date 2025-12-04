@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,20 +15,12 @@ Given a string s, find the length of the longest substring without repeating cha
 ## 💡 APL Solution
 
 ```apl
-LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\⍵}⍣≡¨,¨⍵}
-
-⍝ Simpler approach - check all substrings:
-LengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
-
-⍝ Example usage:
-⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3
-⍝ LengthOfLongestSubstring2 'bbbbb'      → 1
-⍝ LengthOfLongestSubstring2 'pwwkew'     → 3
+LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}
 ```
 
 ## 📝 Explanation
 
-Version 2: Generates all substrings, checks each for uniqueness ((≢⍵)=≢∪⍵), returns max length. Uses nested drops/takes to create substrings.
+Max unique substring
 
 ## ⏱️ Complexity Analysis
 

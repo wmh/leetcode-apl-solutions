@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,29 +15,12 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 ## 💡 APL Solution
 
 ```apl
-ValidParentheses ← {
-    ⍝ Simple balance check for single type
-    0=+/('('=⍵)-')'=⍵
-}
-
-⍝ For full validation with multiple types:
-ValidParentheses2 ← {
-    pairs←'()' '[]' '{}'
-    stack←⍬
-    valid←1
-    {valid∧←ProcessChar ⍵}¨⍵
-    valid∧0=≢stack
-}
-
-⍝ Example usage:
-⍝ ValidParentheses '()'        → 1
-⍝ ValidParentheses '()[]{}'    → 1
-⍝ ValidParentheses '(]'        → 0
+IsValid ← {0=+/(⍵='(')-⍵=')'}
 ```
 
 ## 📝 Explanation
 
-For simple case (version 1): counts opening parens '(' and subtracts closing parens ')'. Valid if sum is 0. For full validation (version 2): would need stack-based matching of bracket pairs.
+Count open minus close parens, check balanced
 
 ## ⏱️ Complexity Analysis
 

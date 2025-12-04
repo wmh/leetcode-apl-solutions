@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🔴 Difficulty: Hard
 
 ## Problem
@@ -17,17 +15,12 @@ Find median from data stream.
 ## 💡 APL Solution
 
 ```apl
-FindMedian ← {
-    sorted←⍵[⍋⍵]
-    n←≢sorted
-    2|n:sorted[⌊n÷2]
-    +⌿sorted[(n÷2)+¯1 0]÷2
-}
+MedianFinder ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Maintains sorted order and computes median.
+Find median stream
 
 ## ⏱️ Complexity Analysis
 

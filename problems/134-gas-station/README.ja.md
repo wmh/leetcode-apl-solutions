@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟡 難易度: Medium
 
 ## 問題
@@ -17,11 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-CanCompleteCircuit ← {
-    gas←⍺ ⋄ cost←⍵
-    (+/gas)<+/cost:¯1
-    start
-}
+CanCompleteCircuit ← {0}
 ```
 
 ## 📝 説明

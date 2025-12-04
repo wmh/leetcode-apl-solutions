@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🟢 难度: Easy
 
 ## 题目
@@ -18,11 +16,6 @@
 
 ```apl
 ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
-
-⍝ Example usage:
-⍝ ContainsDuplicate 1 2 3 1    → 1 (true)
-⍝ ContainsDuplicate 1 2 3 4    → 0 (false)
-⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)
 ```
 
 ## 📝 解释

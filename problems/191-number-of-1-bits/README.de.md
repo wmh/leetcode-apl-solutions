@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Schreibe eine Funktion, die die binäre Darstellung einer positiven Ganzzahl nim
 ## 💡 APL-Lösung
 
 ```apl
-HammingWeight ← {+/⍵⊤⍨32⍴2}
-
-⍝ Example usage:
-⍝ HammingWeight 11    → 3  (binary: 1011)
-⍝ HammingWeight 128   → 1  (binary: 10000000)
-⍝ HammingWeight 2147483645 → 30
+HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Erklärung

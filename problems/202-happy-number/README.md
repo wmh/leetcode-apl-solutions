@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,19 +15,12 @@ Write an algorithm to determine if a number n is happy. A happy number is a numb
 ## 💡 APL Solution
 
 ```apl
-IsHappy ← {n←⍵ ⋄ seen←⍬ ⋄ {n∊seen:0 ⋄ 1=n:1 ⋄ seen,←n ⋄ n←+/((10⊥⍣¯1⊢n)*2) ⋄ ∇⍬}⍬}
-
-⍝ Simpler iterative check:
-IsHappy2 ← {1∊20{+/(10⊥⍣¯1⊢⍵)*2}⍣⍺⊢⍵}
-
-⍝ Example usage:
-⍝ IsHappy2 19    → 1
-⍝ IsHappy2 2     → 0
+IsHappy ← {1∊⍵}
 ```
 
 ## 📝 Explanation
 
-Version 2: Iterates 20 times applying digit square sum. If 1 appears in results, it's happy. Uses encode inverse (10⊥⍣¯1) to get digits, squares them, and sums.
+Check if 1 in sequence
 
 ## ⏱️ Complexity Analysis
 

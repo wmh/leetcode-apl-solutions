@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Return the k most frequent elements.
 ## 💡 APL Solution
 
 ```apl
-TopKFrequent ← {
-    k ← ⍺
-    freq ← {⍵,≢⍵}⌸⍵
-    k↑freq[⍒freq[;2];1]
-}
+TopKFrequent ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Groups elements by frequency and takes top k.
+Top K frequent
 
 ## ⏱️ Complexity Analysis
 

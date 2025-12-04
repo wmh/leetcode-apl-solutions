@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,7 +15,7 @@ Return all possible subsets
 ## 💡 Solution APL
 
 ```apl
-Subsets ← {↓⍉↑,/{⍵,¨⊂⍬,⊂⍺}⌿⍵}
+Subsets ← {↓⍉(≢⍵)⊤⍳2*≢⍵}
 ```
 
 ## 📝 Explication

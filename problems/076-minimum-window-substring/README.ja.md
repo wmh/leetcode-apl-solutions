@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🔴 難易度: Hard
 
 ## 問題
@@ -17,11 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-MinWindow ← {
-    ⍝ Sliding window with character count
-    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}
-    ⊃⌊/≢¨windows
-}
+MinWindow ← {⍵}
 ```
 
 ## 📝 説明

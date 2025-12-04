@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Find all unique triplets that sum to zero
 ## 💡 APL Solution
 
 ```apl
-ThreeSum ← {sorted←⍵[⍋⍵] ⋄ ∪(⊂[2]sorted[∘.+⍨⍳≢sorted])[⍸0=+⌿sorted[∘.+⍨⍳≢sorted]]}
+ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Find triplets summing to 0
 
 ## ⏱️ Complexity Analysis
 

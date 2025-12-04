@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ A phrase is a palindrome if, after converting all uppercase letters into lowerca
 ## 💡 APL Solution
 
 ```apl
-IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
-
-⍝ Example usage:
-⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
-⍝ IsPalindrome 'race a car'                        → 0
-⍝ IsPalindrome ' '                                 → 1
+IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 ```
 
 ## 📝 Explanation
 
-Filters to keep only alphanumeric chars: uppercase (⎕A), digits (⎕D), and lowercase (⎕C⎕A). Then checks if filtered string matches its reverse (s≡⌽s).
+Filter alphanumeric, check palindrome
 
 ## ⏱️ Complexity Analysis
 

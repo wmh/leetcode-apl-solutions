@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -18,11 +16,6 @@
 
 ```apl
 ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
-
-⍝ Example usage:
-⍝ ContainsDuplicate 1 2 3 1    → 1 (true)
-⍝ ContainsDuplicate 1 2 3 4    → 0 (false)
-⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)
 ```
 
 ## 📝 Explication

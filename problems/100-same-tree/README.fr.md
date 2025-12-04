@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,13 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-SameTree ← {⍺≡⍵}
-
-⍝ For arrays representing trees:
-⍝ Example usage:
-⍝ (1 2 3) SameTree (1 2 3)    → 1
-⍝ (1 2) SameTree (1 ⍬ 2)     → 0
-⍝ (1 2 1) SameTree (1 1 2)   → 0
+IsSameTree ← {⍺≡⍵}
 ```
 
 ## 📝 Explication

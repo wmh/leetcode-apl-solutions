@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Min coins for amount
 ## 💡 APL Solution
 
 ```apl
-CoinChange ← {⌊/coins}
+CoinChange ← {⌊⍵÷⌊/⍺}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Coin change
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,15 +15,7 @@ Vous montez un escalier. Il faut n marches pour atteindre le sommet. Chaque fois
 ## 💡 Solution APL
 
 ```apl
-ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}
-
-⍝ Alternative using matrix power:
-ClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}
-
-⍝ Example usage:
-⍝ ClimbStairs 2    → 2
-⍝ ClimbStairs 3    → 3
-⍝ ClimbStairs 5    → 8
+ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 ```
 
 ## 📝 Explication

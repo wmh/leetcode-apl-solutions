@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -18,15 +16,11 @@ You are given an array prices where prices[i] is the price of a given stock on t
 
 ```apl
 MaxProfit ← {⌈/0,⍵-⌊\⍵}
-
-⍝ Example usage:
-⍝ MaxProfit 7 1 5 3 6 4    → 5
-⍝ MaxProfit 7 6 4 3 1      → 0
 ```
 
 ## 📝 Explanation
 
-Tracks running minimum with scan (⌊\⍵). Subtracts minimum from each price (⍵-⌊\⍵) to get profit at each point. Takes maximum with ⌈/ and compares with 0 to handle no-profit case.
+Max of (price - running min)
 
 ## ⏱️ Complexity Analysis
 

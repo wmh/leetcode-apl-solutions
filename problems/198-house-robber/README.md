@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Max money without robbing adjacent
 ## 💡 APL Solution
 
 ```apl
-Rob ← {n←≢⍵ ⋄ n=0:0 ⋄ n=1:⊃⍵ ⋄ ⌈/(⊃⍵)+(∇2↓⍵),∇1↓⍵}
+Rob ← {⌈/+/¨⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+House robber
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,12 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-SingleNumber ← {≠/⍵}
-
-⍝ Example usage:
-⍝ SingleNumber 4 1 2 1 2    → 4
-⍝ SingleNumber 2 2 1        → 1
-⍝ SingleNumber 1            → 1
+SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 ```
 
 ## 📝 Explication

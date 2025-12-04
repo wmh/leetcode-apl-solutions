@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟡 Schwierigkeit: Medium
 
 ## Problem
@@ -17,14 +15,7 @@ Du erhältst ein Integer-Array height der Länge n. Es werden n vertikale Linien
 ## 💡 APL-Lösung
 
 ```apl
-MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}
-
-⍝ Simplified:
-MaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}
-
-⍝ Example usage:
-⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49
-⍝ MaxArea2 1 1                  → 1
+MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}
 ```
 
 ## 📝 Erklärung

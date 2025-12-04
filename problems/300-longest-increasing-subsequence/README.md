@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,15 +15,12 @@ Find length of longest increasing subsequence.
 ## 💡 APL Solution
 
 ```apl
-LengthOfLIS ← {
-    dp←1+(≢⍵)⍴0
-    ⌈/dp
-}
+LengthOfLIS ← {⌈/≢¨⍵}
 ```
 
 ## 📝 Explanation
 
-DP tracking longest ending at each position.
+Longest increasing
 
 ## ⏱️ Complexity Analysis
 

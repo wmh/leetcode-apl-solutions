@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Can reach end
 ## 💡 APL Solution
 
 ```apl
-CanJump ← {reach←0 ⋄ ∧/{reach⌈←⍺+⍵}¨⍵⍳⍨⍳≢⍵ ⋄ reach≥¯1+≢⍵}
+CanJump ← {(≢⍵)∊⍸⍵>0}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Check if can reach end
 
 ## ⏱️ Complexity Analysis
 

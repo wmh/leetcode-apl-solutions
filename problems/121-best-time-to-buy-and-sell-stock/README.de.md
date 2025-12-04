@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -18,10 +16,6 @@ Du erhältst ein Array prices, wobei prices[i] der Preis einer bestimmten Aktie 
 
 ```apl
 MaxProfit ← {⌈/0,⍵-⌊\⍵}
-
-⍝ Example usage:
-⍝ MaxProfit 7 1 5 3 6 4    → 5
-⍝ MaxProfit 7 6 4 3 1      → 0
 ```
 
 ## 📝 Erklärung

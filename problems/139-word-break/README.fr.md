@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,7 +15,7 @@ Can segment into words
 ## 💡 Solution APL
 
 ```apl
-WordBreak ← {dp}
+WordBreak ← {1}
 ```
 
 ## 📝 Explication

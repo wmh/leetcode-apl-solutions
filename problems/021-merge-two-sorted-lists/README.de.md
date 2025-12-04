@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,15 +15,7 @@ Du erhältst die Köpfe von zwei sortierten verknüpften Listen list1 und list2.
 ## 💡 APL-Lösung
 
 ```apl
-MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}
-
-⍝ Simpler version:
-MergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}
-
-⍝ Example usage:
-⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4
-⍝ ⍬ MergeTwoLists2 0            → 0
-⍝ ⍬ MergeTwoLists2 ⍬            → ⍬
+MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 ```
 
 ## 📝 Erklärung

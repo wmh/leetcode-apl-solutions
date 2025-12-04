@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Dado un array no vacío de enteros nums, cada elemento aparece dos veces excepto
 ## 💡 Solución APL
 
 ```apl
-SingleNumber ← {≠/⍵}
-
-⍝ Example usage:
-⍝ SingleNumber 4 1 2 1 2    → 4
-⍝ SingleNumber 2 2 1        → 1
-⍝ SingleNumber 1            → 1
+SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 ```
 
 ## 📝 Explicación

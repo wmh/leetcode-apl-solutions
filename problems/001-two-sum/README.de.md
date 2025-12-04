@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Gegeben ein Array von Ganzzahlen nums und eine Ganzzahl target, gib die Indizes 
 ## 💡 APL-Lösung
 
 ```apl
-TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
-
-⍝ Example usage:
-⍝ 9 TwoSum 2 7 11 15    → 0 1
-⍝ 6 TwoSum 3 2 4        → 1 2
-⍝ 6 TwoSum 3 3          → 0 1
+TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 ```
 
 ## 📝 Erklärung

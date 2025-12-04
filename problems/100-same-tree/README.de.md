@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,13 +15,7 @@ Gegeben die Wurzeln von zwei Binärbäumen p und q, schreibe eine Funktion, um z
 ## 💡 APL-Lösung
 
 ```apl
-SameTree ← {⍺≡⍵}
-
-⍝ For arrays representing trees:
-⍝ Example usage:
-⍝ (1 2 3) SameTree (1 2 3)    → 1
-⍝ (1 2) SameTree (1 ⍬ 2)     → 0
-⍝ (1 2 1) SameTree (1 1 2)   → 0
+IsSameTree ← {⍺≡⍵}
 ```
 
 ## 📝 Erklärung

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,14 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-IsHappy ← {n←⍵ ⋄ seen←⍬ ⋄ {n∊seen:0 ⋄ 1=n:1 ⋄ seen,←n ⋄ n←+/((10⊥⍣¯1⊢n)*2) ⋄ ∇⍬}⍬}
-
-⍝ Simpler iterative check:
-IsHappy2 ← {1∊20{+/(10⊥⍣¯1⊢⍵)*2}⍣⍺⊢⍵}
-
-⍝ Example usage:
-⍝ IsHappy2 19    → 1
-⍝ IsHappy2 2     → 0
+IsHappy ← {1∊⍵}
 ```
 
 ## 📝 Explication

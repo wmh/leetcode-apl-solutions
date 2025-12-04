@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -18,11 +16,6 @@ Dada la raíz de un árbol binario, devuelve su profundidad máxima. La profundi
 
 ```apl
 MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
-
-⍝ For nested arrays:
-⍝ Example usage:
-⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3
-⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2
 ```
 
 ## 📝 Explicación

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證程式碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🔴 難度: Hard
 
 ## 題目
@@ -17,11 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-MinDistance ← {
-    word1←⍺ ⋄ word2←⍵
-    dp←(1+≢word1)∘.⌊1+≢word2
-    dp[≢word1;≢word2]
-}
+MinDistance ← {+/≠⌿⍺ ⍵}
 ```
 
 ## 📝 解釋

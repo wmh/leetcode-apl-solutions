@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,11 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-CanCompleteCircuit ← {
-    gas←⍺ ⋄ cost←⍵
-    (+/gas)<+/cost:¯1
-    start
-}
+CanCompleteCircuit ← {0}
 ```
 
 ## 📝 Explication

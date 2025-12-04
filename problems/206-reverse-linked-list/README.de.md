@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -18,11 +16,6 @@ Gegeben der Kopf einer einfach verketteten Liste, kehre die Liste um und gib die
 
 ```apl
 ReverseList ← {⌽⍵}
-
-⍝ Example usage:
-⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1
-⍝ ReverseList 1 2          → 2 1
-⍝ ReverseList 1            → 1
 ```
 
 ## 📝 Erklärung

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Gegeben die Wurzel eines Binärbaums, invertiere den Baum und gib seine Wurzel z
 ## 💡 APL-Lösung
 
 ```apl
-InvertTree ← {0=≢⍵:⍵ ⋄ ⍵[0],(∇⍵[2]),∇⍵[1]}
-
-⍝ For nested representation:
-⍝ Example usage:
-⍝ InvertTree (4 (2 (1 ⍬ ⍬) (3 ⍬ ⍬)) (7 (6 ⍬ ⍬) (9 ⍬ ⍬)))
-⍝ → (4 (7 (9 ⍬ ⍬) (6 ⍬ ⍬)) (2 (3 ⍬ ⍬) (1 ⍬ ⍬)))
+InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}
 ```
 
 ## 📝 Erklärung

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,20 +15,12 @@ You are given the heads of two sorted linked lists list1 and list2. Merge the tw
 ## 💡 APL Solution
 
 ```apl
-MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}
-
-⍝ Simpler version:
-MergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}
-
-⍝ Example usage:
-⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4
-⍝ ⍬ MergeTwoLists2 0            → 0
-⍝ ⍬ MergeTwoLists2 ⍬            → ⍬
+MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 ```
 
 ## 📝 Explanation
 
-Concatenates both lists (⍺,⍵) then sorts by grade up (⍋). Grade up returns indices that would sort the array. Version 2 is cleaner: concatenate then index by sorted positions.
+Concatenate and sort
 
 ## ⏱️ Complexity Analysis
 

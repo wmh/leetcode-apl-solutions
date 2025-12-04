@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,15 +15,12 @@ Construct tree from preorder and inorder traversal.
 ## 💡 APL Solution
 
 ```apl
-BuildTree ← {
-    preorder←⍺ ⋄ inorder←⍵
-    ⍬⍴⍨preorder≡⍬
-}
+BuildTree ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Recursively splits based on root position.
+Build from pre/in
 
 ## ⏱️ Complexity Analysis
 

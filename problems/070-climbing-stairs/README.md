@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,20 +15,12 @@ You are climbing a staircase. It takes n steps to reach the top. Each time you c
 ## 💡 APL Solution
 
 ```apl
-ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}
-
-⍝ Alternative using matrix power:
-ClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}
-
-⍝ Example usage:
-⍝ ClimbStairs 2    → 2
-⍝ ClimbStairs 3    → 3
-⍝ ClimbStairs 5    → 8
+ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 ```
 
 ## 📝 Explanation
 
-This is Fibonacci sequence! Iterates n times with power operator (⍣⍵), starting with 1 1. Each iteration appends sum of last 2 numbers ({⍵,+/¯2↑⍵}). Takes first element (⊃) of final result.
+Fibonacci via repeated sum
 
 ## ⏱️ Complexity Analysis
 

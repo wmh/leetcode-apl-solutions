@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Du erhältst eine große Ganzzahl, die als Integer-Array digits dargestellt wird
 ## 💡 APL-Lösung
 
 ```apl
-PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
-
-⍝ Example usage:
-⍝ PlusOne 1 2 3    → 1 2 4
-⍝ PlusOne 4 3 2 1  → 4 3 2 2
-⍝ PlusOne 9        → 1 0
+PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Erklärung

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Gegeben ein nicht-leeres Array von Ganzzahlen nums, erscheint jedes Element zwei
 ## 💡 APL-Lösung
 
 ```apl
-SingleNumber ← {≠/⍵}
-
-⍝ Example usage:
-⍝ SingleNumber 4 1 2 1 2    → 4
-⍝ SingleNumber 2 2 1        → 1
-⍝ SingleNumber 1            → 1
+SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 ```
 
 ## 📝 Erklärung

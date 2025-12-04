@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Una frase es un palíndromo si, después de convertir todas las letras mayúscul
 ## 💡 Solución APL
 
 ```apl
-IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
-
-⍝ Example usage:
-⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
-⍝ IsPalindrome 'race a car'                        → 0
-⍝ IsPalindrome ' '                                 → 1
+IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 ```
 
 ## 📝 Explicación

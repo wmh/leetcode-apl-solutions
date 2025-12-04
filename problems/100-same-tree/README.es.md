@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,13 +15,7 @@ Dadas las raíces de dos árboles binarios p y q, escribe una función para veri
 ## 💡 Solución APL
 
 ```apl
-SameTree ← {⍺≡⍵}
-
-⍝ For arrays representing trees:
-⍝ Example usage:
-⍝ (1 2 3) SameTree (1 2 3)    → 1
-⍝ (1 2) SameTree (1 ⍬ 2)     → 0
-⍝ (1 2 1) SameTree (1 1 2)   → 0
+IsSameTree ← {⍺≡⍵}
 ```
 
 ## 📝 Explicación

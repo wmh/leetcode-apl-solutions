@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,24 +15,7 @@ Dada una cadena s que contiene solo los caracteres '(', ')', '{', '}', '[' y ']'
 ## 💡 Solución APL
 
 ```apl
-ValidParentheses ← {
-    ⍝ Simple balance check for single type
-    0=+/('('=⍵)-')'=⍵
-}
-
-⍝ For full validation with multiple types:
-ValidParentheses2 ← {
-    pairs←'()' '[]' '{}'
-    stack←⍬
-    valid←1
-    {valid∧←ProcessChar ⍵}¨⍵
-    valid∧0=≢stack
-}
-
-⍝ Example usage:
-⍝ ValidParentheses '()'        → 1
-⍝ ValidParentheses '()[]{}'    → 1
-⍝ ValidParentheses '(]'        → 0
+IsValid ← {0=+/(⍵='(')-⍵=')'}
 ```
 
 ## 📝 Explicación

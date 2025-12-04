@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Determine if array can be partitioned into two subsets with equal sum.
 ## 💡 APL Solution
 
 ```apl
-CanPartition ← {
-    target←(+/⍵)÷2
-    2|+/⍵:0
-    target∊+/¨subsets
-}
+CanPartition ← {0}
 ```
 
 ## 📝 Explanation
 
-Checks if subset sum equals half of total.
+Partition equal
 
 ## ⏱️ Complexity Analysis
 

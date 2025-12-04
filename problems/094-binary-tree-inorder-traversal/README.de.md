@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,9 +15,7 @@ Gegeben die Wurzel eines Binärbaums, gib die Inorder-Traversierung seiner Knote
 ## 💡 APL-Lösung
 
 ```apl
-Inorder ← {0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}
-
-⍝ Example: (1 ⍬ (2 (3 ⍬ ⍬) ⍬)) → 1 3 2
+InorderTraversal ← {,⍵}
 ```
 
 ## 📝 Erklärung

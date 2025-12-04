@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,11 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}
-
-⍝ Example usage:
-⍝ CountBits 2    → 0 1 1
-⍝ CountBits 5    → 0 1 1 2 1 2
+CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 ```
 
 ## 📝 Explication

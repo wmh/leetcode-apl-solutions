@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,15 +15,7 @@ Dada una cadena s, encuentra la longitud de la subcadena más larga sin caracter
 ## 💡 Solución APL
 
 ```apl
-LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\⍵}⍣≡¨,¨⍵}
-
-⍝ Simpler approach - check all substrings:
-LengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
-
-⍝ Example usage:
-⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3
-⍝ LengthOfLongestSubstring2 'bbbbb'      → 1
-⍝ LengthOfLongestSubstring2 'pwwkew'     → 3
+LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}
 ```
 
 ## 📝 Explicación

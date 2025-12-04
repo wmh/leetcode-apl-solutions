@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟡 Schwierigkeit: Medium
 
 ## Problem
@@ -17,15 +15,7 @@ Gegeben eine Zeichenkette s, finde die Länge der längsten Teilzeichenkette ohn
 ## 💡 APL-Lösung
 
 ```apl
-LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\⍵}⍣≡¨,¨⍵}
-
-⍝ Simpler approach - check all substrings:
-LengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
-
-⍝ Example usage:
-⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3
-⍝ LengthOfLongestSubstring2 'bbbbb'      → 1
-⍝ LengthOfLongestSubstring2 'pwwkew'     → 3
+LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}
 ```
 
 ## 📝 Erklärung

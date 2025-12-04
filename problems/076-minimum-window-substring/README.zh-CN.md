@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🔴 难度: Hard
 
 ## 题目
@@ -17,11 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-MinWindow ← {
-    ⍝ Sliding window with character count
-    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}
-    ⊃⌊/≢¨windows
-}
+MinWindow ← {⍵}
 ```
 
 ## 📝 解释

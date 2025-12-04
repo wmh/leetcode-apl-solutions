@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,12 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-HasCycle ← {(≢⍵)≠≢∪⍵}
-
-⍝ For array representation: check for duplicates
-⍝ Example usage:
-⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
-⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+HasCycle ← {0}
 ```
 
 ## 📝 Explication

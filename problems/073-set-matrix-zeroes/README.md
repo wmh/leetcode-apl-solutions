@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Set zeros
 ## 💡 APL Solution
 
 ```apl
-SetZeroes ← {zeros←⍸0=⍵ ⋄ ⍵}
+SetZeroes ← {⍵×⍨∘.∧⍨~0∊¨↓⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Set row/col to 0
 
 ## ⏱️ Complexity Analysis
 

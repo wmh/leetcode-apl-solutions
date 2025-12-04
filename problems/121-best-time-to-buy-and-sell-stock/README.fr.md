@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -18,10 +16,6 @@ On vous donne un tableau prices où prices[i] est le prix d'une action donnée l
 
 ```apl
 MaxProfit ← {⌈/0,⍵-⌊\⍵}
-
-⍝ Example usage:
-⍝ MaxProfit 7 1 5 3 6 4    → 5
-⍝ MaxProfit 7 6 4 3 1      → 0
 ```
 
 ## 📝 Explication

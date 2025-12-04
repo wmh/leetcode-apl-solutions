@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,14 +15,7 @@ Se te da un array de enteros height de longitud n. Se dibujan n líneas vertical
 ## 💡 Solución APL
 
 ```apl
-MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}
-
-⍝ Simplified:
-MaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}
-
-⍝ Example usage:
-⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49
-⍝ MaxArea2 1 1                  → 1
+MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}
 ```
 
 ## 📝 Explicación

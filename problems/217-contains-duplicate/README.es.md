@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -18,11 +16,6 @@ Dado un array de enteros nums, devuelve true si algún valor aparece al menos do
 
 ```apl
 ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
-
-⍝ Example usage:
-⍝ ContainsDuplicate 1 2 3 1    → 1 (true)
-⍝ ContainsDuplicate 1 2 3 4    → 0 (false)
-⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)
 ```
 
 ## 📝 Explicación

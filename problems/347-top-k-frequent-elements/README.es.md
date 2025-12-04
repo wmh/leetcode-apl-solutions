@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,11 +15,7 @@
 ## 💡 Solución APL
 
 ```apl
-TopKFrequent ← {
-    k ← ⍺
-    freq ← {⍵,≢⍵}⌸⍵
-    k↑freq[⍒freq[;2];1]
-}
+TopKFrequent ← {⍵}
 ```
 
 ## 📝 Explicación

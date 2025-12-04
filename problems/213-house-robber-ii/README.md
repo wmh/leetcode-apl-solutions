@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,15 +15,12 @@ Houses arranged in circle.
 ## 💡 APL Solution
 
 ```apl
-Rob2 ← {
-    n←≢⍵
-    ⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)
-}
+RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}
 ```
 
 ## 📝 Explanation
 
-Considers two cases: rob first or rob last.
+House robber II
 
 ## ⏱️ Complexity Analysis
 

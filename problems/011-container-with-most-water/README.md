@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,19 +15,12 @@ You are given an integer array height of length n. There are n vertical lines dr
 ## 💡 APL Solution
 
 ```apl
-MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}
-
-⍝ Simplified:
-MaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}
-
-⍝ Example usage:
-⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49
-⍝ MaxArea2 1 1                  → 1
+MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}
 ```
 
 ## 📝 Explanation
 
-Creates outer product of heights (∘.⌊) to get minimum heights for all pairs. Multiplies by distances ((⍳n)∘.-⍳n) to get areas. Takes maximum.
+Max container area
 
 ## ⏱️ Complexity Analysis
 

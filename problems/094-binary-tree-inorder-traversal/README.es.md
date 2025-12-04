@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,9 +15,7 @@ Dada la raíz de un árbol binario, devuelve el recorrido inorden de los valores
 ## 💡 Solución APL
 
 ```apl
-Inorder ← {0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}
-
-⍝ Example: (1 ⍬ (2 (3 ⍬ ⍬) ⍬)) → 1 3 2
+InorderTraversal ← {,⍵}
 ```
 
 ## 📝 Explicación

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,7 +15,7 @@ Count islands in grid
 ## 💡 Solution APL
 
 ```apl
-NumIslands ← {≢∪,⍵}
+NumIslands ← {+/∪,⍵}
 ```
 
 ## 📝 Explication

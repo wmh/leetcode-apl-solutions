@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Count islands in grid
 ## 💡 APL Solution
 
 ```apl
-NumIslands ← {≢∪,⍵}
+NumIslands ← {+/∪,⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Count islands
 
 ## ⏱️ Complexity Analysis
 

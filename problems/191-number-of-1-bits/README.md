@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ Write a function that takes the binary representation of a positive integer and 
 ## 💡 APL Solution
 
 ```apl
-HammingWeight ← {+/⍵⊤⍨32⍴2}
-
-⍝ Example usage:
-⍝ HammingWeight 11    → 3  (binary: 1011)
-⍝ HammingWeight 128   → 1  (binary: 10000000)
-⍝ HammingWeight 2147483645 → 30
+HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Explanation
 
-Converts number to 32-bit binary using encode (⊤⍨32⍴2), then sums the bits with +/. The encode operator ⊤ converts to specified base.
+Count 1-bits
 
 ## ⏱️ Complexity Analysis
 

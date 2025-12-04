@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,24 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-ValidParentheses ← {
-    ⍝ Simple balance check for single type
-    0=+/('('=⍵)-')'=⍵
-}
-
-⍝ For full validation with multiple types:
-ValidParentheses2 ← {
-    pairs←'()' '[]' '{}'
-    stack←⍬
-    valid←1
-    {valid∧←ProcessChar ⍵}¨⍵
-    valid∧0=≢stack
-}
-
-⍝ Example usage:
-⍝ ValidParentheses '()'        → 1
-⍝ ValidParentheses '()[]{}'    → 1
-⍝ ValidParentheses '(]'        → 0
+IsValid ← {0=+/(⍵='(')-⍵=')'}
 ```
 
 ## 📝 Explication

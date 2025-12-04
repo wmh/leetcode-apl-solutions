@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Merge overlapping intervals
 ## 💡 APL Solution
 
 ```apl
-MergeIntervals ← {sorted←⍵[⍋⍵[;0];] ⋄ sorted}
+MergeIntervals ← {⍵[⍋⍵[;1];]}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Merge overlapping
 
 ## ⏱️ Complexity Analysis
 

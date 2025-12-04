@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -17,12 +15,7 @@ Une phrase est un palindrome si, après avoir converti toutes les lettres majusc
 ## 💡 Solution APL
 
 ```apl
-IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
-
-⍝ Example usage:
-⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
-⍝ IsPalindrome 'race a car'                        → 0
-⍝ IsPalindrome ' '                                 → 1
+IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 ```
 
 ## 📝 Explication

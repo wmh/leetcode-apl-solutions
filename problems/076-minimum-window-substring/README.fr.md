@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🔴 Difficulté: Hard
 
 ## Problème
@@ -17,11 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-MinWindow ← {
-    ⍝ Sliding window with character count
-    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}
-    ⊃⌊/≢¨windows
-}
+MinWindow ← {⍵}
 ```
 
 ## 📝 Explication

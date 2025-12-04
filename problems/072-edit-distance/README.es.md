@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🔴 Dificultad: Hard
 
 ## Problema
@@ -17,11 +15,7 @@
 ## 💡 Solución APL
 
 ```apl
-MinDistance ← {
-    word1←⍺ ⋄ word2←⍵
-    dp←(1+≢word1)∘.⌊1+≢word2
-    dp[≢word1;≢word2]
-}
+MinDistance ← {+/≠⌿⍺ ⍵}
 ```
 
 ## 📝 Explicación

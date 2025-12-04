@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,17 +15,12 @@ You are given a large integer represented as an integer array digits, where each
 ## 💡 APL Solution
 
 ```apl
-PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
-
-⍝ Example usage:
-⍝ PlusOne 1 2 3    → 1 2 4
-⍝ PlusOne 4 3 2 1  → 4 3 2 2
-⍝ PlusOne 9        → 1 0
+PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 ```
 
 ## 📝 Explanation
 
-Converts digits to number using decode (10⊥⍵), adds 1, then converts back to digits using encode (10⊥⍣¯1). The ⊥ operator decodes from base 10, ⊥⍣¯1 encodes to base 10 digits.
+Decode from digits, add 1, encode back
 
 ## ⏱️ Complexity Analysis
 

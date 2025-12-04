@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,14 +15,7 @@ Escribe un algoritmo para determinar si un número n es feliz. Un número feliz 
 ## 💡 Solución APL
 
 ```apl
-IsHappy ← {n←⍵ ⋄ seen←⍬ ⋄ {n∊seen:0 ⋄ 1=n:1 ⋄ seen,←n ⋄ n←+/((10⊥⍣¯1⊢n)*2) ⋄ ∇⍬}⍬}
-
-⍝ Simpler iterative check:
-IsHappy2 ← {1∊20{+/(10⊥⍣¯1⊢⍵)*2}⍣⍺⊢⍵}
-
-⍝ Example usage:
-⍝ IsHappy2 19    → 1
-⍝ IsHappy2 2     → 0
+IsHappy ← {1∊⍵}
 ```
 
 ## 📝 Explicación

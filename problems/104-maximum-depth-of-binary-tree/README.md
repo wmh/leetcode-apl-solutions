@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -18,16 +16,11 @@ Given the root of a binary tree, return its maximum depth. A binary tree's maxim
 
 ```apl
 MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
-
-⍝ For nested arrays:
-⍝ Example usage:
-⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3
-⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2
 ```
 
 ## 📝 Explanation
 
-Recursively counts depth. Base case: empty tree has depth 0. Recursive case: 1 + maximum depth of children. Uses self-reference (∇) to recurse over each child, then takes maximum with ⌈/.
+Recursive max depth
 
 ## ⏱️ Complexity Analysis
 

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟢 難易度: Easy
 
 ## 問題
@@ -17,12 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-SingleNumber ← {≠/⍵}
-
-⍝ Example usage:
-⍝ SingleNumber 4 1 2 1 2    → 4
-⍝ SingleNumber 2 2 1        → 1
-⍝ SingleNumber 1            → 1
+SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 ```
 
 ## 📝 説明

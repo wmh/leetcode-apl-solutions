@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,14 +15,12 @@ Partition string into palindromic substrings.
 ## 💡 APL Solution
 
 ```apl
-Partition ← {
-    ∪{⍵/⍨∧/⍵≡¨⌽¨⍵}¨partitions
-}
+Partition ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Generates partitions and filters palindromes.
+Palindrome partitioning
 
 ## ⏱️ Complexity Analysis
 

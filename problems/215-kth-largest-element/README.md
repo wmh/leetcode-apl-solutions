@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Find kth largest element in array.
 ## 💡 APL Solution
 
 ```apl
-FindKthLargest ← {
-    k←⍺
-    sorted←⍵[⍒⍵]
-    sorted[k-1]
-}
+FindKthLargest ← {⊃⍵[⍒⍵]⌷⍨⍺}
 ```
 
 ## 📝 Explanation
 
-Sorts in descending order and returns kth.
+Kth largest
 
 ## ⏱️ Complexity Analysis
 

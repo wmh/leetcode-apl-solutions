@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Search for target in rotated sorted array.
 ## 💡 APL Solution
 
 ```apl
-Search ← {
-    pivot←⊃⍸⍵≠⌊/⍵
-    target←⍺
-    (target∊⍵)×⊃⍸target=⍵
-}
+Search ← {⍺⍳⍨⍵}
 ```
 
 ## 📝 Explanation
 
-Finds pivot point and searches in correct half.
+Search in rotated array
 
 ## ⏱️ Complexity Analysis
 

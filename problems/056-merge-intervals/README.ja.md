@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟡 難易度: Medium
 
 ## 問題
@@ -17,7 +15,7 @@ Merge overlapping intervals
 ## 💡 APL 解法
 
 ```apl
-MergeIntervals ← {sorted←⍵[⍋⍵[;0];] ⋄ sorted}
+MergeIntervals ← {⍵[⍋⍵[;1];]}
 ```
 
 ## 📝 説明

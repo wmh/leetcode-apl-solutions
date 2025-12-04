@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟢 難易度: Easy
 
 ## 問題
@@ -17,12 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
-
-⍝ Example usage:
-⍝ 9 TwoSum 2 7 11 15    → 0 1
-⍝ 6 TwoSum 3 2 4        → 1 2
-⍝ 6 TwoSum 3 3          → 0 1
+TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 ```
 
 ## 📝 説明

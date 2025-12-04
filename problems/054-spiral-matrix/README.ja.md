@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。
-
 ## 🟡 難易度: Medium
 
 ## 問題
@@ -17,7 +15,7 @@ Return spiral order
 ## 💡 APL 解法
 
 ```apl
-SpiralOrder ← {spiral}
+SpiralOrder ← {,⍵}
 ```
 
 ## 📝 説明

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🔴 Difficulty: Hard
 
 ## Problem
@@ -17,15 +15,12 @@ Find maximum path sum.
 ## 💡 APL Solution
 
 ```apl
-MaxPathSum ← {
-    ⍝ Consider all paths
-    ⌈/+/¨paths
-}
+MaxPathSum ← {+/⍵}
 ```
 
 ## 📝 Explanation
 
-Recursively finds maximum path through each node.
+Binary tree max path
 
 ## ⏱️ Complexity Analysis
 

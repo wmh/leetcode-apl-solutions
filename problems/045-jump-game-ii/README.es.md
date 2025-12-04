@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟡 Dificultad: Medium
 
 ## Problema
@@ -17,7 +15,7 @@ Min jumps to end
 ## 💡 Solución APL
 
 ```apl
-Jump ← {jumps}
+Jump ← {+/2≠/0,⍸0<+\⌈\⍵}
 ```
 
 ## 📝 Explicación

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟢 Difficulté: Easy
 
 ## Problème
@@ -18,11 +16,6 @@
 
 ```apl
 MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
-
-⍝ For nested arrays:
-⍝ Example usage:
-⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3
-⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2
 ```
 
 ## 📝 Explication

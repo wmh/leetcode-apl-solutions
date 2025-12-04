@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🔴 Difficulty: Hard
 
 ## Problem
@@ -17,12 +15,12 @@ Trap rain water
 ## 💡 APL Solution
 
 ```apl
-Trap ← {+/0⌈((⌈\⍵)⌊⌈\⌽⍵)-⍵}
+Trap ← {+/0⌈(⌊/⌈\⍵,⌈\⌽⍵)-⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Trapping rain water
 
 ## ⏱️ Complexity Analysis
 

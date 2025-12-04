@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Ein Satz ist ein Palindrom, wenn er nach dem Umwandeln aller Großbuchstaben in 
 ## 💡 APL-Lösung
 
 ```apl
-IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
-
-⍝ Example usage:
-⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
-⍝ IsPalindrome 'race a car'                        → 0
-⍝ IsPalindrome ' '                                 → 1
+IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 ```
 
 ## 📝 Erklärung

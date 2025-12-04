@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -18,10 +16,6 @@ Se te da un array prices donde prices[i] es el precio de una acción dada en el 
 
 ```apl
 MaxProfit ← {⌈/0,⍵-⌊\⍵}
-
-⍝ Example usage:
-⍝ MaxProfit 7 1 5 3 6 4    → 5
-⍝ MaxProfit 7 6 4 3 1      → 0
 ```
 
 ## 📝 Explicación

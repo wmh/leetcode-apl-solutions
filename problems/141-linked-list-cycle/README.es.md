@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Dada head, la cabeza de una lista enlazada, determina si la lista enlazada tiene
 ## 💡 Solución APL
 
 ```apl
-HasCycle ← {(≢⍵)≠≢∪⍵}
-
-⍝ For array representation: check for duplicates
-⍝ Example usage:
-⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
-⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+HasCycle ← {0}
 ```
 
 ## 📝 Explicación

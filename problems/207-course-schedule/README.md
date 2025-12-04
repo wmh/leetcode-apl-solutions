@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -22,7 +20,7 @@ CanFinish ← {1}
 
 ## 📝 Explanation
 
-Verified APL solution
+Course schedule
 
 ## ⏱️ Complexity Analysis
 

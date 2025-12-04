@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,16 +15,12 @@ Given an integer n, return an array ans of length n + 1 such that for each i (0 
 ## 💡 APL Solution
 
 ```apl
-CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}
-
-⍝ Example usage:
-⍝ CountBits 2    → 0 1 1
-⍝ CountBits 5    → 0 1 1 2 1 2
+CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 ```
 
 ## 📝 Explanation
 
-For each number 0 to n (⍳⍵+1), converts to binary using base-2 encode (⊤⍨32⍴2), then sums the bits (+/). The ¨ operator applies operation to each number.
+Count bits 0 to n
 
 ## ⏱️ Complexity Analysis
 

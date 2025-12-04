@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🔴 Difficulty: Hard
 
 ## Problem
@@ -17,16 +15,12 @@ Minimum operations to convert word1 to word2.
 ## 💡 APL Solution
 
 ```apl
-MinDistance ← {
-    word1←⍺ ⋄ word2←⍵
-    dp←(1+≢word1)∘.⌊1+≢word2
-    dp[≢word1;≢word2]
-}
+MinDistance ← {+/≠⌿⍺ ⍵}
 ```
 
 ## 📝 Explanation
 
-DP computing edit distance.
+Edit distance
 
 ## ⏱️ Complexity Analysis
 

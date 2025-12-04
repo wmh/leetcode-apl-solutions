@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,12 +15,7 @@ Dado un array de enteros nums y un entero target, devuelve los índices de los d
 ## 💡 Solución APL
 
 ```apl
-TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
-
-⍝ Example usage:
-⍝ 9 TwoSum 2 7 11 15    → 0 1
-⍝ 6 TwoSum 3 2 4        → 1 2
-⍝ 6 TwoSum 3 3          → 0 1
+TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 ```
 
 ## 📝 Explicación

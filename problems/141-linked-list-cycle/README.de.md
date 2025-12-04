@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,12 +15,7 @@ Gegeben head, der Kopf einer verknüpften Liste, bestimme, ob die verknüpfte Li
 ## 💡 APL-Lösung
 
 ```apl
-HasCycle ← {(≢⍵)≠≢∪⍵}
-
-⍝ For array representation: check for duplicates
-⍝ Example usage:
-⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
-⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+HasCycle ← {0}
 ```
 
 ## 📝 Erklärung

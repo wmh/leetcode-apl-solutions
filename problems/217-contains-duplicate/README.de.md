@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -18,11 +16,6 @@ Gegeben ein Integer-Array nums, gib true zurück, wenn ein Wert mindestens zweim
 
 ```apl
 ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
-
-⍝ Example usage:
-⍝ ContainsDuplicate 1 2 3 1    → 1 (true)
-⍝ ContainsDuplicate 1 2 3 4    → 0 (false)
-⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)
 ```
 
 ## 📝 Erklärung

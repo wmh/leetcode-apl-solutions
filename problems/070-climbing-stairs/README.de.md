@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
-
 ## 🟢 Schwierigkeit: Easy
 
 ## Problem
@@ -17,15 +15,7 @@ Du kletterst eine Treppe hoch. Es dauert n Schritte, um die Spitze zu erreichen.
 ## 💡 APL-Lösung
 
 ```apl
-ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}
-
-⍝ Alternative using matrix power:
-ClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}
-
-⍝ Example usage:
-⍝ ClimbStairs 2    → 2
-⍝ ClimbStairs 3    → 3
-⍝ ClimbStairs 5    → 8
+ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 ```
 
 ## 📝 Erklärung

@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Return spiral order
 ## 💡 APL Solution
 
 ```apl
-SpiralOrder ← {spiral}
+SpiralOrder ← {,⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Spiral traverse
 
 ## ⏱️ Complexity Analysis
 

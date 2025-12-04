@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -17,15 +15,7 @@ Estás subiendo una escalera. Se necesitan n pasos para llegar a la cima. Cada v
 ## 💡 Solución APL
 
 ```apl
-ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}
-
-⍝ Alternative using matrix power:
-ClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}
-
-⍝ Example usage:
-⍝ ClimbStairs 2    → 2
-⍝ ClimbStairs 3    → 3
-⍝ ClimbStairs 5    → 8
+ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 ```
 
 ## 📝 Explicación

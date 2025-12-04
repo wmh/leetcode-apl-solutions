@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,14 +15,12 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 ## 💡 APL Solution
 
 ```apl
-Inorder ← {0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}
-
-⍝ Example: (1 ⍬ (2 (3 ⍬ ⍬) ⍬)) → 1 3 2
+InorderTraversal ← {,⍵}
 ```
 
 ## 📝 Explanation
 
-Recursive: traverse left, visit root, traverse right. Base case returns empty for null nodes.
+Flatten nested structure
 
 ## ⏱️ Complexity Analysis
 

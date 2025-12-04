@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.
-
 ## 🟢 Dificultad: Easy
 
 ## Problema
@@ -18,11 +16,6 @@ Dada la cabeza de una lista enlazada simple, invierte la lista y devuelve la lis
 
 ```apl
 ReverseList ← {⌽⍵}
-
-⍝ Example usage:
-⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1
-⍝ ReverseList 1 2          → 2 1
-⍝ ReverseList 1            → 1
 ```
 
 ## 📝 Explicación

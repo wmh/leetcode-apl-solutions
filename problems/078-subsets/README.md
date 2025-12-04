@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Return all possible subsets
 ## 💡 APL Solution
 
 ```apl
-Subsets ← {↓⍉↑,/{⍵,¨⊂⍬,⊂⍺}⌿⍵}
+Subsets ← {↓⍉(≢⍵)⊤⍳2*≢⍵}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+All subsets
 
 ## ⏱️ Complexity Analysis
 

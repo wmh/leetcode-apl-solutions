@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **未驗證程式碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。
-
 ## 🟡 難度: Medium
 
 ## 題目
@@ -17,11 +15,7 @@
 ## 💡 APL 解法
 
 ```apl
-TwoSumII ← {
-    ⍝ Two pointer approach
-    indices ← ⍸⍺=⍵+⌽⍵
-    2↑indices
-}
+TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}
 ```
 
 ## 📝 解釋

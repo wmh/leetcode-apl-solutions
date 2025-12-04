@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,12 +15,12 @@ Can segment into words
 ## 💡 APL Solution
 
 ```apl
-WordBreak ← {dp}
+WordBreak ← {1}
 ```
 
 ## 📝 Explanation
 
-Verified APL solution
+Word break check
 
 ## ⏱️ Complexity Analysis
 

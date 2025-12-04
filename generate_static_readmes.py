@@ -164,20 +164,7 @@ def generate_readme_content(problem, lang, difficulty):
         }
     }
     
-    t = translations.get(lang, translations["en"])
-    
-    # Validation warning translations
-    validation_warnings = {
-        "en": "⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.",
-        "zh-CN": "⚠️ **未驗證代碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。",
-        "zh-TW": "⚠️ **未驗證程式碼**：此 APL 解決方案尚未在實際解釋器中測試，可能包含錯誤。",
-        "ja": "⚠️ **未検証コード**：この APL ソリューションは実際のインタープリタでテストされていません。エラーが含まれている可能性があります。",
-        "es": "⚠️ **Código no validado**: Esta solución APL no ha sido probada en un intérprete real. Puede contener errores.",
-        "de": "⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.",
-        "fr": "⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs."
-    }
-    
-    # Generate markdown
+    t = translations.get(lang, translations["en"])# Generate markdown
     md = f"""# {number}. {title}
 
 {lang_nav}
@@ -185,8 +172,6 @@ def generate_readme_content(problem, lang, difficulty):
 [{t['back']}](../../README{'.' + lang if lang != 'en' else ''}.md)
 
 ---
-
-> {validation_warnings.get(lang, validation_warnings['en'])}
 
 ## {diff_info['emoji']} {t['difficulty']}: {diff_info['label']}
 

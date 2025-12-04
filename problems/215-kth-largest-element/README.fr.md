@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Code non validé**: Cette solution APL n'a pas été testée dans un interpréteur réel. Elle peut contenir des erreurs.
-
 ## 🟡 Difficulté: Medium
 
 ## Problème
@@ -17,11 +15,7 @@
 ## 💡 Solution APL
 
 ```apl
-FindKthLargest ← {
-    k←⍺
-    sorted←⍵[⍒⍵]
-    sorted[k-1]
-}
+FindKthLargest ← {⊃⍵[⍒⍵]⌷⍨⍺}
 ```
 
 ## 📝 Explication

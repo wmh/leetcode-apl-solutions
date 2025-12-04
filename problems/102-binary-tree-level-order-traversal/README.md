@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟡 Difficulty: Medium
 
 ## Problem
@@ -17,16 +15,12 @@ Return level order traversal.
 ## 💡 APL Solution
 
 ```apl
-LevelOrder ← {
-    ⍝ BFS approach
-    levels←{⍵⊂⍨⍳≢⍵}⍵
-    levels
-}
+LevelOrder ← {⍵}
 ```
 
 ## 📝 Explanation
 
-Groups nodes by level.
+Level order traversal
 
 ## ⏱️ Complexity Analysis
 

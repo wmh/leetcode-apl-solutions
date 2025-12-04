@@ -6,8 +6,6 @@
 
 ---
 
-> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
-
 ## 🟢 Difficulty: Easy
 
 ## Problem
@@ -17,18 +15,12 @@ Given the roots of two binary trees p and q, write a function to check if they a
 ## 💡 APL Solution
 
 ```apl
-SameTree ← {⍺≡⍵}
-
-⍝ For arrays representing trees:
-⍝ Example usage:
-⍝ (1 2 3) SameTree (1 2 3)    → 1
-⍝ (1 2) SameTree (1 ⍬ 2)     → 0
-⍝ (1 2 1) SameTree (1 1 2)   → 0
+IsSameTree ← {⍺≡⍵}
 ```
 
 ## 📝 Explanation
 
-Uses match operator (≡) which returns 1 if arrays are identical in structure and values, 0 otherwise. This is the simplest possible solution - just one symbol!
+Match operator
 
 ## ⏱️ Complexity Analysis
 
