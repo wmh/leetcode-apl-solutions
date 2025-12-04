@@ -1,0 +1,29 @@
+{
+  "number": 128,
+  "title": "Longest Consecutive",
+  "difficulty": "medium",
+  "description": {
+    "en": "Longest consecutive sequence",
+    "zh-CN": "Longest consecutive sequence",
+    "zh-TW": "Longest consecutive sequence",
+    "ja": "Longest consecutive sequence",
+    "es": "Longest consecutive sequence",
+    "de": "Longest consecutive sequence",
+    "fr": "Longest consecutive sequence"
+  },
+  "aplSolution": "LongestConsecutive ← {⌈/≢¨{⍵⊂⍨1,2≠/⍵}∪⍵[⍋⍵]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n log n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

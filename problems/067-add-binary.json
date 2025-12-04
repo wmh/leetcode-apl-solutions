@@ -1,0 +1,29 @@
+{
+  "number": 67,
+  "title": "Add Binary",
+  "difficulty": "easy",
+  "description": {
+    "en": "Add two binary strings",
+    "zh-CN": "Add two binary strings",
+    "zh-TW": "Add two binary strings",
+    "ja": "Add two binary strings",
+    "es": "Add two binary strings",
+    "de": "Add two binary strings",
+    "fr": "Add two binary strings"
+  },
+  "aplSolution": "AddBinary ← {2⊥⍣¯1⊢(2⊥⍺)+(2⊥⍵)}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

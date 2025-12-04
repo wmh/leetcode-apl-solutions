@@ -1,0 +1,33 @@
+{
+  "number": 191,
+  "title": "Number of 1 Bits",
+  "difficulty": "easy",
+  "description": {
+    "en": "Write a function that takes the binary representation of a positive integer and returns the number of set bits it has (also known as the Hamming weight).",
+    "zh-CN": "編寫一個函數，輸入是一個無符號整數（以二進制串的形式），返回其二進制表達式中設置位的個數（也被稱為漢明重量）。",
+    "zh-TW": "編寫一個函數，輸入是一個無符號整數（以二進位串的形式），返回其二進位表達式中設置位的個數（也被稱為漢明重量）。",
+    "ja": "正の整数の 2 進数表現を受け取り、セットされているビット数（ハミング重みとも呼ばれます）を返す関数を作成します。",
+    "es": "Escribe una función que tome la representación binaria de un entero positivo y devuelva el número de bits establecidos que tiene (también conocido como peso de Hamming).",
+    "de": "Schreibe eine Funktion, die die binäre Darstellung einer positiven Ganzzahl nimmt und die Anzahl der gesetzten Bits zurückgibt (auch als Hamming-Gewicht bekannt).",
+    "fr": "Écrivez une fonction qui prend la représentation binaire d'un entier positif et renvoie le nombre de bits définis qu'il a (également connu sous le nom de poids de Hamming)."
+  },
+  "aplSolution": "HammingWeight ← {+/⍵⊤⍨32⍴2}\n\n⍝ Example usage:\n⍝ HammingWeight 11    → 3  (binary: 1011)\n⍝ HammingWeight 128   → 1  (binary: 10000000)\n⍝ HammingWeight 2147483645 → 30",
+  "explanation": {
+    "en": "Converts number to 32-bit binary using encode (⊤⍨32⍴2), then sums the bits with +/. The encode operator ⊤ converts to specified base.",
+    "zh-CN": "使用編碼 (⊤⍨32⍴2) 將數字轉換為 32 位二進制，然後用 +/ 對位求和。編碼操作符 ⊤ 轉換為指定的基數。",
+    "zh-TW": "使用編碼 (⊤⍨32⍴2) 將數字轉換為 32 位元二進位，然後用 +/ 對位元求和。編碼運算子 ⊤ 轉換為指定的基數。",
+    "ja": "エンコード (⊤⍨32⍴2) を使用して数値を 32 ビットバイナリに変換し、+/ でビットを合計します。エンコード演算子 ⊤ は指定された基数に変換します。",
+    "es": "Convierte el número a binario de 32 bits usando codificación (⊤⍨32⍴2), luego suma los bits con +/. El operador de codificación ⊤ convierte a la base especificada.",
+    "de": "Konvertiert die Zahl in 32-Bit-Binär mit Kodierung (⊤⍨32⍴2), dann summiert die Bits mit +/. Der Kodierungsoperator ⊤ konvertiert zur angegebenen Basis.",
+    "fr": "Convertit le nombre en binaire 32 bits en utilisant l'encodage (⊤⍨32⍴2), puis somme les bits avec +/. L'opérateur d'encodage ⊤ convertit vers la base spécifiée."
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "11", "output": "3"},
+    {"input": "128", "output": "1"},
+    {"input": "2147483645", "output": "30"}
+  ]
+}

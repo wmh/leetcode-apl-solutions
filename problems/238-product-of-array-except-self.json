@@ -1,0 +1,26 @@
+{
+  "number": 238,
+  "title": "Product of Array Except Self",
+  "difficulty": "medium",
+  "description": {
+    "en": "Return an array where each element is the product of all elements except itself.",
+    "zh-CN": "[题目238] Return an array where each element is the product ...",
+    "zh-TW": "[題目238] Return an array where each element is the product ...",
+    "ja": "[問題238] Return an array where each element is the product ...",
+    "es": "[Problema 238] Return an array where each element is the product ...",
+    "de": "[Problem 238] Return an array where each element is the product ...",
+    "fr": "[Problème 238] Return an array where each element is the product ..."
+  },
+  "aplSolution": "ProductExceptSelf ← {\n    ⍝ Multiply all except current\n    n ← ≢⍵\n    result ← ×/¨⍵~¨⍵\n    result\n}",
+  "explanation": {
+    "en": "For each position, multiplies all other elements.",
+    "zh-CN": "For each position, multiplies all other elements....",
+    "zh-TW": "For each position, multiplies all other elements....",
+    "ja": "For each position, multiplies all other elements....",
+    "es": "For each position, multiplies all other elements....",
+    "de": "For each position, multiplies all other elements....",
+    "fr": "For each position, multiplies all other elements...."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)"
+}

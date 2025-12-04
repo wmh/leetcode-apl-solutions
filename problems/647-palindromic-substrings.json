@@ -1,0 +1,26 @@
+{
+  "number": 647,
+  "title": "Palindromic Substrings",
+  "difficulty": "medium",
+  "description": {
+    "en": "Count palindromic substrings.",
+    "zh-CN": "[题目647] Count palindromic substrings....",
+    "zh-TW": "[題目647] Count palindromic substrings....",
+    "ja": "[問題647] Count palindromic substrings....",
+    "es": "[Problema 647] Count palindromic substrings....",
+    "de": "[Problem 647] Count palindromic substrings....",
+    "fr": "[Problème 647] Count palindromic substrings...."
+  },
+  "aplSolution": "CountSubstrings ← {\n    ≢{⍵/⍨⍵≡¨⌽¨⍵}substrings\n}",
+  "explanation": {
+    "en": "Expands around each center.",
+    "zh-CN": "Expands around each center....",
+    "zh-TW": "Expands around each center....",
+    "ja": "Expands around each center....",
+    "es": "Expands around each center....",
+    "de": "Expands around each center....",
+    "fr": "Expands around each center...."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(1)"
+}

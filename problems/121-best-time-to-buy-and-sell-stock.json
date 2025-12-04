@@ -1,0 +1,32 @@
+{
+  "number": 121,
+  "title": "Best Time to Buy and Sell Stock",
+  "difficulty": "easy",
+  "description": {
+    "en": "You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.",
+    "zh-CN": "給定一個數組 prices，它的第 i 個元素 prices[i] 表示一支給定股票第 i 天的價格。你只能選擇某一天買入這只股票，並選擇在未來的某一個不同的日子賣出該股票。設計一個算法來計算你所能獲取的最大利潤。返回你可以從這筆交易中獲取的最大利潤。如果你不能獲取任何利潤，返回 0。",
+    "zh-TW": "給定一個陣列 prices，它的第 i 個元素 prices[i] 表示一支給定股票第 i 天的價格。你只能選擇某一天買入這隻股票，並選擇在未來的某一個不同的日子賣出該股票。設計一個算法來計算你所能獲取的最大利潤。返回你可以從這筆交易中獲取的最大利潤。如果你不能獲取任何利潤，返回 0。",
+    "ja": "配列 prices が与えられます。prices[i] は i 日目の株価を表します。1 日を選んで株を買い、将来の別の日に株を売ることで利益を最大化したいと考えています。この取引から達成できる最大利益を返します。利益が得られない場合は 0 を返します。",
+    "es": "Se te da un array prices donde prices[i] es el precio de una acción dada en el i-ésimo día. Quieres maximizar tu beneficio eligiendo un solo día para comprar una acción y eligiendo un día diferente en el futuro para vender esa acción. Devuelve el beneficio máximo que puedes lograr de esta transacción. Si no puedes lograr ningún beneficio, devuelve 0.",
+    "de": "Du erhältst ein Array prices, wobei prices[i] der Preis einer bestimmten Aktie am i-ten Tag ist. Du möchtest deinen Gewinn maximieren, indem du einen einzelnen Tag zum Kauf einer Aktie wählst und einen anderen Tag in der Zukunft zum Verkauf dieser Aktie wählst. Gib den maximalen Gewinn zurück, den du aus dieser Transaktion erzielen kannst. Wenn du keinen Gewinn erzielen kannst, gib 0 zurück.",
+    "fr": "On vous donne un tableau prices où prices[i] est le prix d'une action donnée le i-ème jour. Vous voulez maximiser votre profit en choisissant un seul jour pour acheter une action et en choisissant un jour différent dans le futur pour vendre cette action. Renvoyez le profit maximum que vous pouvez réaliser de cette transaction. Si vous ne pouvez réaliser aucun profit, renvoyez 0."
+  },
+  "aplSolution": "MaxProfit ← {⌈/0,⍵-⌊\\⍵}\n\n⍝ Example usage:\n⍝ MaxProfit 7 1 5 3 6 4    → 5\n⍝ MaxProfit 7 6 4 3 1      → 0",
+  "explanation": {
+    "en": "Tracks running minimum with scan (⌊\\⍵). Subtracts minimum from each price (⍵-⌊\\⍵) to get profit at each point. Takes maximum with ⌈/ and compares with 0 to handle no-profit case.",
+    "zh-CN": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
+    "zh-TW": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
+    "ja": "スキャン (⌊\\⍵) で実行中の最小値を追跡します。各価格から最小値を引いて (⍵-⌊\\⍵) 各ポイントでの利益を取得します。⌈/ で最大値を取り、0 と比較して利益なしのケースを処理します。",
+    "es": "Rastrea el mínimo en ejecución con escaneo (⌊\\⍵). Resta el mínimo de cada precio (⍵-⌊\\⍵) para obtener el beneficio en cada punto. Toma el máximo con ⌈/ y compara con 0 para manejar el caso sin beneficio.",
+    "de": "Verfolgt das laufende Minimum mit Scan (⌊\\⍵). Subtrahiert das Minimum von jedem Preis (⍵-⌊\\⍵), um den Gewinn an jedem Punkt zu erhalten. Nimmt das Maximum mit ⌈/ und vergleicht mit 0, um den Fall ohne Gewinn zu behandeln.",
+    "fr": "Suit le minimum courant avec scan (⌊\\⍵). Soustrait le minimum de chaque prix (⍵-⌊\\⍵) pour obtenir le profit à chaque point. Prend le maximum avec ⌈/ et compare avec 0 pour gérer le cas sans profit."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "7 1 5 3 6 4", "output": "5"},
+    {"input": "7 6 4 3 1", "output": "0"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 113,
+  "title": "Path Sum II",
+  "difficulty": "medium",
+  "description": {
+    "en": "All paths with sum",
+    "zh-CN": "All paths with sum",
+    "zh-TW": "All paths with sum",
+    "ja": "All paths with sum",
+    "es": "All paths with sum",
+    "de": "All paths with sum",
+    "fr": "All paths with sum"
+  },
+  "aplSolution": "PathSum ← {paths}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

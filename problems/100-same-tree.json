@@ -1,0 +1,33 @@
+{
+  "number": 100,
+  "title": "Same Tree",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given the roots of two binary trees p and q, write a function to check if they are the same or not. Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.",
+    "zh-CN": "給你兩棵二叉樹的根節點 p 和 q，編寫一個函數來檢驗這兩棵樹是否相同。如果兩個樹在結構上相同，並且節點具有相同的值，則認為它們是相同的。",
+    "zh-TW": "給你兩棵二元樹的根節點 p 和 q，編寫一個函數來檢驗這兩棵樹是否相同。如果兩個樹在結構上相同，並且節點具有相同的值，則認為它們是相同的。",
+    "ja": "2 つの二分木のルート p と q が与えられたとき、それらが同じかどうかを確認する関数を作成します。2 つの二分木は、構造的に同一であり、ノードが同じ値を持つ場合、同じと見なされます。",
+    "es": "Dadas las raíces de dos árboles binarios p y q, escribe una función para verificar si son iguales o no. Dos árboles binarios se consideran iguales si son estructuralmente idénticos y los nodos tienen el mismo valor.",
+    "de": "Gegeben die Wurzeln von zwei Binärbäumen p und q, schreibe eine Funktion, um zu überprüfen, ob sie gleich sind oder nicht. Zwei Binärbäume werden als gleich betrachtet, wenn sie strukturell identisch sind und die Knoten denselben Wert haben.",
+    "fr": "Étant donné les racines de deux arbres binaires p et q, écrivez une fonction pour vérifier s'ils sont identiques ou non. Deux arbres binaires sont considérés comme identiques s'ils sont structurellement identiques et que les nœuds ont la même valeur."
+  },
+  "aplSolution": "SameTree ← {⍺≡⍵}\n\n⍝ For arrays representing trees:\n⍝ Example usage:\n⍝ (1 2 3) SameTree (1 2 3)    → 1\n⍝ (1 2) SameTree (1 ⍬ 2)     → 0\n⍝ (1 2 1) SameTree (1 1 2)   → 0",
+  "explanation": {
+    "en": "Uses match operator (≡) which returns 1 if arrays are identical in structure and values, 0 otherwise. This is the simplest possible solution - just one symbol!",
+    "zh-CN": "使用匹配運算符 (≡)，如果數組在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
+    "zh-TW": "使用匹配運算子 (≡)，如果陣列在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
+    "ja": "マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！",
+    "es": "Utiliza el operador de coincidencia (≡) que devuelve 1 si los arrays son idénticos en estructura y valores, 0 en caso contrario. ¡Esta es la solución más simple posible: solo un símbolo!",
+    "de": "Verwendet den Übereinstimmungsoperator (≡), der 1 zurückgibt, wenn Arrays in Struktur und Werten identisch sind, andernfalls 0. Dies ist die einfachst mögliche Lösung - nur ein Symbol!",
+    "fr": "Utilise l'opérateur de correspondance (≡) qui renvoie 1 si les tableaux sont identiques en structure et en valeurs, 0 sinon. C'est la solution la plus simple possible - juste un symbole !"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "p=1 2 3, q=1 2 3", "output": "1"},
+    {"input": "p=1 2, q=1 ⍬ 2", "output": "0"},
+    {"input": "p=1 2 1, q=1 1 2", "output": "0"}
+  ]
+}

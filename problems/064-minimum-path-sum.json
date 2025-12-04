@@ -1,0 +1,29 @@
+{
+  "number": 64,
+  "title": "Minimum Path Sum",
+  "difficulty": "medium",
+  "description": {
+    "en": "Min path sum in grid",
+    "zh-CN": "Min path sum in grid",
+    "zh-TW": "Min path sum in grid",
+    "ja": "Min path sum in grid",
+    "es": "Min path sum in grid",
+    "de": "Min path sum in grid",
+    "fr": "Min path sum in grid"
+  },
+  "aplSolution": "MinPathSum ← {⊃⊃⌽⌽{⍵+⌊/⍺}⌿⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(m*n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

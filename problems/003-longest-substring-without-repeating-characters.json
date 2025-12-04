@@ -1,0 +1,33 @@
+{
+  "number": 3,
+  "title": "Longest Substring Without Repeating Characters",
+  "difficulty": "medium",
+  "description": {
+    "en": "Given a string s, find the length of the longest substring without repeating characters.",
+    "zh-CN": "給定一個字符串 s，請你找出其中不含有重複字符的最長子串的長度。",
+    "zh-TW": "給定一個字串 s，請你找出其中不含有重複字元的最長子串的長度。",
+    "ja": "文字列 s が与えられたとき、繰り返し文字のない最長の部分文字列の長さを見つけます。",
+    "es": "Dada una cadena s, encuentra la longitud de la subcadena más larga sin caracteres repetidos.",
+    "de": "Gegeben eine Zeichenkette s, finde die Länge der längsten Teilzeichenkette ohne sich wiederholende Zeichen.",
+    "fr": "Étant donné une chaîne s, trouvez la longueur de la plus longue sous-chaîne sans caractères répétitifs."
+  },
+  "aplSolution": "LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\\⍵}⍣≡¨,¨⍵}\n\n⍝ Simpler approach - check all substrings:\nLengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}\n\n⍝ Example usage:\n⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3\n⍝ LengthOfLongestSubstring2 'bbbbb'      → 1\n⍝ LengthOfLongestSubstring2 'pwwkew'     → 3",
+  "explanation": {
+    "en": "Version 2: Generates all substrings, checks each for uniqueness ((≢⍵)=≢∪⍵), returns max length. Uses nested drops/takes to create substrings.",
+    "zh-CN": "版本 2：生成所有子字符串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字符串。",
+    "zh-TW": "版本 2：生成所有子字串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字串。",
+    "ja": "バージョン 2：すべての部分文字列を生成し、それぞれの一意性をチェックし ((≢⍵)=≢∪⍵)、最大長を返します。ネストされた drop/take を使用して部分文字列を作成します。",
+    "es": "Versión 2: Genera todas las subcadenas, verifica cada una para unicidad ((≢⍵)=≢∪⍵), devuelve la longitud máxima. Usa drops/takes anidados para crear subcadenas.",
+    "de": "Version 2: Generiert alle Teilzeichenketten, prüft jede auf Eindeutigkeit ((≢⍵)=≢∪⍵), gibt maximale Länge zurück. Verwendet verschachtelte Drops/Takes, um Teilzeichenketten zu erstellen.",
+    "fr": "Version 2 : Génère toutes les sous-chaînes, vérifie chacune pour l'unicité ((≢⍵)=≢∪⍵), renvoie la longueur maximale. Utilise des drops/takes imbriqués pour créer des sous-chaînes."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "abcabcbb", "output": "3"},
+    {"input": "bbbbb", "output": "1"},
+    {"input": "pwwkew", "output": "3"}
+  ]
+}

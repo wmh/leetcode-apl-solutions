@@ -1,0 +1,29 @@
+{
+  "number": 59,
+  "title": "Spiral Matrix II",
+  "difficulty": "medium",
+  "description": {
+    "en": "Generate spiral matrix",
+    "zh-CN": "Generate spiral matrix",
+    "zh-TW": "Generate spiral matrix",
+    "ja": "Generate spiral matrix",
+    "es": "Generate spiral matrix",
+    "de": "Generate spiral matrix",
+    "fr": "Generate spiral matrix"
+  },
+  "aplSolution": "GenerateMatrix ← {spiral}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

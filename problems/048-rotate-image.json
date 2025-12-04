@@ -1,0 +1,29 @@
+{
+  "number": 48,
+  "title": "Rotate Image",
+  "difficulty": "medium",
+  "description": {
+    "en": "Rotate NxN matrix 90 degrees clockwise",
+    "zh-CN": "Rotate NxN matrix 90 degrees clockwise",
+    "zh-TW": "Rotate NxN matrix 90 degrees clockwise",
+    "ja": "Rotate NxN matrix 90 degrees clockwise",
+    "es": "Rotate NxN matrix 90 degrees clockwise",
+    "de": "Rotate NxN matrix 90 degrees clockwise",
+    "fr": "Rotate NxN matrix 90 degrees clockwise"
+  },
+  "aplSolution": "Rotate ← {⍉⌽⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證",
+    "zh-TW": "已驗證",
+    "ja": "検証済み",
+    "es": "Verificado",
+    "de": "Verifiziert",
+    "fr": "Vérifié"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

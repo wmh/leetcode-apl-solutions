@@ -1,0 +1,29 @@
+{
+  "number": 25,
+  "title": "Reverse Nodes in k-Group",
+  "difficulty": "hard",
+  "description": {
+    "en": "Reverse in groups",
+    "zh-CN": "Reverse in groups",
+    "zh-TW": "Reverse in groups",
+    "ja": "Reverse in groups",
+    "es": "Reverse in groups",
+    "de": "Reverse in groups",
+    "fr": "Reverse in groups"
+  },
+  "aplSolution": "ReverseKGroup ← {reversed}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

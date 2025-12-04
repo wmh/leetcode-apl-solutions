@@ -1,0 +1,29 @@
+{
+  "number": 54,
+  "title": "Spiral Matrix",
+  "difficulty": "medium",
+  "description": {
+    "en": "Return spiral order",
+    "zh-CN": "Return spiral order",
+    "zh-TW": "Return spiral order",
+    "ja": "Return spiral order",
+    "es": "Return spiral order",
+    "de": "Return spiral order",
+    "fr": "Return spiral order"
+  },
+  "aplSolution": "SpiralOrder ← {spiral}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(m*n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

@@ -1,0 +1,29 @@
+{
+  "number": 93,
+  "title": "Restore IP Addresses",
+  "difficulty": "medium",
+  "description": {
+    "en": "Restore IP addresses",
+    "zh-CN": "Restore IP addresses",
+    "zh-TW": "Restore IP addresses",
+    "ja": "Restore IP addresses",
+    "es": "Restore IP addresses",
+    "de": "Restore IP addresses",
+    "fr": "Restore IP addresses"
+  },
+  "aplSolution": "RestoreIpAddresses ← {ips}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

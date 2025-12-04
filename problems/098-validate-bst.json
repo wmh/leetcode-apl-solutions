@@ -1,0 +1,29 @@
+{
+  "number": 98,
+  "title": "Validate BST",
+  "difficulty": "medium",
+  "description": {
+    "en": "Check if binary tree is valid BST",
+    "zh-CN": "Check if binary tree is valid BST",
+    "zh-TW": "Check if binary tree is valid BST",
+    "ja": "Check if binary tree is valid BST",
+    "es": "Check if binary tree is valid BST",
+    "de": "Check if binary tree is valid BST",
+    "fr": "Check if binary tree is valid BST"
+  },
+  "aplSolution": "IsValidBST ← {sorted←{0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}⍵ ⋄ ∧/sorted≡sorted[⍋sorted]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證",
+    "zh-TW": "已驗證",
+    "ja": "検証済み",
+    "es": "Verificado",
+    "de": "Verifiziert",
+    "fr": "Vérifié"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

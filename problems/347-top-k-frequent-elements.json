@@ -1,0 +1,26 @@
+{
+  "number": 347,
+  "title": "Top K Frequent Elements",
+  "difficulty": "medium",
+  "description": {
+    "en": "Return the k most frequent elements.",
+    "zh-CN": "[题目347] Return the k most frequent elements....",
+    "zh-TW": "[題目347] Return the k most frequent elements....",
+    "ja": "[問題347] Return the k most frequent elements....",
+    "es": "[Problema 347] Return the k most frequent elements....",
+    "de": "[Problem 347] Return the k most frequent elements....",
+    "fr": "[Problème 347] Return the k most frequent elements...."
+  },
+  "aplSolution": "TopKFrequent ← {\n    k ← ⍺\n    freq ← {⍵,≢⍵}⌸⍵\n    k↑freq[⍒freq[;2];1]\n}",
+  "explanation": {
+    "en": "Groups elements by frequency and takes top k.",
+    "zh-CN": "Groups elements by frequency and takes top k....",
+    "zh-TW": "Groups elements by frequency and takes top k....",
+    "ja": "Groups elements by frequency and takes top k....",
+    "es": "Groups elements by frequency and takes top k....",
+    "de": "Groups elements by frequency and takes top k....",
+    "fr": "Groups elements by frequency and takes top k...."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(n)"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 387,
+  "title": "First Unique Character",
+  "difficulty": "easy",
+  "description": {
+    "en": "First unique char index",
+    "zh-CN": "First unique char index",
+    "zh-TW": "First unique char index",
+    "ja": "First unique char index",
+    "es": "First unique char index",
+    "de": "First unique char index",
+    "fr": "First unique char index"
+  },
+  "aplSolution": "FirstUniqChar ← {⊃⍸1=≢¨⊆⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

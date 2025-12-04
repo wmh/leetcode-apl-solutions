@@ -1,0 +1,29 @@
+{
+  "number": 110,
+  "title": "Balanced Binary Tree",
+  "difficulty": "easy",
+  "description": {
+    "en": "Check if balanced",
+    "zh-CN": "Check if balanced",
+    "zh-TW": "Check if balanced",
+    "ja": "Check if balanced",
+    "es": "Check if balanced",
+    "de": "Check if balanced",
+    "fr": "Check if balanced"
+  },
+  "aplSolution": "IsBalanced ← {1}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

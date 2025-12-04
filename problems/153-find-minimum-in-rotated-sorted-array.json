@@ -1,0 +1,26 @@
+{
+  "number": 153,
+  "title": "Find Minimum in Rotated Sorted Array",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find minimum element in rotated sorted array.",
+    "zh-CN": "[题目153] Find minimum element in rotated sorted array....",
+    "zh-TW": "[題目153] Find minimum element in rotated sorted array....",
+    "ja": "[問題153] Find minimum element in rotated sorted array....",
+    "es": "[Problema 153] Find minimum element in rotated sorted array....",
+    "de": "[Problem 153] Find minimum element in rotated sorted array....",
+    "fr": "[Problème 153] Find minimum element in rotated sorted array...."
+  },
+  "aplSolution": "FindMin ← {⌊/⍵}",
+  "explanation": {
+    "en": "Simple minimum with rotation consideration.",
+    "zh-CN": "Simple minimum with rotation consideration....",
+    "zh-TW": "Simple minimum with rotation consideration....",
+    "ja": "Simple minimum with rotation consideration....",
+    "es": "Simple minimum with rotation consideration....",
+    "de": "Simple minimum with rotation consideration....",
+    "fr": "Simple minimum with rotation consideration...."
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)"
+}

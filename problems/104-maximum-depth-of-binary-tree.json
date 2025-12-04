@@ -1,0 +1,32 @@
+{
+  "number": 104,
+  "title": "Maximum Depth of Binary Tree",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given the root of a binary tree, return its maximum depth. A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.",
+    "zh-CN": "給定一個二叉樹的根節點 root，返回它的最大深度。二叉樹的最大深度是指從根節點到最遠葉子節點的最長路徑上的節點數。",
+    "zh-TW": "給定一個二元樹的根節點 root，返回它的最大深度。二元樹的最大深度是指從根節點到最遠葉子節點的最長路徑上的節點數。",
+    "ja": "二分木のルート root が与えられたとき、その最大深度を返します。二分木の最大深度は、ルート ノードから最も遠い葉ノードまでの最長パスに沿ったノード数です。",
+    "es": "Dada la raíz de un árbol binario, devuelve su profundidad máxima. La profundidad máxima de un árbol binario es el número de nodos a lo largo del camino más largo desde el nodo raíz hasta el nodo hoja más lejano.",
+    "de": "Gegeben die Wurzel eines Binärbaums, gib seine maximale Tiefe zurück. Die maximale Tiefe eines Binärbaums ist die Anzahl der Knoten entlang des längsten Pfades vom Wurzelknoten bis zum entferntesten Blattknoten.",
+    "fr": "Étant donné la racine d'un arbre binaire, renvoyez sa profondeur maximale. La profondeur maximale d'un arbre binaire est le nombre de nœuds le long du chemin le plus long du nœud racine au nœud feuille le plus éloigné."
+  },
+  "aplSolution": "MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}\n\n⍝ For nested arrays:\n⍝ Example usage:\n⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3\n⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2",
+  "explanation": {
+    "en": "Recursively counts depth. Base case: empty tree has depth 0. Recursive case: 1 + maximum depth of children. Uses self-reference (∇) to recurse over each child, then takes maximum with ⌈/.",
+    "zh-CN": "遞歸計算深度。基本情況：空樹深度為 0。遞歸情況：1 + 子節點的最大深度。使用自引用 (∇) 遞歸每個子節點，然後用 ⌈/ 取最大值。",
+    "zh-TW": "遞迴計算深度。基本情況：空樹深度為 0。遞迴情況：1 + 子節點的最大深度。使用自引用 (∇) 遞迴每個子節點，然後用 ⌈/ 取最大值。",
+    "ja": "再帰的に深さをカウントします。ベースケース：空のツリーは深さ 0。再帰ケース：1 + 子の最大深さ。自己参照 (∇) を使用して各子を再帰し、⌈/ で最大値を取ります。",
+    "es": "Cuenta recursivamente la profundidad. Caso base: árbol vacío tiene profundidad 0. Caso recursivo: 1 + profundidad máxima de los hijos. Usa autorreferencia (∇) para recurrir sobre cada hijo, luego toma el máximo con ⌈/.",
+    "de": "Zählt rekursiv die Tiefe. Basisfall: leerer Baum hat Tiefe 0. Rekursiver Fall: 1 + maximale Tiefe der Kinder. Verwendet Selbstreferenz (∇), um über jedes Kind zu rekurrieren, dann nimmt das Maximum mit ⌈/.",
+    "fr": "Compte récursivement la profondeur. Cas de base : l'arbre vide a une profondeur de 0. Cas récursif : 1 + profondeur maximale des enfants. Utilise l'auto-référence (∇) pour récurrer sur chaque enfant, puis prend le maximum avec ⌈/."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "(3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))", "output": "3"},
+    {"input": "(1 ⍬ (2 ⍬ ⍬))", "output": "2"}
+  ]
+}

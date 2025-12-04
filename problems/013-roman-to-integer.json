@@ -1,0 +1,29 @@
+{
+  "number": 13,
+  "title": "Roman to Integer",
+  "difficulty": "easy",
+  "description": {
+    "en": "Convert roman to integer",
+    "zh-CN": "Convert roman to integer",
+    "zh-TW": "Convert roman to integer",
+    "ja": "Convert roman to integer",
+    "es": "Convert roman to integer",
+    "de": "Convert roman to integer",
+    "fr": "Convert roman to integer"
+  },
+  "aplSolution": "RomanToInt ← {+/1 5 10 50 100 500 1000['IVXLCDM'⍳⍵]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

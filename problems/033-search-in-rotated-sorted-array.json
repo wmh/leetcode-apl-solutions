@@ -1,0 +1,26 @@
+{
+  "number": 33,
+  "title": "Search in Rotated Sorted Array",
+  "difficulty": "medium",
+  "description": {
+    "en": "Search for target in rotated sorted array.",
+    "zh-CN": "[题目33] Search for target in rotated sorted array....",
+    "zh-TW": "[題目33] Search for target in rotated sorted array....",
+    "ja": "[問題33] Search for target in rotated sorted array....",
+    "es": "[Problema 33] Search for target in rotated sorted array....",
+    "de": "[Problem 33] Search for target in rotated sorted array....",
+    "fr": "[Problème 33] Search for target in rotated sorted array...."
+  },
+  "aplSolution": "Search ← {\n    pivot←⊃⍸⍵≠⌊/⍵\n    target←⍺\n    (target∊⍵)×⊃⍸target=⍵\n}",
+  "explanation": {
+    "en": "Finds pivot point and searches in correct half.",
+    "zh-CN": "Finds pivot point and searches in correct half....",
+    "zh-TW": "Finds pivot point and searches in correct half....",
+    "ja": "Finds pivot point and searches in correct half....",
+    "es": "Finds pivot point and searches in correct half....",
+    "de": "Finds pivot point and searches in correct half....",
+    "fr": "Finds pivot point and searches in correct half...."
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)"
+}

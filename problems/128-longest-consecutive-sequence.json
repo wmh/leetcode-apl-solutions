@@ -1,0 +1,26 @@
+{
+  "number": 128,
+  "title": "Longest Consecutive Sequence",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find the length of the longest consecutive elements sequence.",
+    "zh-CN": "[题目128] Find the length of the longest consecutive element...",
+    "zh-TW": "[題目128] Find the length of the longest consecutive element...",
+    "ja": "[問題128] Find the length of the longest consecutive element...",
+    "es": "[Problema 128] Find the length of the longest consecutive element...",
+    "de": "[Problem 128] Find the length of the longest consecutive element...",
+    "fr": "[Problème 128] Find the length of the longest consecutive element..."
+  },
+  "aplSolution": "LongestConsecutive ← {\n    ⍝ Find longest run\n    sorted ← ∪⍵[⍋⍵]\n    max ← ⌈/1,+/¨2=/¨1↓¨⊆sorted\n    max\n}",
+  "explanation": {
+    "en": "Sorts unique elements and finds longest consecutive run.",
+    "zh-CN": "Sorts unique elements and finds longest consecutive run....",
+    "zh-TW": "Sorts unique elements and finds longest consecutive run....",
+    "ja": "Sorts unique elements and finds longest consecutive run....",
+    "es": "Sorts unique elements and finds longest consecutive run....",
+    "de": "Sorts unique elements and finds longest consecutive run....",
+    "fr": "Sorts unique elements and finds longest consecutive run...."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(n)"
+}

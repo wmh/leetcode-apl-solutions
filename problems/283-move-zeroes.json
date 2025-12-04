@@ -1,0 +1,32 @@
+{
+  "number": 283,
+  "title": "Move Zeroes",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Note that you must do this in-place without making a copy of the array.",
+    "zh-CN": "給定一個數組 nums，編寫一個函數將所有 0 移動到數組的末尾，同時保持非零元素的相對順序。請注意，必須在不復制數組的情況下原地對數組進行操作。",
+    "zh-TW": "給定一個陣列 nums，編寫一個函數將所有 0 移動到陣列的末尾，同時保持非零元素的相對順序。請注意，必須在不複製陣列的情況下原地對陣列進行操作。",
+    "ja": "整数配列 nums が与えられたとき、すべての 0 を配列の末尾に移動し、非ゼロ要素の相対的な順序を維持します。配列のコピーを作成せずに、その場で配列を操作する必要があることに注意してください。",
+    "es": "Dado un array de enteros nums, mueve todos los 0 al final manteniendo el orden relativo de los elementos no cero. Ten en cuenta que debes hacer esto in situ sin hacer una copia del array.",
+    "de": "Gegeben ein Integer-Array nums, verschiebe alle 0en an das Ende, während die relative Reihenfolge der Nicht-Null-Elemente beibehalten wird. Beachte, dass du dies in-place tun musst, ohne eine Kopie des Arrays zu erstellen.",
+    "fr": "Étant donné un tableau d'entiers nums, déplacez tous les 0 à la fin tout en maintenant l'ordre relatif des éléments non nuls. Notez que vous devez le faire sur place sans faire de copie du tableau."
+  },
+  "aplSolution": "MoveZeroes ← {(⍵/⍨⍵≠0),⍵/⍨⍵=0}\n\n⍝ Example usage:\n⍝ MoveZeroes 0 1 0 3 12    → 1 3 12 0 0\n⍝ MoveZeroes 0             → 0",
+  "explanation": {
+    "en": "Filters non-zeros (⍵/⍨⍵≠0) and concatenates with zeros (⍵/⍨⍵=0). Compression (/) keeps elements where mask is true. Result is non-zeros followed by zeros.",
+    "zh-CN": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留掩碼為真的元素。結果是非零值後跟零值。",
+    "zh-TW": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留遮罩為真的元素。結果是非零值後跟零值。",
+    "ja": "非ゼロをフィルタリング (⍵/⍨⍵≠0) し、ゼロと連結します (⍵/⍨⍵=0)。圧縮 (/) はマスクが真である要素を保持します。結果は非ゼロの後にゼロが続きます。",
+    "es": "Filtra los no ceros (⍵/⍨⍵≠0) y concatena con los ceros (⍵/⍨⍵=0). La compresión (/) mantiene los elementos donde la máscara es verdadera. El resultado son no ceros seguidos de ceros.",
+    "de": "Filtert Nicht-Nullen (⍵/⍨⍵≠0) und verkettet mit Nullen (⍵/⍨⍵=0). Kompression (/) behält Elemente, wo die Maske wahr ist. Das Ergebnis sind Nicht-Nullen gefolgt von Nullen.",
+    "fr": "Filtre les non-zéros (⍵/⍨⍵≠0) et concatène avec les zéros (⍵/⍨⍵=0). La compression (/) garde les éléments où le masque est vrai. Le résultat est non-zéros suivis de zéros."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "0 1 0 3 12", "output": "1 3 12 0 0"},
+    {"input": "0", "output": "0"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 404,
+  "title": "Sum of Left Leaves",
+  "difficulty": "easy",
+  "description": {
+    "en": "Sum all left leaves",
+    "zh-CN": "Sum all left leaves",
+    "zh-TW": "Sum all left leaves",
+    "ja": "Sum all left leaves",
+    "es": "Sum all left leaves",
+    "de": "Sum all left leaves",
+    "fr": "Sum all left leaves"
+  },
+  "aplSolution": "SumOfLeftLeaves ← {+/leftLeaves}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

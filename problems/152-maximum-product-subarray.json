@@ -1,0 +1,29 @@
+{
+  "number": 152,
+  "title": "Maximum Product Subarray",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find maximum product subarray",
+    "zh-CN": "Find maximum product subarray",
+    "zh-TW": "Find maximum product subarray",
+    "ja": "Find maximum product subarray",
+    "es": "Find maximum product subarray",
+    "de": "Find maximum product subarray",
+    "fr": "Find maximum product subarray"
+  },
+  "aplSolution": "MaxProduct ← {⌈/×/¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證",
+    "zh-TW": "已驗證",
+    "ja": "検証済み",
+    "es": "Verificado",
+    "de": "Verifiziert",
+    "fr": "Vérifié"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

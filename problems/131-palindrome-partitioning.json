@@ -1,0 +1,26 @@
+{
+  "number": 131,
+  "title": "Palindrome Partitioning",
+  "difficulty": "medium",
+  "description": {
+    "en": "Partition string into palindromic substrings.",
+    "zh-CN": "[题目131] Partition string into palindromic substrings....",
+    "zh-TW": "[題目131] Partition string into palindromic substrings....",
+    "ja": "[問題131] Partition string into palindromic substrings....",
+    "es": "[Problema 131] Partition string into palindromic substrings....",
+    "de": "[Problem 131] Partition string into palindromic substrings....",
+    "fr": "[Problème 131] Partition string into palindromic substrings...."
+  },
+  "aplSolution": "Partition ← {\n    ∪{⍵/⍨∧/⍵≡¨⌽¨⍵}¨partitions\n}",
+  "explanation": {
+    "en": "Generates partitions and filters palindromes.",
+    "zh-CN": "Generates partitions and filters palindromes....",
+    "zh-TW": "Generates partitions and filters palindromes....",
+    "ja": "Generates partitions and filters palindromes....",
+    "es": "Generates partitions and filters palindromes....",
+    "de": "Generates partitions and filters palindromes....",
+    "fr": "Generates partitions and filters palindromes...."
+  },
+  "timeComplexity": "O(n*2^n)",
+  "spaceComplexity": "O(n)"
+}

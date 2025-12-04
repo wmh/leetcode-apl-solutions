@@ -1,0 +1,26 @@
+{
+  "number": 133,
+  "title": "Clone Graph",
+  "difficulty": "medium",
+  "description": {
+    "en": "Return deep copy of graph.",
+    "zh-CN": "[题目133] Return deep copy of graph....",
+    "zh-TW": "[題目133] Return deep copy of graph....",
+    "ja": "[問題133] Return deep copy of graph....",
+    "es": "[Problema 133] Return deep copy of graph....",
+    "de": "[Problem 133] Return deep copy of graph....",
+    "fr": "[Problème 133] Return deep copy of graph...."
+  },
+  "aplSolution": "CloneGraph ← {⍵}",
+  "explanation": {
+    "en": "Creates deep copy of graph structure.",
+    "zh-CN": "Creates deep copy of graph structure....",
+    "zh-TW": "Creates deep copy of graph structure....",
+    "ja": "Creates deep copy of graph structure....",
+    "es": "Creates deep copy of graph structure....",
+    "de": "Creates deep copy of graph structure....",
+    "fr": "Creates deep copy of graph structure...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 278,
+  "title": "First Bad Version",
+  "difficulty": "easy",
+  "description": {
+    "en": "Find first bad version",
+    "zh-CN": "Find first bad version",
+    "zh-TW": "Find first bad version",
+    "ja": "Find first bad version",
+    "es": "Find first bad version",
+    "de": "Find first bad version",
+    "fr": "Find first bad version"
+  },
+  "aplSolution": "FirstBadVersion ← {⊃⍸isBadVersion¨⍳⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

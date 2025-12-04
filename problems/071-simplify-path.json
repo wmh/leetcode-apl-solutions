@@ -1,0 +1,29 @@
+{
+  "number": 71,
+  "title": "Simplify Path",
+  "difficulty": "medium",
+  "description": {
+    "en": "Simplify Unix path",
+    "zh-CN": "Simplify Unix path",
+    "zh-TW": "Simplify Unix path",
+    "ja": "Simplify Unix path",
+    "es": "Simplify Unix path",
+    "de": "Simplify Unix path",
+    "fr": "Simplify Unix path"
+  },
+  "aplSolution": "SimplifyPath ← {'/',⍨∊'/'∘,¨path}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

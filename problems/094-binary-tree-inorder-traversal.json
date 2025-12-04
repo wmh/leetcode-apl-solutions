@@ -1,0 +1,29 @@
+{
+  "number": 94,
+  "title": "Binary Tree Inorder Traversal",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given the root of a binary tree, return the inorder traversal of its nodes' values.",
+    "zh-CN": "給定一個二叉樹的根節點 root，返回它節點值的中序遍歷。",
+    "zh-TW": "給定一個二元樹的根節點 root，返回它節點值的中序遍歷。",
+    "ja": "二分木のルート root が与えられたとき、そのノードの値の中順走査を返します。",
+    "es": "Dada la raíz de un árbol binario, devuelve el recorrido inorden de los valores de sus nodos.",
+    "de": "Gegeben die Wurzel eines Binärbaums, gib die Inorder-Traversierung seiner Knotenwerte zurück.",
+    "fr": "Étant donné la racine d'un arbre binaire, renvoyez la traversée en ordre de ses valeurs de nœuds."
+  },
+  "aplSolution": "Inorder ← {0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}\n\n⍝ Example: (1 ⍬ (2 (3 ⍬ ⍬) ⍬)) → 1 3 2",
+  "explanation": {
+    "en": "Recursive: traverse left, visit root, traverse right. Base case returns empty for null nodes.",
+    "zh-CN": "遞歸：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
+    "zh-TW": "遞迴：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
+    "ja": "再帰：左を走査、ルートを訪問、右を走査。ベースケースは null ノードに対して空を返します。",
+    "es": "Recursivo: recorre izquierda, visita raíz, recorre derecha. El caso base devuelve vacío para nodos nulos.",
+    "de": "Rekursiv: durchlaufe links, besuche Wurzel, durchlaufe rechts. Basisfall gibt leer für null-Knoten zurück.",
+    "fr": "Récursif : parcourt à gauche, visite la racine, parcourt à droite. Le cas de base renvoie vide pour les nœuds nuls."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [{"input": "(1 ⍬ (2 (3 ⍬ ⍬) ⍬))", "output": "1 3 2"}]
+}

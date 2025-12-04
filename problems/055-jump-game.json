@@ -1,0 +1,29 @@
+{
+  "number": 55,
+  "title": "Jump Game",
+  "difficulty": "medium",
+  "description": {
+    "en": "Can reach end",
+    "zh-CN": "Can reach end",
+    "zh-TW": "Can reach end",
+    "ja": "Can reach end",
+    "es": "Can reach end",
+    "de": "Can reach end",
+    "fr": "Can reach end"
+  },
+  "aplSolution": "CanJump ← {reach←0 ⋄ ∧/{reach⌈←⍺+⍵}¨⍵⍳⍨⍳≢⍵ ⋄ reach≥¯1+≢⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

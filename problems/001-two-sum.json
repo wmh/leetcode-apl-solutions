@@ -1,0 +1,33 @@
+{
+  "number": 1,
+  "title": "Two Sum",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.",
+    "zh-CN": "給定一個整數數組 nums 和一個整數目標值 target，請你在該數組中找出和為目標值 target 的那兩個整數，並返回它們的數組下標。你可以假設每種輸入只會對應一個答案。但是，數組中同一個元素在答案裡不能重複出現。你可以按任意順序返回答案。",
+    "zh-TW": "給定一個整數陣列 nums 和一個整數目標值 target，請你在該陣列中找出和為目標值 target 的那兩個整數，並返回它們的陣列下標。你可以假設每種輸入只會對應一個答案。但是，陣列中同一個元素在答案裡不能重複出現。你可以按任意順序返回答案。",
+    "ja": "整数配列 nums と整数 target が与えられたとき、合計が target になる 2 つの数値のインデックスを返します。各入力には正確に 1 つの解があると仮定でき、同じ要素を 2 回使用することはできません。任意の順序で答えを返すことができます。",
+    "es": "Dado un array de enteros nums y un entero target, devuelve los índices de los dos números que suman target. Puedes asumir que cada entrada tendría exactamente una solución, y no puedes usar el mismo elemento dos veces. Puedes devolver la respuesta en cualquier orden.",
+    "de": "Gegeben ein Array von Ganzzahlen nums und eine Ganzzahl target, gib die Indizes der zwei Zahlen zurück, die sich zu target addieren. Du kannst annehmen, dass jede Eingabe genau eine Lösung hat, und du darfst dasselbe Element nicht zweimal verwenden. Du kannst die Antwort in beliebiger Reihenfolge zurückgeben.",
+    "fr": "Étant donné un tableau d'entiers nums et un entier target, renvoyez les indices des deux nombres qui totalisent target. Vous pouvez supposer que chaque entrée aurait exactement une solution, et vous ne pouvez pas utiliser le même élément deux fois. Vous pouvez renvoyer la réponse dans n'importe quel ordre."
+  },
+  "aplSolution": "TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}\n\n⍝ Example usage:\n⍝ 9 TwoSum 2 7 11 15    → 0 1\n⍝ 6 TwoSum 3 2 4        → 1 2\n⍝ 6 TwoSum 3 3          → 0 1",
+  "explanation": {
+    "en": "Creates outer product (∘.+) of array with itself to get all possible sums. Uses mask to exclude same-index pairs (∘.≠⍨⍳≢arr). Finds positions where sum equals target with ⍸. Takes first 2 indices with 2↑.",
+    "zh-CN": "創建數組與自身的外積 (∘.+) 以獲得所有可能的和。使用掩碼排除相同索引的配對 (∘.≠⍨⍳≢arr)。用 ⍸ 找到和等於目標的位置。用 2↑ 取前 2 個索引。",
+    "zh-TW": "創建陣列與自身的外積 (∘.+) 以獲得所有可能的和。使用遮罩排除相同索引的配對 (∘.≠⍨⍳≢arr)。用 ⍸ 找到和等於目標的位置。用 2↑ 取前 2 個索引。",
+    "ja": "配列と自身の外積 (∘.+) を作成して、すべての可能な合計を取得します。マスクを使用して同じインデックスのペアを除外します (∘.≠⍨⍳≢arr)。⍸ で合計が目標と等しい位置を見つけます。2↑ で最初の 2 つのインデックスを取得します。",
+    "es": "Crea el producto exterior (∘.+) del array consigo mismo para obtener todas las sumas posibles. Usa una máscara para excluir pares del mismo índice (∘.≠⍨⍳≢arr). Encuentra posiciones donde la suma es igual al objetivo con ⍸. Toma los primeros 2 índices con 2↑.",
+    "de": "Erstellt das äußere Produkt (∘.+) des Arrays mit sich selbst, um alle möglichen Summen zu erhalten. Verwendet eine Maske, um Paare mit demselben Index auszuschließen (∘.≠⍨⍳≢arr). Findet Positionen, wo die Summe dem Ziel entspricht, mit ⍸. Nimmt die ersten 2 Indizes mit 2↑.",
+    "fr": "Crée le produit extérieur (∘.+) du tableau avec lui-même pour obtenir toutes les sommes possibles. Utilise un masque pour exclure les paires du même index (∘.≠⍨⍳≢arr). Trouve les positions où la somme est égale à la cible avec ⍸. Prend les 2 premiers indices avec 2↑."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n²)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "target=9, nums=2 7 11 15", "output": "0 1"},
+    {"input": "target=6, nums=3 2 4", "output": "1 2"},
+    {"input": "target=6, nums=3 3", "output": "0 1"}
+  ]
+}

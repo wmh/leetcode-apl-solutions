@@ -1,0 +1,29 @@
+{
+  "number": 69,
+  "title": "Sqrt(x)",
+  "difficulty": "easy",
+  "description": {
+    "en": "Integer square root",
+    "zh-CN": "Integer square root",
+    "zh-TW": "Integer square root",
+    "ja": "Integer square root",
+    "es": "Integer square root",
+    "de": "Integer square root",
+    "fr": "Integer square root"
+  },
+  "aplSolution": "MySqrt ← {⌊⍵*0.5}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

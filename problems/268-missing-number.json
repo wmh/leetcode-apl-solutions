@@ -1,0 +1,33 @@
+{
+  "number": 268,
+  "title": "Missing Number",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",
+    "zh-CN": "給定一個包含 n 個不同數字的數組 nums，範圍是 [0, n]，返回範圍內缺失的唯一數字。",
+    "zh-TW": "給定一個包含 n 個不同數字的陣列 nums，範圍是 [0, n]，返回範圍內缺失的唯一數字。",
+    "ja": "範囲 [0, n] の n 個の異なる数値を含む配列 nums が与えられたとき、配列から欠落している範囲内の唯一の数値を返します。",
+    "es": "Dado un array nums que contiene n números distintos en el rango [0, n], devuelve el único número en el rango que falta en el array.",
+    "de": "Gegeben ein Array nums, das n verschiedene Zahlen im Bereich [0, n] enthält, gib die einzige Zahl im Bereich zurück, die im Array fehlt.",
+    "fr": "Étant donné un tableau nums contenant n nombres distincts dans la plage [0, n], renvoyez le seul nombre de la plage qui manque dans le tableau."
+  },
+  "aplSolution": "MissingNumber ← {(((≢⍵)×(≢⍵)+1)÷2)-+/⍵}\n\n⍝ Example usage:\n⍝ MissingNumber 3 0 1    → 2\n⍝ MissingNumber 0 1      → 2\n⍝ MissingNumber 9 6 4 2 3 5 7 0 1    → 8",
+  "explanation": {
+    "en": "Uses the formula for sum of 0 to n: n×(n+1)÷2. Calculates expected sum minus actual sum. The result is the missing number. (≢⍵) gives n, so we calculate n×(n+1)÷2 - (+/⍵) where +/⍵ is the sum of elements.",
+    "zh-CN": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
+    "zh-TW": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
+    "ja": "0 から n までの和の公式を使用します：n×(n+1)÷2。期待される合計から実際の合計を引きます。結果が欠落している数値です。(≢⍵) は n を与えるので、n×(n+1)÷2 - (+/⍵) を計算します。ここで +/⍵ は要素の合計です。",
+    "es": "Utiliza la fórmula para la suma de 0 a n: n×(n+1)÷2. Calcula la suma esperada menos la suma real. El resultado es el número que falta. (≢⍵) da n, así que calculamos n×(n+1)÷2 - (+/⍵) donde +/⍵ es la suma de elementos.",
+    "de": "Verwendet die Formel für die Summe von 0 bis n: n×(n+1)÷2. Berechnet die erwartete Summe minus die tatsächliche Summe. Das Ergebnis ist die fehlende Zahl. (≢⍵) gibt n, also berechnen wir n×(n+1)÷2 - (+/⍵), wobei +/⍵ die Summe der Elemente ist.",
+    "fr": "Utilise la formule pour la somme de 0 à n : n×(n+1)÷2. Calcule la somme attendue moins la somme réelle. Le résultat est le nombre manquant. (≢⍵) donne n, donc nous calculons n×(n+1)÷2 - (+/⍵) où +/⍵ est la somme des éléments."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "3 0 1", "output": "2"},
+    {"input": "0 1", "output": "2"},
+    {"input": "9 6 4 2 3 5 7 0 1", "output": "8"}
+  ]
+}

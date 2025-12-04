@@ -1,0 +1,29 @@
+{
+  "number": 347,
+  "title": "Top K Frequent",
+  "difficulty": "medium",
+  "description": {
+    "en": "K most frequent elements",
+    "zh-CN": "K most frequent elements",
+    "zh-TW": "K most frequent elements",
+    "ja": "K most frequent elements",
+    "es": "K most frequent elements",
+    "de": "K most frequent elements",
+    "fr": "K most frequent elements"
+  },
+  "aplSolution": "TopKFrequent ← {k←⍺ ⋄ k↑∪⍵[⍒{≢⍵}⌸⍵]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n log n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

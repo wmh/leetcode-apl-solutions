@@ -1,0 +1,26 @@
+{
+  "number": 417,
+  "title": "Pacific Atlantic Water Flow",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find cells from which water can flow to both oceans.",
+    "zh-CN": "[题目417] Find cells from which water can flow to both ocean...",
+    "zh-TW": "[題目417] Find cells from which water can flow to both ocean...",
+    "ja": "[問題417] Find cells from which water can flow to both ocean...",
+    "es": "[Problema 417] Find cells from which water can flow to both ocean...",
+    "de": "[Problem 417] Find cells from which water can flow to both ocean...",
+    "fr": "[Problème 417] Find cells from which water can flow to both ocean..."
+  },
+  "aplSolution": "PacificAtlantic ← {\n    ⍝ DFS from both coasts\n    pacific∩atlantic\n}",
+  "explanation": {
+    "en": "DFS from both ocean borders.",
+    "zh-CN": "DFS from both ocean borders....",
+    "zh-TW": "DFS from both ocean borders....",
+    "ja": "DFS from both ocean borders....",
+    "es": "DFS from both ocean borders....",
+    "de": "DFS from both ocean borders....",
+    "fr": "DFS from both ocean borders...."
+  },
+  "timeComplexity": "O(m*n)",
+  "spaceComplexity": "O(m*n)"
+}

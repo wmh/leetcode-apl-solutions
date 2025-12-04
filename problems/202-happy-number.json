@@ -1,0 +1,32 @@
+{
+  "number": 202,
+  "title": "Happy Number",
+  "difficulty": "easy",
+  "description": {
+    "en": "Write an algorithm to determine if a number n is happy. A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits. Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy. Return true if n is a happy number, and false if not.",
+    "zh-CN": "編寫一個算法來判斷一個數 n 是不是快樂數。「快樂數」定義為：對於一個正整數，每一次將該數替換為它每個位置上的數字的平方和。然後重複這個過程直到這個數變為 1，也可能是無限循環但始終變不到 1。如果這個過程結果為 1，那麼這個數就是快樂數。如果 n 是快樂數就返回 true；不是，則返回 false。",
+    "zh-TW": "編寫一個算法來判斷一個數 n 是不是快樂數。「快樂數」定義為：對於一個正整數，每一次將該數替換為它每個位置上的數字的平方和。然後重複這個過程直到這個數變為 1，也可能是無限循環但始終變不到 1。如果這個過程結果為 1，那麼這個數就是快樂數。如果 n 是快樂數就返回 true；不是，則返回 false。",
+    "ja": "数 n がハッピー数かどうかを判定するアルゴリズムを作成します。ハッピー数は次のプロセスで定義されます：任意の正の整数から始めて、その数をその各桁の 2 乗の合計で置き換えます。数が 1 になる（そこにとどまる）まで、または 1 を含まないサイクルで無限にループするまで、このプロセスを繰り返します。このプロセスが 1 で終わる数がハッピーです。n がハッピー数の場合は true を返し、そうでない場合は false を返します。",
+    "es": "Escribe un algoritmo para determinar si un número n es feliz. Un número feliz es un número definido por el siguiente proceso: Comenzando con cualquier entero positivo, reemplaza el número por la suma de los cuadrados de sus dígitos. Repite el proceso hasta que el número sea igual a 1 (donde permanecerá), o haga un bucle infinito en un ciclo que no incluya 1. Aquellos números para los cuales este proceso termina en 1 son felices. Devuelve true si n es un número feliz, y false si no.",
+    "de": "Schreibe einen Algorithmus, um zu bestimmen, ob eine Zahl n glücklich ist. Eine glückliche Zahl ist eine Zahl, die durch folgenden Prozess definiert ist: Beginnend mit einer beliebigen positiven Ganzzahl, ersetze die Zahl durch die Summe der Quadrate ihrer Ziffern. Wiederhole den Prozess, bis die Zahl 1 ist (wo sie bleiben wird), oder sie endlos in einem Zyklus schleift, der nicht 1 enthält. Zahlen, für die dieser Prozess bei 1 endet, sind glücklich. Gib true zurück, wenn n eine glückliche Zahl ist, und false, wenn nicht.",
+    "fr": "Écrivez un algorithme pour déterminer si un nombre n est heureux. Un nombre heureux est un nombre défini par le processus suivant : En commençant par n'importe quel entier positif, remplacez le nombre par la somme des carrés de ses chiffres. Répétez le processus jusqu'à ce que le nombre soit égal à 1 (où il restera), ou qu'il boucle indéfiniment dans un cycle qui n'inclut pas 1. Les nombres pour lesquels ce processus se termine à 1 sont heureux. Renvoyez true si n est un nombre heureux, et false sinon."
+  },
+  "aplSolution": "IsHappy ← {n←⍵ ⋄ seen←⍬ ⋄ {n∊seen:0 ⋄ 1=n:1 ⋄ seen,←n ⋄ n←+/((10⊥⍣¯1⊢n)*2) ⋄ ∇⍬}⍬}\n\n⍝ Simpler iterative check:\nIsHappy2 ← {1∊20{+/(10⊥⍣¯1⊢⍵)*2}⍣⍺⊢⍵}\n\n⍝ Example usage:\n⍝ IsHappy2 19    → 1\n⍝ IsHappy2 2     → 0",
+  "explanation": {
+    "en": "Version 2: Iterates 20 times applying digit square sum. If 1 appears in results, it's happy. Uses encode inverse (10⊥⍣¯1) to get digits, squares them, and sums.",
+    "zh-CN": "版本 2：迭代 20 次應用數字平方和。如果結果中出現 1，則為快樂數。使用編碼逆 (10⊥⍣¯1) 獲取數字，平方它們，然後求和。",
+    "zh-TW": "版本 2：迭代 20 次應用數字平方和。如果結果中出現 1，則為快樂數。使用編碼逆 (10⊥⍣¯1) 獲取數字，平方它們，然後求和。",
+    "ja": "バージョン 2：桁の 2 乗和を 20 回適用して反復します。結果に 1 が現れる場合、それはハッピーです。エンコード逆 (10⊥⍣¯1) を使用して桁を取得し、それらを 2 乗して合計します。",
+    "es": "Versión 2: Itera 20 veces aplicando la suma de cuadrados de dígitos. Si 1 aparece en los resultados, es feliz. Usa codificación inversa (10⊥⍣¯1) para obtener dígitos, los eleva al cuadrado y suma.",
+    "de": "Version 2: Iteriert 20 Mal und wendet die Zifferquadratsumme an. Wenn 1 in den Ergebnissen erscheint, ist es glücklich. Verwendet inverse Kodierung (10⊥⍣¯1), um Ziffern zu erhalten, quadriert sie und summiert.",
+    "fr": "Version 2 : Itère 20 fois en appliquant la somme des carrés des chiffres. Si 1 apparaît dans les résultats, c'est heureux. Utilise l'encodage inverse (10⊥⍣¯1) pour obtenir les chiffres, les élève au carré et fait la somme."
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "19", "output": "1"},
+    {"input": "2", "output": "0"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 189,
+  "title": "Rotate Array",
+  "difficulty": "medium",
+  "description": {
+    "en": "Rotate array by k",
+    "zh-CN": "Rotate array by k",
+    "zh-TW": "Rotate array by k",
+    "ja": "Rotate array by k",
+    "es": "Rotate array by k",
+    "de": "Rotate array by k",
+    "fr": "Rotate array by k"
+  },
+  "aplSolution": "Rotate ← {k←⍺ ⋄ (k⌽⍵)}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

@@ -1,0 +1,26 @@
+{
+  "number": 155,
+  "title": "Min Stack",
+  "difficulty": "medium",
+  "description": {
+    "en": "Design a stack with push, pop, top, and getMin in O(1).",
+    "zh-CN": "[题目155] Design a stack with push, pop, top, and getMin in ...",
+    "zh-TW": "[題目155] Design a stack with push, pop, top, and getMin in ...",
+    "ja": "[問題155] Design a stack with push, pop, top, and getMin in ...",
+    "es": "[Problema 155] Design a stack with push, pop, top, and getMin in ...",
+    "de": "[Problem 155] Design a stack with push, pop, top, and getMin in ...",
+    "fr": "[Problème 155] Design a stack with push, pop, top, and getMin in ..."
+  },
+  "aplSolution": "MinStack ← {\n    stack ← ⍬\n    minStack ← ⍬\n    {stack,←⍵ ⋄ minStack,←⌊/stack}¨⍵\n}",
+  "explanation": {
+    "en": "Maintains auxiliary stack for minimums.",
+    "zh-CN": "Maintains auxiliary stack for minimums....",
+    "zh-TW": "Maintains auxiliary stack for minimums....",
+    "ja": "Maintains auxiliary stack for minimums....",
+    "es": "Maintains auxiliary stack for minimums....",
+    "de": "Maintains auxiliary stack for minimums....",
+    "fr": "Maintains auxiliary stack for minimums...."
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(n)"
+}

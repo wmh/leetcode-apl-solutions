@@ -1,0 +1,25 @@
+⍝ Test basic operations
+1+1
+2×3
+⌽1 2 3 4 5
+TwoSum ← {
+indices ← ⍸⍺=+/∘.,⍨⍵
+2↑indices
+}
+9 TwoSum 2 7 11 15
+2 7 11 15
+⍝ Problem 136: Single Number
+⍝ Find the element that appears only once
+⍝ Test XOR reduce
+nums ← 4 1 2 1 2
+result ← ≠/nums
+result
+⍝ Test case 2
+nums2 ← 2 2 1
+result2 ← ≠/nums2
+result2
+⍝ Test case 3
+nums3 ← 1
+result3 ← ≠/nums3
+result3
+≠/4 1 2 1 2

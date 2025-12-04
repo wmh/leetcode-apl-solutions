@@ -1,0 +1,29 @@
+{
+  "number": 303,
+  "title": "Range Sum Query",
+  "difficulty": "easy",
+  "description": {
+    "en": "Sum of range in array",
+    "zh-CN": "Sum of range in array",
+    "zh-TW": "Sum of range in array",
+    "ja": "Sum of range in array",
+    "es": "Sum of range in array",
+    "de": "Sum of range in array",
+    "fr": "Sum of range in array"
+  },
+  "aplSolution": "RangeSum ← {+/⍺↓⍵↑⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

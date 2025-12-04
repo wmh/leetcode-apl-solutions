@@ -1,0 +1,26 @@
+{
+  "number": 875,
+  "title": "Koko Eating Bananas",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find minimum eating speed to finish all bananas in h hours.",
+    "zh-CN": "[题目875] Find minimum eating speed to finish all bananas in...",
+    "zh-TW": "[題目875] Find minimum eating speed to finish all bananas in...",
+    "ja": "[問題875] Find minimum eating speed to finish all bananas in...",
+    "es": "[Problema 875] Find minimum eating speed to finish all bananas in...",
+    "de": "[Problem 875] Find minimum eating speed to finish all bananas in...",
+    "fr": "[Problème 875] Find minimum eating speed to finish all bananas in..."
+  },
+  "aplSolution": "MinEatingSpeed ← {\n    h←⍺\n    speeds←1+⍳⌈/⍵\n    ⊃speeds/⍨h≥+/⌈⍵÷⍤1⊢speeds\n}",
+  "explanation": {
+    "en": "Binary search on eating speed.",
+    "zh-CN": "Binary search on eating speed....",
+    "zh-TW": "Binary search on eating speed....",
+    "ja": "Binary search on eating speed....",
+    "es": "Binary search on eating speed....",
+    "de": "Binary search on eating speed....",
+    "fr": "Binary search on eating speed...."
+  },
+  "timeComplexity": "O(n*log(max))",
+  "spaceComplexity": "O(1)"
+}

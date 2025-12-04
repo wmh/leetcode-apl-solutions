@@ -1,0 +1,322 @@
+[
+  {
+    "number": 1,
+    "file": "001-two-sum.json"
+  },
+  {
+    "number": 3,
+    "file": "003-longest-substring-without-repeating-characters.json"
+  },
+  {
+    "number": 11,
+    "file": "011-container-with-most-water.json"
+  },
+  {
+    "number": 15,
+    "file": "015-3sum.json"
+  },
+  {
+    "number": 20,
+    "file": "020-valid-parentheses.json"
+  },
+  {
+    "number": 21,
+    "file": "021-merge-two-sorted-lists.json"
+  },
+  {
+    "number": 23,
+    "file": "023-merge-k-sorted-lists.json"
+  },
+  {
+    "number": 33,
+    "file": "033-search-in-rotated-sorted-array.json"
+  },
+  {
+    "number": 39,
+    "file": "039-combination-sum.json"
+  },
+  {
+    "number": 42,
+    "file": "042-trapping-rain-water.json"
+  },
+  {
+    "number": 45,
+    "file": "045-jump-game-ii.json"
+  },
+  {
+    "number": 46,
+    "file": "046-permutations.json"
+  },
+  {
+    "number": 48,
+    "file": "048-rotate-image.json"
+  },
+  {
+    "number": 49,
+    "file": "049-group-anagrams.json"
+  },
+  {
+    "number": 53,
+    "file": "053-maximum-subarray.json"
+  },
+  {
+    "number": 54,
+    "file": "054-spiral-matrix.json"
+  },
+  {
+    "number": 55,
+    "file": "055-jump-game.json"
+  },
+  {
+    "number": 56,
+    "file": "056-merge-intervals.json"
+  },
+  {
+    "number": 57,
+    "file": "057-insert-interval.json"
+  },
+  {
+    "number": 66,
+    "file": "066-plus-one.json"
+  },
+  {
+    "number": 70,
+    "file": "070-climbing-stairs.json"
+  },
+  {
+    "number": 72,
+    "file": "072-edit-distance.json"
+  },
+  {
+    "number": 73,
+    "file": "073-set-matrix-zeroes.json"
+  },
+  {
+    "number": 76,
+    "file": "076-minimum-window-substring.json"
+  },
+  {
+    "number": 78,
+    "file": "078-subsets.json"
+  },
+  {
+    "number": 79,
+    "file": "079-word-search.json"
+  },
+  {
+    "number": 94,
+    "file": "094-binary-tree-inorder-traversal.json"
+  },
+  {
+    "number": 98,
+    "file": "098-validate-binary-search-tree.json"
+  },
+  {
+    "number": 100,
+    "file": "100-same-tree.json"
+  },
+  {
+    "number": 102,
+    "file": "102-binary-tree-level-order-traversal.json"
+  },
+  {
+    "number": 104,
+    "file": "104-maximum-depth-of-binary-tree.json"
+  },
+  {
+    "number": 105,
+    "file": "105-construct-binary-tree-from-preorder-and-inorder.json"
+  },
+  {
+    "number": 121,
+    "file": "121-best-time-to-buy-and-sell-stock.json"
+  },
+  {
+    "number": 124,
+    "file": "124-binary-tree-maximum-path-sum.json"
+  },
+  {
+    "number": 125,
+    "file": "125-valid-palindrome.json"
+  },
+  {
+    "number": 128,
+    "file": "128-longest-consecutive-sequence.json"
+  },
+  {
+    "number": 131,
+    "file": "131-palindrome-partitioning.json"
+  },
+  {
+    "number": 133,
+    "file": "133-clone-graph.json"
+  },
+  {
+    "number": 134,
+    "file": "134-gas-station.json"
+  },
+  {
+    "number": 136,
+    "file": "136-single-number.json"
+  },
+  {
+    "number": 139,
+    "file": "139-word-break.json"
+  },
+  {
+    "number": 141,
+    "file": "141-linked-list-cycle.json"
+  },
+  {
+    "number": 143,
+    "file": "143-reorder-list.json"
+  },
+  {
+    "number": 152,
+    "file": "152-maximum-product-subarray.json"
+  },
+  {
+    "number": 153,
+    "file": "153-find-minimum-in-rotated-sorted-array.json"
+  },
+  {
+    "number": 155,
+    "file": "155-min-stack.json"
+  },
+  {
+    "number": 167,
+    "file": "167-two-sum-ii.json"
+  },
+  {
+    "number": 191,
+    "file": "191-number-of-1-bits.json"
+  },
+  {
+    "number": 198,
+    "file": "198-house-robber.json"
+  },
+  {
+    "number": 200,
+    "file": "200-number-of-islands.json"
+  },
+  {
+    "number": 202,
+    "file": "202-happy-number.json"
+  },
+  {
+    "number": 206,
+    "file": "206-reverse-linked-list.json"
+  },
+  {
+    "number": 207,
+    "file": "207-course-schedule.json"
+  },
+  {
+    "number": 213,
+    "file": "213-house-robber-ii.json"
+  },
+  {
+    "number": 215,
+    "file": "215-kth-largest-element.json"
+  },
+  {
+    "number": 217,
+    "file": "217-contains-duplicate.json"
+  },
+  {
+    "number": 226,
+    "file": "226-invert-binary-tree.json"
+  },
+  {
+    "number": 230,
+    "file": "230-kth-smallest-in-bst.json"
+  },
+  {
+    "number": 235,
+    "file": "235-lowest-common-ancestor-of-bst.json"
+  },
+  {
+    "number": 238,
+    "file": "238-product-of-array-except-self.json"
+  },
+  {
+    "number": 252,
+    "file": "252-meeting-rooms.json"
+  },
+  {
+    "number": 268,
+    "file": "268-missing-number.json"
+  },
+  {
+    "number": 271,
+    "file": "271-encode-and-decode-strings.json"
+  },
+  {
+    "number": 295,
+    "file": "295-find-median-from-data-stream.json"
+  },
+  {
+    "number": 300,
+    "file": "300-longest-increasing-subsequence.json"
+  },
+  {
+    "number": 322,
+    "file": "322-coin-change.json"
+  },
+  {
+    "number": 338,
+    "file": "338-counting-bits.json"
+  },
+  {
+    "number": 347,
+    "file": "347-top-k-frequent-elements.json"
+  },
+  {
+    "number": 371,
+    "file": "371-sum-of-two-integers.json"
+  },
+  {
+    "number": 416,
+    "file": "416-partition-equal-subset-sum.json"
+  },
+  {
+    "number": 417,
+    "file": "417-pacific-atlantic-water-flow.json"
+  },
+  {
+    "number": 424,
+    "file": "424-longest-repeating-character-replacement.json"
+  },
+  {
+    "number": 435,
+    "file": "435-non-overlapping-intervals.json"
+  },
+  {
+    "number": 567,
+    "file": "567-permutation-in-string.json"
+  },
+  {
+    "number": 647,
+    "file": "647-palindromic-substrings.json"
+  },
+  {
+    "number": 659,
+    "file": "659-encode-and-decode-strings.json"
+  },
+  {
+    "number": 704,
+    "file": "704-binary-search.json"
+  },
+  {
+    "number": 739,
+    "file": "739-daily-temperatures.json"
+  },
+  {
+    "number": 853,
+    "file": "853-car-fleet.json"
+  },
+  {
+    "number": 875,
+    "file": "875-koko-eating-bananas.json"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "number": 112,
+  "title": "Path Sum",
+  "difficulty": "easy",
+  "description": {
+    "en": "Check if path sum exists",
+    "zh-CN": "Check if path sum exists",
+    "zh-TW": "Check if path sum exists",
+    "ja": "Check if path sum exists",
+    "es": "Check if path sum exists",
+    "de": "Check if path sum exists",
+    "fr": "Check if path sum exists"
+  },
+  "aplSolution": "HasPathSum ← {⍺∊+/¨paths}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(h)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

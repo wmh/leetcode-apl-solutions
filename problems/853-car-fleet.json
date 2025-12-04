@@ -1,0 +1,26 @@
+{
+  "number": 853,
+  "title": "Car Fleet",
+  "difficulty": "medium",
+  "description": {
+    "en": "Count number of car fleets that will arrive at destination.",
+    "zh-CN": "[题目853] Count number of car fleets that will arrive at des...",
+    "zh-TW": "[題目853] Count number of car fleets that will arrive at des...",
+    "ja": "[問題853] Count number of car fleets that will arrive at des...",
+    "es": "[Problema 853] Count number of car fleets that will arrive at des...",
+    "de": "[Problem 853] Count number of car fleets that will arrive at des...",
+    "fr": "[Problème 853] Count number of car fleets that will arrive at des..."
+  },
+  "aplSolution": "CarFleet ← {\n    sorted←⍵[⍒⍵[;1]]\n    times←(⍺-sorted[;1])÷sorted[;2]\n    1+≢⍸times>⌈\\times\n}",
+  "explanation": {
+    "en": "Sorts by position and calculates arrival times.",
+    "zh-CN": "Sorts by position and calculates arrival times....",
+    "zh-TW": "Sorts by position and calculates arrival times....",
+    "ja": "Sorts by position and calculates arrival times....",
+    "es": "Sorts by position and calculates arrival times....",
+    "de": "Sorts by position and calculates arrival times....",
+    "fr": "Sorts by position and calculates arrival times...."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(n)"
+}

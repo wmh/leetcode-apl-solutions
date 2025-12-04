@@ -1,0 +1,26 @@
+{
+  "number": 124,
+  "title": "Binary Tree Maximum Path Sum",
+  "difficulty": "hard",
+  "description": {
+    "en": "Find maximum path sum.",
+    "zh-CN": "[题目124] Find maximum path sum....",
+    "zh-TW": "[題目124] Find maximum path sum....",
+    "ja": "[問題124] Find maximum path sum....",
+    "es": "[Problema 124] Find maximum path sum....",
+    "de": "[Problem 124] Find maximum path sum....",
+    "fr": "[Problème 124] Find maximum path sum...."
+  },
+  "aplSolution": "MaxPathSum ← {\n    ⍝ Consider all paths\n    ⌈/+/¨paths\n}",
+  "explanation": {
+    "en": "Recursively finds maximum path through each node.",
+    "zh-CN": "Recursively finds maximum path through each node....",
+    "zh-TW": "Recursively finds maximum path through each node....",
+    "ja": "Recursively finds maximum path through each node....",
+    "es": "Recursively finds maximum path through each node....",
+    "de": "Recursively finds maximum path through each node....",
+    "fr": "Recursively finds maximum path through each node...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

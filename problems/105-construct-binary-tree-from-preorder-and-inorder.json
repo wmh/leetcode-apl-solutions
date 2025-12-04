@@ -1,0 +1,26 @@
+{
+  "number": 105,
+  "title": "Construct Binary Tree from Preorder and Inorder",
+  "difficulty": "medium",
+  "description": {
+    "en": "Construct tree from preorder and inorder traversal.",
+    "zh-CN": "[题目105] Construct tree from preorder and inorder traversal...",
+    "zh-TW": "[題目105] Construct tree from preorder and inorder traversal...",
+    "ja": "[問題105] Construct tree from preorder and inorder traversal...",
+    "es": "[Problema 105] Construct tree from preorder and inorder traversal...",
+    "de": "[Problem 105] Construct tree from preorder and inorder traversal...",
+    "fr": "[Problème 105] Construct tree from preorder and inorder traversal..."
+  },
+  "aplSolution": "BuildTree ← {\n    preorder←⍺ ⋄ inorder←⍵\n    ⍬⍴⍨preorder≡⍬\n}",
+  "explanation": {
+    "en": "Recursively splits based on root position.",
+    "zh-CN": "Recursively splits based on root position....",
+    "zh-TW": "Recursively splits based on root position....",
+    "ja": "Recursively splits based on root position....",
+    "es": "Recursively splits based on root position....",
+    "de": "Recursively splits based on root position....",
+    "fr": "Recursively splits based on root position...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

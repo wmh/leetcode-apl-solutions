@@ -1,0 +1,32 @@
+{
+  "number": 141,
+  "title": "Linked List Cycle",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given head, the head of a linked list, determine if the linked list has a cycle in it. There is a cycle in a linked list if there is some node in the list that can be visited again by continuously following the next pointer. Return true if there is a cycle in the linked list. Otherwise, return false.",
+    "zh-CN": "給你一個鏈表的頭節點 head，判斷鏈表中是否有環。如果鏈表中有某個節點，可以通過連續跟蹤 next 指針再次到達，則鏈表中存在環。如果鏈表中存在環，則返回 true。否則，返回 false。",
+    "zh-TW": "給你一個鏈結串列的頭節點 head，判斷鏈結串列中是否有環。如果鏈結串列中有某個節點，可以通過連續跟蹤 next 指標再次到達，則鏈結串列中存在環。如果鏈結串列中存在環，則返回 true。否則，返回 false。",
+    "ja": "リンクリストの先頭 head が与えられたとき、リンクリストにサイクルがあるかどうかを判定します。リスト内に、次のポインタを連続的に追跡することで再度訪問できるノードがある場合、リンクリストにサイクルがあります。リンクリストにサイクルがある場合は true を返します。そうでない場合は false を返します。",
+    "es": "Dada head, la cabeza de una lista enlazada, determina si la lista enlazada tiene un ciclo en ella. Hay un ciclo en una lista enlazada si hay algún nodo en la lista que puede ser visitado nuevamente siguiendo continuamente el puntero next. Devuelve true si hay un ciclo en la lista enlazada. De lo contrario, devuelve false.",
+    "de": "Gegeben head, der Kopf einer verknüpften Liste, bestimme, ob die verknüpfte Liste einen Zyklus enthält. Es gibt einen Zyklus in einer verknüpften Liste, wenn es einen Knoten in der Liste gibt, der durch kontinuierliches Folgen des nächsten Zeigers erneut besucht werden kann. Gib true zurück, wenn es einen Zyklus in der verknüpften Liste gibt. Andernfalls gib false zurück.",
+    "fr": "Étant donné head, la tête d'une liste chaînée, déterminez si la liste chaînée a un cycle. Il y a un cycle dans une liste chaînée s'il existe un nœud dans la liste qui peut être visité à nouveau en suivant continuellement le pointeur suivant. Renvoyez true s'il y a un cycle dans la liste chaînée. Sinon, renvoyez false."
+  },
+  "aplSolution": "HasCycle ← {(≢⍵)≠≢∪⍵}\n\n⍝ For array representation: check for duplicates\n⍝ Example usage:\n⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)\n⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)",
+  "explanation": {
+    "en": "For array representation: checks if length differs from unique length. If there are duplicates (cycle), lengths differ. Uses unique (∪) and tally (≢).",
+    "zh-CN": "對於數組表示：檢查長度是否與唯一長度不同。如果有重複（循環），長度會不同。使用唯一 (∪) 和計數 (≢)。",
+    "zh-TW": "對於陣列表示：檢查長度是否與唯一長度不同。如果有重複（循環），長度會不同。使用唯一 (∪) 和計數 (≢)。",
+    "ja": "配列表現の場合：長さが一意の長さと異なるかを確認します。重複（サイクル）がある場合、長さが異なります。一意 (∪) とカウント (≢) を使用します。",
+    "es": "Para representación de array: verifica si la longitud difiere de la longitud única. Si hay duplicados (ciclo), las longitudes difieren. Usa único (∪) y conteo (≢).",
+    "de": "Für Array-Darstellung: prüft, ob die Länge von der eindeutigen Länge abweicht. Wenn es Duplikate (Zyklus) gibt, unterscheiden sich die Längen. Verwendet eindeutig (∪) und Zählung (≢).",
+    "fr": "Pour la représentation en tableau : vérifie si la longueur diffère de la longueur unique. S'il y a des doublons (cycle), les longueurs diffèrent. Utilise unique (∪) et comptage (≢)."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "3 2 0 ¯4", "output": "0"},
+    {"input": "1 2 1", "output": "1"}
+  ]
+}

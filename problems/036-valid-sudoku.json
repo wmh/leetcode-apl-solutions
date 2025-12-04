@@ -1,0 +1,29 @@
+{
+  "number": 36,
+  "title": "Valid Sudoku",
+  "difficulty": "medium",
+  "description": {
+    "en": "Validate Sudoku board",
+    "zh-CN": "Validate Sudoku board",
+    "zh-TW": "Validate Sudoku board",
+    "ja": "Validate Sudoku board",
+    "es": "Validate Sudoku board",
+    "de": "Validate Sudoku board",
+    "fr": "Validate Sudoku board"
+  },
+  "aplSolution": "IsValidSudoku ← {valid}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

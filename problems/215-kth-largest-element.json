@@ -1,0 +1,26 @@
+{
+  "number": 215,
+  "title": "Kth Largest Element",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find kth largest element in array.",
+    "zh-CN": "[题目215] Find kth largest element in array....",
+    "zh-TW": "[題目215] Find kth largest element in array....",
+    "ja": "[問題215] Find kth largest element in array....",
+    "es": "[Problema 215] Find kth largest element in array....",
+    "de": "[Problem 215] Find kth largest element in array....",
+    "fr": "[Problème 215] Find kth largest element in array...."
+  },
+  "aplSolution": "FindKthLargest ← {\n    k←⍺\n    sorted←⍵[⍒⍵]\n    sorted[k-1]\n}",
+  "explanation": {
+    "en": "Sorts in descending order and returns kth.",
+    "zh-CN": "Sorts in descending order and returns kth....",
+    "zh-TW": "Sorts in descending order and returns kth....",
+    "ja": "Sorts in descending order and returns kth....",
+    "es": "Sorts in descending order and returns kth....",
+    "de": "Sorts in descending order and returns kth....",
+    "fr": "Sorts in descending order and returns kth...."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(1)"
+}

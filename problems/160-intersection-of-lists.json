@@ -1,0 +1,29 @@
+{
+  "number": 160,
+  "title": "Intersection of Lists",
+  "difficulty": "easy",
+  "description": {
+    "en": "Find intersection node",
+    "zh-CN": "Find intersection node",
+    "zh-TW": "Find intersection node",
+    "ja": "Find intersection node",
+    "es": "Find intersection node",
+    "de": "Find intersection node",
+    "fr": "Find intersection node"
+  },
+  "aplSolution": "GetIntersectionNode ← {⍺∩⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n+m)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

@@ -1,0 +1,29 @@
+{
+  "number": 367,
+  "title": "Valid Perfect Square",
+  "difficulty": "easy",
+  "description": {
+    "en": "Check if perfect square",
+    "zh-CN": "Check if perfect square",
+    "zh-TW": "Check if perfect square",
+    "ja": "Check if perfect square",
+    "es": "Check if perfect square",
+    "de": "Check if perfect square",
+    "fr": "Check if perfect square"
+  },
+  "aplSolution": "IsPerfectSquare ← {⍵=(⌊⍵*0.5)*2}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

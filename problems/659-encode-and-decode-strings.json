@@ -1,0 +1,26 @@
+{
+  "number": 659,
+  "title": "Encode and Decode Strings",
+  "difficulty": "medium",
+  "description": {
+    "en": "Encode a list of strings to a single string and decode it back.",
+    "zh-CN": "[题目659] Encode a list of strings to a single string and de...",
+    "zh-TW": "[題目659] Encode a list of strings to a single string and de...",
+    "ja": "[問題659] Encode a list of strings to a single string and de...",
+    "es": "[Problema 659] Encode a list of strings to a single string and de...",
+    "de": "[Problem 659] Encode a list of strings to a single string and de...",
+    "fr": "[Problème 659] Encode a list of strings to a single string and de..."
+  },
+  "aplSolution": "Encode ← {∊(≢¨⍵),¨'#',¨⍵}\nDecode ← {⍵⊂⍨'#'≠⍵}",
+  "explanation": {
+    "en": "Encodes with length prefix and delimiter.",
+    "zh-CN": "Encodes with length prefix and delimiter....",
+    "zh-TW": "Encodes with length prefix and delimiter....",
+    "ja": "Encodes with length prefix and delimiter....",
+    "es": "Encodes with length prefix and delimiter....",
+    "de": "Encodes with length prefix and delimiter....",
+    "fr": "Encodes with length prefix and delimiter...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

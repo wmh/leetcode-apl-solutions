@@ -1,0 +1,26 @@
+{
+  "number": 98,
+  "title": "Validate Binary Search Tree",
+  "difficulty": "medium",
+  "description": {
+    "en": "Determine if tree is valid BST.",
+    "zh-CN": "[题目98] Determine if tree is valid BST....",
+    "zh-TW": "[題目98] Determine if tree is valid BST....",
+    "ja": "[問題98] Determine if tree is valid BST....",
+    "es": "[Problema 98] Determine if tree is valid BST....",
+    "de": "[Problem 98] Determine if tree is valid BST....",
+    "fr": "[Problème 98] Determine if tree is valid BST...."
+  },
+  "aplSolution": "IsValidBST ← {\n    sorted←⍵[⍋⍵]\n    ∧/sorted=⍵\n}",
+  "explanation": {
+    "en": "Checks if inorder traversal is sorted.",
+    "zh-CN": "Checks if inorder traversal is sorted....",
+    "zh-TW": "Checks if inorder traversal is sorted....",
+    "ja": "Checks if inorder traversal is sorted....",
+    "es": "Checks if inorder traversal is sorted....",
+    "de": "Checks if inorder traversal is sorted....",
+    "fr": "Checks if inorder traversal is sorted...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

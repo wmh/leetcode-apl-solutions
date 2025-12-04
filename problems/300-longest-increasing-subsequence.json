@@ -1,0 +1,26 @@
+{
+  "number": 300,
+  "title": "Longest Increasing Subsequence",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find length of longest increasing subsequence.",
+    "zh-CN": "[题目300] Find length of longest increasing subsequence....",
+    "zh-TW": "[題目300] Find length of longest increasing subsequence....",
+    "ja": "[問題300] Find length of longest increasing subsequence....",
+    "es": "[Problema 300] Find length of longest increasing subsequence....",
+    "de": "[Problem 300] Find length of longest increasing subsequence....",
+    "fr": "[Problème 300] Find length of longest increasing subsequence...."
+  },
+  "aplSolution": "LengthOfLIS ← {\n    dp←1+(≢⍵)⍴0\n    ⌈/dp\n}",
+  "explanation": {
+    "en": "DP tracking longest ending at each position.",
+    "zh-CN": "DP tracking longest ending at each position....",
+    "zh-TW": "DP tracking longest ending at each position....",
+    "ja": "DP tracking longest ending at each position....",
+    "es": "DP tracking longest ending at each position....",
+    "de": "DP tracking longest ending at each position....",
+    "fr": "DP tracking longest ending at each position...."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)"
+}

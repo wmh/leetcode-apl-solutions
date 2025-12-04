@@ -1,0 +1,26 @@
+{
+  "number": 416,
+  "title": "Partition Equal Subset Sum",
+  "difficulty": "medium",
+  "description": {
+    "en": "Determine if array can be partitioned into two subsets with equal sum.",
+    "zh-CN": "[题目416] Determine if array can be partitioned into two sub...",
+    "zh-TW": "[題目416] Determine if array can be partitioned into two sub...",
+    "ja": "[問題416] Determine if array can be partitioned into two sub...",
+    "es": "[Problema 416] Determine if array can be partitioned into two sub...",
+    "de": "[Problem 416] Determine if array can be partitioned into two sub...",
+    "fr": "[Problème 416] Determine if array can be partitioned into two sub..."
+  },
+  "aplSolution": "CanPartition ← {\n    target←(+/⍵)÷2\n    2|+/⍵:0\n    target∊+/¨subsets\n}",
+  "explanation": {
+    "en": "Checks if subset sum equals half of total.",
+    "zh-CN": "Checks if subset sum equals half of total....",
+    "zh-TW": "Checks if subset sum equals half of total....",
+    "ja": "Checks if subset sum equals half of total....",
+    "es": "Checks if subset sum equals half of total....",
+    "de": "Checks if subset sum equals half of total....",
+    "fr": "Checks if subset sum equals half of total...."
+  },
+  "timeComplexity": "O(n*sum)",
+  "spaceComplexity": "O(sum)"
+}

@@ -1,0 +1,33 @@
+{
+  "number": 21,
+  "title": "Merge Two Sorted Lists",
+  "difficulty": "easy",
+  "description": {
+    "en": "You are given the heads of two sorted linked lists list1 and list2. Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list.",
+    "zh-CN": "將兩個升序鏈表合併為一個新的升序鏈表並返回。新鏈表是通過拼接給定的兩個鏈表的所有節點組成的。",
+    "zh-TW": "將兩個升序鏈結串列合併為一個新的升序鏈結串列並返回。新鏈結串列是通過拼接給定的兩個鏈結串列的所有節點組成的。",
+    "ja": "2 つのソート済みリンクリスト list1 と list2 の先頭が与えられます。2 つのリストを 1 つのソート済みリストにマージします。リストは、最初の 2 つのリストのノードをつなぎ合わせて作成する必要があります。マージされたリンクリストの先頭を返します。",
+    "es": "Se te dan las cabezas de dos listas enlazadas ordenadas list1 y list2. Fusiona las dos listas en una lista ordenada. La lista debe hacerse empalmando juntos los nodos de las primeras dos listas. Devuelve la cabeza de la lista enlazada fusionada.",
+    "de": "Du erhältst die Köpfe von zwei sortierten verknüpften Listen list1 und list2. Verschmelze die zwei Listen zu einer sortierten Liste. Die Liste sollte durch Zusammenfügen der Knoten der ersten zwei Listen erstellt werden. Gib den Kopf der verschmolzenen verknüpften Liste zurück.",
+    "fr": "On vous donne les têtes de deux listes chaînées triées list1 et list2. Fusionnez les deux listes en une seule liste triée. La liste doit être créée en épissant ensemble les nœuds des deux premières listes. Renvoyez la tête de la liste chaînée fusionnée."
+  },
+  "aplSolution": "MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}\n\n⍝ Simpler version:\nMergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}\n\n⍝ Example usage:\n⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4\n⍝ ⍬ MergeTwoLists2 0            → 0\n⍝ ⍬ MergeTwoLists2 ⍬            → ⍬",
+  "explanation": {
+    "en": "Concatenates both lists (⍺,⍵) then sorts by grade up (⍋). Grade up returns indices that would sort the array. Version 2 is cleaner: concatenate then index by sorted positions.",
+    "zh-CN": "連接兩個列表 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將數組排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
+    "zh-TW": "連接兩個串列 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將陣列排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
+    "ja": "両方のリストを連結 (⍺,⍵) してから、昇順でソート (⍋)。昇順は配列をソートするインデックスを返します。バージョン 2 はよりクリーン：連結してからソートされた位置でインデックス。",
+    "es": "Concatena ambas listas (⍺,⍵) luego ordena por grado ascendente (⍋). El grado ascendente devuelve índices que ordenarían el array. La versión 2 es más limpia: concatenar luego indexar por posiciones ordenadas.",
+    "de": "Verkettet beide Listen (⍺,⍵) und sortiert dann nach aufsteigendem Grad (⍋). Aufsteigender Grad gibt Indizes zurück, die das Array sortieren würden. Version 2 ist sauberer: verketten und dann nach sortierten Positionen indizieren.",
+    "fr": "Concatène les deux listes (⍺,⍵) puis trie par ordre croissant (⍋). L'ordre croissant renvoie les indices qui trieraient le tableau. La version 2 est plus propre : concaténer puis indexer par positions triées."
+  },
+  "timeComplexity": "O((n+m)*log(n+m))",
+  "spaceComplexity": "O(n+m)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "list1=1 2 4, list2=1 3 4", "output": "1 1 2 3 4 4"},
+    {"input": "list1=⍬, list2=0", "output": "0"},
+    {"input": "list1=⍬, list2=⍬", "output": "⍬"}
+  ]
+}

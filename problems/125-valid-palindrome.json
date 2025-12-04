@@ -1,0 +1,33 @@
+{
+  "number": 125,
+  "title": "Valid Palindrome",
+  "difficulty": "easy",
+  "description": {
+    "en": "A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise.",
+    "zh-CN": "如果在將所有大寫字符轉換為小寫字符並移除所有非字母數字字符之後，短語正著讀和反著讀都一樣，則該短語是一個回文串。字母數字字符包括字母和數字。給你一個字符串 s，如果它是回文串，返回 true；否則，返回 false。",
+    "zh-TW": "如果在將所有大寫字元轉換為小寫字元並移除所有非字母數字字元之後，短語正著讀和反著讀都一樣，則該短語是一個迴文串。字母數字字元包括字母和數字。給你一個字串 s，如果它是迴文串，返回 true；否則，返回 false。",
+    "ja": "すべての大文字を小文字に変換し、すべての非英数字文字を削除した後、フレーズが前方と後方で同じ読み方をする場合、そのフレーズは回文です。英数字には文字と数字が含まれます。文字列 s が与えられたとき、それが回文である場合は true を返し、そうでない場合は false を返します。",
+    "es": "Una frase es un palíndromo si, después de convertir todas las letras mayúsculas en minúsculas y eliminar todos los caracteres no alfanuméricos, se lee igual hacia adelante y hacia atrás. Los caracteres alfanuméricos incluyen letras y números. Dada una cadena s, devuelve true si es un palíndromo, o false en caso contrario.",
+    "de": "Ein Satz ist ein Palindrom, wenn er nach dem Umwandeln aller Großbuchstaben in Kleinbuchstaben und dem Entfernen aller nicht-alphanumerischen Zeichen vorwärts und rückwärts gleich gelesen wird. Alphanumerische Zeichen umfassen Buchstaben und Zahlen. Gegeben eine Zeichenkette s, gib true zurück, wenn es ein Palindrom ist, andernfalls false.",
+    "fr": "Une phrase est un palindrome si, après avoir converti toutes les lettres majuscules en minuscules et supprimé tous les caractères non alphanumériques, elle se lit de la même manière vers l'avant et vers l'arrière. Les caractères alphanumériques incluent les lettres et les chiffres. Étant donné une chaîne s, renvoyez true si c'est un palindrome, ou false sinon."
+  },
+  "aplSolution": "IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}\n\n⍝ Example usage:\n⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1\n⍝ IsPalindrome 'race a car'                        → 0\n⍝ IsPalindrome ' '                                 → 1",
+  "explanation": {
+    "en": "Filters to keep only alphanumeric chars: uppercase (⎕A), digits (⎕D), and lowercase (⎕C⎕A). Then checks if filtered string matches its reverse (s≡⌽s).",
+    "zh-CN": "過濾以僅保留字母數字字符：大寫 (⎕A)、數字 (⎕D) 和小寫 (⎕C⎕A)。然後檢查過濾後的字符串是否與其反轉匹配 (s≡⌽s)。",
+    "zh-TW": "過濾以僅保留字母數字字元：大寫 (⎕A)、數字 (⎕D) 和小寫 (⎕C⎕A)。然後檢查過濾後的字串是否與其反轉匹配 (s≡⌽s)。",
+    "ja": "英数字のみを保持するようにフィルタリングします：大文字 (⎕A)、数字 (⎕D)、および小文字 (⎕C⎕A)。次に、フィルタリングされた文字列がその逆と一致するかを確認します (s≡⌽s)。",
+    "es": "Filtra para mantener solo caracteres alfanuméricos: mayúsculas (⎕A), dígitos (⎕D) y minúsculas (⎕C⎕A). Luego verifica si la cadena filtrada coincide con su reverso (s≡⌽s).",
+    "de": "Filtert, um nur alphanumerische Zeichen zu behalten: Großbuchstaben (⎕A), Ziffern (⎕D) und Kleinbuchstaben (⎕C⎕A). Überprüft dann, ob die gefilterte Zeichenkette mit ihrer Umkehrung übereinstimmt (s≡⌽s).",
+    "fr": "Filtre pour ne garder que les caractères alphanumériques : majuscules (⎕A), chiffres (⎕D) et minuscules (⎕C⎕A). Vérifie ensuite si la chaîne filtrée correspond à son inverse (s≡⌽s)."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "A man, a plan, a canal: Panama", "output": "1"},
+    {"input": "race a car", "output": "0"},
+    {"input": " ", "output": "1"}
+  ]
+}

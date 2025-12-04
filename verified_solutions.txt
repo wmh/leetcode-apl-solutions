@@ -1,0 +1,43 @@
+# 已驗證的 APL 解決方案
+
+## 工作記錄
+
+### 2025-12-04 - 第一批 (5個)
+- #66  - Plus One
+- #136 - Single Number
+- #206 - Reverse Linked List
+- #217 - Contains Duplicate
+- #268 - Missing Number
+
+### 2025-12-04 - 第二批 (5個)
+- #1   - Two Sum
+- #20  - Valid Parentheses
+- #53  - Maximum Subarray
+- #70  - Climbing Stairs
+- #121 - Best Time to Buy and Sell Stock
+
+## 總計：10/80 (12.5%)
+
+## 下次繼續
+- [ ] #21  - Merge Two Sorted Lists
+- [ ] #100 - Same Tree
+- [ ] #104 - Maximum Depth of Binary Tree
+- [ ] #125 - Valid Palindrome
+- [ ] #141 - Linked List Cycle
+- [ ] #226 - Invert Binary Tree
+- [ ] #283 - Move Zeroes
+- [ ] #338 - Counting Bits
+
+## 追蹤文件
+- validation_progress.json - 記錄所有已驗證問題
+- VERIFICATION_PROGRESS.md - 詳細進度文檔
+
+## 使用方法
+每次繼續時：
+1. 查看 validation_progress.json 看哪些已完成
+2. 從上面的"下次繼續"列表選擇 5-10 個
+3. 驗證並更新 JSON 文件（添加 verified:true）
+4. 更新 validation_progress.json
+5. 更新 VERIFICATION_PROGRESS.md
+6. 運行 python3 generate_static_readmes.py
+

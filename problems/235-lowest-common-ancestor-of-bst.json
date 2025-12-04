@@ -1,0 +1,26 @@
+{
+  "number": 235,
+  "title": "Lowest Common Ancestor of BST",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find LCA in BST.",
+    "zh-CN": "[题目235] Find LCA in BST....",
+    "zh-TW": "[題目235] Find LCA in BST....",
+    "ja": "[問題235] Find LCA in BST....",
+    "es": "[Problema 235] Find LCA in BST....",
+    "de": "[Problem 235] Find LCA in BST....",
+    "fr": "[Problème 235] Find LCA in BST...."
+  },
+  "aplSolution": "LowestCommonAncestor ← {\n    ⍝ Find split point\n    ⊃⍸(⍺≤⍵)∧(⍵≤⍺)\n}",
+  "explanation": {
+    "en": "Uses BST property to find split point.",
+    "zh-CN": "Uses BST property to find split point....",
+    "zh-TW": "Uses BST property to find split point....",
+    "ja": "Uses BST property to find split point....",
+    "es": "Uses BST property to find split point....",
+    "de": "Uses BST property to find split point....",
+    "fr": "Uses BST property to find split point...."
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)"
+}

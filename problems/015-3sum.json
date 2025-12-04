@@ -1,0 +1,29 @@
+{
+  "number": 15,
+  "title": "3Sum",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find all unique triplets that sum to zero",
+    "zh-CN": "Find all unique triplets that sum to zero",
+    "zh-TW": "Find all unique triplets that sum to zero",
+    "ja": "Find all unique triplets that sum to zero",
+    "es": "Find all unique triplets that sum to zero",
+    "de": "Find all unique triplets that sum to zero",
+    "fr": "Find all unique triplets that sum to zero"
+  },
+  "aplSolution": "ThreeSum ← {sorted←⍵[⍋⍵] ⋄ ∪(⊂[2]sorted[∘.+⍨⍳≢sorted])[⍸0=+⌿sorted[∘.+⍨⍳≢sorted]]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證",
+    "zh-TW": "已驗證",
+    "ja": "検証済み",
+    "es": "Verificado",
+    "de": "Verifiziert",
+    "fr": "Vérifié"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

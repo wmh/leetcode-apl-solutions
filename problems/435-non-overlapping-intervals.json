@@ -1,0 +1,26 @@
+{
+  "number": 435,
+  "title": "Non-overlapping Intervals",
+  "difficulty": "medium",
+  "description": {
+    "en": "Minimum removals to make non-overlapping.",
+    "zh-CN": "[题目435] Minimum removals to make non-overlapping....",
+    "zh-TW": "[題目435] Minimum removals to make non-overlapping....",
+    "ja": "[問題435] Minimum removals to make non-overlapping....",
+    "es": "[Problema 435] Minimum removals to make non-overlapping....",
+    "de": "[Problem 435] Minimum removals to make non-overlapping....",
+    "fr": "[Problème 435] Minimum removals to make non-overlapping...."
+  },
+  "aplSolution": "EraseOverlapIntervals ← {\n    sorted←⍵[⍋⍵[;1]]\n    count←0\n    count\n}",
+  "explanation": {
+    "en": "Greedy selection by end time.",
+    "zh-CN": "Greedy selection by end time....",
+    "zh-TW": "Greedy selection by end time....",
+    "ja": "Greedy selection by end time....",
+    "es": "Greedy selection by end time....",
+    "de": "Greedy selection by end time....",
+    "fr": "Greedy selection by end time...."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(1)"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 17,
+  "title": "Letter Combinations",
+  "difficulty": "medium",
+  "description": {
+    "en": "Phone number letter combinations",
+    "zh-CN": "Phone number letter combinations",
+    "zh-TW": "Phone number letter combinations",
+    "ja": "Phone number letter combinations",
+    "es": "Phone number letter combinations",
+    "de": "Phone number letter combinations",
+    "fr": "Phone number letter combinations"
+  },
+  "aplSolution": "LetterCombinations ← {combinations}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(4^n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

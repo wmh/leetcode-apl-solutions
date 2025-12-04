@@ -1,0 +1,32 @@
+{
+  "number": 11,
+  "title": "Container With Most Water",
+  "difficulty": "medium",
+  "description": {
+    "en": "You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]). Find two lines that together with the x-axis form a container, such that the container contains the most water. Return the maximum amount of water a container can store.",
+    "zh-CN": "給你 n 個非負整數 a1，a2，...，an，每個數代表坐標中的一個點 (i, ai)。在坐標內畫 n 條垂直線，垂直線 i 的兩個端點分別為 (i, ai) 和 (i, 0)。找出其中的兩條線，使得它們與 x 軸共同構成的容器可以容納最多的水。返回容器可以儲存的最大水量。",
+    "zh-TW": "給你 n 個非負整數 a1，a2，...，an，每個數代表坐標中的一個點 (i, ai)。在坐標內畫 n 條垂直線，垂直線 i 的兩個端點分別為 (i, ai) 和 (i, 0)。找出其中的兩條線，使得它們與 x 軸共同構成的容器可以容納最多的水。返回容器可以儲存的最大水量。",
+    "ja": "長さ n の整数配列 height が与えられます。i 番目の線の 2 つの端点が (i, 0) と (i, height[i]) になるように n 本の垂直線が描かれています。x 軸と一緒にコンテナを形成する 2 本の線を見つけて、コンテナが最も多くの水を含むようにします。コンテナが格納できる最大水量を返します。",
+    "es": "Se te da un array de enteros height de longitud n. Se dibujan n líneas verticales de tal manera que los dos extremos de la i-ésima línea son (i, 0) y (i, height[i]). Encuentra dos líneas que junto con el eje x formen un contenedor, de tal manera que el contenedor contenga la mayor cantidad de agua. Devuelve la cantidad máxima de agua que puede almacenar un contenedor.",
+    "de": "Du erhältst ein Integer-Array height der Länge n. Es werden n vertikale Linien gezeichnet, sodass die zwei Endpunkte der i-ten Linie (i, 0) und (i, height[i]) sind. Finde zwei Linien, die zusammen mit der x-Achse einen Container bilden, sodass der Container das meiste Wasser enthält. Gib die maximale Wassermenge zurück, die ein Container speichern kann.",
+    "fr": "On vous donne un tableau d'entiers height de longueur n. Il y a n lignes verticales dessinées de telle sorte que les deux extrémités de la i-ème ligne sont (i, 0) et (i, height[i]). Trouvez deux lignes qui, avec l'axe des x, forment un conteneur tel que le conteneur contienne le plus d'eau. Renvoyez la quantité maximale d'eau qu'un conteneur peut stocker."
+  },
+  "aplSolution": "MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}\n\n⍝ Simplified:\nMaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}\n\n⍝ Example usage:\n⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49\n⍝ MaxArea2 1 1                  → 1",
+  "explanation": {
+    "en": "Creates outer product of heights (∘.⌊) to get minimum heights for all pairs. Multiplies by distances ((⍳n)∘.-⍳n) to get areas. Takes maximum.",
+    "zh-CN": "創建高度的外積 (∘.⌊) 以獲得所有配對的最小高度。乘以距離 ((⍳n)∘.-⍳n) 以獲得面積。取最大值。",
+    "zh-TW": "創建高度的外積 (∘.⌊) 以獲得所有配對的最小高度。乘以距離 ((⍳n)∘.-⍳n) 以獲得面積。取最大值。",
+    "ja": "高さの外積 (∘.⌊) を作成して、すべてのペアの最小高さを取得します。距離 ((⍳n)∘.-⍳n) を掛けて面積を取得します。最大値を取ります。",
+    "es": "Crea el producto exterior de alturas (∘.⌊) para obtener alturas mínimas para todos los pares. Multiplica por distancias ((⍳n)∘.-⍳n) para obtener áreas. Toma el máximo.",
+    "de": "Erstellt äußeres Produkt von Höhen (∘.⌊), um minimale Höhen für alle Paare zu erhalten. Multipliziert mit Entfernungen ((⍳n)∘.-⍳n), um Flächen zu erhalten. Nimmt Maximum.",
+    "fr": "Crée le produit extérieur des hauteurs (∘.⌊) pour obtenir les hauteurs minimales pour toutes les paires. Multiplie par les distances ((⍳n)∘.-⍳n) pour obtenir les surfaces. Prend le maximum."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n²)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "1 8 6 2 5 4 8 3 7", "output": "49"},
+    {"input": "1 1", "output": "1"}
+  ]
+}

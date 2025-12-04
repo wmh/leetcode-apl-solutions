@@ -1,0 +1,26 @@
+{
+  "number": 230,
+  "title": "Kth Smallest in BST",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find kth smallest element in BST.",
+    "zh-CN": "[题目230] Find kth smallest element in BST....",
+    "zh-TW": "[題目230] Find kth smallest element in BST....",
+    "ja": "[問題230] Find kth smallest element in BST....",
+    "es": "[Problema 230] Find kth smallest element in BST....",
+    "de": "[Problem 230] Find kth smallest element in BST....",
+    "fr": "[Problème 230] Find kth smallest element in BST...."
+  },
+  "aplSolution": "KthSmallest ← {\n    k←⍺\n    sorted←⍵[⍋⍵]\n    sorted[k-1]\n}",
+  "explanation": {
+    "en": "Sorts and returns kth element.",
+    "zh-CN": "Sorts and returns kth element....",
+    "zh-TW": "Sorts and returns kth element....",
+    "ja": "Sorts and returns kth element....",
+    "es": "Sorts and returns kth element....",
+    "de": "Sorts and returns kth element....",
+    "fr": "Sorts and returns kth element...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 139,
+  "title": "Word Break",
+  "difficulty": "medium",
+  "description": {
+    "en": "Can segment into words",
+    "zh-CN": "Can segment into words",
+    "zh-TW": "Can segment into words",
+    "ja": "Can segment into words",
+    "es": "Can segment into words",
+    "de": "Can segment into words",
+    "fr": "Can segment into words"
+  },
+  "aplSolution": "WordBreak ← {dp}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

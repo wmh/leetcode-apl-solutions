@@ -1,0 +1,26 @@
+{
+  "number": 424,
+  "title": "Longest Repeating Character Replacement",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find length of longest substring with same letter after k replacements.",
+    "zh-CN": "[题目424] Find length of longest substring with same letter ...",
+    "zh-TW": "[題目424] Find length of longest substring with same letter ...",
+    "ja": "[問題424] Find length of longest substring with same letter ...",
+    "es": "[Problema 424] Find length of longest substring with same letter ...",
+    "de": "[Problem 424] Find length of longest substring with same letter ...",
+    "fr": "[Problème 424] Find length of longest substring with same letter ..."
+  },
+  "aplSolution": "CharacterReplacement ← {\n    k←⍺ ⋄ maxLen←0\n    {maxLen⌈←≢⍵}¨⊆⍵\n    maxLen\n}",
+  "explanation": {
+    "en": "Slides window and counts character frequencies.",
+    "zh-CN": "Slides window and counts character frequencies....",
+    "zh-TW": "Slides window and counts character frequencies....",
+    "ja": "Slides window and counts character frequencies....",
+    "es": "Slides window and counts character frequencies....",
+    "de": "Slides window and counts character frequencies....",
+    "fr": "Slides window and counts character frequencies...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 41,
+  "title": "First Missing Positive",
+  "difficulty": "hard",
+  "description": {
+    "en": "First missing positive",
+    "zh-CN": "First missing positive",
+    "zh-TW": "First missing positive",
+    "ja": "First missing positive",
+    "es": "First missing positive",
+    "de": "First missing positive",
+    "fr": "First missing positive"
+  },
+  "aplSolution": "FirstMissingPositive ← {⊃(⍳≢⍵)~⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

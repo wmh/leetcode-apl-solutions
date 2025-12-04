@@ -1,0 +1,45 @@
+# 567. Permutation in String
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+
+[⬅️ Back to Problems](../../README.md)
+
+---
+
+> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
+
+## 🟡 Difficulty: Medium
+
+## Problem
+
+Check if s2 contains a permutation of s1.
+
+## 💡 APL Solution
+
+```apl
+CheckInclusion ← {
+    (≢⍺)≤≢⍵:∨/{(∧/⍺∊⍵)∧∧/⍵∊⍺}¨(≢⍺)↑¨(≢⍵)↓¨⊂⍵
+    0
+}
+```
+
+## 📝 Explanation
+
+Checks each substring of length |s1| for character match.
+
+## ⏱️ Complexity Analysis
+
+- **Time Complexity**: `O(n*m)`
+- **Space Complexity**: `O(1)`
+
+---
+
+## 📚 Resources
+
+- [LeetCode Problem #567](https://leetcode.com/problems/)
+- [APL Wiki](https://aplwiki.com/)
+- [Try APL Online](https://tryapl.org/)
+
+---
+
+**Made with ❤️ using APL** • [View All Problems](../../README.md)

@@ -1,0 +1,29 @@
+{
+  "number": 169,
+  "title": "Majority Element",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an array nums of size n, return the majority element. The majority element is the element that appears more than ⌊n/2⌋ times.",
+    "zh-CN": "給定一個大小為 n 的數組 nums，返回其中的多數元素。多數元素是指在數組中出現次數大於 ⌊n/2⌋ 的元素。",
+    "zh-TW": "給定一個大小為 n 的陣列 nums，返回其中的多數元素。多數元素是指在陣列中出現次數大於 ⌊n/2⌋ 的元素。",
+    "ja": "サイズ n の配列 nums が与えられたとき、多数派要素を返します。多数派要素は、配列で ⌊n/2⌋ 回以上出現する要素です。",
+    "es": "Dado un array nums de tamaño n, devuelve el elemento mayoritario. El elemento mayoritario es el elemento que aparece más de ⌊n/2⌋ veces.",
+    "de": "Gegeben ein Array nums der Größe n, gib das Mehrheitselement zurück. Das Mehrheitselement ist das Element, das mehr als ⌊n/2⌋ Mal erscheint.",
+    "fr": "Étant donné un tableau nums de taille n, renvoyez l'élément majoritaire. L'élément majoritaire est l'élément qui apparaît plus de ⌊n/2⌋ fois."
+  },
+  "aplSolution": "MajorityElement ← {⊃⍵[⍒≢¨⊆⍵]}\n\n⍝ Using group: \nMajorityElement2 ← {⊃⊃⌽↓[1]{⍵[⍒⍵[;2]]}⍉↑{⍵(≢⍵)}⌸⍵}\n\n⍝ Example: MajorityElement 3 2 3 → 3",
+  "explanation": {
+    "en": "Groups elements, sorts by frequency descending, takes first. Uses partition (⊆) and grade down (⍒) with tally.",
+    "zh-CN": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
+    "zh-TW": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
+    "ja": "要素をグループ化し、頻度の降順でソートし、最初を取ります。パーティション (⊆) と降順 (⍒) をカウントとともに使用します。",
+    "es": "Agrupa elementos, ordena por frecuencia descendente, toma el primero. Usa partición (⊆) y grado descendente (⍒) con conteo.",
+    "de": "Gruppiert Elemente, sortiert nach Häufigkeit absteigend, nimmt ersten. Verwendet Partition (⊆) und absteigenden Grad (⍒) mit Zählung.",
+    "fr": "Groupe les éléments, trie par fréquence décroissante, prend le premier. Utilise partition (⊆) et ordre décroissant (⍒) avec comptage."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [{"input": "3 2 3", "output": "3"}]
+}

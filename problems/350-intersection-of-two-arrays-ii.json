@@ -1,0 +1,29 @@
+{
+  "number": 350,
+  "title": "Intersection of Two Arrays II",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays.",
+    "zh-CN": "給你兩個整數數組 nums1 和 nums2，請你以數組形式返回兩數組的交集。返回結果中每個元素出現的次數，應與元素在兩個數組中都出現的次數一致（如果出現次數不一致，則考慮取較小值）。",
+    "zh-TW": "給你兩個整數陣列 nums1 和 nums2，請你以陣列形式返回兩陣列的交集。返回結果中每個元素出現的次數，應與元素在兩個陣列中都出現的次數一致（如果出現次數不一致，則考慮取較小值）。",
+    "ja": "2 つの整数配列 nums1 と nums2 が与えられたとき、それらの交差の配列を返します。結果の各要素は、両方の配列に表示される回数だけ表示される必要があります。",
+    "es": "Dados dos arrays de enteros nums1 y nums2, devuelve un array de su intersección. Cada elemento en el resultado debe aparecer tantas veces como se muestra en ambos arrays.",
+    "de": "Gegeben zwei Integer-Arrays nums1 und nums2, gib ein Array ihrer Schnittmenge zurück. Jedes Element im Ergebnis muss so oft erscheinen, wie es in beiden Arrays erscheint.",
+    "fr": "Étant donné deux tableaux d'entiers nums1 et nums2, renvoyez un tableau de leur intersection. Chaque élément du résultat doit apparaître autant de fois qu'il apparaît dans les deux tableaux."
+  },
+  "aplSolution": "Intersect ← {⍺∩⍵}\n\n⍝ Example: 1 2 2 1 Intersect 2 2 → 2 2",
+  "explanation": {
+    "en": "Uses APL's intersection operator (∩) which handles duplicates correctly.",
+    "zh-CN": "使用 APL 的交集運算符 (∩)，它正確處理重複項。",
+    "zh-TW": "使用 APL 的交集運算子 (∩)，它正確處理重複項。",
+    "ja": "APL の交差演算子 (∩) を使用します。これは重複を正しく処理します。",
+    "es": "Utiliza el operador de intersección de APL (∩) que maneja duplicados correctamente.",
+    "de": "Verwendet APLs Schnittmengenoperator (∩), der Duplikate korrekt behandelt.",
+    "fr": "Utilise l'opérateur d'intersection d'APL (∩) qui gère correctement les doublons."
+  },
+  "timeComplexity": "O(n+m)",
+  "spaceComplexity": "O(min(n,m))",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [{"input": "nums1=1 2 2 1, nums2=2 2", "output": "2 2"}]
+}

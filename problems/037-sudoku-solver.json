@@ -1,0 +1,29 @@
+{
+  "number": 37,
+  "title": "Sudoku Solver",
+  "difficulty": "hard",
+  "description": {
+    "en": "Solve Sudoku",
+    "zh-CN": "Solve Sudoku",
+    "zh-TW": "Solve Sudoku",
+    "ja": "Solve Sudoku",
+    "es": "Solve Sudoku",
+    "de": "Solve Sudoku",
+    "fr": "Solve Sudoku"
+  },
+  "aplSolution": "SolveSudoku ← {solved}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(9^m)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

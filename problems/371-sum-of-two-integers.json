@@ -1,0 +1,26 @@
+{
+  "number": 371,
+  "title": "Sum of Two Integers",
+  "difficulty": "medium",
+  "description": {
+    "en": "Add two integers without + or -.",
+    "zh-CN": "[题目371] Add two integers without + or -....",
+    "zh-TW": "[題目371] Add two integers without + or -....",
+    "ja": "[問題371] Add two integers without + or -....",
+    "es": "[Problema 371] Add two integers without + or -....",
+    "de": "[Problem 371] Add two integers without + or -....",
+    "fr": "[Problème 371] Add two integers without + or -...."
+  },
+  "aplSolution": "GetSum ← {\n    ⍝ XOR for sum, AND for carry\n    (⍺≠⍵)+2×⍺∧⍵\n}",
+  "explanation": {
+    "en": "Uses XOR and AND operations.",
+    "zh-CN": "Uses XOR and AND operations....",
+    "zh-TW": "Uses XOR and AND operations....",
+    "ja": "Uses XOR and AND operations....",
+    "es": "Uses XOR and AND operations....",
+    "de": "Uses XOR and AND operations....",
+    "fr": "Uses XOR and AND operations...."
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)"
+}

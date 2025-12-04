@@ -1,0 +1,26 @@
+{
+  "number": 134,
+  "title": "Gas Station",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find starting gas station to complete circuit.",
+    "zh-CN": "[题目134] Find starting gas station to complete circuit....",
+    "zh-TW": "[題目134] Find starting gas station to complete circuit....",
+    "ja": "[問題134] Find starting gas station to complete circuit....",
+    "es": "[Problema 134] Find starting gas station to complete circuit....",
+    "de": "[Problem 134] Find starting gas station to complete circuit....",
+    "fr": "[Problème 134] Find starting gas station to complete circuit...."
+  },
+  "aplSolution": "CanCompleteCircuit ← {\n    gas←⍺ ⋄ cost←⍵\n    (+/gas)<+/cost:¯1\n    start\n}",
+  "explanation": {
+    "en": "Finds starting point with sufficient gas.",
+    "zh-CN": "Finds starting point with sufficient gas....",
+    "zh-TW": "Finds starting point with sufficient gas....",
+    "ja": "Finds starting point with sufficient gas....",
+    "es": "Finds starting point with sufficient gas....",
+    "de": "Finds starting point with sufficient gas....",
+    "fr": "Finds starting point with sufficient gas...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)"
+}

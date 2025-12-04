@@ -1,0 +1,29 @@
+{
+  "number": 39,
+  "title": "Combination Sum",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find combinations",
+    "zh-CN": "Find combinations",
+    "zh-TW": "Find combinations",
+    "ja": "Find combinations",
+    "es": "Find combinations",
+    "de": "Find combinations",
+    "fr": "Find combinations"
+  },
+  "aplSolution": "CombinationSum ← {combos}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(2^n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

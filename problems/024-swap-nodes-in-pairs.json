@@ -1,0 +1,29 @@
+{
+  "number": 24,
+  "title": "Swap Nodes in Pairs",
+  "difficulty": "medium",
+  "description": {
+    "en": "Swap every two adjacent nodes",
+    "zh-CN": "Swap every two adjacent nodes",
+    "zh-TW": "Swap every two adjacent nodes",
+    "ja": "Swap every two adjacent nodes",
+    "es": "Swap every two adjacent nodes",
+    "de": "Swap every two adjacent nodes",
+    "fr": "Swap every two adjacent nodes"
+  },
+  "aplSolution": "SwapPairs ← {⍵[0 1+2×⍳⌊(≢⍵)÷2]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

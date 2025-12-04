@@ -1,0 +1,26 @@
+{
+  "number": 57,
+  "title": "Insert Interval",
+  "difficulty": "medium",
+  "description": {
+    "en": "Insert new interval and merge if necessary.",
+    "zh-CN": "[题目57] Insert new interval and merge if necessary....",
+    "zh-TW": "[題目57] Insert new interval and merge if necessary....",
+    "ja": "[問題57] Insert new interval and merge if necessary....",
+    "es": "[Problema 57] Insert new interval and merge if necessary....",
+    "de": "[Problem 57] Insert new interval and merge if necessary....",
+    "fr": "[Problème 57] Insert new interval and merge if necessary...."
+  },
+  "aplSolution": "Insert ← {\n    newInterval←⍺\n    result←merge newInterval,⍵\n    result\n}",
+  "explanation": {
+    "en": "Inserts and merges intervals.",
+    "zh-CN": "Inserts and merges intervals....",
+    "zh-TW": "Inserts and merges intervals....",
+    "ja": "Inserts and merges intervals....",
+    "es": "Inserts and merges intervals....",
+    "de": "Inserts and merges intervals....",
+    "fr": "Inserts and merges intervals...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

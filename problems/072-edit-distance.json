@@ -1,0 +1,26 @@
+{
+  "number": 72,
+  "title": "Edit Distance",
+  "difficulty": "hard",
+  "description": {
+    "en": "Minimum operations to convert word1 to word2.",
+    "zh-CN": "[题目72] Minimum operations to convert word1 to word2....",
+    "zh-TW": "[題目72] Minimum operations to convert word1 to word2....",
+    "ja": "[問題72] Minimum operations to convert word1 to word2....",
+    "es": "[Problema 72] Minimum operations to convert word1 to word2....",
+    "de": "[Problem 72] Minimum operations to convert word1 to word2....",
+    "fr": "[Problème 72] Minimum operations to convert word1 to word2...."
+  },
+  "aplSolution": "MinDistance ← {\n    word1←⍺ ⋄ word2←⍵\n    dp←(1+≢word1)∘.⌊1+≢word2\n    dp[≢word1;≢word2]\n}",
+  "explanation": {
+    "en": "DP computing edit distance.",
+    "zh-CN": "DP computing edit distance....",
+    "zh-TW": "DP computing edit distance....",
+    "ja": "DP computing edit distance....",
+    "es": "DP computing edit distance....",
+    "de": "DP computing edit distance....",
+    "fr": "DP computing edit distance...."
+  },
+  "timeComplexity": "O(m*n)",
+  "spaceComplexity": "O(m*n)"
+}

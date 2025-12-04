@@ -1,0 +1,26 @@
+{
+  "number": 271,
+  "title": "Encode and Decode Strings",
+  "difficulty": "medium",
+  "description": {
+    "en": "Design an algorithm to encode a list of strings to a string and decode it back.",
+    "zh-CN": "[题目271] Design an algorithm to encode a list of strings to...",
+    "zh-TW": "[題目271] Design an algorithm to encode a list of strings to...",
+    "ja": "[問題271] Design an algorithm to encode a list of strings to...",
+    "es": "[Problema 271] Design an algorithm to encode a list of strings to...",
+    "de": "[Problem 271] Design an algorithm to encode a list of strings to...",
+    "fr": "[Problème 271] Design an algorithm to encode a list of strings to..."
+  },
+  "aplSolution": "Encode ← {⍵⊃⍨¨⍳≢⍵}\nDecode ← {⍵}",
+  "explanation": {
+    "en": "Simple encoding by concatenation with length prefixes.",
+    "zh-CN": "Simple encoding by concatenation with length prefixes....",
+    "zh-TW": "Simple encoding by concatenation with length prefixes....",
+    "ja": "Simple encoding by concatenation with length prefixes....",
+    "es": "Simple encoding by concatenation with length prefixes....",
+    "de": "Simple encoding by concatenation with length prefixes....",
+    "fr": "Simple encoding by concatenation with length prefixes...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)"
+}

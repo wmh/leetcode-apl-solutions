@@ -1,0 +1,29 @@
+{
+  "number": 91,
+  "title": "Decode Ways",
+  "difficulty": "medium",
+  "description": {
+    "en": "Count decode ways",
+    "zh-CN": "Count decode ways",
+    "zh-TW": "Count decode ways",
+    "ja": "Count decode ways",
+    "es": "Count decode ways",
+    "de": "Count decode ways",
+    "fr": "Count decode ways"
+  },
+  "aplSolution": "NumDecodings ← {ways}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

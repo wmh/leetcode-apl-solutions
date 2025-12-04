@@ -1,0 +1,47 @@
+# 125. Valid Palindrome
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+
+[⬅️ Back to Problems](../../README.md)
+
+---
+
+> ⚠️ **Unvalidated Code**: This APL solution has not been tested in an actual interpreter. It may contain errors.
+
+## 🟢 Difficulty: Easy
+
+## Problem
+
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise.
+
+## 💡 APL Solution
+
+```apl
+IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
+
+⍝ Example usage:
+⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
+⍝ IsPalindrome 'race a car'                        → 0
+⍝ IsPalindrome ' '                                 → 1
+```
+
+## 📝 Explanation
+
+Filters to keep only alphanumeric chars: uppercase (⎕A), digits (⎕D), and lowercase (⎕C⎕A). Then checks if filtered string matches its reverse (s≡⌽s).
+
+## ⏱️ Complexity Analysis
+
+- **Time Complexity**: `O(n)`
+- **Space Complexity**: `O(n)`
+
+---
+
+## 📚 Resources
+
+- [LeetCode Problem #125](https://leetcode.com/problems/)
+- [APL Wiki](https://aplwiki.com/)
+- [Try APL Online](https://tryapl.org/)
+
+---
+
+**Made with ❤️ using APL** • [View All Problems](../../README.md)

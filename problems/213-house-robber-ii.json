@@ -1,0 +1,26 @@
+{
+  "number": 213,
+  "title": "House Robber II",
+  "difficulty": "medium",
+  "description": {
+    "en": "Houses arranged in circle.",
+    "zh-CN": "[题目213] Houses arranged in circle....",
+    "zh-TW": "[題目213] Houses arranged in circle....",
+    "ja": "[問題213] Houses arranged in circle....",
+    "es": "[Problema 213] Houses arranged in circle....",
+    "de": "[Problem 213] Houses arranged in circle....",
+    "fr": "[Problème 213] Houses arranged in circle...."
+  },
+  "aplSolution": "Rob2 ← {\n    n←≢⍵\n    ⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)\n}",
+  "explanation": {
+    "en": "Considers two cases: rob first or rob last.",
+    "zh-CN": "Considers two cases: rob first or rob last....",
+    "zh-TW": "Considers two cases: rob first or rob last....",
+    "ja": "Considers two cases: rob first or rob last....",
+    "es": "Considers two cases: rob first or rob last....",
+    "de": "Considers two cases: rob first or rob last....",
+    "fr": "Considers two cases: rob first or rob last...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)"
+}

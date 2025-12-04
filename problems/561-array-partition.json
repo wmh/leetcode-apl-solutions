@@ -1,0 +1,29 @@
+{
+  "number": 561,
+  "title": "Array Partition",
+  "difficulty": "easy",
+  "description": {
+    "en": "Max sum of min pairs",
+    "zh-CN": "Max sum of min pairs",
+    "zh-TW": "Max sum of min pairs",
+    "ja": "Max sum of min pairs",
+    "es": "Max sum of min pairs",
+    "de": "Max sum of min pairs",
+    "fr": "Max sum of min pairs"
+  },
+  "aplSolution": "ArrayPairSum ← {+/2↓⍵[⍋⍵]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n log n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

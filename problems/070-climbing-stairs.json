@@ -1,0 +1,33 @@
+{
+  "number": 70,
+  "title": "Climbing Stairs",
+  "difficulty": "easy",
+  "description": {
+    "en": "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
+    "zh-CN": "假設你正在爬樓梯。需要 n 階你才能到達樓頂。每次你可以爬 1 或 2 個臺階。你有多少種不同的方法可以爬到樓頂呢？",
+    "zh-TW": "假設你正在爬樓梯。需要 n 階你才能到達樓頂。每次你可以爬 1 或 2 個台階。你有多少種不同的方法可以爬到樓頂呢？",
+    "ja": "階段を登っています。頂上に到達するには n ステップかかります。毎回、1 段または 2 段登ることができます。頂上に登る方法は何通りありますか？",
+    "es": "Estás subiendo una escalera. Se necesitan n pasos para llegar a la cima. Cada vez puedes subir 1 o 2 escalones. ¿De cuántas formas distintas puedes subir a la cima?",
+    "de": "Du kletterst eine Treppe hoch. Es dauert n Schritte, um die Spitze zu erreichen. Jedes Mal kannst du entweder 1 oder 2 Stufen klettern. Auf wie viele verschiedene Arten kannst du die Spitze erreichen?",
+    "fr": "Vous montez un escalier. Il faut n marches pour atteindre le sommet. Chaque fois, vous pouvez monter 1 ou 2 marches. De combien de façons distinctes pouvez-vous atteindre le sommet ?"
+  },
+  "aplSolution": "ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}\n\n⍝ Alternative using matrix power:\nClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}\n\n⍝ Example usage:\n⍝ ClimbStairs 2    → 2\n⍝ ClimbStairs 3    → 3\n⍝ ClimbStairs 5    → 8",
+  "explanation": {
+    "en": "This is Fibonacci sequence! Iterates n times with power operator (⍣⍵), starting with 1 1. Each iteration appends sum of last 2 numbers ({⍵,+/¯2↑⍵}). Takes first element (⊃) of final result.",
+    "zh-CN": "這是斐波那契數列！使用冪運算符 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
+    "zh-TW": "這是費氏數列！使用冪運算子 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
+    "ja": "これはフィボナッチ数列です！冪演算子 (⍣⍵) を使用して n 回反復し、1 1 から始めます。各反復では最後の 2 つの数値の合計を追加します ({⍵,+/¯2↑⍵})。最終結果の最初の要素を取ります (⊃)。",
+    "es": "¡Esta es la secuencia de Fibonacci! Itera n veces con el operador de potencia (⍣⍵), comenzando con 1 1. Cada iteración agrega la suma de los últimos 2 números ({⍵,+/¯2↑⍵}). Toma el primer elemento (⊃) del resultado final.",
+    "de": "Dies ist die Fibonacci-Folge! Iteriert n-mal mit dem Potenzoperator (⍣⍵), beginnend mit 1 1. Jede Iteration fügt die Summe der letzten 2 Zahlen hinzu ({⍵,+/¯2↑⍵}). Nimmt das erste Element (⊃) des Endergebnisses.",
+    "fr": "C'est la suite de Fibonacci ! Itère n fois avec l'opérateur de puissance (⍣⍵), en commençant par 1 1. Chaque itération ajoute la somme des 2 derniers nombres ({⍵,+/¯2↑⍵}). Prend le premier élément (⊃) du résultat final."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "2", "output": "2"},
+    {"input": "3", "output": "3"},
+    {"input": "5", "output": "8"}
+  ]
+}

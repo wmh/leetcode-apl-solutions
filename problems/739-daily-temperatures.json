@@ -1,0 +1,26 @@
+{
+  "number": 739,
+  "title": "Daily Temperatures",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find how many days until warmer temperature.",
+    "zh-CN": "[题目739] Find how many days until warmer temperature....",
+    "zh-TW": "[題目739] Find how many days until warmer temperature....",
+    "ja": "[問題739] Find how many days until warmer temperature....",
+    "es": "[Problema 739] Find how many days until warmer temperature....",
+    "de": "[Problem 739] Find how many days until warmer temperature....",
+    "fr": "[Problème 739] Find how many days until warmer temperature...."
+  },
+  "aplSolution": "DailyTemperatures ← {\n    n←≢⍵\n    result←n⍴0\n    {result[⍵]←⊃⍸⍵<⍵↓⍵}¨⍳n\n    result\n}",
+  "explanation": {
+    "en": "For each day, finds next warmer day.",
+    "zh-CN": "For each day, finds next warmer day....",
+    "zh-TW": "For each day, finds next warmer day....",
+    "ja": "For each day, finds next warmer day....",
+    "es": "For each day, finds next warmer day....",
+    "de": "For each day, finds next warmer day....",
+    "fr": "For each day, finds next warmer day...."
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)"
+}

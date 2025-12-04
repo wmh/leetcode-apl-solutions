@@ -1,0 +1,26 @@
+{
+  "number": 567,
+  "title": "Permutation in String",
+  "difficulty": "medium",
+  "description": {
+    "en": "Check if s2 contains a permutation of s1.",
+    "zh-CN": "[题目567] Check if s2 contains a permutation of s1....",
+    "zh-TW": "[題目567] Check if s2 contains a permutation of s1....",
+    "ja": "[問題567] Check if s2 contains a permutation of s1....",
+    "es": "[Problema 567] Check if s2 contains a permutation of s1....",
+    "de": "[Problem 567] Check if s2 contains a permutation of s1....",
+    "fr": "[Problème 567] Check if s2 contains a permutation of s1...."
+  },
+  "aplSolution": "CheckInclusion ← {\n    (≢⍺)≤≢⍵:∨/{(∧/⍺∊⍵)∧∧/⍵∊⍺}¨(≢⍺)↑¨(≢⍵)↓¨⊂⍵\n    0\n}",
+  "explanation": {
+    "en": "Checks each substring of length |s1| for character match.",
+    "zh-CN": "Checks each substring of length |s1| for character match....",
+    "zh-TW": "Checks each substring of length |s1| for character match....",
+    "ja": "Checks each substring of length |s1| for character match....",
+    "es": "Checks each substring of length |s1| for character match....",
+    "de": "Checks each substring of length |s1| for character match....",
+    "fr": "Checks each substring of length |s1| for character match...."
+  },
+  "timeComplexity": "O(n*m)",
+  "spaceComplexity": "O(1)"
+}

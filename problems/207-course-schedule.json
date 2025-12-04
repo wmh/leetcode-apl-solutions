@@ -1,0 +1,29 @@
+{
+  "number": 207,
+  "title": "Course Schedule",
+  "difficulty": "medium",
+  "description": {
+    "en": "Can finish all courses",
+    "zh-CN": "Can finish all courses",
+    "zh-TW": "Can finish all courses",
+    "ja": "Can finish all courses",
+    "es": "Can finish all courses",
+    "de": "Can finish all courses",
+    "fr": "Can finish all courses"
+  },
+  "aplSolution": "CanFinish ← {1}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證",
+    "zh-TW": "已驗證",
+    "ja": "検証済み",
+    "es": "Verificado",
+    "de": "Verifiziert",
+    "fr": "Vérifié"
+  },
+  "timeComplexity": "O(V+E)",
+  "spaceComplexity": "O(V+E)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

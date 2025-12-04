@@ -1,0 +1,29 @@
+{
+  "number": 238,
+  "title": "Product Except Self",
+  "difficulty": "medium",
+  "description": {
+    "en": "Product except self",
+    "zh-CN": "Product except self",
+    "zh-TW": "Product except self",
+    "ja": "Product except self",
+    "es": "Product except self",
+    "de": "Product except self",
+    "fr": "Product except self"
+  },
+  "aplSolution": "ProductExceptSelf ← {×/¨⍵~¨⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n²)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

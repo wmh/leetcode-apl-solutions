@@ -1,0 +1,33 @@
+{
+  "number": 217,
+  "title": "Contains Duplicate",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.",
+    "zh-CN": "給定一個整數數組 nums，如果任何值在數組中出現至少兩次，則返回 true；如果每個元素都不同，則返回 false。",
+    "zh-TW": "給定一個整數陣列 nums，如果任何值在陣列中出現至少兩次，則返回 true；如果每個元素都不同，則返回 false。",
+    "ja": "整数配列 nums が与えられたとき、配列内に少なくとも 2 回出現する値があれば true を返し、すべての要素が異なる場合は false を返します。",
+    "es": "Dado un array de enteros nums, devuelve true si algún valor aparece al menos dos veces en el array, y devuelve false si cada elemento es distinto.",
+    "de": "Gegeben ein Integer-Array nums, gib true zurück, wenn ein Wert mindestens zweimal im Array erscheint, und gib false zurück, wenn jedes Element eindeutig ist.",
+    "fr": "Étant donné un tableau d'entiers nums, renvoyez true si une valeur apparaît au moins deux fois dans le tableau, et renvoyez false si chaque élément est distinct."
+  },
+  "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}\n\n⍝ Example usage:\n⍝ ContainsDuplicate 1 2 3 1    → 1 (true)\n⍝ ContainsDuplicate 1 2 3 4    → 0 (false)\n⍝ ContainsDuplicate 1 1 1 3 3 4 3 2 4 2    → 1 (true)",
+  "explanation": {
+    "en": "Compares the length of the array (≢⍵) with the length of unique elements (≢∪⍵). If they differ, there must be duplicates. The ≢ operator gives the length, ∪ gives unique elements, and ≠ checks if they're not equal.",
+    "zh-CN": "比較數組的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 操作符給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
+    "zh-TW": "比較陣列的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 運算子給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
+    "ja": "配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。",
+    "es": "Compara la longitud del array (≢⍵) con la longitud de los elementos únicos (≢∪⍵). Si difieren, debe haber duplicados. El operador ≢ da la longitud, ∪ da elementos únicos y ≠ verifica si no son iguales.",
+    "de": "Vergleicht die Länge des Arrays (≢⍵) mit der Länge der eindeutigen Elemente (≢∪⍵). Wenn sie sich unterscheiden, müssen Duplikate vorhanden sein. Der ≢-Operator gibt die Länge, ∪ gibt eindeutige Elemente und ≠ prüft, ob sie nicht gleich sind.",
+    "fr": "Compare la longueur du tableau (≢⍵) avec la longueur des éléments uniques (≢∪⍵). S'ils diffèrent, il doit y avoir des doublons. L'opérateur ≢ donne la longueur, ∪ donne des éléments uniques et ≠ vérifie s'ils ne sont pas égaux."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "1 2 3 1", "output": "1"},
+    {"input": "1 2 3 4", "output": "0"},
+    {"input": "1 1 1 3 3 4 3 2 4 2", "output": "1"}
+  ]
+}

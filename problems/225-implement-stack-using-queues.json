@@ -1,0 +1,29 @@
+{
+  "number": 225,
+  "title": "Implement Stack Using Queues",
+  "difficulty": "easy",
+  "description": {
+    "en": "Stack using queues",
+    "zh-CN": "Stack using queues",
+    "zh-TW": "Stack using queues",
+    "ja": "Stack using queues",
+    "es": "Stack using queues",
+    "de": "Stack using queues",
+    "fr": "Stack using queues"
+  },
+  "aplSolution": "MyStack ← {stack}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

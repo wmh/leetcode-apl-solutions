@@ -1,0 +1,33 @@
+{
+  "number": 66,
+  "title": "Plus One",
+  "difficulty": "easy",
+  "description": {
+    "en": "You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's. Increment the large integer by one and return the resulting array of digits.",
+    "zh-CN": "給你一個由整數組成的非空數組，表示一個非負整數，請你把這個整數加一。最高位數字存放在數組的首位，數組中每個元素只存儲單個數字。你可以假設除了整數 0 之外，這個整數不會以零開頭。",
+    "zh-TW": "給你一個由整數組成的非空陣列，表示一個非負整數，請你把這個整數加一。最高位數字存放在陣列的首位，陣列中每個元素只存儲單個數字。你可以假設除了整數 0 之外，這個整數不會以零開頭。",
+    "ja": "整数の配列 digits として表される大きな整数が与えられます。各 digits[i] は整数の i 番目の桁です。桁は最上位から最下位まで左から右の順に並べられています。大きな整数には先頭の 0 は含まれません。大きな整数を 1 増やして、結果の桁の配列を返します。",
+    "es": "Se te da un entero grande representado como un array de enteros digits, donde cada digits[i] es el i-ésimo dígito del entero. Los dígitos están ordenados de más significativo a menos significativo en orden de izquierda a derecha. El entero grande no contiene ningún 0 inicial. Incrementa el entero grande en uno y devuelve el array resultante de dígitos.",
+    "de": "Du erhältst eine große Ganzzahl, die als Integer-Array digits dargestellt wird, wobei jedes digits[i] die i-te Ziffer der Ganzzahl ist. Die Ziffern sind von der höchstwertigen zur niedrigstwertigen in Links-Rechts-Reihenfolge geordnet. Die große Ganzzahl enthält keine führenden Nullen. Erhöhe die große Ganzzahl um eins und gib das resultierende Array von Ziffern zurück.",
+    "fr": "On vous donne un grand entier représenté sous forme de tableau d'entiers digits, où chaque digits[i] est le i-ème chiffre de l'entier. Les chiffres sont ordonnés du plus significatif au moins significatif dans l'ordre de gauche à droite. Le grand entier ne contient aucun 0 en tête. Incrémentez le grand entier d'un et renvoyez le tableau de chiffres résultant."
+  },
+  "aplSolution": "PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}\n\n⍝ Example usage:\n⍝ PlusOne 1 2 3    → 1 2 4\n⍝ PlusOne 4 3 2 1  → 4 3 2 2\n⍝ PlusOne 9        → 1 0",
+  "explanation": {
+    "en": "Converts digits to number using decode (10⊥⍵), adds 1, then converts back to digits using encode (10⊥⍣¯1). The ⊥ operator decodes from base 10, ⊥⍣¯1 encodes to base 10 digits.",
+    "zh-CN": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 操作符從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
+    "zh-TW": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 運算子從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
+    "ja": "デコード（10⊥⍵）を使用して桁を数値に変換し、1 を加算してから、エンコード（10⊥⍣¯1）を使用して桁に戻します。⊥ 演算子は基数 10 からデコードし、⊥⍣¯1 は基数 10 の桁にエンコードします。",
+    "es": "Convierte dígitos a número usando decodificación (10⊥⍵), suma 1, luego convierte de vuelta a dígitos usando codificación (10⊥⍣¯1). El operador ⊥ decodifica desde base 10, ⊥⍣¯1 codifica a dígitos de base 10.",
+    "de": "Konvertiert Ziffern in eine Zahl mit Dekodierung (10⊥⍵), addiert 1, dann konvertiert zurück zu Ziffern mit Kodierung (10⊥⍣¯1). Der ⊥-Operator dekodiert von Basis 10, ⊥⍣¯1 kodiert zu Basis-10-Ziffern.",
+    "fr": "Convertit les chiffres en nombre en utilisant le décodage (10⊥⍵), ajoute 1, puis reconvertit en chiffres en utilisant l'encodage (10⊥⍣¯1). L'opérateur ⊥ décode depuis la base 10, ⊥⍣¯1 encode en chiffres de base 10."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "1 2 3", "output": "1 2 4"},
+    {"input": "4 3 2 1", "output": "4 3 2 2"},
+    {"input": "9", "output": "1 0"}
+  ]
+}

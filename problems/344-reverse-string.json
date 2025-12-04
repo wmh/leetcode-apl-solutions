@@ -1,0 +1,32 @@
+{
+  "number": 344,
+  "title": "Reverse String",
+  "difficulty": "easy",
+  "description": {
+    "en": "Write a function that reverses a string. The input string is given as an array of characters s. You must do this by modifying the input array in-place with O(1) extra memory.",
+    "zh-CN": "編寫一個函數，其作用是將輸入的字符串反轉過來。輸入字符串以字符數組 s 的形式給出。不要給另外的數組分配額外的空間，你必須原地修改輸入數組、使用 O(1) 的額外空間解決這一問題。",
+    "zh-TW": "編寫一個函數，其作用是將輸入的字串反轉過來。輸入字串以字元陣列 s 的形式給出。不要給另外的陣列分配額外的空間，你必須原地修改輸入陣列、使用 O(1) 的額外空間解決這一問題。",
+    "ja": "文字列を反転する関数を作成します。入力文字列は文字配列 s として与えられます。追加の配列に余分なスペースを割り当てないで、入力配列をその場で変更し、O(1) の追加スペースでこれを解決する必要があります。",
+    "es": "Escribe una función que invierta una cadena. La cadena de entrada se da como un array de caracteres s. Debes hacer esto modificando el array de entrada in situ con O(1) de memoria extra.",
+    "de": "Schreibe eine Funktion, die eine Zeichenkette umkehrt. Die Eingabezeichenkette wird als Array von Zeichen s gegeben. Du musst dies tun, indem du das Eingabearray in-place mit O(1) zusätzlichem Speicher modifizierst.",
+    "fr": "Écrivez une fonction qui inverse une chaîne. La chaîne d'entrée est donnée sous forme de tableau de caractères s. Vous devez le faire en modifiant le tableau d'entrée sur place avec O(1) de mémoire supplémentaire."
+  },
+  "aplSolution": "ReverseString ← {⌽⍵}\n\n⍝ Example usage:\n⍝ ReverseString 'hello'    → 'olleh'\n⍝ ReverseString 'Hannah'   → 'hannaH'",
+  "explanation": {
+    "en": "Uses APL's reverse operator (⌽). This is the simplest solution - just one symbol! The reverse operator works on any vector.",
+    "zh-CN": "使用 APL 的反轉操作符 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉操作符適用於任何向量。",
+    "zh-TW": "使用 APL 的反轉運算子 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉運算子適用於任何向量。",
+    "ja": "APL のリバース演算子 (⌽) を使用します。これは最も簡単な解決策です - たった 1 つの記号！リバース演算子は任意のベクトルで機能します。",
+    "es": "Utiliza el operador de reversión de APL (⌽). ¡Esta es la solución más simple: solo un símbolo! El operador de reversión funciona en cualquier vector.",
+    "de": "Verwendet APLs Umkehroperator (⌽). Dies ist die einfachste Lösung - nur ein Symbol! Der Umkehroperator funktioniert mit jedem Vektor.",
+    "fr": "Utilise l'opérateur d'inversion d'APL (⌽). C'est la solution la plus simple - juste un symbole ! L'opérateur d'inversion fonctionne sur n'importe quel vecteur."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "hello", "output": "olleh"},
+    {"input": "Hannah", "output": "hannaH"}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 237,
+  "title": "Delete Node in Linked List",
+  "difficulty": "easy",
+  "description": {
+    "en": "Delete node given only node",
+    "zh-CN": "Delete node given only node",
+    "zh-TW": "Delete node given only node",
+    "ja": "Delete node given only node",
+    "es": "Delete node given only node",
+    "de": "Delete node given only node",
+    "fr": "Delete node given only node"
+  },
+  "aplSolution": "DeleteNode ← {⍵↓⍨1}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

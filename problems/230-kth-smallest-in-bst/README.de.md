@@ -1,0 +1,46 @@
+# 230. Kth Smallest in BST
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+
+[⬅️ Zurück zu Problemen](../../README.de.md)
+
+---
+
+> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
+
+## 🟡 Schwierigkeit: Medium
+
+## Problem
+
+[Problem 230] Find kth smallest element in BST....
+
+## 💡 APL-Lösung
+
+```apl
+KthSmallest ← {
+    k←⍺
+    sorted←⍵[⍋⍵]
+    sorted[k-1]
+}
+```
+
+## 📝 Erklärung
+
+Sorts and returns kth element....
+
+## ⏱️ Komplexitätsanalyse
+
+- **Zeitkomplexität**: `O(n)`
+- **Raumkomplexität**: `O(n)`
+
+---
+
+## 📚 Ressourcen
+
+- [LeetCode Problem #230](https://leetcode.com/problems/)
+- [APL Wiki](https://aplwiki.com/)
+- [Try APL Online](https://tryapl.org/)
+
+---
+
+**Made with ❤️ using APL** • [View All Problems](../../README.de.md)

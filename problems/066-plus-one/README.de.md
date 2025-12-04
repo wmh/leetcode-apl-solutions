@@ -1,0 +1,47 @@
+# 66. Plus One
+
+[English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [Español](README.es.md) | [Deutsch](README.de.md) | [Français](README.fr.md)
+
+[⬅️ Zurück zu Problemen](../../README.de.md)
+
+---
+
+> ⚠️ **Nicht validierter Code**: Diese APL-Lösung wurde nicht in einem echten Interpreter getestet. Sie kann Fehler enthalten.
+
+## 🟢 Schwierigkeit: Easy
+
+## Problem
+
+Du erhältst eine große Ganzzahl, die als Integer-Array digits dargestellt wird, wobei jedes digits[i] die i-te Ziffer der Ganzzahl ist. Die Ziffern sind von der höchstwertigen zur niedrigstwertigen in Links-Rechts-Reihenfolge geordnet. Die große Ganzzahl enthält keine führenden Nullen. Erhöhe die große Ganzzahl um eins und gib das resultierende Array von Ziffern zurück.
+
+## 💡 APL-Lösung
+
+```apl
+PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
+
+⍝ Example usage:
+⍝ PlusOne 1 2 3    → 1 2 4
+⍝ PlusOne 4 3 2 1  → 4 3 2 2
+⍝ PlusOne 9        → 1 0
+```
+
+## 📝 Erklärung
+
+Konvertiert Ziffern in eine Zahl mit Dekodierung (10⊥⍵), addiert 1, dann konvertiert zurück zu Ziffern mit Kodierung (10⊥⍣¯1). Der ⊥-Operator dekodiert von Basis 10, ⊥⍣¯1 kodiert zu Basis-10-Ziffern.
+
+## ⏱️ Komplexitätsanalyse
+
+- **Zeitkomplexität**: `O(n)`
+- **Raumkomplexität**: `O(n)`
+
+---
+
+## 📚 Ressourcen
+
+- [LeetCode Problem #66](https://leetcode.com/problems/)
+- [APL Wiki](https://aplwiki.com/)
+- [Try APL Online](https://tryapl.org/)
+
+---
+
+**Made with ❤️ using APL** • [View All Problems](../../README.de.md)

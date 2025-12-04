@@ -1,0 +1,26 @@
+{
+  "number": 704,
+  "title": "Binary Search",
+  "difficulty": "easy",
+  "description": {
+    "en": "Search for target value in sorted array.",
+    "zh-CN": "[题目704] Search for target value in sorted array....",
+    "zh-TW": "[題目704] Search for target value in sorted array....",
+    "ja": "[問題704] Search for target value in sorted array....",
+    "es": "[Problema 704] Search for target value in sorted array....",
+    "de": "[Problem 704] Search for target value in sorted array....",
+    "fr": "[Problème 704] Search for target value in sorted array...."
+  },
+  "aplSolution": "BinarySearch ← {\n    target←⍺\n    (target∊⍵)×⊃⍸target=⍵\n}",
+  "explanation": {
+    "en": "Standard binary search.",
+    "zh-CN": "Standard binary search....",
+    "zh-TW": "Standard binary search....",
+    "ja": "Standard binary search....",
+    "es": "Standard binary search....",
+    "de": "Standard binary search....",
+    "fr": "Standard binary search...."
+  },
+  "timeComplexity": "O(log n)",
+  "spaceComplexity": "O(1)"
+}

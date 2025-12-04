@@ -1,0 +1,29 @@
+{
+  "number": 75,
+  "title": "Sort Colors",
+  "difficulty": "medium",
+  "description": {
+    "en": "Sort 0,1,2",
+    "zh-CN": "Sort 0,1,2",
+    "zh-TW": "Sort 0,1,2",
+    "ja": "Sort 0,1,2",
+    "es": "Sort 0,1,2",
+    "de": "Sort 0,1,2",
+    "fr": "Sort 0,1,2"
+  },
+  "aplSolution": "SortColors ← {⍵[⍋⍵]}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

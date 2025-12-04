@@ -1,0 +1,32 @@
+{
+  "number": 338,
+  "title": "Counting Bits",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.",
+    "zh-CN": "給你一個整數 n，對於 0 <= i <= n 中的每個 i，計算其二進制表示中 1 的個數，返回一個長度為 n+1 的數組 ans 作為答案。",
+    "zh-TW": "給你一個整數 n，對於 0 <= i <= n 中的每個 i，計算其二進位表示中 1 的個數，返回一個長度為 n+1 的陣列 ans 作為答案。",
+    "ja": "整数 n が与えられたとき、長さ n + 1 の配列 ans を返します。各 i (0 <= i <= n) について、ans[i] は i の 2 進数表現での 1 の数です。",
+    "es": "Dado un entero n, devuelve un array ans de longitud n + 1 tal que para cada i (0 <= i <= n), ans[i] es el número de 1 en la representación binaria de i.",
+    "de": "Gegeben eine Ganzzahl n, gib ein Array ans der Länge n + 1 zurück, sodass für jedes i (0 <= i <= n), ans[i] die Anzahl der 1en in der Binärdarstellung von i ist.",
+    "fr": "Étant donné un entier n, renvoyez un tableau ans de longueur n + 1 tel que pour chaque i (0 <= i <= n), ans[i] est le nombre de 1 dans la représentation binaire de i."
+  },
+  "aplSolution": "CountBits ← {+/¨(⍳⍵+1)⊤⍨¨32⍴¨2}\n\n⍝ Example usage:\n⍝ CountBits 2    → 0 1 1\n⍝ CountBits 5    → 0 1 1 2 1 2",
+  "explanation": {
+    "en": "For each number 0 to n (⍳⍵+1), converts to binary using base-2 encode (⊤⍨32⍴2), then sums the bits (+/). The ¨ operator applies operation to each number.",
+    "zh-CN": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進制 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 操作符將操作應用於每個數字。",
+    "zh-TW": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進位 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 運算子將操作應用於每個數字。",
+    "ja": "0 から n までの各数値 (⍳⍵+1) について、基数 2 エンコードを使用して 2 進数に変換し (⊤⍨32⍴2)、ビットを合計します (+/)。¨ 演算子は各数値に操作を適用します。",
+    "es": "Para cada número de 0 a n (⍳⍵+1), convierte a binario usando codificación base-2 (⊤⍨32⍴2), luego suma los bits (+/). El operador ¨ aplica la operación a cada número.",
+    "de": "Für jede Zahl von 0 bis n (⍳⍵+1) konvertiert in Binär mit Basis-2-Kodierung (⊤⍨32⍴2), dann summiert die Bits (+/). Der ¨-Operator wendet die Operation auf jede Zahl an.",
+    "fr": "Pour chaque nombre de 0 à n (⍳⍵+1), convertit en binaire en utilisant l'encodage base-2 (⊤⍨32⍴2), puis somme les bits (+/). L'opérateur ¨ applique l'opération à chaque nombre."
+  },
+  "timeComplexity": "O(n*log(n))",
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": [
+    {"input": "2", "output": "0 1 1"},
+    {"input": "5", "output": "0 1 1 2 1 2"}
+  ]
+}

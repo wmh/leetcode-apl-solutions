@@ -1,0 +1,29 @@
+{
+  "number": 292,
+  "title": "Nim Game",
+  "difficulty": "easy",
+  "description": {
+    "en": "Can win Nim game",
+    "zh-CN": "Can win Nim game",
+    "zh-TW": "Can win Nim game",
+    "ja": "Can win Nim game",
+    "es": "Can win Nim game",
+    "de": "Can win Nim game",
+    "fr": "Can win Nim game"
+  },
+  "aplSolution": "CanWinNim ← {0≠4|⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(1)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

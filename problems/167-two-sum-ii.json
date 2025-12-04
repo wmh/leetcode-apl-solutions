@@ -1,0 +1,26 @@
+{
+  "number": 167,
+  "title": "Two Sum II",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find two numbers in sorted array that add up to target.",
+    "zh-CN": "[题目167] Find two numbers in sorted array that add up to ta...",
+    "zh-TW": "[題目167] Find two numbers in sorted array that add up to ta...",
+    "ja": "[問題167] Find two numbers in sorted array that add up to ta...",
+    "es": "[Problema 167] Find two numbers in sorted array that add up to ta...",
+    "de": "[Problem 167] Find two numbers in sorted array that add up to ta...",
+    "fr": "[Problème 167] Find two numbers in sorted array that add up to ta..."
+  },
+  "aplSolution": "TwoSumII ← {\n    ⍝ Two pointer approach\n    indices ← ⍸⍺=⍵+⌽⍵\n    2↑indices\n}",
+  "explanation": {
+    "en": "Uses two pointers from both ends.",
+    "zh-CN": "Uses two pointers from both ends....",
+    "zh-TW": "Uses two pointers from both ends....",
+    "ja": "Uses two pointers from both ends....",
+    "es": "Uses two pointers from both ends....",
+    "de": "Uses two pointers from both ends....",
+    "fr": "Uses two pointers from both ends...."
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)"
+}

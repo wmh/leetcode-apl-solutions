@@ -1,0 +1,29 @@
+{
+  "number": 80,
+  "title": "Remove Duplicates II",
+  "difficulty": "medium",
+  "description": {
+    "en": "Remove duplicates allow twice",
+    "zh-CN": "Remove duplicates allow twice",
+    "zh-TW": "Remove duplicates allow twice",
+    "ja": "Remove duplicates allow twice",
+    "es": "Remove duplicates allow twice",
+    "de": "Remove duplicates allow twice",
+    "fr": "Remove duplicates allow twice"
+  },
+  "aplSolution": "RemoveDuplicates ← {⍵/⍨2≥{≢⍵}⌸⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

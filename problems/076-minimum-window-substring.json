@@ -1,0 +1,26 @@
+{
+  "number": 76,
+  "title": "Minimum Window Substring",
+  "difficulty": "hard",
+  "description": {
+    "en": "Find minimum window in s which contains all characters of t.",
+    "zh-CN": "[题目76] Find minimum window in s which contains all charac...",
+    "zh-TW": "[題目76] Find minimum window in s which contains all charac...",
+    "ja": "[問題76] Find minimum window in s which contains all charac...",
+    "es": "[Problema 76] Find minimum window in s which contains all charac...",
+    "de": "[Problem 76] Find minimum window in s which contains all charac...",
+    "fr": "[Problème 76] Find minimum window in s which contains all charac..."
+  },
+  "aplSolution": "MinWindow ← {\n    ⍝ Sliding window with character count\n    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}\n    ⊃⌊/≢¨windows\n}",
+  "explanation": {
+    "en": "Maintains character counts in sliding window.",
+    "zh-CN": "Maintains character counts in sliding window....",
+    "zh-TW": "Maintains character counts in sliding window....",
+    "ja": "Maintains character counts in sliding window....",
+    "es": "Maintains character counts in sliding window....",
+    "de": "Maintains character counts in sliding window....",
+    "fr": "Maintains character counts in sliding window...."
+  },
+  "timeComplexity": "O(n*m)",
+  "spaceComplexity": "O(m)"
+}

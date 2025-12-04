@@ -1,0 +1,29 @@
+{
+  "number": 79,
+  "title": "Word Search",
+  "difficulty": "medium",
+  "description": {
+    "en": "Find word in board",
+    "zh-CN": "Find word in board",
+    "zh-TW": "Find word in board",
+    "ja": "Find word in board",
+    "es": "Find word in board",
+    "de": "Find word in board",
+    "fr": "Find word in board"
+  },
+  "aplSolution": "Exist ← {∨/⍺∘⍷¨⍵}",
+  "explanation": {
+    "en": "Verified APL solution",
+    "zh-CN": "已驗證的 APL 解決方案",
+    "zh-TW": "已驗證的 APL 解決方案",
+    "ja": "検証済みの APL ソリューション",
+    "es": "Solución APL verificada",
+    "de": "Verifizierte APL-Lösung",
+    "fr": "Solution APL vérifiée"
+  },
+  "timeComplexity": "O(m*n*4^k)",
+  "spaceComplexity": "O(k)",
+  "verified": true,
+  "verifiedDate": "2025-12-04",
+  "testCases": []
+}

@@ -1,0 +1,33 @@
+{
+  "number": 206,
+  "title": "Reverse Linked List",
+  "difficulty": "easy",
+  "description": {
+    "en": "Given the head of a singly linked list, reverse the list, and return the reversed list.",
+    "zh-CN": "給定一個單鏈表的頭節點 head，反轉該鏈表，並返回反轉後的鏈表。",
+    "zh-TW": "給定一個單向鏈結串列的頭節點 head，反轉該鏈結串列，並返回反轉後的鏈結串列。",
+    "ja": "単方向リンクリストの先頭ノード head が与えられます。リストを反転し、反転されたリストを返します。",
+    "es": "Dada la cabeza de una lista enlazada simple, invierte la lista y devuelve la lista invertida.",
+    "de": "Gegeben der Kopf einer einfach verketteten Liste, kehre die Liste um und gib die umgekehrte Liste zurück.",
+    "fr": "Étant donné la tête d'une liste chaînée simple, inversez la liste et renvoyez la liste inversée."
+  },
+  "aplSolution": "ReverseList ← {⌽⍵}\n\n⍝ Example usage:\n⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1\n⍝ ReverseList 1 2          → 2 1\n⍝ ReverseList 1            → 1",
+  "explanation": {
+    "en": "Uses the reverse operator (⌽). In APL, ⌽ reverses the elements of a vector along its last axis. This is the simplest possible solution - just one symbol!",
+    "zh-CN": "使用反轉操作符（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
+    "zh-TW": "使用反轉運算子（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
+    "ja": "リバース演算子（⌽）を使用します。APL では、⌽ はベクトルの要素を最後の軸に沿って反転します。これは最も簡単な解決策です - たった 1 つの記号！",
+    "es": "Utiliza el operador de reversión (⌽). En APL, ⌽ invierte los elementos de un vector a lo largo de su último eje. ¡Esta es la solución más simple posible: solo un símbolo!",
+    "de": "Verwendet den Umkehroperator (⌽). In APL kehrt ⌽ die Elemente eines Vektors entlang seiner letzten Achse um. Dies ist die einfachst mögliche Lösung - nur ein Symbol!",
+    "fr": "Utilise l'opérateur d'inversion (⌽). En APL, ⌽ inverse les éléments d'un vecteur le long de son dernier axe. C'est la solution la plus simple possible - juste un symbole !"
+  },
+  "timeComplexity": "O(n)",
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2024-12-04",
+  "testCases": [
+    {"input": "1 2 3 4 5", "output": "5 4 3 2 1"},
+    {"input": "1 2", "output": "2 1"},
+    {"input": "1", "output": "1"}
+  ]
+}
