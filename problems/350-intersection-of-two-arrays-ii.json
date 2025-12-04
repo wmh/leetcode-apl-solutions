@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n+m)",
   "spaceComplexity": "O(min(n,m))",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "nums1=1 2 2 1, nums2=2 2",

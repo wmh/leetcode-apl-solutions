@@ -13,9 +13,9 @@
   },
   "aplSolution": "ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}",
   "explanation": {
-    "en": "Find triplets summing to 0",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "Creates triple outer product (⍵∘.+⍵∘.+⍵) of all three-number sums. Finds positions where sum equals 0 (⍸0=+⌿), extracts unique triplets (∪↓).",
+    "zh-CN": "创建所有三数之和的三重外积 (⍵∘.+⍵∘.+⍵)。找到和为 0 的位置 (⍸0=+⌿)，提取唯一三元组 (∪↓)。",
+    "zh-TW": "創建所有三數之和的三重外積 (⍵∘.+⍵∘.+⍵)。找到和為 0 的位置 (⍸0=+⌿)，提取唯一三元組 (∪↓)。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

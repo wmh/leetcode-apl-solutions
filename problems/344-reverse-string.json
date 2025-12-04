@@ -13,9 +13,9 @@
   },
   "aplSolution": "ReverseString ← {⌽⍵}",
   "explanation": {
-    "en": "Reverse",
-    "zh-CN": "使用 APL 的反轉操作符 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉操作符適用於任何向量。",
-    "zh-TW": "使用 APL 的反轉運算子 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉運算子適用於任何向量。",
+    "en": "Direct reversal using ⌽⍵. Single APL symbol reverses the entire string/array.",
+    "zh-CN": "使用 ⌽⍵ 直接反转。单个 APL 符号反转整个字符串/数组。",
+    "zh-TW": "使用 ⌽⍵ 直接反轉。單個 APL 符號反轉整個字符串/陣列。",
     "ja": "APL のリバース演算子 (⌽) を使用します。これは最も簡単な解決策です - たった 1 つの記号！リバース演算子は任意のベクトルで機能します。",
     "es": "Utiliza el operador de reversión de APL (⌽). ¡Esta es la solución más simple: solo un símbolo! El operador de reversión funciona en cualquier vector.",
     "de": "Verwendet APLs Umkehroperator (⌽). Dies ist die einfachste Lösung - nur ein Symbol! Der Umkehroperator funktioniert mit jedem Vektor.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "hello",

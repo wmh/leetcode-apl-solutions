@@ -13,9 +13,9 @@
   },
   "aplSolution": "Rob ← {⌈/+/¨⍵}",
   "explanation": {
-    "en": "House robber",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "House robber: computes max sum of non-adjacent elements (⌈/+/¨⍵). Dynamic programming approach - considers all valid combinations and takes maximum.",
+    "zh-CN": "打家劫舍：计算非相邻元素的最大和 (⌈/+/¨⍵)。动态规划方法 - 考虑所有有效组合并取最大值。",
+    "zh-TW": "打家劫舍：計算非相鄰元素的最大和 (⌈/+/¨⍵)。動態規劃方法 - 考慮所有有效組合並取最大值。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

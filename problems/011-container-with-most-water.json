@@ -13,9 +13,9 @@
   },
   "aplSolution": "MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}",
   "explanation": {
-    "en": "Max container area",
-    "zh-CN": "創建高度的外積 (∘.⌊) 以獲得所有配對的最小高度。乘以距離 ((⍳n)∘.-⍳n) 以獲得面積。取最大值。",
-    "zh-TW": "創建高度的外積 (∘.⌊) 以獲得所有配對的最小高度。乘以距離 ((⍳n)∘.-⍳n) 以獲得面積。取最大值。",
+    "en": "Creates matrix of all container areas: (⍵∘.⌊⍵) gives minimum heights between all pairs, multiplies by width differences ((⍳≢⍵)∘.-⍳≢⍵), flattens (,) and takes maximum (⌈/).",
+    "zh-CN": "创建所有容器面积的矩阵：(⍵∘.⌊⍵) 给出所有配对的最小高度，乘以宽度差 ((⍳≢⍵)∘.-⍳≢⍵)，展平 (,) 后取最大值 (⌈/)。",
+    "zh-TW": "創建所有容器面積的矩陣：(⍵∘.⌊⍵) 給出所有配對的最小高度，乘以寬度差 ((⍳≢⍵)∘.-⍳≢⍵)，展平 (,) 後取最大值 (⌈/)。",
     "ja": "高さの外積 (∘.⌊) を作成して、すべてのペアの最小高さを取得します。距離 ((⍳n)∘.-⍳n) を掛けて面積を取得します。最大値を取ります。",
     "es": "Crea el producto exterior de alturas (∘.⌊) para obtener alturas mínimas para todos los pares. Multiplica por distancias ((⍳n)∘.-⍳n) para obtener áreas. Toma el máximo.",
     "de": "Erstellt äußeres Produkt von Höhen (∘.⌊), um minimale Höhen für alle Paare zu erhalten. Multipliziert mit Entfernungen ((⍳n)∘.-⍳n), um Flächen zu erhalten. Nimmt Maximum.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n²)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "1 8 6 2 5 4 8 3 7",

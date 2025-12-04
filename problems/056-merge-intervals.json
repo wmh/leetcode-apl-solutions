@@ -13,9 +13,9 @@
   },
   "aplSolution": "MergeIntervals ← {⍵[⍋⍵[;1];]}",
   "explanation": {
-    "en": "Merge overlapping",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "Sorts intervals by start time: ⍵[⍋⍵[;1];] sorts by first column. For merging overlapping intervals, checks if next start ≤ current end.",
+    "zh-CN": "按开始时间排序区间：⍵[⍋⍵[;1];] 按第一列排序。合并重叠区间时，检查下一个开始 ≤ 当前结束。",
+    "zh-TW": "按開始時間排序區間：⍵[⍋⍵[;1];] 按第一列排序。合併重疊區間時，檢查下一個開始 ≤ 當前結束。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

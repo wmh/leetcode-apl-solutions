@@ -13,9 +13,9 @@
   },
   "aplSolution": "MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}",
   "explanation": {
-    "en": "Concatenate and sort",
-    "zh-CN": "連接兩個列表 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將數組排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
-    "zh-TW": "連接兩個串列 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將陣列排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
+    "en": "Concatenates two arrays (⍺,⍵), sorts using grade up (⍋), indexes to get sorted result. Simple merge for sorted lists represented as arrays.",
+    "zh-CN": "连接两个数组 (⍺,⍵)，使用升序排序 (⍋)，索引得到排序结果。表示为数组的有序列表的简单合并。",
+    "zh-TW": "連接兩個陣列 (⍺,⍵)，使用升序排序 (⍋)，索引得到排序結果。表示為陣列的有序列表的簡單合併。",
     "ja": "両方のリストを連結 (⍺,⍵) してから、昇順でソート (⍋)。昇順は配列をソートするインデックスを返します。バージョン 2 はよりクリーン：連結してからソートされた位置でインデックス。",
     "es": "Concatena ambas listas (⍺,⍵) luego ordena por grado ascendente (⍋). El grado ascendente devuelve índices que ordenarían el array. La versión 2 es más limpia: concatenar luego indexar por posiciones ordenadas.",
     "de": "Verkettet beide Listen (⍺,⍵) und sortiert dann nach aufsteigendem Grad (⍋). Aufsteigender Grad gibt Indizes zurück, die das Array sortieren würden. Version 2 ist sauberer: verketten und dann nach sortierten Positionen indizieren.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O((n+m)*log(n+m))",
   "spaceComplexity": "O(n+m)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "list1=1 2 4, list2=1 3 4",

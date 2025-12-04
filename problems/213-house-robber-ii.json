@@ -13,9 +13,9 @@
   },
   "aplSolution": "RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}",
   "explanation": {
-    "en": "House robber II",
-    "zh-CN": "Considers two cases: rob first or rob last....",
-    "zh-TW": "Considers two cases: rob first or rob last....",
+    "en": "House robber II (circular): compares two cases - rob first house excluding last (+/¯1↓⍵), or rob last excluding first (+/1↓⍵), takes maximum (⌈/). Handles circular constraint.",
+    "zh-CN": "打家劫舍 II（环形）：比较两种情况 - 抢第一间房排除最后一间 (+/¯1↓⍵)，或抢最后一间排除第一间 (+/1↓⍵)，取最大值 (⌈/)。处理环形约束。",
+    "zh-TW": "打家劫舍 II（環形）：比較兩種情況 - 搶第一間房排除最後一間 (+/¯1↓⍵)，或搶最後一間排除第一間 (+/1↓⍵)，取最大值 (⌈/)。處理環形約束。",
     "ja": "Considers two cases: rob first or rob last....",
     "es": "Considers two cases: rob first or rob last....",
     "de": "Considers two cases: rob first or rob last....",
@@ -23,6 +23,5 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04"
+  "verified": false
 }

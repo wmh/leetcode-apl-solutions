@@ -13,9 +13,9 @@
   },
   "aplSolution": "TitleToNumber ← {26⊥(⎕A⍳⍵)-⎕IO}",
   "explanation": {
-    "en": "Base-26 conversion",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Converts Excel column to number: finds positions in alphabet (⎕A⍳⍵), adjusts for 0-indexing (-⎕IO), treats as base-26 number (26⊥). Like base conversion.",
+    "zh-CN": "将 Excel 列转换为数字：在字母表中找到位置 (⎕A⍳⍵)，调整为 0 索引 (-⎕IO)，视为 26 进制数 (26⊥)。类似进制转换。",
+    "zh-TW": "將 Excel 列轉換為數字：在字母表中找到位置 (⎕A⍳⍵)，調整為 0 索引 (-⎕IO)，視為 26 進制數 (26⊥)。類似進制轉換。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

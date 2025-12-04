@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(C(n,k))",
   "spaceComplexity": "O(k)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

@@ -13,9 +13,9 @@
   },
   "aplSolution": "SetZeroes ← {⍵×⍨∘.∧⍨~0∊¨↓⍵}",
   "explanation": {
-    "en": "Set row/col to 0",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Sets matrix rows/columns to zero: finds rows with zeros (0∊¨↓⍵), creates mask (~z), uses outer product AND (∘.∧⍨) to mark positions, multiplies with original (⍵×).",
+    "zh-CN": "将矩阵行/列设为零：找到有零的行 (0∊¨↓⍵)，创建掩码 (~z)，使用外积 AND (∘.∧⍨) 标记位置，与原始矩阵相乘 (⍵×)。",
+    "zh-TW": "將矩陣行/列設為零：找到有零的行 (0∊¨↓⍵)，創建掩碼 (~z)，使用外積 AND (∘.∧⍨) 標記位置，與原始矩陣相乘 (⍵×)。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(m*n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

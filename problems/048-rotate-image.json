@@ -13,9 +13,9 @@
   },
   "aplSolution": "Rotate ← {⌽⍉⍵}",
   "explanation": {
-    "en": "Rotate matrix 90°",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "Rotates matrix 90° clockwise: transposes (⍉⍵) to swap rows/columns, then reverses each row (⌽). Two operations achieve rotation.",
+    "zh-CN": "顺时针旋转矩阵 90°：转置 (⍉⍵) 交换行/列，然后反转每行 (⌽)。两个操作实现旋转。",
+    "zh-TW": "順時針旋轉矩陣 90°：轉置 (⍉⍵) 交換行/列，然後反轉每行 (⌽)。兩個操作實現旋轉。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

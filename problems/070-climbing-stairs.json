@@ -13,9 +13,9 @@
   },
   "aplSolution": "ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}",
   "explanation": {
-    "en": "Fibonacci via repeated sum",
-    "zh-CN": "這是斐波那契數列！使用冪運算符 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
-    "zh-TW": "這是費氏數列！使用冪運算子 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
+    "en": "Fibonacci via repeated sum reduction: starts with (1 1), applies sum reduction (+⌿) ⍵-1 times using power operator (⍣), extracts first element (⊃). Result is Fibonacci(n+1).",
+    "zh-CN": "通过重复求和归约计算斐波那契：从 (1 1) 开始，使用幂运算符 (⍣) 应用求和归约 (+⌿) ⍵-1 次，提取第一个元素 (⊃)。结果是 Fibonacci(n+1)。",
+    "zh-TW": "通過重複求和歸約計算斐波那契：從 (1 1) 開始，使用冪運算符 (⍣) 應用求和歸約 (+⌿) ⍵-1 次，提取第一個元素 (⊃)。結果是 Fibonacci(n+1)。",
     "ja": "これはフィボナッチ数列です！冪演算子 (⍣⍵) を使用して n 回反復し、1 1 から始めます。各反復では最後の 2 つの数値の合計を追加します ({⍵,+/¯2↑⍵})。最終結果の最初の要素を取ります (⊃)。",
     "es": "¡Esta es la secuencia de Fibonacci! Itera n veces con el operador de potencia (⍣⍵), comenzando con 1 1. Cada iteración agrega la suma de los últimos 2 números ({⍵,+/¯2↑⍵}). Toma el primer elemento (⊃) del resultado final.",
     "de": "Dies ist die Fibonacci-Folge! Iteriert n-mal mit dem Potenzoperator (⍣⍵), beginnend mit 1 1. Jede Iteration fügt die Summe der letzten 2 Zahlen hinzu ({⍵,+/¯2↑⍵}). Nimmt das erste Element (⊃) des Endergebnisses.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "2",

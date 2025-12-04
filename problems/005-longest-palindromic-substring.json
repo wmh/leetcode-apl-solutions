@@ -13,9 +13,9 @@
   },
   "aplSolution": "LongestPalindrome ← {⊃⌽{⍵/⍨⍵≡¨⌽¨⍵}{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Longest palindrome substring",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Generates all substrings, filters palindromes by comparing each with its reverse (⍵≡¨⌽¨⍵), reverses list (⌽) to get longest first, takes first element (⊃).",
+    "zh-CN": "生成所有子串，通过比较每个子串与其反转 (⍵≡¨⌽¨⍵) 过滤回文，反转列表 (⌽) 使最长的在前，取第一个元素 (⊃)。",
+    "zh-TW": "生成所有子串，通過比較每個子串與其反轉 (⍵≡¨⌽¨⍵) 過濾回文，反轉列表 (⌽) 使最長的在前，取第一個元素 (⊃)。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

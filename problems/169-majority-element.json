@@ -13,9 +13,9 @@
   },
   "aplSolution": "MajorityElement ← {⊃⍵[⍒+⌿∘.=⍨⍵]}",
   "explanation": {
-    "en": "Most frequent element",
-    "zh-CN": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
-    "zh-TW": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
+    "en": "Creates equality matrix (∘.=⍨⍵), sums to count occurrences (+⌿), sorts descending by count (⍒), indexes into original array, takes first (⊃). Returns most frequent element.",
+    "zh-CN": "创建相等矩阵 (∘.=⍨⍵)，求和计算出现次数 (+⌿)，按计数降序排序 (⍒)，索引到原数组，取第一个 (⊃)。返回最频繁的元素。",
+    "zh-TW": "創建相等矩陣 (∘.=⍨⍵)，求和計算出現次數 (+⌿)，按計數降序排序 (⍒)，索引到原陣列，取第一個 (⊃)。返回最頻繁的元素。",
     "ja": "要素をグループ化し、頻度の降順でソートし、最初を取ります。パーティション (⊆) と降順 (⍒) をカウントとともに使用します。",
     "es": "Agrupa elementos, ordena por frecuencia descendente, toma el primero. Usa partición (⊆) y grado descendente (⍒) con conteo.",
     "de": "Gruppiert Elemente, sortiert nach Häufigkeit absteigend, nimmt ersten. Verwendet Partition (⊆) und absteigenden Grad (⍒) mit Zählung.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "3 2 3",

@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsAnagram ← {(⍋⍺)≡⍋⍵}",
   "explanation": {
-    "en": "Compare sorted",
-    "zh-CN": "使用升序 (⍋) 對兩個字符串排序，然後檢查它們是否匹配 (≡)。如果排序後的字符串相同，則它們是字母異位詞。",
-    "zh-TW": "使用升序 (⍋) 對兩個字串排序，然後檢查它們是否匹配 (≡)。如果排序後的字串相同，則它們是字母異位詞。",
+    "en": "Compares sort order of two strings: (⍋⍺)≡⍋⍵. If both strings have same sorted form, they are anagrams. Grade (⍋) gives sorting permutation.",
+    "zh-CN": "比较两个字符串的排序顺序：(⍋⍺)≡⍋⍵。如果两个字符串有相同的排序形式，它们就是字谜。Grade (⍋) 给出排序排列。",
+    "zh-TW": "比較兩個字符串的排序順序：(⍋⍺)≡⍋⍵。如果兩個字符串有相同的排序形式，它們就是字謎。Grade (⍋) 給出排序排列。",
     "ja": "昇順 (⍋) を使用して両方の文字列をソートし、それらが一致するかを確認します (≡)。ソートされた文字列が同一である場合、それらはアナグラムです。",
     "es": "Ordena ambas cadenas usando grado ascendente (⍋) y luego verifica si coinciden (≡). Si las cadenas ordenadas son idénticas, son anagramas.",
     "de": "Sortiert beide Zeichenketten mit aufsteigendem Grad (⍋) und prüft dann, ob sie übereinstimmen (≡). Wenn die sortierten Zeichenketten identisch sind, sind sie Anagramme.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "s='anagram', t='nagaram'",

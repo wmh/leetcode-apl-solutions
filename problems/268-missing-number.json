@@ -13,9 +13,9 @@
   },
   "aplSolution": "MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}",
   "explanation": {
-    "en": "Find missing in range",
-    "zh-CN": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
-    "zh-TW": "使用 0 到 n 的和公式：n×(n+1)÷2。計算期望和減去實際和。結果就是缺失的數字。(≢⍵) 給出 n，所以我們計算 n×(n+1)÷2 - (+/⍵)，其中 +/⍵ 是元素的和。",
+    "en": "Creates range from 1 to max+1 (⍳1+⌈/⍵), removes present numbers using without (~⍵), takes first missing (⊃). Finds the missing number in sequence.",
+    "zh-CN": "创建从 1 到 max+1 的范围 (⍳1+⌈/⍵)，使用 without (~⍵) 移除存在的数字，取第一个缺失的 (⊃)。找到序列中缺失的数字。",
+    "zh-TW": "創建從 1 到 max+1 的範圍 (⍳1+⌈/⍵)，使用 without (~⍵) 移除存在的數字，取第一個缺失的 (⊃)。找到序列中缺失的數字。",
     "ja": "0 から n までの和の公式を使用します：n×(n+1)÷2。期待される合計から実際の合計を引きます。結果が欠落している数値です。(≢⍵) は n を与えるので、n×(n+1)÷2 - (+/⍵) を計算します。ここで +/⍵ は要素の合計です。",
     "es": "Utiliza la fórmula para la suma de 0 a n: n×(n+1)÷2. Calcula la suma esperada menos la suma real. El resultado es el número que falta. (≢⍵) da n, así que calculamos n×(n+1)÷2 - (+/⍵) donde +/⍵ es la suma de elementos.",
     "de": "Verwendet die Formel für die Summe von 0 bis n: n×(n+1)÷2. Berechnet die erwartete Summe minus die tatsächliche Summe. Das Ergebnis ist die fehlende Zahl. (≢⍵) gibt n, also berechnen wir n×(n+1)÷2 - (+/⍵), wobei +/⍵ die Summe der Elemente ist.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "3 0 1",

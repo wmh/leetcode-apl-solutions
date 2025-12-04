@@ -13,9 +13,9 @@
   },
   "aplSolution": "MaxSubArray ← {⌈/+\\0⌈⍵}",
   "explanation": {
-    "en": "Kadane's algorithm",
-    "zh-CN": "使用 Kadane 算法。版本 3 最簡單：累積和與運行最大值 (⌈\\)，前置 0 以處理全負數數組。取運行最大和的最大值。",
-    "zh-TW": "使用 Kadane 算法。版本 3 最簡單：累積和與運行最大值 (⌈\\)，前置 0 以處理全負數陣列。取運行最大和的最大值。",
+    "en": "Kadane's algorithm: uses scan with max (⌈\\) to keep only positive running sums by comparing with 0, running sum (+\\), takes maximum (⌈/). Efficiently finds max subarray sum.",
+    "zh-CN": "Kadane 算法：使用最大值扫描 (⌈\\) 通过与 0 比较只保留正数运行和，运行求和 (+\\)，取最大值 (⌈/)。高效找到最大子数组和。",
+    "zh-TW": "Kadane 算法：使用最大值掃描 (⌈\\) 通過與 0 比較只保留正數運行和，運行求和 (+\\)，取最大值 (⌈/)。高效找到最大子陣列和。",
     "ja": "Kadane のアルゴリズムを使用します。バージョン 3 が最もシンプル：累積和と実行中の最大値 (⌈\\)、すべて負の配列を処理するために 0 を前に追加します。実行中の最大和の最大値を取ります。",
     "es": "Utiliza el algoritmo de Kadane. La versión 3 es la más simple: suma acumulativa con máximo en ejecución (⌈\\), anteponiendo 0 para manejar arrays todos negativos. Toma el máximo de las sumas máximas en ejecución.",
     "de": "Verwendet Kadanes Algorithmus. Version 3 ist am einfachsten: kumulative Summe mit laufendem Maximum (⌈\\), voranstellen von 0, um all-negative Arrays zu behandeln. Nimmt das Maximum der laufenden maximalen Summen.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "¯2 1 ¯3 4 ¯1 2 1 ¯5 4",

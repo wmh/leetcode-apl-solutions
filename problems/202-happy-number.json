@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "19",

@@ -13,9 +13,9 @@
   },
   "aplSolution": "MoveZeroes ← {(⍵~0),⍵⌿⍨⍵=0}",
   "explanation": {
-    "en": "Non-zeros then zeros",
-    "zh-CN": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留掩碼為真的元素。結果是非零值後跟零值。",
-    "zh-TW": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留遮罩為真的元素。結果是非零值後跟零值。",
+    "en": "Removes zeros from array (⍵~0), concatenates with zeros (,), generates zeros using compress (⍵⌿⍨⍵=0). Moves all zeros to end while maintaining order.",
+    "zh-CN": "从数组中移除零 (⍵~0)，与零连接 (,)，使用压缩生成零 (⍵⌿⍨⍵=0)。将所有零移到末尾同时保持顺序。",
+    "zh-TW": "從陣列中移除零 (⍵~0)，與零連接 (,)，使用壓縮生成零 (⍵⌿⍨⍵=0)。將所有零移到末尾同時保持順序。",
     "ja": "非ゼロをフィルタリング (⍵/⍨⍵≠0) し、ゼロと連結します (⍵/⍨⍵=0)。圧縮 (/) はマスクが真である要素を保持します。結果は非ゼロの後にゼロが続きます。",
     "es": "Filtra los no ceros (⍵/⍨⍵≠0) y concatena con los ceros (⍵/⍨⍵=0). La compresión (/) mantiene los elementos donde la máscara es verdadera. El resultado son no ceros seguidos de ceros.",
     "de": "Filtert Nicht-Nullen (⍵/⍨⍵≠0) und verkettet mit Nullen (⍵/⍨⍵=0). Kompression (/) behält Elemente, wo die Maske wahr ist. Das Ergebnis sind Nicht-Nullen gefolgt von Nullen.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "0 1 0 3 12",

@@ -13,9 +13,9 @@
   },
   "aplSolution": "RomanToInt ← {+/1 5 10 50 100 500 1000['IVXLCDM'⍳⍵]}",
   "explanation": {
-    "en": "Map Roman chars to values, sum",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Maps Roman characters to values using array indexing: 'IVXLCDM'⍳⍵ finds positions, indexes into value array [1 5 10 50 100 500 1000], sums (+/) the results.",
+    "zh-CN": "用数组索引将罗马字符映射为值：'IVXLCDM'⍳⍵ 找到位置，索引到值数组 [1 5 10 50 100 500 1000]，对结果求和 (+/)。",
+    "zh-TW": "用陣列索引將羅馬字符映射為值：'IVXLCDM'⍳⍵ 找到位置，索引到值陣列 [1 5 10 50 100 500 1000]，對結果求和 (+/)。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

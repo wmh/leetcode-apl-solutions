@@ -13,9 +13,9 @@
   },
   "aplSolution": "SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}",
   "explanation": {
-    "en": "Find element with count 1",
-    "zh-CN": "使用 XOR 歸約（≠/）。XOR 具有 a⊕a=0 和 a⊕0=a 的性質，因此重複的數字會相互抵消，只剩下單獨的數字。≠ 操作符在 APL 中是 XOR，/ 是將 XOR 應用於所有元素的歸約操作符。",
-    "zh-TW": "使用 XOR 歸約（≠/）。XOR 具有 a⊕a=0 和 a⊕0=a 的性質，因此重複的數字會相互抵消，只剩下單獨的數字。≠ 運算子在 APL 中是 XOR，/ 是將 XOR 應用於所有元素的歸約運算子。",
+    "en": "Creates equality matrix (∘.=⍨⍵), sums columns to count occurrences (+⌿), finds positions where count equals 1 (⍸1=), extracts first result (⊃). Finds the single unique element.",
+    "zh-CN": "创建相等矩阵 (∘.=⍨⍵)，对列求和计算出现次数 (+⌿)，找到计数为 1 的位置 (⍸1=)，提取第一个结果 (⊃)。找到单个唯一元素。",
+    "zh-TW": "創建相等矩陣 (∘.=⍨⍵)，對列求和計算出現次數 (+⌿)，找到計數為 1 的位置 (⍸1=)，提取第一個結果 (⊃)。找到單個唯一元素。",
     "ja": "XOR リダクション（≠/）を使用します。XOR には a⊕a=0 および a⊕0=a という性質があるため、重複する数値は相殺され、単一の数値のみが残ります。≠ 演算子は APL では XOR であり、/ はすべての要素間で XOR を適用するリダクション演算子です。",
     "es": "Utiliza reducción XOR (≠/). XOR tiene la propiedad de que a⊕a=0 y a⊕0=a, por lo que los números duplicados se cancelan, dejando solo el número único. El operador ≠ es XOR en APL, y / es el operador de reducción que aplica XOR entre todos los elementos.",
     "de": "Verwendet XOR-Reduktion (≠/). XOR hat die Eigenschaft, dass a⊕a=0 und a⊕0=a, sodass sich doppelte Zahlen aufheben und nur die einzelne Zahl übrig bleibt. Der ≠-Operator ist XOR in APL, und / ist der Reduktionsoperator, der XOR zwischen allen Elementen anwendet.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "4 1 2 1 2",

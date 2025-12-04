@@ -13,9 +13,9 @@
   },
   "aplSolution": "GroupAnagrams ← {⍵⌸⍨⍋¨⍵}",
   "explanation": {
-    "en": "Group by sorted form",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Groups anagrams by sorted form: sorts each word (⍋¨⍵), uses key operator (⌸⍨) to group words with same sorted form. Words that sort identically are anagrams.",
+    "zh-CN": "按排序形式分组字谜：对每个单词排序 (⍋¨⍵)，使用键运算符 (⌸⍨) 将具有相同排序形式的单词分组。排序相同的单词是字谜。",
+    "zh-TW": "按排序形式分組字謎：對每個單詞排序 (⍋¨⍵)，使用鍵運算符 (⌸⍨) 將具有相同排序形式的單詞分組。排序相同的單詞是字謎。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n*k*log k)",
   "spaceComplexity": "O(n*k)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

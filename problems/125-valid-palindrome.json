@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}",
   "explanation": {
-    "en": "Filter alphanumeric, check palindrome",
-    "zh-CN": "過濾以僅保留字母數字字符：大寫 (⎕A)、數字 (⎕D) 和小寫 (⎕C⎕A)。然後檢查過濾後的字符串是否與其反轉匹配 (s≡⌽s)。",
-    "zh-TW": "過濾以僅保留字母數字字元：大寫 (⎕A)、數字 (⎕D) 和小寫 (⎕C⎕A)。然後檢查過濾後的字串是否與其反轉匹配 (s≡⌽s)。",
+    "en": "Filters to alphanumeric characters only ((⍵∊⎕A,⎕D)/⍵), compares result with its reverse (s≡⌽s). Valid palindrome if filtered string matches reverse. Requires uppercase input.",
+    "zh-CN": "仅过滤为字母数字字符 ((⍵∊⎕A,⎕D)/⍵)，将结果与其反转比较 (s≡⌽s)。如果过滤后的字符串匹配反转则为有效回文。需要大写输入。",
+    "zh-TW": "僅過濾為字母數字字符 ((⍵∊⎕A,⎕D)/⍵)，將結果與其反轉比較 (s≡⌽s)。如果過濾後的字符串匹配反轉則為有效回文。需要大寫輸入。",
     "ja": "英数字のみを保持するようにフィルタリングします：大文字 (⎕A)、数字 (⎕D)、および小文字 (⎕C⎕A)。次に、フィルタリングされた文字列がその逆と一致するかを確認します (s≡⌽s)。",
     "es": "Filtra para mantener solo caracteres alfanuméricos: mayúsculas (⎕A), dígitos (⎕D) y minúsculas (⎕C⎕A). Luego verifica si la cadena filtrada coincide con su reverso (s≡⌽s).",
     "de": "Filtert, um nur alphanumerische Zeichen zu behalten: Großbuchstaben (⎕A), Ziffern (⎕D) und Kleinbuchstaben (⎕C⎕A). Überprüft dann, ob die gefilterte Zeichenkette mit ihrer Umkehrung übereinstimmt (s≡⌽s).",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "A man, a plan, a canal: Panama",

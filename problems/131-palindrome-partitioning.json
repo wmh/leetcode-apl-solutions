@@ -23,6 +23,5 @@
   },
   "timeComplexity": "O(n*2^n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04"
+  "verified": false
 }

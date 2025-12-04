@@ -13,9 +13,9 @@
   },
   "aplSolution": "MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}",
   "explanation": {
-    "en": "Recursive max depth",
-    "zh-CN": "遞歸計算深度。基本情況：空樹深度為 0。遞歸情況：1 + 子節點的最大深度。使用自引用 (∇) 遞歸每個子節點，然後用 ⌈/ 取最大值。",
-    "zh-TW": "遞迴計算深度。基本情況：空樹深度為 0。遞迴情況：1 + 子節點的最大深度。使用自引用 (∇) 遞迴每個子節點，然後用 ⌈/ 取最大值。",
+    "en": "Recursive depth calculation: returns 0 for empty (0=≢⍵), otherwise 1 plus maximum depth of children (1+⌈/∇¨⍵). Self-reference (∇) enables recursion.",
+    "zh-CN": "递归深度计算：空节点返回 0 (0=≢⍵)，否则返回 1 加子节点最大深度 (1+⌈/∇¨⍵)。自引用 (∇) 启用递归。",
+    "zh-TW": "遞歸深度計算：空節點返回 0 (0=≢⍵)，否則返回 1 加子節點最大深度 (1+⌈/∇¨⍵)。自引用 (∇) 啟用遞歸。",
     "ja": "再帰的に深さをカウントします。ベースケース：空のツリーは深さ 0。再帰ケース：1 + 子の最大深さ。自己参照 (∇) を使用して各子を再帰し、⌈/ で最大値を取ります。",
     "es": "Cuenta recursivamente la profundidad. Caso base: árbol vacío tiene profundidad 0. Caso recursivo: 1 + profundidad máxima de los hijos. Usa autorreferencia (∇) para recurrir sobre cada hijo, luego toma el máximo con ⌈/.",
     "de": "Zählt rekursiv die Tiefe. Basisfall: leerer Baum hat Tiefe 0. Rekursiver Fall: 1 + maximale Tiefe der Kinder. Verwendet Selbstreferenz (∇), um über jedes Kind zu rekurrieren, dann nimmt das Maximum mit ⌈/.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(h)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "(3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))",

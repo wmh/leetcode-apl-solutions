@@ -13,9 +13,9 @@
   },
   "aplSolution": "Subsets ← {↓⍉(≢⍵)⊤⍳2*≢⍵}",
   "explanation": {
-    "en": "All subsets",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "Generates all subsets: creates binary representations of numbers 0 to 2^n-1 using encode ((≢⍵)⊤⍳2*≢⍵), transposes (⍉), drops rows (↓). Each binary pattern selects subset.",
+    "zh-CN": "生成所有子集：使用编码创建 0 到 2^n-1 的二进制表示 ((≢⍵)⊤⍳2*≢⍵)，转置 (⍉)，删除行 (↓)。每个二进制模式选择子集。",
+    "zh-TW": "生成所有子集：使用編碼創建 0 到 2^n-1 的二進制表示 ((≢⍵)⊤⍳2*≢⍵)，轉置 (⍉)，刪除行 (↓)。每個二進制模式選擇子集。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(2^n)",
   "spaceComplexity": "O(2^n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

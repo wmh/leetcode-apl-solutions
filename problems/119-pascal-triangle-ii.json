@@ -13,9 +13,9 @@
   },
   "aplSolution": "GetRow ← {⊃({0,⍵}+{⍵,0})⍣⍵⊢,1}",
   "explanation": {
-    "en": "Single row of Pascal",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Gets single Pascal's triangle row: same as generate but extracts first element (⊃) after ⍵ iterations. Starts with (,1) enclosed.",
+    "zh-CN": "获取单个帕斯卡三角形行：与生成相同，但在 ⍵ 次迭代后提取第一个元素 (⊃)。从封闭的 (,1) 开始。",
+    "zh-TW": "獲取單個帕斯卡三角形行：與生成相同，但在 ⍵ 次迭代後提取第一個元素 (⊃)。從封閉的 (,1) 開始。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsValid ← {0=+/(⍵='(')-⍵=')'}",
   "explanation": {
-    "en": "Count open minus close parens, check balanced",
-    "zh-CN": "對於簡單情況（版本 1）：計算開括號 '(' 並減去閉括號 ')'。如果和為 0 則有效。對於完整驗證（版本 2）：需要基於堆棧的括號對匹配。",
-    "zh-TW": "對於簡單情況（版本 1）：計算開括號 '(' 並減去閉括號 ')'。如果和為 0 則有效。對於完整驗證（版本 2）：需要基於堆疊的括號對匹配。",
+    "en": "Counts opening parentheses (⍵='(') minus closing ones (⍵=')'), checks if sum equals 0 (0=+/). Balanced if count is zero. Simplified version for single bracket type.",
+    "zh-CN": "计算左括号数 (⍵='(') 减去右括号数 (⍵=')')，检查和是否为 0 (0=+/)。如果计数为零则平衡。简化版仅处理单一括号类型。",
+    "zh-TW": "計算左括號數 (⍵='(') 減去右括號數 (⍵=')')，檢查和是否為 0 (0=+/)。如果計數為零則平衡。簡化版僅處理單一括號類型。",
     "ja": "単純なケース（バージョン 1）：開き括弧 '(' をカウントし、閉じ括弧 ')' を減算します。合計が 0 であれば有効です。完全な検証（バージョン 2）：括弧ペアのスタックベースのマッチングが必要です。",
     "es": "Para el caso simple (versión 1): cuenta paréntesis de apertura '(' y resta paréntesis de cierre ')'. Válido si la suma es 0. Para validación completa (versión 2): se necesitaría coincidencia de pares de corchetes basada en pila.",
     "de": "Für den einfachen Fall (Version 1): zählt öffnende Klammern '(' und subtrahiert schließende Klammern ')'. Gültig, wenn die Summe 0 ist. Für vollständige Validierung (Version 2): wäre stapelbasiertes Matching von Klammerpaaren erforderlich.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "()",

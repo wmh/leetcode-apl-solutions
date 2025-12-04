@@ -13,9 +13,9 @@
   },
   "aplSolution": "CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}",
   "explanation": {
-    "en": "Count bits 0 to n",
-    "zh-CN": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進制 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 操作符將操作應用於每個數字。",
-    "zh-TW": "對於 0 到 n 的每個數字 (⍳⍵+1)，使用基數 2 編碼轉換為二進位 (⊤⍨32⍴2)，然後對位求和 (+/)。¨ 運算子將操作應用於每個數字。",
+    "en": "Generates range 0 to n (⍳⍵+1), converts each to binary (2⊥⍣¯1¨), sums bits in each (+/¨). Returns array of bit counts for 0 to n.",
+    "zh-CN": "生成范围 0 到 n (⍳⍵+1)，将每个转换为二进制 (2⊥⍣¯1¨)，对每个中的位求和 (+/¨)。返回 0 到 n 的位计数数组。",
+    "zh-TW": "生成範圍 0 到 n (⍳⍵+1)，將每個轉換為二進制 (2⊥⍣¯1¨)，對每個中的位求和 (+/¨)。返回 0 到 n 的位計數陣列。",
     "ja": "0 から n までの各数値 (⍳⍵+1) について、基数 2 エンコードを使用して 2 進数に変換し (⊤⍨32⍴2)、ビットを合計します (+/)。¨ 演算子は各数値に操作を適用します。",
     "es": "Para cada número de 0 a n (⍳⍵+1), convierte a binario usando codificación base-2 (⊤⍨32⍴2), luego suma los bits (+/). El operador ¨ aplica la operación a cada número.",
     "de": "Für jede Zahl von 0 bis n (⍳⍵+1) konvertiert in Binär mit Basis-2-Kodierung (⊤⍨32⍴2), dann summiert die Bits (+/). Der ¨-Operator wendet die Operation auf jede Zahl an.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "2",

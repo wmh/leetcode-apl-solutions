@@ -13,9 +13,9 @@
   },
   "aplSolution": "InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}",
   "explanation": {
-    "en": "Recursive reverse",
-    "zh-CN": "遞歸交換左右子節點。基本情況：空樹返回空。遞歸情況：保持根節點，通過先遞歸右子節點再遞歸左子節點來交換子節點。",
-    "zh-TW": "遞迴交換左右子節點。基本情況：空樹返回空。遞迴情況：保持根節點，通過先遞迴右子節點再遞迴左子節點來交換子節點。",
+    "en": "Recursive tree inversion: returns input if empty (0=≢⍵), otherwise reverses children (⌽) and recursively inverts each (∇¨⍵). Self-reference (∇) enables recursion.",
+    "zh-CN": "递归树反转：如果为空则返回输入 (0=≢⍵)，否则反转子节点 (⌽) 并递归反转每个 (∇¨⍵)。自引用 (∇) 启用递归。",
+    "zh-TW": "遞歸樹反轉：如果為空則返回輸入 (0=≢⍵)，否則反轉子節點 (⌽) 並遞歸反轉每個 (∇¨⍵)。自引用 (∇) 啟用遞歸。",
     "ja": "再帰的に左右の子を交換します。ベースケース：空のツリーは空を返します。再帰ケース：ルートを保持し、右の子に再帰してから左の子に再帰することで子を交換します。",
     "es": "Intercambia recursivamente los hijos izquierdo y derecho. Caso base: árbol vacío devuelve vacío. Caso recursivo: mantiene la raíz, intercambia los hijos recursando primero sobre el derecho y luego sobre el izquierdo.",
     "de": "Tauscht rekursiv linke und rechte Kinder aus. Basisfall: leerer Baum gibt leer zurück. Rekursiver Fall: behält Wurzel, tauscht Kinder durch Rekursion zuerst auf rechtes dann linkes Kind.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(h)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "(4 (2 (1 ⍬ ⍬) (3 ⍬ ⍬)) (7 (6 ⍬ ⍬) (9 ⍬ ⍬)))",

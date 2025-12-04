@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsSameTree ← {⍺≡⍵}",
   "explanation": {
-    "en": "Match operator",
-    "zh-CN": "使用匹配運算符 (≡)，如果數組在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
-    "zh-TW": "使用匹配運算子 (≡)，如果陣列在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
+    "en": "Uses match operator (≡) to check if two trees are identical. Works recursively on nested array structures.",
+    "zh-CN": "使用匹配运算符 (≡) 检查两个树是否相同。递归地作用于嵌套数组结构。",
+    "zh-TW": "使用匹配運算符 (≡) 檢查兩個樹是否相同。遞歸地作用於嵌套陣列結構。",
     "ja": "マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！",
     "es": "Utiliza el operador de coincidencia (≡) que devuelve 1 si los arrays son idénticos en estructura y valores, 0 en caso contrario. ¡Esta es la solución más simple posible: solo un símbolo!",
     "de": "Verwendet den Übereinstimmungsoperator (≡), der 1 zurückgibt, wenn Arrays in Struktur und Werten identisch sind, andernfalls 0. Dies ist die einfachst mögliche Lösung - nur ein Symbol!",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "p=1 2 3, q=1 2 3",

@@ -13,9 +13,9 @@
   },
   "aplSolution": "Merge ← {(⍺,⍵)[⍋⍺,⍵]}",
   "explanation": {
-    "en": "Concatenate and sort",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Same as merge two lists: concatenates arrays (⍺,⍵), gets sort order with grade up (⍋), indexes to produce sorted result.",
+    "zh-CN": "与合并两个列表相同：连接数组 (⍺,⍵)，用升序 (⍋) 获取排序顺序，索引产生排序结果。",
+    "zh-TW": "與合併兩個列表相同：連接陣列 (⍺,⍵)，用升序 (⍋) 獲取排序順序，索引產生排序結果。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n+m)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

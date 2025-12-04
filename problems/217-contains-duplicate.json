@@ -13,9 +13,9 @@
   },
   "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}",
   "explanation": {
-    "en": "Length ≠ unique length",
-    "zh-CN": "比較數組的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 操作符給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
-    "zh-TW": "比較陣列的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 運算子給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
+    "en": "Compares length of original array (≢⍵) with length of unique elements (≢∪⍵). Returns 1 (true) if different, indicating duplicates exist.",
+    "zh-CN": "比较原数组长度 (≢⍵) 与唯一元素长度 (≢∪⍵)。如果不同则返回 1（真），表示存在重复。",
+    "zh-TW": "比較原陣列長度 (≢⍵) 與唯一元素長度 (≢∪⍵)。如果不同則返回 1（真），表示存在重複。",
     "ja": "配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。",
     "es": "Compara la longitud del array (≢⍵) con la longitud de los elementos únicos (≢∪⍵). Si difieren, debe haber duplicados. El operador ≢ da la longitud, ∪ da elementos únicos y ≠ verifica si no son iguales.",
     "de": "Vergleicht die Länge des Arrays (≢⍵) mit der Länge der eindeutigen Elemente (≢∪⍵). Wenn sie sich unterscheiden, müssen Duplikate vorhanden sein. Der ≢-Operator gibt die Länge, ∪ gibt eindeutige Elemente und ≠ prüft, ob sie nicht gleich sind.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "1 2 3 1",

@@ -13,9 +13,9 @@
   },
   "aplSolution": "MaxProfit ← {⌈/0,⍵-⌊\\⍵}",
   "explanation": {
-    "en": "Max of (price - running min)",
-    "zh-CN": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
-    "zh-TW": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
+    "en": "Tracks running minimum price (⌊\\⍵) using scan, subtracts from prices (⍵-) to get potential profit at each position, prepends 0 for negative case (0,), takes maximum (⌈/).",
+    "zh-CN": "使用扫描跟踪运行最小价格 (⌊\\⍵)，从价格中减去 (⍵-) 得到每个位置的潜在利润，为负数情况前置 0 (0,)，取最大值 (⌈/)。",
+    "zh-TW": "使用掃描跟蹤運行最小價格 (⌊\\⍵)，從價格中減去 (⍵-) 得到每個位置的潛在利潤，為負數情況前置 0 (0,)，取最大值 (⌈/)。",
     "ja": "スキャン (⌊\\⍵) で実行中の最小値を追跡します。各価格から最小値を引いて (⍵-⌊\\⍵) 各ポイントでの利益を取得します。⌈/ で最大値を取り、0 と比較して利益なしのケースを処理します。",
     "es": "Rastrea el mínimo en ejecución con escaneo (⌊\\⍵). Resta el mínimo de cada precio (⍵-⌊\\⍵) para obtener el beneficio en cada punto. Toma el máximo con ⌈/ y compara con 0 para manejar el caso sin beneficio.",
     "de": "Verfolgt das laufende Minimum mit Scan (⌊\\⍵). Subtrahiert das Minimum von jedem Preis (⍵-⌊\\⍵), um den Gewinn an jedem Punkt zu erhalten. Nimmt das Maximum mit ⌈/ und vergleicht mit 0, um den Fall ohne Gewinn zu behandeln.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "7 1 5 3 6 4",

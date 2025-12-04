@@ -13,9 +13,9 @@
   },
   "aplSolution": "LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Max unique substring",
-    "zh-CN": "版本 2：生成所有子字符串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字符串。",
-    "zh-TW": "版本 2：生成所有子字串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字串。",
+    "en": "Generates all substrings with {⍵↑¨⊂⍵}⍨⍳≢⍵, applies unique (∪¨) to each, counts length (≢¨), takes maximum (⌈/). Checks uniqueness of characters in each substring.",
+    "zh-CN": "用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子串，对每个应用 unique (∪¨)，计算长度 (≢¨)，取最大值 (⌈/)。检查每个子串的字符唯一性。",
+    "zh-TW": "用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子串，對每個應用 unique (∪¨)，計算長度 (≢¨)，取最大值 (⌈/)。檢查每個子串的字符唯一性。",
     "ja": "バージョン 2：すべての部分文字列を生成し、それぞれの一意性をチェックし ((≢⍵)=≢∪⍵)、最大長を返します。ネストされた drop/take を使用して部分文字列を作成します。",
     "es": "Versión 2: Genera todas las subcadenas, verifica cada una para unicidad ((≢⍵)=≢∪⍵), devuelve la longitud máxima. Usa drops/takes anidados para crear subcadenas.",
     "de": "Version 2: Generiert alle Teilzeichenketten, prüft jede auf Eindeutigkeit ((≢⍵)=≢∪⍵), gibt maximale Länge zurück. Verwendet verschachtelte Drops/Takes, um Teilzeichenketten zu erstellen.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "abcabcbb",

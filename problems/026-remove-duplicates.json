@@ -13,9 +13,9 @@
   },
   "aplSolution": "RemoveDuplicates ← {≢∪⍵}",
   "explanation": {
-    "en": "Count unique elements",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Applies unique (∪⍵) to remove duplicates, counts length (≢). Returns the count of unique elements.",
+    "zh-CN": "应用 unique (∪⍵) 去除重复，计算长度 (≢)。返回唯一元素的数量。",
+    "zh-TW": "應用 unique (∪⍵) 去除重複，計算長度 (≢)。返回唯一元素的數量。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

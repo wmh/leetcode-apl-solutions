@@ -13,9 +13,9 @@
   },
   "aplSolution": "ReverseList ← {⌽⍵}",
   "explanation": {
-    "en": "Reverse array",
-    "zh-CN": "使用反轉操作符（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
-    "zh-TW": "使用反轉運算子（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
+    "en": "Uses reverse operator (⌽⍵). In APL, ⌽ reverses elements along the last axis of a vector. Simplest solution - just one symbol!",
+    "zh-CN": "使用反转运算符 (⌽⍵)。在 APL 中，⌽ 沿向量的最后一个轴反转元素。最简单的解决方案 - 只需一个符号！",
+    "zh-TW": "使用反轉運算符 (⌽⍵)。在 APL 中，⌽ 沿向量的最後一個軸反轉元素。最簡單的解決方案 - 只需一個符號！",
     "ja": "リバース演算子（⌽）を使用します。APL では、⌽ はベクトルの要素を最後の軸に沿って反転します。これは最も簡単な解決策です - たった 1 つの記号！",
     "es": "Utiliza el operador de reversión (⌽). En APL, ⌽ invierte los elementos de un vector a lo largo de su último eje. ¡Esta es la solución más simple posible: solo un símbolo!",
     "de": "Verwendet den Umkehroperator (⌽). In APL kehrt ⌽ die Elemente eines Vektors entlang seiner letzten Achse um. Dies ist die einfachst mögliche Lösung - nur ein Symbol!",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "1 2 3 4 5",

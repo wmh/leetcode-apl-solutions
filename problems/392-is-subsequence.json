@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsSubsequence ← {⍺≡⍵/⍨⍺∊⍵}",
   "explanation": {
-    "en": "Subsequence check",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Filters ⍵ to elements in ⍺ (⍵/⍨⍺∊⍵), compares with ⍺ (⍺≡). True if filtered version equals original, meaning ⍺ is subsequence of ⍵.",
+    "zh-CN": "将 ⍵ 过滤为 ⍺ 中的元素 (⍵/⍨⍺∊⍵)，与 ⍺ 比较 (⍺≡)。如果过滤版本等于原始版本则为真，意味着 ⍺ 是 ⍵ 的子序列。",
+    "zh-TW": "將 ⍵ 過濾為 ⍺ 中的元素 (⍵/⍨⍺∊⍵)，與 ⍺ 比較 (⍺≡)。如果過濾版本等於原始版本則為真，意味著 ⍺ 是 ⍵ 的子序列。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

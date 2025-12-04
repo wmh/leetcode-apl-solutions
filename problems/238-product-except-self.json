@@ -13,9 +13,9 @@
   },
   "aplSolution": "ProductExceptSelf ← {(×\\1,¯1↓⍵)×⌽×\\1,¯1↓⌽⍵}",
   "explanation": {
-    "en": "Product except self",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Product except self: left products (×\\1,¯1↓⍵) scan from left with 1 prepended, right products (⌽×\\1,¯1↓⌽⍵) scan reversed array, multiply together (×). No division needed.",
+    "zh-CN": "除自身外的乘积：左乘积 (×\\1,¯1↓⍵) 从左扫描前置 1，右乘积 (⌽×\\1,¯1↓⌽⍵) 扫描反转数组，相乘 (×)。无需除法。",
+    "zh-TW": "除自身外的乘積：左乘積 (×\\1,¯1↓⍵) 從左掃描前置 1，右乘積 (⌽×\\1,¯1↓⌽⍵) 掃描反轉陣列，相乘 (×)。無需除法。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

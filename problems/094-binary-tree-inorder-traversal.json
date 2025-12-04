@@ -13,9 +13,9 @@
   },
   "aplSolution": "InorderTraversal ← {,⍵}",
   "explanation": {
-    "en": "Flatten nested structure",
-    "zh-CN": "遞歸：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
-    "zh-TW": "遞迴：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
+    "en": "Flattens nested tree structure using ravel (,). For nested arrays representing trees, this gives all nodes in order.",
+    "zh-CN": "使用 ravel (,) 展平嵌套树结构。对于表示树的嵌套数组，这按顺序给出所有节点。",
+    "zh-TW": "使用 ravel (,) 展平嵌套樹結構。對於表示樹的嵌套陣列，這按順序給出所有節點。",
     "ja": "再帰：左を走査、ルートを訪問、右を走査。ベースケースは null ノードに対して空を返します。",
     "es": "Recursivo: recorre izquierda, visita raíz, recorre derecha. El caso base devuelve vacío para nodos nulos.",
     "de": "Rekursiv: durchlaufe links, besuche Wurzel, durchlaufe rechts. Basisfall gibt leer für null-Knoten zurück.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(h)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "(1 ⍬ (2 (3 ⍬ ⍬) ⍬))",

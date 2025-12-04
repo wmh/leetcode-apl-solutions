@@ -13,9 +13,9 @@
   },
   "aplSolution": "PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Decode from digits, add 1, encode back",
-    "zh-CN": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 操作符從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
-    "zh-TW": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 運算子從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
+    "en": "Decodes digits to number (10⊥⍵), adds 1, encodes back to digits (10⊥⍣¯1). Base-10 conversion handles carry automatically.",
+    "zh-CN": "将数字解码为数 (10⊥⍵)，加 1，编码回数字 (10⊥⍣¯1)。十进制转换自动处理进位。",
+    "zh-TW": "將數字解碼為數 (10⊥⍵)，加 1，編碼回數字 (10⊥⍣¯1)。十進制轉換自動處理進位。",
     "ja": "デコード（10⊥⍵）を使用して桁を数値に変換し、1 を加算してから、エンコード（10⊥⍣¯1）を使用して桁に戻します。⊥ 演算子は基数 10 からデコードし、⊥⍣¯1 は基数 10 の桁にエンコードします。",
     "es": "Convierte dígitos a número usando decodificación (10⊥⍵), suma 1, luego convierte de vuelta a dígitos usando codificación (10⊥⍣¯1). El operador ⊥ decodifica desde base 10, ⊥⍣¯1 codifica a dígitos de base 10.",
     "de": "Konvertiert Ziffern in eine Zahl mit Dekodierung (10⊥⍵), addiert 1, dann konvertiert zurück zu Ziffern mit Kodierung (10⊥⍣¯1). Der ⊥-Operator dekodiert von Basis 10, ⊥⍣¯1 kodiert zu Basis-10-Ziffern.",
@@ -23,8 +23,7 @@
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": [
     {
       "input": "1 2 3",

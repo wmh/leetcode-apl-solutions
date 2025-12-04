@@ -13,9 +13,9 @@
   },
   "aplSolution": "MaxProduct ← {⌈/×/¨{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Max product subarray",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
+    "en": "Maximum product subarray: generates all subarrays using {⍵↑¨⊂⍵}⍨⍳≢⍵, computes product of each (×/¨), takes maximum (⌈/). Considers all possible contiguous subarrays.",
+    "zh-CN": "最大乘积子数组：使用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子数组，计算每个的乘积 (×/¨)，取最大值 (⌈/)。考虑所有可能的连续子数组。",
+    "zh-TW": "最大乘積子陣列：使用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子陣列，計算每個的乘積 (×/¨)，取最大值 (⌈/)。考慮所有可能的連續子陣列。",
     "ja": "検証済み",
     "es": "Verificado",
     "de": "Verifiziert",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }

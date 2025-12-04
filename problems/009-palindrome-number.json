@@ -13,9 +13,9 @@
   },
   "aplSolution": "IsPalindrome ← {(⍵<0):0 ⋄ (⍕⍵)≡⌽⍕⍵}",
   "explanation": {
-    "en": "Check negative, stringify, compare with reverse",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
+    "en": "Checks if negative (returns 0 for negative numbers). Converts to string (⍕⍵), compares with reverse (≡⌽⍕⍵). Palindrome if string equals its reverse.",
+    "zh-CN": "检查是否为负数（负数返回 0）。转换为字符串 (⍕⍵)，与反转比较 (≡⌽⍕⍵)。如果字符串等于其反转则为回文。",
+    "zh-TW": "檢查是否為負數（負數返回 0）。轉換為字符串 (⍕⍵)，與反轉比較 (≡⌽⍕⍵)。如果字符串等於其反轉則為回文。",
     "ja": "検証済みの APL ソリューション",
     "es": "Solución APL verificada",
     "de": "Verifizierte APL-Lösung",
@@ -23,7 +23,6 @@
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)",
-  "verified": true,
-  "verifiedDate": "2025-12-04",
+  "verified": false,
   "testCases": []
 }
