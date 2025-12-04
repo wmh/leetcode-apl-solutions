@@ -13,7 +13,7 @@
   },
   "aplSolution": "MaxProfit ← {⌈/0,⍵-⌊\\⍵}",
   "explanation": {
-    "en": "Computes running minimum (⌊\\⍵), subtracts from prices (⍵-), prepends 0 to handle negative case (0,), takes maximum (⌈/). This gives max profit or 0 if no profit possible.",
+    "en": "Max of (price - running min)",
     "zh-CN": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
     "zh-TW": "用掃描 (⌊\\⍵) 追蹤運行最小值。從每個價格中減去最小值 (⍵-⌊\\⍵) 以獲得每個點的利潤。用 ⌈/ 取最大值並與 0 比較以處理無利潤情況。",
     "ja": "スキャン (⌊\\⍵) で実行中の最小値を追跡します。各価格から最小値を引いて (⍵-⌊\\⍵) 各ポイントでの利益を取得します。⌈/ で最大値を取り、0 と比較して利益なしのケースを処理します。",

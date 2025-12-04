@@ -13,7 +13,7 @@
   },
   "aplSolution": "SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}",
   "explanation": {
-    "en": "Creates equality matrix (∘.=⍨⍵), sums columns to count occurrences (+⌿), finds position where count equals 1 (⍸1=), extracts the value (⊃).",
+    "en": "Find element with count 1",
     "zh-CN": "使用 XOR 歸約（≠/）。XOR 具有 a⊕a=0 和 a⊕0=a 的性質，因此重複的數字會相互抵消，只剩下單獨的數字。≠ 操作符在 APL 中是 XOR，/ 是將 XOR 應用於所有元素的歸約操作符。",
     "zh-TW": "使用 XOR 歸約（≠/）。XOR 具有 a⊕a=0 和 a⊕0=a 的性質，因此重複的數字會相互抵消，只剩下單獨的數字。≠ 運算子在 APL 中是 XOR，/ 是將 XOR 應用於所有元素的歸約運算子。",
     "ja": "XOR リダクション（≠/）を使用します。XOR には a⊕a=0 および a⊕0=a という性質があるため、重複する数値は相殺され、単一の数値のみが残ります。≠ 演算子は APL では XOR であり、/ はすべての要素間で XOR を適用するリダクション演算子です。",

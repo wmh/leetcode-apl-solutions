@@ -13,7 +13,7 @@
   },
   "aplSolution": "MajorityElement ← {⊃⍵[⍒+⌿∘.=⍨⍵]}",
   "explanation": {
-    "en": "Creates equality matrix (∘.=⍨⍵), sums to count occurrences (+⌿), sorts descending (⍒), takes first element (⊃) which has highest count.",
+    "en": "Most frequent element",
     "zh-CN": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
     "zh-TW": "對元素分組，按頻率降序排序，取第一個。使用分區 (⊆) 和降序 (⍒) 與計數。",
     "ja": "要素をグループ化し、頻度の降順でソートし、最初を取ります。パーティション (⊆) と降順 (⍒) をカウントとともに使用します。",

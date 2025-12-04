@@ -11,9 +11,9 @@
     "de": "Return all possible subsets",
     "fr": "Return all possible subsets"
   },
-  "aplSolution": "Subsets ← {,⍳2⊥⍣¯1⊢2*≢⍵}",
+  "aplSolution": "Subsets ← {↓⍉(≢⍵)⊤⍳2*≢⍵}",
   "explanation": {
-    "en": "Generates all binary combinations using powers of 2, converts to indices.",
+    "en": "All subsets",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

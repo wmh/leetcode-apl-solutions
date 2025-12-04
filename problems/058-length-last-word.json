@@ -11,9 +11,9 @@
     "de": "Length of last word",
     "fr": "Length of last word"
   },
-  "aplSolution": "LengthOfLastWord ← {≢⊃⌽(' '≠⍵)⊆⍵}",
+  "aplSolution": "LengthOfLastWord ← {≢⊃⌽' '(≠⊆⊢)⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Split on space, reverse, count last",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

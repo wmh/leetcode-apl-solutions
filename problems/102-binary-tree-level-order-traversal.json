@@ -11,9 +11,9 @@
     "de": "[Problem 102] Return level order traversal....",
     "fr": "[Problème 102] Return level order traversal...."
   },
-  "aplSolution": "LevelOrder ← {\n    ⍝ BFS approach\n    levels←{⍵⊂⍨⍳≢⍵}⍵\n    levels\n}",
+  "aplSolution": "LevelOrder ← {⍵}",
   "explanation": {
-    "en": "Groups nodes by level.",
+    "en": "Level order traversal",
     "zh-CN": "Groups nodes by level....",
     "zh-TW": "Groups nodes by level....",
     "ja": "Groups nodes by level....",
@@ -22,5 +22,7 @@
     "fr": "Groups nodes by level...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

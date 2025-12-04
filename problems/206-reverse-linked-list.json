@@ -13,7 +13,7 @@
   },
   "aplSolution": "ReverseList ← {⌽⍵}",
   "explanation": {
-    "en": "Simple reversal using APL's reverse operator (⌽). Works for arrays representing linked list values.",
+    "en": "Reverse array",
     "zh-CN": "使用反轉操作符（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
     "zh-TW": "使用反轉運算子（⌽）。在 APL 中，⌽ 沿著向量的最後一個軸反轉元素。這是最簡單的解決方案 - 只需要一個符號！",
     "ja": "リバース演算子（⌽）を使用します。APL では、⌽ はベクトルの要素を最後の軸に沿って反転します。これは最も簡単な解決策です - たった 1 つの記号！",

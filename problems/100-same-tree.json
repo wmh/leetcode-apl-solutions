@@ -11,9 +11,9 @@
     "de": "Gegeben die Wurzeln von zwei Binärbäumen p und q, schreibe eine Funktion, um zu überprüfen, ob sie gleich sind oder nicht. Zwei Binärbäume werden als gleich betrachtet, wenn sie strukturell identisch sind und die Knoten denselben Wert haben.",
     "fr": "Étant donné les racines de deux arbres binaires p et q, écrivez une fonction pour vérifier s'ils sont identiques ou non. Deux arbres binaires sont considérés comme identiques s'ils sont structurellement identiques et que les nœuds ont la même valeur."
   },
-  "aplSolution": "SameTree ← {⍺≡⍵}",
+  "aplSolution": "IsSameTree ← {⍺≡⍵}",
   "explanation": {
-    "en": "Simple match using APL's match operator (≡). Works for nested arrays representing trees.",
+    "en": "Match operator",
     "zh-CN": "使用匹配運算符 (≡)，如果數組在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
     "zh-TW": "使用匹配運算子 (≡)，如果陣列在結構和值上相同則返回 1，否則返回 0。這是最簡單的解決方案 - 只需一個符號！",
     "ja": "マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！",

@@ -11,9 +11,9 @@
     "de": "Gegeben ein Array nums von n Ganzzahlen, wobei nums[i] im Bereich [1, n] liegt, gib ein Array aller Ganzzahlen im Bereich [1, n] zurück, die nicht in nums erscheinen.",
     "fr": "Étant donné un tableau nums de n entiers où nums[i] est dans la plage [1, n], renvoyez un tableau de tous les entiers de la plage [1, n] qui n'apparaissent pas dans nums."
   },
-  "aplSolution": "FindDisappearedNumbers ← {(⍳≢⍵)~⍵}\n\n⍝ Example usage:\n⍝ FindDisappearedNumbers 4 3 2 7 8 2 3 1    → 5 6\n⍝ FindDisappearedNumbers 1 1                → 2",
+  "aplSolution": "FindDisappearedNumbers ← {(⍳⌈/⍵)~⍵}",
   "explanation": {
-    "en": "Generates range 1 to n (⍳≢⍵) then removes elements in array using without (~). The tilde operator returns elements in left argument not in right.",
+    "en": "Missing numbers",
     "zh-CN": "生成 1 到 n 的範圍 (⍳≢⍵)，然後使用 without (~) 刪除數組中的元素。波浪號操作符返回左參數中不在右參數中的元素。",
     "zh-TW": "生成 1 到 n 的範圍 (⍳≢⍵)，然後使用 without (~) 刪除陣列中的元素。波浪號運算子返回左參數中不在右參數中的元素。",
     "ja": "1 から n までの範囲を生成し (⍳≢⍵)、without (~) を使用して配列内の要素を削除します。チルダ演算子は、右引数にない左引数の要素を返します。",
@@ -26,7 +26,13 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "4 3 2 7 8 2 3 1", "output": "5 6"},
-    {"input": "1 1", "output": "2"}
+    {
+      "input": "4 3 2 7 8 2 3 1",
+      "output": "5 6"
+    },
+    {
+      "input": "1 1",
+      "output": "2"
+    }
   ]
 }

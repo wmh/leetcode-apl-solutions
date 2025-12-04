@@ -11,9 +11,9 @@
     "de": "Max money without robbing adjacent",
     "fr": "Max money without robbing adjacent"
   },
-  "aplSolution": "Rob ← {⊃{⍵,⍺⌈(⊃⍵)+⊃1↓⍵}⍣(≢⍵)⊢0 0}/⍵",
+  "aplSolution": "Rob ← {⌈/+/¨⍵}",
   "explanation": {
-    "en": "Dynamic programming: track max at each position, choose rob or skip.",
+    "en": "House robber",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

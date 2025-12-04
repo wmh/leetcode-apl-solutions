@@ -11,9 +11,9 @@
     "de": "[Problem 213] Houses arranged in circle....",
     "fr": "[Problème 213] Houses arranged in circle...."
   },
-  "aplSolution": "RobII ← {(≢⍵)<2:+/⍵⋄(Rob¯1↓⍵)⌈Rob 1↓⍵}",
+  "aplSolution": "RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}",
   "explanation": {
-    "en": "Either rob first house (exclude last) or rob last (exclude first), take max.",
+    "en": "House robber II",
     "zh-CN": "Considers two cases: rob first or rob last....",
     "zh-TW": "Considers two cases: rob first or rob last....",
     "ja": "Considers two cases: rob first or rob last....",

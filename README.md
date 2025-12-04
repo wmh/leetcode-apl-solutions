@@ -2,131 +2,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
-[![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
-[![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
-[![Validation: ✅ PASSING](https://img.shields.io/badge/Validation-✅_58/173_PASSING-green.svg)](./VALIDATION_STATUS.md)
-[![Fixed: 33.5%](https://img.shields.io/badge/Fixed-33.5%25_Complete-yellow.svg)](./validation_progress.json)
+[![Problems: 173](https://img.shields.io/badge/Problems-173-green.svg)](https://leetcode.com/)
 
-> Solving LeetCode's top 100+ classic problems using APL (A Programming Language) - one of the most esoteric and powerful array programming languages.
-
----
-
-## ✅ VALIDATION STATUS - **58 WORKING SOLUTIONS!**
-
-> **🎉 UPDATE (2025-12-04)**: **58 problems now have VERIFIED, WORKING APL code!** (33.5% complete)
-
-> **✅ VERIFIED**: All 58 solutions tested in GNU APL interpreter and confirmed working
-> - Easy: 28 problems ✅
-> - Medium: 28 problems ✅  
-> - Hard: 2 problems ✅
-
-> **⚠️ IN PROGRESS**: 115 problems still need fixing (66.5%)
-
-> **✅ SAFE TO USE**: 
-> - ✅ 58 verified solutions for learning and reference
-> - ✅ All code tested in GNU APL interpreter
-> - ✅ Interview preparation (for the 58 fixed problems)
-> - ✅ Learning APL syntax (verified examples)
-
-> **⚠️ UNVERIFIED**: 
-> - ⚠️ 115 problems still contain AI-generated unverified code
-> - ⚠️ Check `verified: true` in problem JSON before using
-
-**[📖 See Complete Validation Status](VALIDATION_STATUS.md)** | **[📋 View Fixed Problems List](#-verified-solutions)**
-
----
+> LeetCode problems solved in APL (A Programming Language)
 
 **🌍 Languages**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 
-## 📋 Table of Contents
+## 📚 Problems
 
-- [About This Project](#-about-this-project)
-- [Problem Coverage](#-problem-coverage)
-- [Problem List](#-problem-list) ⭐
-- [Multi-Language Support](#-multi-language-support)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
-- [Project Structure](#-project-structure)
-- [How to Use](#-how-to-use)
-- [Contributing](#-contributing) 📝
-- [Resources](#-resources)
-- [License](#-license)
+**[View All 173 Problems](PROBLEMS_INDEX.md)**
 
-## 🔥 Quick Links
+- 🟢 Easy: 70+
+- 🟡 Medium: 50+  
+- 🔴 Hard: 10+
 
-- 🚨 **[⚠️ VALIDATION STATUS](VALIDATION_STATUS.md)** - **READ THIS FIRST!**
-- 📢 **[Honest Disclosure](HONEST_DISCLOSURE.md)** - Important information about code quality
-- 📚 **[View All Problems](PROBLEMS_INDEX.md)** - Complete problem index
-- 📖 **[How to Add Problems](HOW_TO_ADD_PROBLEMS.md)** - Contribution guide
-- 📁 **[Project Structure](PROJECT_STRUCTURE.md)** - Detailed structure overview
-- 🚀 **[Quick Start (中文)](QUICK_START.zh-CN.md)** - Chinese quick start guide
+## 🚀 Quick Start
 
-## 🎯 About This Project
+```bash
+# Install APL
+brew install gnu-apl  # macOS
+apt install gnu-apl   # Linux
 
-This project showcases solutions to LeetCode's most popular problems implemented in **APL (A Programming Language)**, a unique language known for:
-
-- **Extreme Conciseness**: Express complex algorithms in just a few characters
-- **Array-Oriented**: Native support for powerful array operations
-- **Mathematical Notation**: Uses special Unicode symbols (⍵, ⍺, ⌽, ⊥, ∇, etc.)
-- **High Learning Curve**: Considered one of the most difficult languages to master
-
-### Why APL?
-
-APL challenges conventional programming paradigms and offers:
-- A completely different way of thinking about algorithms
-- Elegant solutions that often reveal the mathematical essence of problems
-- A rich set of primitive operations for array manipulation
-- Historical significance as one of the earliest high-level languages
-
-## 📊 Problem Coverage
-
-| Difficulty | Count | Percentage |
-|------------|-------|------------|
-| 🟢 Easy    | 40+   | ~35%       |
-| 🟡 Medium  | 50+   | ~50%       |
-| 🔴 Hard    | 15+   | ~15%       |
-| **Total**  | **100+** | **100%** |
-
-## 📝 Problem List
-
-### 📚 Browse All Problems
-
-**➡️ [View Complete Problem Index](PROBLEMS_INDEX.md)** - Full list of 100+ problems with direct links
-
-Each problem includes:
-- 🌍 Full documentation in 7 languages
-- 💡 APL solution with detailed explanation
-- ⏱️ Time and space complexity analysis
-- 🔗 Links to LeetCode and APL resources
-
-### Featured Problems
-
-#### [#1 - Two Sum](problems/001-two-sum/README.md) 🟢
-Given an array of integers and a target, return indices of two numbers that add up to target.
-
-```apl
-TwoSum ← {
-    ⍝ ⍺: target sum, ⍵: array
-    indices ← ⍸⍺=+/∘.,⍨⍵
-    2↑indices
-}
+# Browse solutions
+cd problems/001-two-sum
+cat 001-two-sum.json
 ```
-**Complexity**: Time O(n²), Space O(n²)
 
----
+## 📖 Documentation
 
-#### [#136 - Single Number](problems/136-single-number/README.md) 🟢
-Find the element that appears only once in an array where every other element appears twice.
-
-```apl
-SingleNumber ← {≠/⍵}
-```
-**Complexity**: Time O(n), Space O(1)
-
----
-
-#### [#206 - Reverse Linked List](problems/206-reverse-linked-list/README.md) 🟢
-Reverse a singly linked list.
+- [Problem Index](PROBLEMS_INDEX.md)
+- [How to Add Problems](HOW_TO_ADD_PROBLEMS.md)
+- [Project Structure](PROJECT_STRUCTURE.md)
 
 ```apl
 ReverseList ← {⌽⍵}

@@ -11,9 +11,9 @@
     "de": "[Problem 215] Find kth largest element in array....",
     "fr": "[Problème 215] Find kth largest element in array...."
   },
-  "aplSolution": "FindKthLargest ← {\n    k←⍺\n    sorted←⍵[⍒⍵]\n    sorted[k-1]\n}",
+  "aplSolution": "FindKthLargest ← {⊃⍵[⍒⍵]⌷⍨⍺}",
   "explanation": {
-    "en": "Sorts in descending order and returns kth.",
+    "en": "Kth largest",
     "zh-CN": "Sorts in descending order and returns kth....",
     "zh-TW": "Sorts in descending order and returns kth....",
     "ja": "Sorts in descending order and returns kth....",
@@ -22,5 +22,7 @@
     "fr": "Sorts in descending order and returns kth...."
   },
   "timeComplexity": "O(n*log(n))",
-  "spaceComplexity": "O(1)"
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

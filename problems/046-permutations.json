@@ -11,9 +11,9 @@
     "de": "All permutations",
     "fr": "All permutations"
   },
-  "aplSolution": "Permute ← {1=≢⍵:,⊂⍵ ⋄ ∊⍵{⍺,¨∇⍵~⍺}¨⍵}",
+  "aplSolution": "Permute ← {⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Return permutations",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

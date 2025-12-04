@@ -11,9 +11,9 @@
     "de": "Gegeben die Wurzel eines Binärbaums, gib die Inorder-Traversierung seiner Knotenwerte zurück.",
     "fr": "Étant donné la racine d'un arbre binaire, renvoyez la traversée en ordre de ses valeurs de nœuds."
   },
-  "aplSolution": "InorderTraversal ← {0=≢⍵:⍬⋄(∇⊃⍵),((⊃⍵)),(∇⊃⌽⍵)}",
+  "aplSolution": "InorderTraversal ← {,⍵}",
   "explanation": {
-    "en": "Recursive: left subtree, root, right subtree. Works on nested array trees.",
+    "en": "Flatten nested structure",
     "zh-CN": "遞歸：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
     "zh-TW": "遞迴：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。",
     "ja": "再帰：左を走査、ルートを訪問、右を走査。ベースケースは null ノードに対して空を返します。",

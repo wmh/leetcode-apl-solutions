@@ -11,9 +11,9 @@
     "de": "Du kletterst eine Treppe hoch. Es dauert n Schritte, um die Spitze zu erreichen. Jedes Mal kannst du entweder 1 oder 2 Stufen klettern. Auf wie viele verschiedene Arten kannst du die Spitze erreichen?",
     "fr": "Vous montez un escalier. Il faut n marches pour atteindre le sommet. Chaque fois, vous pouvez monter 1 ou 2 marches. De combien de façons distinctes pouvez-vous atteindre le sommet ?"
   },
-  "aplSolution": "ClimbStairs ← {⊃(+⍨⍣(⍵-1))1 1}",
+  "aplSolution": "ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}",
   "explanation": {
-    "en": "Fibonacci sequence: starts with (1 1), applies sum reduction (+⍨) repeatedly (⍣(⍵-1)) times, extracts first element (⊃). F(n+1) = ways to climb n stairs.",
+    "en": "Fibonacci via repeated sum",
     "zh-CN": "這是斐波那契數列！使用冪運算符 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
     "zh-TW": "這是費氏數列！使用冪運算子 (⍣⍵) 迭代 n 次，從 1 1 開始。每次迭代追加最後 2 個數字的和 ({⍵,+/¯2↑⍵})。取最終結果的第一個元素 (⊃)。",
     "ja": "これはフィボナッチ数列です！冪演算子 (⍣⍵) を使用して n 回反復し、1 1 から始めます。各反復では最後の 2 つの数値の合計を追加します ({⍵,+/¯2↑⍵})。最終結果の最初の要素を取ります (⊃)。",

@@ -11,9 +11,9 @@
     "de": "Remove all instances of value",
     "fr": "Remove all instances of value"
   },
-  "aplSolution": "RemoveElement ← {≢⍵/⍨⍵≠⍺}",
+  "aplSolution": "RemoveElement ← {⍵~⍺}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Without operator removes all occurrences",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

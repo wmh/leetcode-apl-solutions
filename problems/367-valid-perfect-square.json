@@ -13,7 +13,7 @@
   },
   "aplSolution": "IsPerfectSquare ← {⍵=(⌊⍵*0.5)*2}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Check if square",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

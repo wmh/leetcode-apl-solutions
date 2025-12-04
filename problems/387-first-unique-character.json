@@ -11,9 +11,9 @@
     "de": "First unique char index",
     "fr": "First unique char index"
   },
-  "aplSolution": "FirstUniqChar ← {⊃⍸1=≢¨⊆⍵}",
+  "aplSolution": "FirstUniqChar ← {⊃⍸1=+⌿∘.=⍨⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "First unique character",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

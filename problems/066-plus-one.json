@@ -13,7 +13,7 @@
   },
   "aplSolution": "PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Converts from base-10 digits to number (10⊥⍵), adds 1 (+1), converts back to digits (10⊥⍣¯1). Handles carry automatically.",
+    "en": "Decode from digits, add 1, encode back",
     "zh-CN": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 操作符從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
     "zh-TW": "使用解碼（10⊥⍵）將數字轉換為數字，加 1，然後使用編碼（10⊥⍣¯1）轉換回數字。⊥ 運算子從基數 10 解碼，⊥⍣¯1 編碼為基數 10 數字。",
     "ja": "デコード（10⊥⍵）を使用して桁を数値に変換し、1 を加算してから、エンコード（10⊥⍣¯1）を使用して桁に戻します。⊥ 演算子は基数 10 からデコードし、⊥⍣¯1 は基数 10 の桁にエンコードします。",

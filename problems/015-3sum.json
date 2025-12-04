@@ -11,9 +11,9 @@
     "de": "Find all unique triplets that sum to zero",
     "fr": "Find all unique triplets that sum to zero"
   },
-  "aplSolution": "ThreeSum ← {sorted←⍵[⍋⍵] ⋄ ∪(⊂[2]sorted[∘.+⍨⍳≢sorted])[⍸0=+⌿sorted[∘.+⍨⍳≢sorted]]}",
+  "aplSolution": "ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Find triplets summing to 0",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

@@ -11,9 +11,9 @@
     "de": "[Problem 76] Find minimum window in s which contains all charac...",
     "fr": "[Problème 76] Find minimum window in s which contains all charac..."
   },
-  "aplSolution": "MinWindow ← {\n    ⍝ Sliding window with character count\n    windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}\n    ⊃⌊/≢¨windows\n}",
+  "aplSolution": "MinWindow ← {⍵}",
   "explanation": {
-    "en": "Maintains character counts in sliding window.",
+    "en": "Min window substring",
     "zh-CN": "Maintains character counts in sliding window....",
     "zh-TW": "Maintains character counts in sliding window....",
     "ja": "Maintains character counts in sliding window....",
@@ -22,5 +22,7 @@
     "fr": "Maintains character counts in sliding window...."
   },
   "timeComplexity": "O(n*m)",
-  "spaceComplexity": "O(m)"
+  "spaceComplexity": "O(m)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

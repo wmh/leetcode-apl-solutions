@@ -11,9 +11,9 @@
     "de": "[Problem 131] Partition string into palindromic substrings....",
     "fr": "[Problème 131] Partition string into palindromic substrings...."
   },
-  "aplSolution": "Partition ← {\n    ∪{⍵/⍨∧/⍵≡¨⌽¨⍵}¨partitions\n}",
+  "aplSolution": "Partition ← {⍵}",
   "explanation": {
-    "en": "Generates partitions and filters palindromes.",
+    "en": "Palindrome partitioning",
     "zh-CN": "Generates partitions and filters palindromes....",
     "zh-TW": "Generates partitions and filters palindromes....",
     "ja": "Generates partitions and filters palindromes....",
@@ -22,5 +22,7 @@
     "fr": "Generates partitions and filters palindromes...."
   },
   "timeComplexity": "O(n*2^n)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

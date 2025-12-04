@@ -11,9 +11,9 @@
     "de": "Sum all left leaves",
     "fr": "Sum all left leaves"
   },
-  "aplSolution": "SumOfLeftLeaves ← {+/leftLeaves}",
+  "aplSolution": "SumOfLeftLeaves ← {+/⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Sum leaves",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

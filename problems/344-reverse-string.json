@@ -13,7 +13,7 @@
   },
   "aplSolution": "ReverseString ← {⌽⍵}",
   "explanation": {
-    "en": "Simple reversal using APL's reverse operator (⌽).",
+    "en": "Reverse",
     "zh-CN": "使用 APL 的反轉操作符 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉操作符適用於任何向量。",
     "zh-TW": "使用 APL 的反轉運算子 (⌽)。這是最簡單的解決方案 - 只需一個符號！反轉運算子適用於任何向量。",
     "ja": "APL のリバース演算子 (⌽) を使用します。これは最も簡単な解決策です - たった 1 つの記号！リバース演算子は任意のベクトルで機能します。",

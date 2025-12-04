@@ -11,9 +11,9 @@
     "de": "Can reach end",
     "fr": "Can reach end"
   },
-  "aplSolution": "CanJump ← {(≢⍵)∊⍸0<+\\⌈\\⍵}",
+  "aplSolution": "CanJump ← {(≢⍵)∊⍸⍵>0}",
   "explanation": {
-    "en": "Running max of reachable positions (⌈\\⍵), checks if last index reachable.",
+    "en": "Check if can reach end",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

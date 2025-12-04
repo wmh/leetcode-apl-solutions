@@ -11,9 +11,9 @@
     "de": "Count unique paths",
     "fr": "Count unique paths"
   },
-  "aplSolution": "UniquePaths ← {!⍺+⍵-2÷!⍺-1×!⍵-1}",
+  "aplSolution": "UniquePaths ← {!⍨/⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Combinatorial paths",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

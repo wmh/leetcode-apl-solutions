@@ -11,9 +11,9 @@
     "de": "[Problem 105] Construct tree from preorder and inorder traversal...",
     "fr": "[Problème 105] Construct tree from preorder and inorder traversal..."
   },
-  "aplSolution": "BuildTree ← {\n    preorder←⍺ ⋄ inorder←⍵\n    ⍬⍴⍨preorder≡⍬\n}",
+  "aplSolution": "BuildTree ← {⍵}",
   "explanation": {
-    "en": "Recursively splits based on root position.",
+    "en": "Build from pre/in",
     "zh-CN": "Recursively splits based on root position....",
     "zh-TW": "Recursively splits based on root position....",
     "ja": "Recursively splits based on root position....",
@@ -22,5 +22,7 @@
     "fr": "Recursively splits based on root position...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

@@ -11,9 +11,9 @@
     "de": "Can win Nim game",
     "fr": "Can win Nim game"
   },
-  "aplSolution": "CanWinNim ← {0≠4|⍵}",
+  "aplSolution": "CanWinNim ← {3|⍵≠0}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Nim game rule",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

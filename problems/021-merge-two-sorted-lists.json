@@ -13,7 +13,7 @@
   },
   "aplSolution": "MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}",
   "explanation": {
-    "en": "Concatenates two arrays (⍺,⍵), gets sort indices (⍋), indexes into concatenated array to get sorted result.",
+    "en": "Concatenate and sort",
     "zh-CN": "連接兩個列表 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將數組排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
     "zh-TW": "連接兩個串列 (⍺,⍵) 然後按升序排序 (⍋)。升序返回將陣列排序的索引。版本 2 更清晰：連接然後按排序位置索引。",
     "ja": "両方のリストを連結 (⍺,⍵) してから、昇順でソート (⍋)。昇順は配列をソートするインデックスを返します。バージョン 2 はよりクリーン：連結してからソートされた位置でインデックス。",

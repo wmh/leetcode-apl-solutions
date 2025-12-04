@@ -11,9 +11,9 @@
     "de": "Check word pattern",
     "fr": "Check word pattern"
   },
-  "aplSolution": "WordPattern ← {pattern}",
+  "aplSolution": "WordPattern ← {(⍋⍺)≡⍋⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Pattern match",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Check if binary tree is valid BST",
     "fr": "Check if binary tree is valid BST"
   },
-  "aplSolution": "IsValidBST ← {∧/(⍵≡⍵[⍋⍵])∧(⍵≡∪⍵)}",
+  "aplSolution": "IsValidBST ← {(⍵≡⍵[⍋⍵])∧⍵≡∪⍵}",
   "explanation": {
-    "en": "Checks if sorted (⍵≡⍵[⍋⍵]) and has unique values (⍵≡∪⍵). Simplified for arrays.",
+    "en": "Check sorted and unique",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

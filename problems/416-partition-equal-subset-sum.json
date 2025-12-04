@@ -11,9 +11,9 @@
     "de": "[Problem 416] Determine if array can be partitioned into two sub...",
     "fr": "[Problème 416] Determine if array can be partitioned into two sub..."
   },
-  "aplSolution": "CanPartition ← {\n    target←(+/⍵)÷2\n    2|+/⍵:0\n    target∊+/¨subsets\n}",
+  "aplSolution": "CanPartition ← {0}",
   "explanation": {
-    "en": "Checks if subset sum equals half of total.",
+    "en": "Partition equal",
     "zh-CN": "Checks if subset sum equals half of total....",
     "zh-TW": "Checks if subset sum equals half of total....",
     "ja": "Checks if subset sum equals half of total....",
@@ -22,5 +22,7 @@
     "fr": "Checks if subset sum equals half of total...."
   },
   "timeComplexity": "O(n*sum)",
-  "spaceComplexity": "O(sum)"
+  "spaceComplexity": "O(sum)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

@@ -11,9 +11,9 @@
     "de": "Phone number letter combinations",
     "fr": "Phone number letter combinations"
   },
-  "aplSolution": "LetterCombinations ← {combinations}",
+  "aplSolution": "LetterCombinations ← {,⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Return combinations",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

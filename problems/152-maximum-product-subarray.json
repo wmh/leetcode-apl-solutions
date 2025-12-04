@@ -11,9 +11,9 @@
     "de": "Find maximum product subarray",
     "fr": "Find maximum product subarray"
   },
-  "aplSolution": "MaxProduct ← {⌈/×/¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}",
+  "aplSolution": "MaxProduct ← {⌈/×/¨{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Generates all subarrays, computes products (×/¨), takes maximum (⌈/).",
+    "en": "Max product subarray",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

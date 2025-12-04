@@ -11,9 +11,9 @@
     "de": "Number of unique BSTs",
     "fr": "Number of unique BSTs"
   },
-  "aplSolution": "NumTrees ← {catalan}",
+  "aplSolution": "NumTrees ← {!2×⍵÷⍵+1}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Catalan number",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Merge k sorted linked lists",
     "fr": "Merge k sorted linked lists"
   },
-  "aplSolution": "MergeKLists ← {lists[⍋∊lists]}",
+  "aplSolution": "MergeKLists ← {⍵[⍋∊⍵]}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Merge K sorted",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

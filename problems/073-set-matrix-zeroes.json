@@ -11,9 +11,9 @@
     "de": "Set zeros",
     "fr": "Set zeros"
   },
-  "aplSolution": "SetZeroes ← {z←0∊¨↓⍵⋄⍵×∘.∧⍨~z}",
+  "aplSolution": "SetZeroes ← {⍵×⍨∘.∧⍨~0∊¨↓⍵}",
   "explanation": {
-    "en": "Finds rows with zeros (z←0∊¨↓⍵), creates mask (∘.∧⍨~z), multiplies to zero out rows/cols.",
+    "en": "Set row/col to 0",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

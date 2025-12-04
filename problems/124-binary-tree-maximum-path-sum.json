@@ -11,9 +11,9 @@
     "de": "[Problem 124] Find maximum path sum....",
     "fr": "[Problème 124] Find maximum path sum...."
   },
-  "aplSolution": "MaxPathSum ← {\n    ⍝ Consider all paths\n    ⌈/+/¨paths\n}",
+  "aplSolution": "MaxPathSum ← {+/⍵}",
   "explanation": {
-    "en": "Recursively finds maximum path through each node.",
+    "en": "Binary tree max path",
     "zh-CN": "Recursively finds maximum path through each node....",
     "zh-TW": "Recursively finds maximum path through each node....",
     "ja": "Recursively finds maximum path through each node....",
@@ -22,5 +22,7 @@
     "fr": "Recursively finds maximum path through each node...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

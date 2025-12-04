@@ -11,9 +11,9 @@
     "de": "Find longest palindrome substring",
     "fr": "Find longest palindrome substring"
   },
-  "aplSolution": "LongestPalindrome ← {⊃⌽{⍵/⍨{⍵≡⌽⍵}¨⍵}{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}",
+  "aplSolution": "LongestPalindrome ← {⊃⌽{⍵/⍨⍵≡¨⌽¨⍵}{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Longest palindrome substring",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

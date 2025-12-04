@@ -11,9 +11,9 @@
     "de": "Gegeben eine Ganzzahl n, gib true zurück, wenn es eine Potenz von drei ist. Andernfalls gib false zurück.",
     "fr": "Étant donné un entier n, renvoyez true s'il s'agit d'une puissance de trois. Sinon, renvoyez false."
   },
-  "aplSolution": "IsPowerOfThree ← {∧/0=3|⍵,⍵÷3*⍳⌊3⍟⍵}",
+  "aplSolution": "IsPowerOfThree ← {3⊥⍣¯1⊢⍵≡,1}",
   "explanation": {
-    "en": "Divides by powers of 3, checks if all remainders are 0. Uses logarithm to determine max power.",
+    "en": "Check power of 3",
     "zh-CN": "檢查數字是否在前 20 個 3 的冪次方集合中 (3*⍳20)。簡單的成員測試。",
     "zh-TW": "檢查數字是否在前 20 個 3 的冪次方集合中 (3*⍳20)。簡單的成員測試。",
     "ja": "数値が最初の 20 個の 3 のべき乗のセットにあるかをチェックします (3*⍳20)。単純なメンバーシップテスト。",

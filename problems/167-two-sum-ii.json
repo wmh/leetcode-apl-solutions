@@ -11,9 +11,9 @@
     "de": "[Problem 167] Find two numbers in sorted array that add up to ta...",
     "fr": "[Problème 167] Find two numbers in sorted array that add up to ta..."
   },
-  "aplSolution": "TwoSumII ← {\n    ⍝ Two pointer approach\n    indices ← ⍸⍺=⍵+⌽⍵\n    2↑indices\n}",
+  "aplSolution": "TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}",
   "explanation": {
-    "en": "Uses two pointers from both ends.",
+    "en": "Two sum with 1-indexing",
     "zh-CN": "Uses two pointers from both ends....",
     "zh-TW": "Uses two pointers from both ends....",
     "ja": "Uses two pointers from both ends....",
@@ -22,5 +22,7 @@
     "fr": "Uses two pointers from both ends...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(1)"
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

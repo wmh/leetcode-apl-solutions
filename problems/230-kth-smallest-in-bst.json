@@ -11,9 +11,9 @@
     "de": "[Problem 230] Find kth smallest element in BST....",
     "fr": "[Problème 230] Find kth smallest element in BST...."
   },
-  "aplSolution": "KthSmallest ← {\n    k←⍺\n    sorted←⍵[⍋⍵]\n    sorted[k-1]\n}",
+  "aplSolution": "KthSmallest ← {⊃⍵[⍋⍵]⌷⍨⍺}",
   "explanation": {
-    "en": "Sorts and returns kth element.",
+    "en": "Kth smallest",
     "zh-CN": "Sorts and returns kth element....",
     "zh-TW": "Sorts and returns kth element....",
     "ja": "Sorts and returns kth element....",
@@ -22,5 +22,7 @@
     "fr": "Sorts and returns kth element...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

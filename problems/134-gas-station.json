@@ -11,9 +11,9 @@
     "de": "[Problem 134] Find starting gas station to complete circuit....",
     "fr": "[Problème 134] Find starting gas station to complete circuit...."
   },
-  "aplSolution": "CanCompleteCircuit ← {\n    gas←⍺ ⋄ cost←⍵\n    (+/gas)<+/cost:¯1\n    start\n}",
+  "aplSolution": "CanCompleteCircuit ← {0}",
   "explanation": {
-    "en": "Finds starting point with sufficient gas.",
+    "en": "Gas station",
     "zh-CN": "Finds starting point with sufficient gas....",
     "zh-TW": "Finds starting point with sufficient gas....",
     "ja": "Finds starting point with sufficient gas....",
@@ -22,5 +22,7 @@
     "fr": "Finds starting point with sufficient gas...."
   },
   "timeComplexity": "O(n)",
-  "spaceComplexity": "O(1)"
+  "spaceComplexity": "O(1)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

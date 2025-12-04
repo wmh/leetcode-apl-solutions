@@ -11,9 +11,9 @@
     "de": "Gegeben eine Zeichenkette s, finde die Länge der längsten Teilzeichenkette ohne sich wiederholende Zeichen.",
     "fr": "Étant donné une chaîne s, trouvez la longueur de la plus longue sous-chaîne sans caractères répétitifs."
   },
-  "aplSolution": "LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\\⍵}⍣≡¨,¨⍵}\n\n⍝ Simpler approach - check all substrings:\nLengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}\n\n⍝ Example usage:\n⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3\n⍝ LengthOfLongestSubstring2 'bbbbb'      → 1\n⍝ LengthOfLongestSubstring2 'pwwkew'     → 3",
+  "aplSolution": "LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Version 2: Generates all substrings, checks each for uniqueness ((≢⍵)=≢∪⍵), returns max length. Uses nested drops/takes to create substrings.",
+    "en": "Max unique substring",
     "zh-CN": "版本 2：生成所有子字符串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字符串。",
     "zh-TW": "版本 2：生成所有子字串，檢查每個是否唯一 ((≢⍵)=≢∪⍵)，返回最大長度。使用嵌套的 drop/take 創建子字串。",
     "ja": "バージョン 2：すべての部分文字列を生成し、それぞれの一意性をチェックし ((≢⍵)=≢∪⍵)、最大長を返します。ネストされた drop/take を使用して部分文字列を作成します。",
@@ -26,8 +26,17 @@
   "verified": true,
   "verifiedDate": "2025-12-04",
   "testCases": [
-    {"input": "abcabcbb", "output": "3"},
-    {"input": "bbbbb", "output": "1"},
-    {"input": "pwwkew", "output": "3"}
+    {
+      "input": "abcabcbb",
+      "output": "3"
+    },
+    {
+      "input": "bbbbb",
+      "output": "1"
+    },
+    {
+      "input": "pwwkew",
+      "output": "3"
+    }
   ]
 }

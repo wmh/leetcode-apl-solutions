@@ -11,9 +11,9 @@
     "de": "Stack using queues",
     "fr": "Stack using queues"
   },
-  "aplSolution": "MyStack ← {stack}",
+  "aplSolution": "MyStack ← {⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Identity",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

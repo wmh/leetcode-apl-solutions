@@ -11,9 +11,9 @@
     "de": "Gegeben die Wurzel eines Binärbaums, invertiere den Baum und gib seine Wurzel zurück.",
     "fr": "Étant donné la racine d'un arbre binaire, inversez l'arbre et renvoyez sa racine."
   },
-  "aplSolution": "InvertTree ← {0=≢⍵:⍵⋄⌽∇¨⍵}",
+  "aplSolution": "InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}",
   "explanation": {
-    "en": "Recursive: returns input if empty, otherwise reverses (⌽) and recursively inverts children (∇¨).",
+    "en": "Recursive reverse",
     "zh-CN": "遞歸交換左右子節點。基本情況：空樹返回空。遞歸情況：保持根節點，通過先遞歸右子節點再遞歸左子節點來交換子節點。",
     "zh-TW": "遞迴交換左右子節點。基本情況：空樹返回空。遞迴情況：保持根節點，通過先遞迴右子節點再遞迴左子節點來交換子節點。",
     "ja": "再帰的に左右の子を交換します。ベースケース：空のツリーは空を返します。再帰ケース：ルートを保持し、右の子に再帰してから左の子に再帰することで子を交換します。",

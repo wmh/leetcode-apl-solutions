@@ -13,7 +13,7 @@
   },
   "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}",
   "explanation": {
-    "en": "Compares length of original array (≢⍵) with length of unique elements (≢∪⍵). Returns 1 if different (duplicates exist), 0 otherwise.",
+    "en": "Length ≠ unique length",
     "zh-CN": "比較數組的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 操作符給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
     "zh-TW": "比較陣列的長度（≢⍵）與唯一元素的長度（≢∪⍵）。如果它們不同，則必定有重複元素。≢ 運算子給出長度，∪ 給出唯一元素，≠ 檢查它們是否不相等。",
     "ja": "配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。",

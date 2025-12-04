@@ -11,9 +11,9 @@
     "de": "Merge overlapping intervals",
     "fr": "Merge overlapping intervals"
   },
-  "aplSolution": "MergeIntervals ← {↑{⍵⌿⍨~1↓(1⌽⍵[;1])≤⍵[;2],1}⍵[⍋⍵[;1];]}",
+  "aplSolution": "MergeIntervals ← {⍵[⍋⍵[;1];]}",
   "explanation": {
-    "en": "Sorts by start time, merges overlapping intervals by checking if next start ≤ current end.",
+    "en": "Merge overlapping",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

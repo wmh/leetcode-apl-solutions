@@ -11,9 +11,9 @@
     "de": "Lowest common ancestor in BST",
     "fr": "Lowest common ancestor in BST"
   },
-  "aplSolution": "LowestCommonAncestor ← {lca}",
+  "aplSolution": "LowestCommonAncestor ← {⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Return node",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

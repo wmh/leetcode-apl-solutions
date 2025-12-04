@@ -11,9 +11,9 @@
     "de": "Count islands in grid",
     "fr": "Count islands in grid"
   },
-  "aplSolution": "NumIslands ← {≢∪,⍵}",
+  "aplSolution": "NumIslands ← {+/∪,⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Count islands",
     "zh-CN": "已驗證",
     "zh-TW": "已驗證",
     "ja": "検証済み",

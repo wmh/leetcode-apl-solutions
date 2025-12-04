@@ -11,9 +11,9 @@
     "de": "Find combinations",
     "fr": "Find combinations"
   },
-  "aplSolution": "CombinationSum ← {combos}",
+  "aplSolution": "CombinationSum ← {⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Return combinations",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

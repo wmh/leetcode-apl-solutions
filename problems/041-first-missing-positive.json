@@ -11,9 +11,9 @@
     "de": "First missing positive",
     "fr": "First missing positive"
   },
-  "aplSolution": "FirstMissingPositive ← {⊃(⍳≢⍵)~⍵}",
+  "aplSolution": "FirstMissingPositive ← {⊃(⍳⌈/⍵)~⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "First missing positive",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

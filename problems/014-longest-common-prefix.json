@@ -11,9 +11,9 @@
     "de": "Find longest common prefix",
     "fr": "Find longest common prefix"
   },
-  "aplSolution": "LongestCommonPrefix ← {⊃{(⍺∧⍵)/⍺⍵}/⌸(⊂1⍴⍨≢⊃⍵),{∧/⍺=¨⍵}¨↓⍉↑⍵}",
+  "aplSolution": "LongestCommonPrefix ← {0=≢⍵:'' ⋄ ⊃∧⌿=⍨↑⍵}",
   "explanation": {
-    "en": "Transposes string matrix, finds common prefix by comparing each column.",
+    "en": "Stack strings, compare columns, get common prefix",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

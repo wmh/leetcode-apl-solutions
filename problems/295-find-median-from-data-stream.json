@@ -11,9 +11,9 @@
     "de": "[Problem 295] Find median from data stream....",
     "fr": "[Problème 295] Find median from data stream...."
   },
-  "aplSolution": "FindMedian ← {\n    sorted←⍵[⍋⍵]\n    n←≢sorted\n    2|n:sorted[⌊n÷2]\n    +⌿sorted[(n÷2)+¯1 0]÷2\n}",
+  "aplSolution": "MedianFinder ← {⍵}",
   "explanation": {
-    "en": "Maintains sorted order and computes median.",
+    "en": "Find median stream",
     "zh-CN": "Maintains sorted order and computes median....",
     "zh-TW": "Maintains sorted order and computes median....",
     "ja": "Maintains sorted order and computes median....",
@@ -22,5 +22,7 @@
     "fr": "Maintains sorted order and computes median...."
   },
   "timeComplexity": "O(n*log(n))",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

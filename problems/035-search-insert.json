@@ -11,9 +11,9 @@
     "de": "Find insert position",
     "fr": "Find insert position"
   },
-  "aplSolution": "SearchInsert ← {⊃(⍸⍺≤⍵),≢⍵}",
+  "aplSolution": "SearchInsert ← {⊃(⍋⍵,⍺)⍳≢⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Sort with target, find its position",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

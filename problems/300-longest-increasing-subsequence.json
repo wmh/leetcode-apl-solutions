@@ -11,9 +11,9 @@
     "de": "[Problem 300] Find length of longest increasing subsequence....",
     "fr": "[Problème 300] Find length of longest increasing subsequence...."
   },
-  "aplSolution": "LengthOfLIS ← {\n    dp←1+(≢⍵)⍴0\n    ⌈/dp\n}",
+  "aplSolution": "LengthOfLIS ← {⌈/≢¨⍵}",
   "explanation": {
-    "en": "DP tracking longest ending at each position.",
+    "en": "Longest increasing",
     "zh-CN": "DP tracking longest ending at each position....",
     "zh-TW": "DP tracking longest ending at each position....",
     "ja": "DP tracking longest ending at each position....",
@@ -22,5 +22,7 @@
     "fr": "DP tracking longest ending at each position...."
   },
   "timeComplexity": "O(n²)",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

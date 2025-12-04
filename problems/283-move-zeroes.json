@@ -13,7 +13,7 @@
   },
   "aplSolution": "MoveZeroes ← {(⍵~0),⍵⌿⍨⍵=0}",
   "explanation": {
-    "en": "Removes zeros (⍵~0), concatenates with zeros filtered out (,), then appends zeros (⍵⌿⍨⍵=0).",
+    "en": "Non-zeros then zeros",
     "zh-CN": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留掩碼為真的元素。結果是非零值後跟零值。",
     "zh-TW": "過濾非零值 (⍵/⍨⍵≠0) 並與零值連接 (⍵/⍨⍵=0)。壓縮 (/) 保留遮罩為真的元素。結果是非零值後跟零值。",
     "ja": "非ゼロをフィルタリング (⍵/⍨⍵≠0) し、ゼロと連結します (⍵/⍨⍵=0)。圧縮 (/) はマスクが真である要素を保持します。結果は非ゼロの後にゼロが続きます。",

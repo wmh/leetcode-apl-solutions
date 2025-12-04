@@ -11,9 +11,9 @@
     "de": "Remove nth node from end",
     "fr": "Remove nth node from end"
   },
-  "aplSolution": "RemoveNthFromEnd ← {(⍳≢⍵)~(≢⍵)-⍺}",
+  "aplSolution": "RemoveNthFromEnd ← {((⍳≢⍵)~(≢⍵)-⍺)⌷⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Remove nth from end",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

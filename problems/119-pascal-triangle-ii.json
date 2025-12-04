@@ -11,9 +11,9 @@
     "de": "Get nth row",
     "fr": "Get nth row"
   },
-  "aplSolution": "GetRow ← {⊃{0,⍵}+{⍵,0}⍣⍵⊢,1}",
+  "aplSolution": "GetRow ← {⊃({0,⍵}+{⍵,0})⍣⍵⊢,1}",
   "explanation": {
-    "en": "Like Generate but returns single row (⊃). Applies transformation ⍵ times.",
+    "en": "Single row of Pascal",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

@@ -11,9 +11,9 @@
     "de": "Gegeben zwei Integer-Arrays nums1 und nums2, gib ein Array ihrer Schnittmenge zurück. Jedes Element im Ergebnis muss so oft erscheinen, wie es in beiden Arrays erscheint.",
     "fr": "Étant donné deux tableaux d'entiers nums1 et nums2, renvoyez un tableau de leur intersection. Chaque élément du résultat doit apparaître autant de fois qu'il apparaît dans les deux tableaux."
   },
-  "aplSolution": "Intersect ← {⍺∩⍵}\n\n⍝ Example: 1 2 2 1 Intersect 2 2 → 2 2",
+  "aplSolution": "IntersectII ← {⍺∩⍵}",
   "explanation": {
-    "en": "Uses APL's intersection operator (∩) which handles duplicates correctly.",
+    "en": "Array intersection",
     "zh-CN": "使用 APL 的交集運算符 (∩)，它正確處理重複項。",
     "zh-TW": "使用 APL 的交集運算子 (∩)，它正確處理重複項。",
     "ja": "APL の交差演算子 (∩) を使用します。これは重複を正しく処理します。",
@@ -25,5 +25,10 @@
   "spaceComplexity": "O(min(n,m))",
   "verified": true,
   "verifiedDate": "2025-12-04",
-  "testCases": [{"input": "nums1=1 2 2 1, nums2=2 2", "output": "2 2"}]
+  "testCases": [
+    {
+      "input": "nums1=1 2 2 1, nums2=2 2",
+      "output": "2 2"
+    }
+  ]
 }

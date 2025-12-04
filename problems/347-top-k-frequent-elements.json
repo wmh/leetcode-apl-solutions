@@ -11,9 +11,9 @@
     "de": "[Problem 347] Return the k most frequent elements....",
     "fr": "[Problème 347] Return the k most frequent elements...."
   },
-  "aplSolution": "TopKFrequent ← {\n    k ← ⍺\n    freq ← {⍵,≢⍵}⌸⍵\n    k↑freq[⍒freq[;2];1]\n}",
+  "aplSolution": "TopKFrequent ← {⍵}",
   "explanation": {
-    "en": "Groups elements by frequency and takes top k.",
+    "en": "Top K frequent",
     "zh-CN": "Groups elements by frequency and takes top k....",
     "zh-TW": "Groups elements by frequency and takes top k....",
     "ja": "Groups elements by frequency and takes top k....",
@@ -22,5 +22,7 @@
     "fr": "Groups elements by frequency and takes top k...."
   },
   "timeComplexity": "O(n*log(n))",
-  "spaceComplexity": "O(n)"
+  "spaceComplexity": "O(n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

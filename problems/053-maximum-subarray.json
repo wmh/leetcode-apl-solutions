@@ -11,9 +11,9 @@
     "de": "Gegeben ein Integer-Array nums, finde das Teilarray mit der größten Summe und gib seine Summe zurück.",
     "fr": "Étant donné un tableau d'entiers nums, trouvez le sous-tableau avec la plus grande somme et renvoyez sa somme."
   },
-  "aplSolution": "MaxSubarray ← {⌈/+\\⌈\\0,⍵}",
+  "aplSolution": "MaxSubArray ← {⌈/+\\0⌈⍵}",
   "explanation": {
-    "en": "Implements Kadane's algorithm: prepends 0 (0,⍵), running max with 0 (⌈\\) resets negative sums, running sum (+\\) accumulates, max (⌈/) gets best result.",
+    "en": "Kadane's algorithm",
     "zh-CN": "使用 Kadane 算法。版本 3 最簡單：累積和與運行最大值 (⌈\\)，前置 0 以處理全負數數組。取運行最大和的最大值。",
     "zh-TW": "使用 Kadane 算法。版本 3 最簡單：累積和與運行最大值 (⌈\\)，前置 0 以處理全負數陣列。取運行最大和的最大值。",
     "ja": "Kadane のアルゴリズムを使用します。バージョン 3 が最もシンプル：累積和と実行中の最大値 (⌈\\)、すべて負の配列を処理するために 0 を前に追加します。実行中の最大和の最大値を取ります。",

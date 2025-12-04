@@ -13,7 +13,7 @@
   },
   "aplSolution": "IsAnagram ← {(⍋⍺)≡⍋⍵}",
   "explanation": {
-    "en": "Sorts both strings (⍋⍺ and ⍋⍵), compares if identical (≡). Anagrams have same sorted form.",
+    "en": "Compare sorted",
     "zh-CN": "使用升序 (⍋) 對兩個字符串排序，然後檢查它們是否匹配 (≡)。如果排序後的字符串相同，則它們是字母異位詞。",
     "zh-TW": "使用升序 (⍋) 對兩個字串排序，然後檢查它們是否匹配 (≡)。如果排序後的字串相同，則它們是字母異位詞。",
     "ja": "昇順 (⍋) を使用して両方の文字列をソートし、それらが一致するかを確認します (≡)。ソートされた文字列が同一である場合、それらはアナグラムです。",

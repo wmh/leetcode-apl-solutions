@@ -11,9 +11,9 @@
     "de": "Solve Sudoku",
     "fr": "Solve Sudoku"
   },
-  "aplSolution": "SolveSudoku ← {solved}",
+  "aplSolution": "SolveSudoku ← {⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Solve sudoku",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

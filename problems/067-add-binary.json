@@ -11,9 +11,9 @@
     "de": "Add two binary strings",
     "fr": "Add two binary strings"
   },
-  "aplSolution": "AddBinary ← {2⊥⍣¯1⊢(2⊥⍺)+(2⊥⍵)}",
+  "aplSolution": "AddBinary ← {2⊥⍺+⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Add arrays, encode to binary",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",

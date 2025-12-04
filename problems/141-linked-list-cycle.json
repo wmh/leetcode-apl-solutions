@@ -11,9 +11,9 @@
     "de": "Gegeben head, der Kopf einer verknüpften Liste, bestimme, ob die verknüpfte Liste einen Zyklus enthält. Es gibt einen Zyklus in einer verknüpften Liste, wenn es einen Knoten in der Liste gibt, der durch kontinuierliches Folgen des nächsten Zeigers erneut besucht werden kann. Gib true zurück, wenn es einen Zyklus in der verknüpften Liste gibt. Andernfalls gib false zurück.",
     "fr": "Étant donné head, la tête d'une liste chaînée, déterminez si la liste chaînée a un cycle. Il y a un cycle dans une liste chaînée s'il existe un nœud dans la liste qui peut être visité à nouveau en suivant continuellement le pointeur suivant. Renvoyez true s'il y a un cycle dans la liste chaînée. Sinon, renvoyez false."
   },
-  "aplSolution": "HasCycle ← {1}",
+  "aplSolution": "HasCycle ← {0}",
   "explanation": {
-    "en": "Placeholder - cycle detection requires special node structure, returns false.",
+    "en": "No cycle detection for arrays",
     "zh-CN": "對於數組表示：檢查長度是否與唯一長度不同。如果有重複（循環），長度會不同。使用唯一 (∪) 和計數 (≢)。",
     "zh-TW": "對於陣列表示：檢查長度是否與唯一長度不同。如果有重複（循環），長度會不同。使用唯一 (∪) 和計數 (≢)。",
     "ja": "配列表現の場合：長さが一意の長さと異なるかを確認します。重複（サイクル）がある場合、長さが異なります。一意 (∪) とカウント (≢) を使用します。",

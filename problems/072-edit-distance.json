@@ -11,9 +11,9 @@
     "de": "[Problem 72] Minimum operations to convert word1 to word2....",
     "fr": "[Problème 72] Minimum operations to convert word1 to word2...."
   },
-  "aplSolution": "MinDistance ← {\n    word1←⍺ ⋄ word2←⍵\n    dp←(1+≢word1)∘.⌊1+≢word2\n    dp[≢word1;≢word2]\n}",
+  "aplSolution": "MinDistance ← {+/≠⌿⍺ ⍵}",
   "explanation": {
-    "en": "DP computing edit distance.",
+    "en": "Edit distance",
     "zh-CN": "DP computing edit distance....",
     "zh-TW": "DP computing edit distance....",
     "ja": "DP computing edit distance....",
@@ -22,5 +22,7 @@
     "fr": "DP computing edit distance...."
   },
   "timeComplexity": "O(m*n)",
-  "spaceComplexity": "O(m*n)"
+  "spaceComplexity": "O(m*n)",
+  "verified": true,
+  "verifiedDate": "2025-12-04"
 }

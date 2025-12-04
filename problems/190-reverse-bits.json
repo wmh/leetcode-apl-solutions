@@ -13,7 +13,7 @@
   },
   "aplSolution": "ReverseBits ← {2⊥⌽32↑2⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Converts to binary (2⊥⍣¯1), pads to 32 bits (32↑), reverses (⌽), converts back to decimal (2⊥).",
+    "en": "Binary reverse with padding",
     "zh-CN": "編碼為 32 位二進制 (⊤⍨32⍴2)，反轉 (⌽)，解碼回十進制 (2⊥)。",
     "zh-TW": "編碼為 32 位元二進位 (⊤⍨32⍴2)，反轉 (⌽)，解碼回十進位 (2⊥)。",
     "ja": "32 ビットバイナリにエンコード (⊤⍨32⍴2)、反転 (⌽)、10 進数にデコード (2⊥)。",

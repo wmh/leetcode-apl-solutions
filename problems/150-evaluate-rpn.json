@@ -11,9 +11,9 @@
     "de": "Evaluate reverse polish notation",
     "fr": "Evaluate reverse polish notation"
   },
-  "aplSolution": "EvalRPN ← {⍎⍵}",
+  "aplSolution": "EvalRPN ← {+/⍵}",
   "explanation": {
-    "en": "Verified APL solution",
+    "en": "Evaluate RPN",
     "zh-CN": "已驗證的 APL 解決方案",
     "zh-TW": "已驗證的 APL 解決方案",
     "ja": "検証済みの APL ソリューション",
