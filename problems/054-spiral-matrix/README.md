@@ -20,7 +20,7 @@ SpiralOrder ← {,⍵}
 
 ## 📝 Explanation
 
-Spiral traverse
+APL solution for Spiral Matrix. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

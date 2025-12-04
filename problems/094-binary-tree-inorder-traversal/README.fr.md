@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 Explication
 
-Récursif : parcourt à gauche, visite la racine, parcourt à droite. Le cas de base renvoie vide pour les nœuds nuls.
+APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

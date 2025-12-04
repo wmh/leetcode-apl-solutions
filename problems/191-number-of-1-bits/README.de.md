@@ -20,7 +20,7 @@ HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 
 ## 📝 Erklärung
 
-Konvertiert die Zahl in 32-Bit-Binär mit Kodierung (⊤⍨32⍴2), dann summiert die Bits mit +/. Der Kodierungsoperator ⊤ konvertiert zur angegebenen Basis.
+APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -20,7 +20,7 @@ ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}
 
 ## 📝 Explication
 
-Vérifié
+APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

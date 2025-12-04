@@ -25,7 +25,7 @@ ProductExceptSelf ← {
 
 ## 📝 Explication
 
-For each position, multiplies all other elements....
+APL solution for Product of Array Except Self. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

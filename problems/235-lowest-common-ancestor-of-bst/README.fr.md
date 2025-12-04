@@ -23,7 +23,7 @@ LowestCommonAncestor ← {
 
 ## 📝 Explication
 
-Uses BST property to find split point....
+APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

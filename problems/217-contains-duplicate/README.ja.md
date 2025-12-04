@@ -20,7 +20,7 @@ ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
 
 ## 📝 説明
 
-配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。
+APL solution for Contains Duplicate. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

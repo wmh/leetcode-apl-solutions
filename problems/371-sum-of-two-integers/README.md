@@ -23,7 +23,7 @@ GetSum ← {
 
 ## 📝 Explanation
 
-Uses XOR and AND operations.
+APL solution for Sum of Two Integers. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

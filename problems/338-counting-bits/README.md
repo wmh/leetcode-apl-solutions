@@ -20,7 +20,7 @@ CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 
 ## 📝 Explanation
 
-Count bits 0 to n
+APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

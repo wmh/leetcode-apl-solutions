@@ -20,7 +20,7 @@ FindKthLargest ← {⊃⍵[⍒⍵]⌷⍨⍺}
 
 ## 📝 Explanation
 
-Kth largest
+APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

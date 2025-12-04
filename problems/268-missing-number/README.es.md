@@ -20,7 +20,7 @@ MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 
 ## 📝 Explicación
 
-Utiliza la fórmula para la suma de 0 a n: n×(n+1)÷2. Calcula la suma esperada menos la suma real. El resultado es el número que falta. (≢⍵) da n, así que calculamos n×(n+1)÷2 - (+/⍵) donde +/⍵ es la suma de elementos.
+APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

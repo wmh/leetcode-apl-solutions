@@ -20,7 +20,7 @@ TopKFrequent ← {⍵}
 
 ## 📝 Explicación
 
-Groups elements by frequency and takes top k....
+APL solution for Top K Frequent Elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

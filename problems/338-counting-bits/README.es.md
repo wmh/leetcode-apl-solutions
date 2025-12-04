@@ -20,7 +20,7 @@ CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 
 ## 📝 Explicación
 
-Para cada número de 0 a n (⍳⍵+1), convierte a binario usando codificación base-2 (⊤⍨32⍴2), luego suma los bits (+/). El operador ¨ aplica la operación a cada número.
+APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

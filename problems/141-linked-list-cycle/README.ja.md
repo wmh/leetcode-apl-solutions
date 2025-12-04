@@ -20,7 +20,7 @@ HasCycle ← {0}
 
 ## 📝 説明
 
-配列表現の場合：長さが一意の長さと異なるかを確認します。重複（サイクル）がある場合、長さが異なります。一意 (∪) とカウント (≢) を使用します。
+APL solution for Linked List Cycle. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

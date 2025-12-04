@@ -24,7 +24,7 @@ MinEatingSpeed ← {
 
 ## 📝 Explicación
 
-Binary search on eating speed....
+APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

@@ -20,7 +20,7 @@ MaxProfit ← {⌈/0,⍵-⌊\⍵}
 
 ## 📝 Erklärung
 
-Verfolgt das laufende Minimum mit Scan (⌊\⍵). Subtrahiert das Minimum von jedem Preis (⍵-⌊\⍵), um den Gewinn an jedem Punkt zu erhalten. Nimmt das Maximum mit ⌈/ und vergleicht mit 0, um den Fall ohne Gewinn zu behandeln.
+APL solution for Best Time to Buy and Sell Stock. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

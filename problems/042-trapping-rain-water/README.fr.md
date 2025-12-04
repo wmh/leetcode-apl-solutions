@@ -20,7 +20,7 @@ Trap ← {+/0⌈(⌊/⌈\⍵,⌈\⌽⍵)-⍵}
 
 ## 📝 Explication
 
-Solution APL vérifiée
+APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

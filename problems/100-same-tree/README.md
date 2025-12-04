@@ -20,7 +20,7 @@ IsSameTree ← {⍺≡⍵}
 
 ## 📝 Explanation
 
-Match operator
+APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

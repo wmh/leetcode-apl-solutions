@@ -20,7 +20,7 @@ TopKFrequent ← {⍵}
 
 ## 📝 解釋
 
-Groups elements by frequency and takes top k....
+Top K Frequent Elements 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

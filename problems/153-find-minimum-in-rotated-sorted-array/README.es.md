@@ -20,7 +20,7 @@ FindMin ← {⌊/⍵}
 
 ## 📝 Explicación
 
-Simple minimum with rotation consideration....
+APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

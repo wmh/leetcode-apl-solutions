@@ -20,7 +20,7 @@ MinWindow ← {⍵}
 
 ## 📝 解釋
 
-Maintains character counts in sliding window....
+Minimum Window Substring 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

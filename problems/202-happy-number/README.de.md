@@ -20,7 +20,7 @@ IsHappy ← {1∊⍵}
 
 ## 📝 Erklärung
 
-Version 2: Iteriert 20 Mal und wendet die Zifferquadratsumme an. Wenn 1 in den Ergebnissen erscheint, ist es glücklich. Verwendet inverse Kodierung (10⊥⍣¯1), um Ziffern zu erhalten, quadriert sie und summiert.
+APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

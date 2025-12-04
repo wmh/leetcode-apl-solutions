@@ -20,7 +20,7 @@ TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}
 
 ## 📝 Erklärung
 
-Uses two pointers from both ends....
+APL solution for Two Sum II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

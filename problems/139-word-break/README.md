@@ -20,7 +20,7 @@ WordBreak ← {1}
 
 ## 📝 Explanation
 
-Word break check
+APL solution for Word Break. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 Explicación
 
-Recursivo: recorre izquierda, visita raíz, recorre derecha. El caso base devuelve vacío para nodos nulos.
+APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

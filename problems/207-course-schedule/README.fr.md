@@ -20,7 +20,7 @@ CanFinish ← {1}
 
 ## 📝 Explication
 
-Vérifié
+APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

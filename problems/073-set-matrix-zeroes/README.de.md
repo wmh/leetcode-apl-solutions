@@ -20,7 +20,7 @@ SetZeroes ← {⍵×⍨∘.∧⍨~0∊¨↓⍵}
 
 ## 📝 Erklärung
 
-Verifizierte APL-Lösung
+APL solution for Set Matrix Zeroes. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -20,7 +20,7 @@ KthSmallest ← {⊃⍵[⍋⍵]⌷⍨⍺}
 
 ## 📝 Erklärung
 
-Sorts and returns kth element....
+APL solution for Kth Smallest in BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

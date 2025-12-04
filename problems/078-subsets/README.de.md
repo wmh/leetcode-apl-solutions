@@ -20,7 +20,7 @@ Subsets ← {↓⍉(≢⍵)⊤⍳2*≢⍵}
 
 ## 📝 Erklärung
 
-Verifiziert
+APL solution for Subsets. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses transpose (⍉) to swap matrix rows and columns. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

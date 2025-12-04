@@ -23,7 +23,7 @@ CanAttendMeetings ← {
 
 ## 📝 解释
 
-Checks for overlaps in sorted intervals....
+Meeting Rooms 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用 tally (≢) 计算数组长度。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

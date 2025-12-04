@@ -20,7 +20,7 @@ KthSmallest ← {⊃⍵[⍋⍵]⌷⍨⍺}
 
 ## 📝 解釋
 
-Sorts and returns kth element....
+Kth Smallest in BST 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

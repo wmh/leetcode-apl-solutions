@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 Erklärung
 
-Rekursiv: durchlaufe links, besuche Wurzel, durchlaufe rechts. Basisfall gibt leer für null-Knoten zurück.
+APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

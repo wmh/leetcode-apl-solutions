@@ -20,7 +20,7 @@ MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 
 ## 📝 説明
 
-両方のリストを連結 (⍺,⍵) してから、昇順でソート (⍋)。昇順は配列をソートするインデックスを返します。バージョン 2 はよりクリーン：連結してからソートされた位置でインデックス。
+APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

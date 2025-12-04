@@ -25,7 +25,7 @@ LongestConsecutive ← {
 
 ## 📝 解释
 
-Sorts unique elements and finds longest consecutive run....
+Longest Consecutive Sequence 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 unique (∪) 去除重复元素。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

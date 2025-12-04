@@ -20,7 +20,7 @@ HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 
 ## 📝 Explanation
 
-Count 1-bits
+APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

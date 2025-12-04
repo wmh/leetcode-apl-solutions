@@ -20,7 +20,7 @@ Jump ← {+/2≠/0,⍸0<+\⌈\⍵}
 
 ## 📝 Explicación
 
-Solución APL verificada
+APL solution for Jump Game II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

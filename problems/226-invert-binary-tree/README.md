@@ -20,7 +20,7 @@ InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}
 
 ## 📝 Explanation
 
-Recursive reverse
+APL solution for Invert Binary Tree. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

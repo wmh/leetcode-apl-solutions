@@ -20,7 +20,7 @@ MaxProfit ← {⌈/0,⍵-⌊\⍵}
 
 ## 📝 Explanation
 
-Max of (price - running min)
+APL solution for Best Time to Buy and Sell Stock. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

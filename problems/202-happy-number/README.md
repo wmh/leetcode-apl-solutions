@@ -20,7 +20,7 @@ IsHappy ← {1∊⍵}
 
 ## 📝 Explanation
 
-Check if 1 in sequence
+APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

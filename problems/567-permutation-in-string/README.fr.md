@@ -23,7 +23,7 @@ CheckInclusion ← {
 
 ## 📝 Explication
 
-Checks each substring of length |s1| for character match....
+APL solution for Permutation in String. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

@@ -23,7 +23,7 @@ PacificAtlantic ← {
 
 ## 📝 Erklärung
 
-DFS from both ocean borders....
+APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -20,7 +20,7 @@ TwoSumII ← {(⊃⍸⍺=+/∘.,⍨⍵)+1}
 
 ## 📝 Explanation
 
-Two sum with 1-indexing
+APL solution for Two Sum II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

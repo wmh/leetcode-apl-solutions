@@ -20,7 +20,7 @@ TopKFrequent ← {⍵}
 
 ## 📝 Explanation
 
-Top K frequent
+APL solution for Top K Frequent Elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

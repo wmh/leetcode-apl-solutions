@@ -20,7 +20,7 @@ InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}
 
 ## 📝 Explication
 
-Échange récursivement les enfants gauche et droit. Cas de base : l'arbre vide renvoie vide. Cas récursif : garde la racine, échange les enfants en récurant d'abord sur la droite puis sur la gauche.
+APL solution for Invert Binary Tree. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

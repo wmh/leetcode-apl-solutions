@@ -20,7 +20,7 @@ CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}
 
 ## 📝 説明
 
-0 から n までの各数値 (⍳⍵+1) について、基数 2 エンコードを使用して 2 進数に変換し (⊤⍨32⍴2)、ビットを合計します (+/)。¨ 演算子は各数値に操作を適用します。
+APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

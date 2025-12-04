@@ -24,7 +24,7 @@ MinStack ← {
 
 ## 📝 Explanation
 
-Maintains auxiliary stack for minimums.
+APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ MinWindow ← {⍵}
 
 ## 📝 Erklärung
 
-Maintains character counts in sliding window....
+APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

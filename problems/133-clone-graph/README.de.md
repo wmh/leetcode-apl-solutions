@@ -20,7 +20,7 @@ CloneGraph ← {⍵}
 
 ## 📝 Erklärung
 
-Creates deep copy of graph structure....
+APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

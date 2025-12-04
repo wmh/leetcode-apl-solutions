@@ -20,7 +20,7 @@ MaxSubArray ← {⌈/+\0⌈⍵}
 
 ## 📝 Explicación
 
-Utiliza el algoritmo de Kadane. La versión 3 es la más simple: suma acumulativa con máximo en ejecución (⌈\), anteponiendo 0 para manejar arrays todos negativos. Toma el máximo de las sumas máximas en ejecución.
+APL solution for Maximum Subarray. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

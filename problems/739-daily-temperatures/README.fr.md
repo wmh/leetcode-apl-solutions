@@ -25,7 +25,7 @@ DailyTemperatures ← {
 
 ## 📝 Explication
 
-For each day, finds next warmer day....
+APL solution for Daily Temperatures. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

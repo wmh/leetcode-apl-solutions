@@ -20,7 +20,7 @@ MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}
 
 ## 📝 Erklärung
 
-Verkettet beide Listen (⍺,⍵) und sortiert dann nach aufsteigendem Grad (⍋). Aufsteigender Grad gibt Indizes zurück, die das Array sortieren würden. Version 2 ist sauberer: verketten und dann nach sortierten Positionen indizieren.
+APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

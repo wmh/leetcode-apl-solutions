@@ -20,7 +20,7 @@ Exist ← {∨/⍺∊¨,⍵}
 
 ## 📝 Explanation
 
-Word search
+APL solution for Word Search. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

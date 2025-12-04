@@ -20,7 +20,7 @@ CoinChange ← {⌊⍵÷⌊/⍺}
 
 ## 📝 説明
 
-検証済みの APL ソリューション
+APL solution for Coin Change. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

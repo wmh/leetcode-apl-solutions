@@ -20,7 +20,7 @@ IsValid ← {0=+/(⍵='(')-⍵=')'}
 
 ## 📝 説明
 
-単純なケース（バージョン 1）：開き括弧 '(' をカウントし、閉じ括弧 ')' を減算します。合計が 0 であれば有効です。完全な検証（バージョン 2）：括弧ペアのスタックベースのマッチングが必要です。
+APL solution for Valid Parentheses. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

@@ -20,7 +20,7 @@ ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 
 ## 📝 Erklärung
 
-Dies ist die Fibonacci-Folge! Iteriert n-mal mit dem Potenzoperator (⍣⍵), beginnend mit 1 1. Jede Iteration fügt die Summe der letzten 2 Zahlen hinzu ({⍵,+/¯2↑⍵}). Nimmt das erste Element (⊃) des Endergebnisses.
+APL solution for Climbing Stairs. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

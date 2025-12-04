@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 Explanation
 
-Flatten nested structure
+APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ ReverseList ← {⌽⍵}
 
 ## 📝 Explicación
 
-Utiliza el operador de reversión (⌽). En APL, ⌽ invierte los elementos de un vector a lo largo de su último eje. ¡Esta es la solución más simple posible: solo un símbolo!
+APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

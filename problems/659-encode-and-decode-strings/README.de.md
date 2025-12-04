@@ -21,7 +21,7 @@ Decode ← {⍵⊂⍨'#'≠⍵}
 
 ## 📝 Erklärung
 
-Encodes with length prefix and delimiter....
+APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

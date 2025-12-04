@@ -20,7 +20,7 @@ ReverseList ← {⌽⍵}
 
 ## 📝 Explanation
 
-Reverse array
+APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

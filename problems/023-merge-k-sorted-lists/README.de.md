@@ -20,7 +20,7 @@ MergeKLists ← {⍵[⍋∊⍵]}
 
 ## 📝 Erklärung
 
-Verifizierte APL-Lösung
+APL solution for Merge k Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

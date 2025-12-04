@@ -20,7 +20,7 @@ Exist ← {∨/⍺∊¨,⍵}
 
 ## 📝 Erklärung
 
-Verifizierte APL-Lösung
+APL solution for Word Search. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -24,7 +24,7 @@ EraseOverlapIntervals ← {
 
 ## 📝 Explication
 
-Greedy selection by end time....
+APL solution for Non-overlapping Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

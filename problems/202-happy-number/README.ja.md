@@ -20,7 +20,7 @@ IsHappy ← {1∊⍵}
 
 ## 📝 説明
 
-バージョン 2：桁の 2 乗和を 20 回適用して反復します。結果に 1 が現れる場合、それはハッピーです。エンコード逆 (10⊥⍣¯1) を使用して桁を取得し、それらを 2 乗して合計します。
+APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

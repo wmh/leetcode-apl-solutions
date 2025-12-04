@@ -20,7 +20,7 @@ Partition ← {⍵}
 
 ## 📝 説明
 
-Generates partitions and filters palindromes....
+APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

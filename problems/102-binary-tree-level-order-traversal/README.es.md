@@ -20,7 +20,7 @@ LevelOrder ← {⍵}
 
 ## 📝 Explicación
 
-Groups nodes by level....
+APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

@@ -20,7 +20,7 @@ MaxSubArray ← {⌈/+\0⌈⍵}
 
 ## 📝 説明
 
-Kadane のアルゴリズムを使用します。バージョン 3 が最もシンプル：累積和と実行中の最大値 (⌈\)、すべて負の配列を処理するために 0 を前に追加します。実行中の最大和の最大値を取ります。
+APL solution for Maximum Subarray. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

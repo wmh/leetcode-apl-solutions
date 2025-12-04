@@ -23,7 +23,7 @@ IsValidBST ← {
 
 ## 📝 説明
 
-Checks if inorder traversal is sorted....
+APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

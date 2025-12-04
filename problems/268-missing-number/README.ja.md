@@ -20,7 +20,7 @@ MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 
 ## 📝 説明
 
-0 から n までの和の公式を使用します：n×(n+1)÷2。期待される合計から実際の合計を引きます。結果が欠落している数値です。(≢⍵) は n を与えるので、n×(n+1)÷2 - (+/⍵) を計算します。ここで +/⍵ は要素の合計です。
+APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

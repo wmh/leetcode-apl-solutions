@@ -20,7 +20,7 @@ IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 
 ## 📝 Explication
 
-Filtre pour ne garder que les caractères alphanumériques : majuscules (⎕A), chiffres (⎕D) et minuscules (⎕C⎕A). Vérifie ensuite si la chaîne filtrée correspond à son inverse (s≡⌽s).
+APL solution for Valid Palindrome. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

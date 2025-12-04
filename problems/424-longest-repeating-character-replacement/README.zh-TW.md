@@ -24,7 +24,7 @@ CharacterReplacement ← {
 
 ## 📝 解釋
 
-Slides window and counts character frequencies....
+Longest Repeating Character Replacement 的 APL 解決方案。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

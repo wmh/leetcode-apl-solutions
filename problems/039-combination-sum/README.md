@@ -20,7 +20,7 @@ CombinationSum ← {⍵}
 
 ## 📝 Explanation
 
-Return combinations
+APL solution for Combination Sum. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

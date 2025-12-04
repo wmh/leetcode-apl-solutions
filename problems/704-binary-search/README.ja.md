@@ -23,7 +23,7 @@ BinarySearch ← {
 
 ## 📝 説明
 
-Standard binary search....
+APL solution for Binary Search. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

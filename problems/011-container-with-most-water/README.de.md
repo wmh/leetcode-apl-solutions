@@ -20,7 +20,7 @@ MaxArea ← {⌈/,((⍵∘.⌊⍵)×(⍳≢⍵)∘.-⍳≢⍵)}
 
 ## 📝 Erklärung
 
-Erstellt äußeres Produkt von Höhen (∘.⌊), um minimale Höhen für alle Paare zu erhalten. Multipliziert mit Entfernungen ((⍳n)∘.-⍳n), um Flächen zu erhalten. Nimmt Maximum.
+APL solution for Container With Most Water. Uses outer product (∘.) to create matrix of all pair combinations. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

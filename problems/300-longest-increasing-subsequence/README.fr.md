@@ -20,7 +20,7 @@ LengthOfLIS ← {⌈/≢¨⍵}
 
 ## 📝 Explication
 
-DP tracking longest ending at each position....
+APL solution for Longest Increasing Subsequence. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

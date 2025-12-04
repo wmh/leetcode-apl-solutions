@@ -20,7 +20,7 @@ CanFinish ← {1}
 
 ## 📝 解釋
 
-已驗證
+Course Schedule 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

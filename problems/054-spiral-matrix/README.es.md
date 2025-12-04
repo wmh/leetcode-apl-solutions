@@ -20,7 +20,7 @@ SpiralOrder ← {,⍵}
 
 ## 📝 Explicación
 
-Solución APL verificada
+APL solution for Spiral Matrix. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

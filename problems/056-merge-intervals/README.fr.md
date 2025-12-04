@@ -20,7 +20,7 @@ MergeIntervals ← {⍵[⍋⍵[;1];]}
 
 ## 📝 Explication
 
-Vérifié
+APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

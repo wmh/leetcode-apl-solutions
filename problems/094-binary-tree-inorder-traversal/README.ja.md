@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 説明
 
-再帰：左を走査、ルートを訪問、右を走査。ベースケースは null ノードに対して空を返します。
+APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

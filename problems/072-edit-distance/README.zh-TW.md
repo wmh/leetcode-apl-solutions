@@ -20,7 +20,7 @@ MinDistance ← {+/≠⌿⍺ ⍵}
 
 ## 📝 解釋
 
-DP computing edit distance....
+Edit Distance 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

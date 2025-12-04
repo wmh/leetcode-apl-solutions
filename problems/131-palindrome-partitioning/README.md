@@ -20,7 +20,7 @@ Partition ← {⍵}
 
 ## 📝 Explanation
 
-Palindrome partitioning
+APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

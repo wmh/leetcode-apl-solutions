@@ -24,7 +24,7 @@ Insert ← {
 
 ## 📝 Explanation
 
-Inserts and merges intervals.
+APL solution for Insert Interval. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

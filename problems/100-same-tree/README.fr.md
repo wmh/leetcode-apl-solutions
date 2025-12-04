@@ -20,7 +20,7 @@ IsSameTree ← {⍺≡⍵}
 
 ## 📝 Explication
 
-Utilise l'opérateur de correspondance (≡) qui renvoie 1 si les tableaux sont identiques en structure et en valeurs, 0 sinon. C'est la solution la plus simple possible - juste un symbole !
+APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

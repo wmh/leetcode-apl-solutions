@@ -25,7 +25,7 @@ ProductExceptSelf ← {
 
 ## 📝 解释
 
-For each position, multiplies all other elements....
+Product of Array Except Self 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

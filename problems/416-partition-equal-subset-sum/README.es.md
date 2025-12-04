@@ -20,7 +20,7 @@ CanPartition ← {0}
 
 ## 📝 Explicación
 
-Checks if subset sum equals half of total....
+APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

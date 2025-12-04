@@ -22,7 +22,7 @@ CountSubstrings ← {
 
 ## 📝 Explanation
 
-Expands around each center.
+APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

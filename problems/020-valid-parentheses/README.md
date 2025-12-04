@@ -20,7 +20,7 @@ IsValid ← {0=+/(⍵='(')-⍵=')'}
 
 ## 📝 Explanation
 
-Count open minus close parens, check balanced
+APL solution for Valid Parentheses. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 
 ## 📝 Explanation
 
-Outer product sum, find target, return first match
+APL solution for Two Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

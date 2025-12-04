@@ -20,7 +20,7 @@ IsSameTree ← {⍺≡⍵}
 
 ## 📝 説明
 
-マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！
+APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

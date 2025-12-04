@@ -20,7 +20,7 @@ Rotate ← {⌽⍉⍵}
 
 ## 📝 Explication
 
-Vérifié
+APL solution for Rotate Image. Uses reverse (⌽) to flip array elements. Uses transpose (⍉) to swap matrix rows and columns. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

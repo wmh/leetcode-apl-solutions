@@ -20,7 +20,7 @@ ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
 
 ## 📝 Explicación
 
-Compara la longitud del array (≢⍵) con la longitud de los elementos únicos (≢∪⍵). Si difieren, debe haber duplicados. El operador ≢ da la longitud, ∪ da elementos únicos y ≠ verifica si no son iguales.
+APL solution for Contains Duplicate. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

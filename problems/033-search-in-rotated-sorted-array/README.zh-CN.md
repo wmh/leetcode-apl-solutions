@@ -20,7 +20,7 @@ Search ← {⍺⍳⍨⍵}
 
 ## 📝 解释
 
-Finds pivot point and searches in correct half....
+Search in Rotated Sorted Array 的 APL 解决方案。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

@@ -20,7 +20,7 @@ IsHappy ← {1∊⍵}
 
 ## 📝 Explication
 
-Version 2 : Itère 20 fois en appliquant la somme des carrés des chiffres. Si 1 apparaît dans les résultats, c'est heureux. Utilise l'encodage inverse (10⊥⍣¯1) pour obtenir les chiffres, les élève au carré et fait la somme.
+APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

@@ -20,7 +20,7 @@ IsSameTree ← {⍺≡⍵}
 
 ## 📝 Erklärung
 
-Verwendet den Übereinstimmungsoperator (≡), der 1 zurückgibt, wenn Arrays in Struktur und Werten identisch sind, andernfalls 0. Dies ist die einfachst mögliche Lösung - nur ein Symbol!
+APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -20,7 +20,7 @@ PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 
 ## 📝 Explanation
 
-Decode from digits, add 1, encode back
+APL solution for Plus One. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

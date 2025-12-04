@@ -20,7 +20,7 @@ HammingWeight ← {+/2⊥⍣¯1⊢⍵}
 
 ## 📝 説明
 
-エンコード (⊤⍨32⍴2) を使用して数値を 32 ビットバイナリに変換し、+/ でビットを合計します。エンコード演算子 ⊤ は指定された基数に変換します。
+APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

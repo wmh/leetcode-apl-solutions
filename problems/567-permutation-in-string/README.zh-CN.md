@@ -23,7 +23,7 @@ CheckInclusion ← {
 
 ## 📝 解释
 
-Checks each substring of length |s1| for character match....
+Permutation in String 的 APL 解决方案。使用 tally (≢) 计算数组长度。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

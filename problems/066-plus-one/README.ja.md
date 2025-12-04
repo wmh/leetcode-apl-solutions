@@ -20,7 +20,7 @@ PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 
 ## 📝 説明
 
-デコード（10⊥⍵）を使用して桁を数値に変換し、1 を加算してから、エンコード（10⊥⍣¯1）を使用して桁に戻します。⊥ 演算子は基数 10 からデコードし、⊥⍣¯1 は基数 10 の桁にエンコードします。
+APL solution for Plus One. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

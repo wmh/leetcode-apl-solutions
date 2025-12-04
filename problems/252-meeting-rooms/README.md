@@ -23,7 +23,7 @@ CanAttendMeetings ← {
 
 ## 📝 Explanation
 
-Checks for overlaps in sorted intervals.
+APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

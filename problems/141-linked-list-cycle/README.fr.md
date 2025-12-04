@@ -20,7 +20,7 @@ HasCycle ← {0}
 
 ## 📝 Explication
 
-Pour la représentation en tableau : vérifie si la longueur diffère de la longueur unique. S'il y a des doublons (cycle), les longueurs diffèrent. Utilise unique (∪) et comptage (≢).
+APL solution for Linked List Cycle. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

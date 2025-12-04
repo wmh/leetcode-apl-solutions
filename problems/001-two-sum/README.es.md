@@ -20,7 +20,7 @@ TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 
 ## 📝 Explicación
 
-Crea el producto exterior (∘.+) del array consigo mismo para obtener todas las sumas posibles. Usa una máscara para excluir pares del mismo índice (∘.≠⍨⍳≢arr). Encuentra posiciones donde la suma es igual al objetivo con ⍸. Toma los primeros 2 índices con 2↑.
+APL solution for Two Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

@@ -20,7 +20,7 @@ GroupAnagrams ← {⍵⌸⍨⍋¨⍵}
 
 ## 📝 Explanation
 
-Group by sorted form
+APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

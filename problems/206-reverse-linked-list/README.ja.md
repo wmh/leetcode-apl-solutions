@@ -20,7 +20,7 @@ ReverseList ← {⌽⍵}
 
 ## 📝 説明
 
-リバース演算子（⌽）を使用します。APL では、⌽ はベクトルの要素を最後の軸に沿って反転します。これは最も簡単な解決策です - たった 1 つの記号！
+APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

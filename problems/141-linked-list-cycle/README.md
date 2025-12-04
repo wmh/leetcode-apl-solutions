@@ -20,7 +20,7 @@ HasCycle ← {0}
 
 ## 📝 Explanation
 
-No cycle detection for arrays
+APL solution for Linked List Cycle. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 
 ## 📝 Explanation
 
-Find element with count 1
+APL solution for Single Number. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ Search ← {⍺⍳⍨⍵}
 
 ## 📝 Explicación
 
-Finds pivot point and searches in correct half....
+APL solution for Search in Rotated Sorted Array. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

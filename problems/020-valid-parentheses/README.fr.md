@@ -20,7 +20,7 @@ IsValid ← {0=+/(⍵='(')-⍵=')'}
 
 ## 📝 Explication
 
-Pour le cas simple (version 1) : compte les parenthèses ouvrantes '(' et soustrait les parenthèses fermantes ')'. Valide si la somme est 0. Pour une validation complète (version 2) : nécessiterait une correspondance de paires de crochets basée sur une pile.
+APL solution for Valid Parentheses. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

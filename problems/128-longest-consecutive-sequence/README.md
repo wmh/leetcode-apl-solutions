@@ -25,7 +25,7 @@ LongestConsecutive ← {
 
 ## 📝 Explanation
 
-Sorts unique elements and finds longest consecutive run.
+APL solution for Longest Consecutive Sequence. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

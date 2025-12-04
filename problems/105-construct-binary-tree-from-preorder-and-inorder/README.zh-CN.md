@@ -20,7 +20,7 @@ BuildTree ← {⍵}
 
 ## 📝 解释
 
-Recursively splits based on root position....
+Construct Binary Tree from Preorder and Inorder 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

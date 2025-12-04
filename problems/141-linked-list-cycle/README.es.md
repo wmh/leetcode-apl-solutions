@@ -20,7 +20,7 @@ HasCycle ← {0}
 
 ## 📝 Explicación
 
-Para representación de array: verifica si la longitud difiere de la longitud única. Si hay duplicados (ciclo), las longitudes difieren. Usa único (∪) y conteo (≢).
+APL solution for Linked List Cycle. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

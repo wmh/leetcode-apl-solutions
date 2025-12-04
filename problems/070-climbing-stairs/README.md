@@ -20,7 +20,7 @@ ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 
 ## 📝 Explanation
 
-Fibonacci via repeated sum
+APL solution for Climbing Stairs. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

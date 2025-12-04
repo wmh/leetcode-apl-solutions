@@ -24,7 +24,7 @@ MinEatingSpeed ← {
 
 ## 📝 解釋
 
-Binary search on eating speed....
+Koko Eating Bananas 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引範圍或查找元素位置。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

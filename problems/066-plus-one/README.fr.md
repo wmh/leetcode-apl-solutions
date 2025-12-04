@@ -20,7 +20,7 @@ PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 
 ## 📝 Explication
 
-Convertit les chiffres en nombre en utilisant le décodage (10⊥⍵), ajoute 1, puis reconvertit en chiffres en utilisant l'encodage (10⊥⍣¯1). L'opérateur ⊥ décode depuis la base 10, ⊥⍣¯1 encode en chiffres de base 10.
+APL solution for Plus One. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

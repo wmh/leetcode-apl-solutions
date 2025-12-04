@@ -20,7 +20,7 @@ SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 
 ## 📝 説明
 
-XOR リダクション（≠/）を使用します。XOR には a⊕a=0 および a⊕0=a という性質があるため、重複する数値は相殺され、単一の数値のみが残ります。≠ 演算子は APL では XOR であり、/ はすべての要素間で XOR を適用するリダクション演算子です。
+APL solution for Single Number. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

@@ -20,7 +20,7 @@ MinWindow ← {⍵}
 
 ## 📝 Explanation
 
-Min window substring
+APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

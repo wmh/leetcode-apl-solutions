@@ -20,7 +20,7 @@ MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
 
 ## 📝 Erklärung
 
-Zählt rekursiv die Tiefe. Basisfall: leerer Baum hat Tiefe 0. Rekursiver Fall: 1 + maximale Tiefe der Kinder. Verwendet Selbstreferenz (∇), um über jedes Kind zu rekurrieren, dann nimmt das Maximum mit ⌈/.
+APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

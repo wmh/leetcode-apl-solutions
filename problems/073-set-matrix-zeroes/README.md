@@ -20,7 +20,7 @@ SetZeroes ← {⍵×⍨∘.∧⍨~0∊¨↓⍵}
 
 ## 📝 Explanation
 
-Set row/col to 0
+APL solution for Set Matrix Zeroes. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

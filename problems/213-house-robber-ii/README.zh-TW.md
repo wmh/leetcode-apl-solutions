@@ -20,7 +20,7 @@ RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}
 
 ## 📝 解釋
 
-Considers two cases: rob first or rob last....
+House Robber II 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

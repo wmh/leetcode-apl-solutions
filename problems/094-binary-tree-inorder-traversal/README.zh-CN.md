@@ -20,7 +20,7 @@ InorderTraversal ← {,⍵}
 
 ## 📝 解释
 
-遞歸：遍歷左子樹，訪問根，遍歷右子樹。基本情況為空節點返回空。
+Binary Tree Inorder Traversal 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

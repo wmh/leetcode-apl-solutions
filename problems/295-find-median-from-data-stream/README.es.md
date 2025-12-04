@@ -20,7 +20,7 @@ MedianFinder ← {⍵}
 
 ## 📝 Explicación
 
-Maintains sorted order and computes median....
+APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

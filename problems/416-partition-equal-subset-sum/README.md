@@ -20,7 +20,7 @@ CanPartition ← {0}
 
 ## 📝 Explanation
 
-Partition equal
+APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

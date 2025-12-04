@@ -20,7 +20,7 @@ HasCycle ← {0}
 
 ## 📝 Erklärung
 
-Für Array-Darstellung: prüft, ob die Länge von der eindeutigen Länge abweicht. Wenn es Duplikate (Zyklus) gibt, unterscheiden sich die Längen. Verwendet eindeutig (∪) und Zählung (≢).
+APL solution for Linked List Cycle. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

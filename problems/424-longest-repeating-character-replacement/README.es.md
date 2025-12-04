@@ -24,7 +24,7 @@ CharacterReplacement ← {
 
 ## 📝 Explicación
 
-Slides window and counts character frequencies....
+APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

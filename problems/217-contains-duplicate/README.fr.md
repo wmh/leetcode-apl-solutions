@@ -20,7 +20,7 @@ ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
 
 ## 📝 Explication
 
-Compare la longueur du tableau (≢⍵) avec la longueur des éléments uniques (≢∪⍵). S'ils diffèrent, il doit y avoir des doublons. L'opérateur ≢ donne la longueur, ∪ donne des éléments uniques et ≠ vérifie s'ils ne sont pas égaux.
+APL solution for Contains Duplicate. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

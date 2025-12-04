@@ -20,7 +20,7 @@ MaxProfit ← {⌈/0,⍵-⌊\⍵}
 
 ## 📝 説明
 
-スキャン (⌊\⍵) で実行中の最小値を追跡します。各価格から最小値を引いて (⍵-⌊\⍵) 各ポイントでの利益を取得します。⌈/ で最大値を取り、0 と比較して利益なしのケースを処理します。
+APL solution for Best Time to Buy and Sell Stock. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

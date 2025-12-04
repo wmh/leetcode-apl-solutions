@@ -20,7 +20,7 @@ CanJump ← {(≢⍵)∊⍸⍵>0}
 
 ## 📝 説明
 
-検証済みの APL ソリューション
+APL solution for Jump Game. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

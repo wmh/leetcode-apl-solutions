@@ -24,7 +24,7 @@ CarFleet ← {
 
 ## 📝 解釋
 
-Sorts by position and calculates arrival times....
+Car Fleet 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用掃描 (\) 計算運行操作：+\ 是運行和，×\ 是運行積，⌈\ 是運行最大值，⌊\ 是運行最小值。使用 where (⍸) 查找真值/非零元素的索引。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

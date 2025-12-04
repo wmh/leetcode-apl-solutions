@@ -20,7 +20,7 @@ InvertTree ← {0=≢⍵:⍵ ⋄ ⌽∇¨⍵}
 
 ## 📝 説明
 
-再帰的に左右の子を交換します。ベースケース：空のツリーは空を返します。再帰ケース：ルートを保持し、右の子に再帰してから左の子に再帰することで子を交換します。
+APL solution for Invert Binary Tree. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

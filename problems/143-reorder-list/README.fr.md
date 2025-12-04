@@ -20,7 +20,7 @@ ReorderList ← {reordered}
 
 ## 📝 Explication
 
-Solution APL vérifiée
+APL solution for Reorder List. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

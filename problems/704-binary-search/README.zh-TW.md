@@ -23,7 +23,7 @@ BinarySearch ← {
 
 ## 📝 解釋
 
-Standard binary search....
+Binary Search 的 APL 解決方案。使用 where (⍸) 查找真值/非零元素的索引。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。
 
 ## ⏱️ 複雜度分析
 

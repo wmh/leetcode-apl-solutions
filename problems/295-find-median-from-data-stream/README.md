@@ -20,7 +20,7 @@ MedianFinder ← {⍵}
 
 ## 📝 Explanation
 
-Find median stream
+APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

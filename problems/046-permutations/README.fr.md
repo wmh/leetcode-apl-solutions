@@ -20,7 +20,7 @@ Permute ← {⍵}
 
 ## 📝 Explication
 
-Solution APL vérifiée
+APL solution for Permutations. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

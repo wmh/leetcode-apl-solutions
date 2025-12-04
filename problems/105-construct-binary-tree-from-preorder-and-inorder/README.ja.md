@@ -20,7 +20,7 @@ BuildTree ← {⍵}
 
 ## 📝 説明
 
-Recursively splits based on root position....
+APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

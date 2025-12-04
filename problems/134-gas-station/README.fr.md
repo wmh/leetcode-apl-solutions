@@ -20,7 +20,7 @@ CanCompleteCircuit ← {0}
 
 ## 📝 Explication
 
-Finds starting point with sufficient gas....
+APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

@@ -20,7 +20,7 @@ NumIslands ← {+/∪,⍵}
 
 ## 📝 Explicación
 
-Verificado
+APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

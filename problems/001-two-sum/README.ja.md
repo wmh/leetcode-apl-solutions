@@ -20,7 +20,7 @@ TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}
 
 ## 📝 説明
 
-配列と自身の外積 (∘.+) を作成して、すべての可能な合計を取得します。マスクを使用して同じインデックスのペアを除外します (∘.≠⍨⍳≢arr)。⍸ で合計が目標と等しい位置を見つけます。2↑ で最初の 2 つのインデックスを取得します。
+APL solution for Two Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

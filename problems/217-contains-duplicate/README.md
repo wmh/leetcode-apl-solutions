@@ -20,7 +20,7 @@ ContainsDuplicate ← {(≢⍵)≠≢∪⍵}
 
 ## 📝 Explanation
 
-Length ≠ unique length
+APL solution for Contains Duplicate. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

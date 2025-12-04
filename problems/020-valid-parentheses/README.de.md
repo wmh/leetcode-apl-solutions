@@ -20,7 +20,7 @@ IsValid ← {0=+/(⍵='(')-⍵=')'}
 
 ## 📝 Erklärung
 
-Für den einfachen Fall (Version 1): zählt öffnende Klammern '(' und subtrahiert schließende Klammern ')'. Gültig, wenn die Summe 0 ist. Für vollständige Validierung (Version 2): wäre stapelbasiertes Matching von Klammerpaaren erforderlich.
+APL solution for Valid Parentheses. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

@@ -20,7 +20,7 @@ BuildTree ← {⍵}
 
 ## 📝 Explanation
 
-Build from pre/in
+APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

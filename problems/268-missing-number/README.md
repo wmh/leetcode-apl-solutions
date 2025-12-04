@@ -20,7 +20,7 @@ MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}
 
 ## 📝 Explanation
 
-Find missing in range
+APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Complexity Analysis
 

@@ -20,7 +20,7 @@ IsPalindrome ← {s←(⍵∊⎕A,⎕D)/⍵ ⋄ s≡⌽s}
 
 ## 📝 説明
 
-英数字のみを保持するようにフィルタリングします：大文字 (⎕A)、数字 (⎕D)、および小文字 (⎕C⎕A)。次に、フィルタリングされた文字列がその逆と一致するかを確認します (s≡⌽s)。
+APL solution for Valid Palindrome. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

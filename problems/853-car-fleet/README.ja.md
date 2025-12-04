@@ -24,7 +24,7 @@ CarFleet ← {
 
 ## 📝 説明
 
-Sorts by position and calculates arrival times....
+APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\) to compute running operations: +\ is running sum, ×\ is running product, ⌈\ is running max, ⌊\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

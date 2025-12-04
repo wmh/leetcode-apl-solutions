@@ -20,7 +20,7 @@ SingleNumber ← {⊃⍸1=+⌿∘.=⍨⍵}
 
 ## 📝 Erklärung
 
-Verwendet XOR-Reduktion (≠/). XOR hat die Eigenschaft, dass a⊕a=0 und a⊕0=a, sodass sich doppelte Zahlen aufheben und nur die einzelne Zahl übrig bleibt. Der ≠-Operator ist XOR in APL, und / ist der Reduktionsoperator, der XOR zwischen allen Elementen anwendet.
+APL solution for Single Number. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

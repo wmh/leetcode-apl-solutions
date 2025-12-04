@@ -20,7 +20,7 @@ Rob ← {⌈/+/¨⍵}
 
 ## 📝 Explicación
 
-Verificado
+APL solution for House Robber. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

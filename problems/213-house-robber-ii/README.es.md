@@ -20,7 +20,7 @@ RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}
 
 ## 📝 Explicación
 
-Considers two cases: rob first or rob last....
+APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

@@ -23,7 +23,7 @@ LowestCommonAncestor ← {
 
 ## 📝 解释
 
-Uses BST property to find split point....
+Lowest Common Ancestor of BST 的 APL 解决方案。使用 where (⍸) 查找真值/非零元素的索引。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

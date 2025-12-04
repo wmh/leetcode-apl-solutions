@@ -20,7 +20,7 @@ MinDistance ← {+/≠⌿⍺ ⍵}
 
 ## 📝 Explication
 
-DP computing edit distance....
+APL solution for Edit Distance. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Analyse de Complexité
 

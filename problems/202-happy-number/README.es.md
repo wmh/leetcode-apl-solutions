@@ -20,7 +20,7 @@ IsHappy ← {1∊⍵}
 
 ## 📝 Explicación
 
-Versión 2: Itera 20 veces aplicando la suma de cuadrados de dígitos. Si 1 aparece en los resultados, es feliz. Usa codificación inversa (10⊥⍣¯1) para obtener dígitos, los eleva al cuadrado y suma.
+APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

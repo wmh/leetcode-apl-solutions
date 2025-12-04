@@ -20,7 +20,7 @@ Partition ← {⍵}
 
 ## 📝 解释
 
-Generates partitions and filters palindromes....
+Palindrome Partitioning 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。
 
 ## ⏱️ 复杂度分析
 

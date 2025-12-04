@@ -21,7 +21,7 @@ Decode ← {⍵}
 
 ## 📝 Explicación
 
-Simple encoding by concatenation with length prefixes....
+APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Análisis de Complejidad
 

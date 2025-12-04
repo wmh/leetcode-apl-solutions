@@ -20,7 +20,7 @@ PlusOne ← {10⊥1+10⊥⍣¯1⊢⍵}
 
 ## 📝 Erklärung
 
-Konvertiert Ziffern in eine Zahl mit Dekodierung (10⊥⍵), addiert 1, dann konvertiert zurück zu Ziffern mit Kodierung (10⊥⍣¯1). Der ⊥-Operator dekodiert von Basis 10, ⊥⍣¯1 kodiert zu Basis-10-Ziffern.
+APL solution for Plus One. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 

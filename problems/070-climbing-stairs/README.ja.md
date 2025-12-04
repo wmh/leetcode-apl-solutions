@@ -20,7 +20,7 @@ ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}
 
 ## 📝 説明
 
-これはフィボナッチ数列です！冪演算子 (⍣⍵) を使用して n 回反復し、1 1 から始めます。各反復では最後の 2 つの数値の合計を追加します ({⍵,+/¯2↑⍵})。最終結果の最初の要素を取ります (⊃)。
+APL solution for Climbing Stairs. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

@@ -20,7 +20,7 @@ LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}
 
 ## 📝 説明
 
-バージョン 2：すべての部分文字列を生成し、それぞれの一意性をチェックし ((≢⍵)=≢∪⍵)、最大長を返します。ネストされた drop/take を使用して部分文字列を作成します。
+APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

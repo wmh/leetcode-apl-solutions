@@ -20,7 +20,7 @@ MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
 
 ## 📝 説明
 
-再帰的に深さをカウントします。ベースケース：空のツリーは深さ 0。再帰ケース：1 + 子の最大深さ。自己参照 (∇) を使用して各子を再帰し、⌈/ で最大値を取ります。
+APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ 複雑度分析
 

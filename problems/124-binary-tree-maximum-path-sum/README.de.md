@@ -20,7 +20,7 @@ MaxPathSum ← {+/⍵}
 
 ## 📝 Erklärung
 
-Recursively finds maximum path through each node....
+APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.
 
 ## ⏱️ Komplexitätsanalyse
 
