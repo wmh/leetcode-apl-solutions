@@ -13,13 +13,13 @@
   },
   "aplSolution": "MinStack ← {\n    stack ← ⍬\n    minStack ← ⍬\n    {stack,←⍵ ⋄ minStack,←⌊/stack}¨⍵\n}",
   "explanation": {
-    "en": "Maintains auxiliary stack for minimums.",
-    "zh-CN": "Maintains auxiliary stack for minimums....",
-    "zh-TW": "Maintains auxiliary stack for minimums....",
-    "ja": "Maintains auxiliary stack for minimums....",
-    "es": "Maintains auxiliary stack for minimums....",
-    "de": "Maintains auxiliary stack for minimums....",
-    "fr": "Maintains auxiliary stack for minimums...."
+    "en": "APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Min Stack 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Min Stack 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Min Stack. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(1)",
   "spaceComplexity": "O(n)"

@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsValidBST ← {\n    sorted←⍵[⍋⍵]\n    ∧/sorted=⍵\n}",
   "explanation": {
-    "en": "Checks if inorder traversal is sorted.",
-    "zh-CN": "Checks if inorder traversal is sorted....",
-    "zh-TW": "Checks if inorder traversal is sorted....",
-    "ja": "Checks if inorder traversal is sorted....",
-    "es": "Checks if inorder traversal is sorted....",
-    "de": "Checks if inorder traversal is sorted....",
-    "fr": "Checks if inorder traversal is sorted...."
+    "en": "APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Validate Binary Search Tree 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Validate Binary Search Tree 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Validate Binary Search Tree. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)"

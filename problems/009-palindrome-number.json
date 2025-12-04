@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsPalindrome ← {(⍵<0):0 ⋄ (⍕⍵)≡⌽⍕⍵}",
   "explanation": {
-    "en": "Checks if negative (returns 0 for negative numbers). Converts to string (⍕⍵), compares with reverse (≡⌽⍕⍵). Palindrome if string equals its reverse.",
-    "zh-CN": "检查是否为负数（负数返回 0）。转换为字符串 (⍕⍵)，与反转比较 (≡⌽⍕⍵)。如果字符串等于其反转则为回文。",
-    "zh-TW": "檢查是否為負數（負數返回 0）。轉換為字符串 (⍕⍵)，與反轉比較 (≡⌽⍕⍵)。如果字符串等於其反轉則為回文。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Palindrome Number. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Palindrome Number 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Palindrome Number 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Palindrome Number. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Palindrome Number. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Palindrome Number. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Palindrome Number. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)",

@@ -13,13 +13,13 @@
   },
   "aplSolution": "NumIslands ← {+/∪,⍵}",
   "explanation": {
-    "en": "Count islands",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
-    "ja": "検証済み",
-    "es": "Verificado",
-    "de": "Verifiziert",
-    "fr": "Vérifié"
+    "en": "APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Number of Islands 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 unique (∪) 去除重复元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Number of Islands 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 unique (∪) 去除重複元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Number of Islands. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(m*n)",
   "spaceComplexity": "O(m*n)",

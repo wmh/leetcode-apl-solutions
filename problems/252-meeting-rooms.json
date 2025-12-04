@@ -13,13 +13,13 @@
   },
   "aplSolution": "CanAttendMeetings ← {\n    sorted←⍵[⍋⍵[;0]]\n    ∧/sorted[1↓⍳≢sorted;0]≥sorted[¯1↓⍳≢sorted;1]\n}",
   "explanation": {
-    "en": "Checks for overlaps in sorted intervals.",
-    "zh-CN": "Checks for overlaps in sorted intervals....",
-    "zh-TW": "Checks for overlaps in sorted intervals....",
-    "ja": "Checks for overlaps in sorted intervals....",
-    "es": "Checks for overlaps in sorted intervals....",
-    "de": "Checks for overlaps in sorted intervals....",
-    "fr": "Checks for overlaps in sorted intervals...."
+    "en": "APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Meeting Rooms 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用 tally (≢) 计算数组长度。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Meeting Rooms 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用 tally (≢) 計算陣列長度。使用 iota (⍳) 生成索引範圍或查找元素位置。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Meeting Rooms. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(1)"

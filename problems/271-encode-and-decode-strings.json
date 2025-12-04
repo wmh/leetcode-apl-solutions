@@ -13,13 +13,13 @@
   },
   "aplSolution": "Encode ← {⍵⊃⍨¨⍳≢⍵}\nDecode ← {⍵}",
   "explanation": {
-    "en": "Simple encoding by concatenation with length prefixes.",
-    "zh-CN": "Simple encoding by concatenation with length prefixes....",
-    "zh-TW": "Simple encoding by concatenation with length prefixes....",
-    "ja": "Simple encoding by concatenation with length prefixes....",
-    "es": "Simple encoding by concatenation with length prefixes....",
-    "de": "Simple encoding by concatenation with length prefixes....",
-    "fr": "Simple encoding by concatenation with length prefixes...."
+    "en": "APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Encode and Decode Strings 的 APL 解决方案。使用 tally (≢) 计算数组长度。使用 iota (⍳) 生成索引范围或查找元素位置。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Encode and Decode Strings 的 APL 解決方案。使用 tally (≢) 計算陣列長度。使用 iota (⍳) 生成索引範圍或查找元素位置。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Encode and Decode Strings. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)"

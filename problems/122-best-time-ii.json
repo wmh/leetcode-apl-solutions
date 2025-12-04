@@ -13,13 +13,13 @@
   },
   "aplSolution": "MaxProfitII ← {+/0⌈2-/⍵}",
   "explanation": {
-    "en": "Sums all positive price differences: 2-/ computes differences between adjacent elements, 0⌈ keeps only positive ones, +/ sums them. Captures all upward price movements.",
-    "zh-CN": "对所有正价格差求和：2-/ 计算相邻元素差，0⌈ 只保留正数，+/ 求和。捕获所有向上的价格变动。",
-    "zh-TW": "對所有正價格差求和：2-/ 計算相鄰元素差，0⌈ 只保留正數，+/ 求和。捕獲所有向上的價格變動。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Best Time II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Best Time II 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Best Time II 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Best Time II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Best Time II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Best Time II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Best Time II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

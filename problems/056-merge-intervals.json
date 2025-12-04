@@ -13,13 +13,13 @@
   },
   "aplSolution": "MergeIntervals ← {⍵[⍋⍵[;1];]}",
   "explanation": {
-    "en": "Sorts intervals by start time: ⍵[⍋⍵[;1];] sorts by first column. For merging overlapping intervals, checks if next start ≤ current end.",
-    "zh-CN": "按开始时间排序区间：⍵[⍋⍵[;1];] 按第一列排序。合并重叠区间时，检查下一个开始 ≤ 当前结束。",
-    "zh-TW": "按開始時間排序區間：⍵[⍋⍵[;1];] 按第一列排序。合併重疊區間時，檢查下一個開始 ≤ 當前結束。",
-    "ja": "検証済み",
-    "es": "Verificado",
-    "de": "Verifiziert",
-    "fr": "Vérifié"
+    "en": "APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Merge Intervals 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Merge Intervals 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Merge Intervals. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",

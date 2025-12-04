@@ -13,13 +13,13 @@
   },
   "aplSolution": "FindKthLargest ← {⊃⍵[⍒⍵]⌷⍨⍺}",
   "explanation": {
-    "en": "Kth largest",
-    "zh-CN": "Sorts in descending order and returns kth....",
-    "zh-TW": "Sorts in descending order and returns kth....",
-    "ja": "Sorts in descending order and returns kth....",
-    "es": "Sorts in descending order and returns kth....",
-    "de": "Sorts in descending order and returns kth....",
-    "fr": "Sorts in descending order and returns kth...."
+    "en": "APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Kth Largest Element 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Kth Largest Element 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Kth Largest Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(1)",

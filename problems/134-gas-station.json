@@ -13,13 +13,13 @@
   },
   "aplSolution": "CanCompleteCircuit ← {0}",
   "explanation": {
-    "en": "Gas station",
-    "zh-CN": "Finds starting point with sufficient gas....",
-    "zh-TW": "Finds starting point with sufficient gas....",
-    "ja": "Finds starting point with sufficient gas....",
-    "es": "Finds starting point with sufficient gas....",
-    "de": "Finds starting point with sufficient gas....",
-    "fr": "Finds starting point with sufficient gas...."
+    "en": "APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Gas Station 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Gas Station 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Gas Station. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

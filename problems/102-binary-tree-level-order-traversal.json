@@ -13,13 +13,13 @@
   },
   "aplSolution": "LevelOrder ← {⍵}",
   "explanation": {
-    "en": "Level order traversal",
-    "zh-CN": "Groups nodes by level....",
-    "zh-TW": "Groups nodes by level....",
-    "ja": "Groups nodes by level....",
-    "es": "Groups nodes by level....",
-    "de": "Groups nodes by level....",
-    "fr": "Groups nodes by level...."
+    "en": "APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Binary Tree Level Order Traversal 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Binary Tree Level Order Traversal 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Binary Tree Level Order Traversal. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

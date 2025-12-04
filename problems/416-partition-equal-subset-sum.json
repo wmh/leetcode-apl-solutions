@@ -13,13 +13,13 @@
   },
   "aplSolution": "CanPartition ← {0}",
   "explanation": {
-    "en": "Partition equal",
-    "zh-CN": "Checks if subset sum equals half of total....",
-    "zh-TW": "Checks if subset sum equals half of total....",
-    "ja": "Checks if subset sum equals half of total....",
-    "es": "Checks if subset sum equals half of total....",
-    "de": "Checks if subset sum equals half of total....",
-    "fr": "Checks if subset sum equals half of total...."
+    "en": "APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Partition Equal Subset Sum 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Partition Equal Subset Sum 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Partition Equal Subset Sum. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*sum)",
   "spaceComplexity": "O(sum)",

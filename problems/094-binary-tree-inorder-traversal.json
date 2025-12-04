@@ -13,13 +13,13 @@
   },
   "aplSolution": "InorderTraversal ← {,⍵}",
   "explanation": {
-    "en": "Flattens nested tree structure using ravel (,). For nested arrays representing trees, this gives all nodes in order.",
-    "zh-CN": "使用 ravel (,) 展平嵌套树结构。对于表示树的嵌套数组，这按顺序给出所有节点。",
-    "zh-TW": "使用 ravel (,) 展平嵌套樹結構。對於表示樹的嵌套陣列，這按順序給出所有節點。",
-    "ja": "再帰：左を走査、ルートを訪問、右を走査。ベースケースは null ノードに対して空を返します。",
-    "es": "Recursivo: recorre izquierda, visita raíz, recorre derecha. El caso base devuelve vacío para nodos nulos.",
-    "de": "Rekursiv: durchlaufe links, besuche Wurzel, durchlaufe rechts. Basisfall gibt leer für null-Knoten zurück.",
-    "fr": "Récursif : parcourt à gauche, visite la racine, parcourt à droite. Le cas de base renvoie vide pour les nœuds nuls."
+    "en": "APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Binary Tree Inorder Traversal 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Binary Tree Inorder Traversal 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Binary Tree Inorder Traversal. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(h)",

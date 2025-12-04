@@ -13,13 +13,13 @@
   },
   "aplSolution": "MinEatingSpeed ← {\n    h←⍺\n    speeds←1+⍳⌈/⍵\n    ⊃speeds/⍨h≥+/⌈⍵÷⍤1⊢speeds\n}",
   "explanation": {
-    "en": "Binary search on eating speed.",
-    "zh-CN": "Binary search on eating speed....",
-    "zh-TW": "Binary search on eating speed....",
-    "ja": "Binary search on eating speed....",
-    "es": "Binary search on eating speed....",
-    "de": "Binary search on eating speed....",
-    "fr": "Binary search on eating speed...."
+    "en": "APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Koko Eating Bananas 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引范围或查找元素位置。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Koko Eating Bananas 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引範圍或查找元素位置。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Koko Eating Bananas. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(max))",
   "spaceComplexity": "O(1)"

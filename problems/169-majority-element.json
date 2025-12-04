@@ -13,13 +13,13 @@
   },
   "aplSolution": "MajorityElement ← {⊃⍵[⍒+⌿∘.=⍨⍵]}",
   "explanation": {
-    "en": "Creates equality matrix (∘.=⍨⍵), sums to count occurrences (+⌿), sorts descending by count (⍒), indexes into original array, takes first (⊃). Returns most frequent element.",
-    "zh-CN": "创建相等矩阵 (∘.=⍨⍵)，求和计算出现次数 (+⌿)，按计数降序排序 (⍒)，索引到原数组，取第一个 (⊃)。返回最频繁的元素。",
-    "zh-TW": "創建相等矩陣 (∘.=⍨⍵)，求和計算出現次數 (+⌿)，按計數降序排序 (⍒)，索引到原陣列，取第一個 (⊃)。返回最頻繁的元素。",
-    "ja": "要素をグループ化し、頻度の降順でソートし、最初を取ります。パーティション (⊆) と降順 (⍒) をカウントとともに使用します。",
-    "es": "Agrupa elementos, ordena por frecuencia descendente, toma el primero. Usa partición (⊆) y grado descendente (⍒) con conteo.",
-    "de": "Gruppiert Elemente, sortiert nach Häufigkeit absteigend, nimmt ersten. Verwendet Partition (⊆) und absteigenden Grad (⍒) mit Zählung.",
-    "fr": "Groupe les éléments, trie par fréquence décroissante, prend le premier. Utilise partition (⊆) et ordre décroissant (⍒) avec comptage."
+    "en": "APL solution for Majority Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Majority Element 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Majority Element 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Majority Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Majority Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Majority Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Majority Element. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",

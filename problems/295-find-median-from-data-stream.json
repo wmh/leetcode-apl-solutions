@@ -13,13 +13,13 @@
   },
   "aplSolution": "MedianFinder ← {⍵}",
   "explanation": {
-    "en": "Find median stream",
-    "zh-CN": "Maintains sorted order and computes median....",
-    "zh-TW": "Maintains sorted order and computes median....",
-    "ja": "Maintains sorted order and computes median....",
-    "es": "Maintains sorted order and computes median....",
-    "de": "Maintains sorted order and computes median....",
-    "fr": "Maintains sorted order and computes median...."
+    "en": "APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Find Median from Data Stream 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Find Median from Data Stream 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Find Median from Data Stream. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",

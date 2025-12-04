@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsAnagram ← {(⍋⍺)≡⍋⍵}",
   "explanation": {
-    "en": "Compares sort order of two strings: (⍋⍺)≡⍋⍵. If both strings have same sorted form, they are anagrams. Grade (⍋) gives sorting permutation.",
-    "zh-CN": "比较两个字符串的排序顺序：(⍋⍺)≡⍋⍵。如果两个字符串有相同的排序形式，它们就是字谜。Grade (⍋) 给出排序排列。",
-    "zh-TW": "比較兩個字符串的排序順序：(⍋⍺)≡⍋⍵。如果兩個字符串有相同的排序形式，它們就是字謎。Grade (⍋) 給出排序排列。",
-    "ja": "昇順 (⍋) を使用して両方の文字列をソートし、それらが一致するかを確認します (≡)。ソートされた文字列が同一である場合、それらはアナグラムです。",
-    "es": "Ordena ambas cadenas usando grado ascendente (⍋) y luego verifica si coinciden (≡). Si las cadenas ordenadas son idénticas, son anagramas.",
-    "de": "Sortiert beide Zeichenketten mit aufsteigendem Grad (⍋) und prüft dann, ob sie übereinstimmen (≡). Wenn die sortierten Zeichenketten identisch sind, sind sie Anagramme.",
-    "fr": "Trie les deux chaînes en utilisant l'ordre croissant (⍋) puis vérifie si elles correspondent (≡). Si les chaînes triées sont identiques, ce sont des anagrammes."
+    "en": "APL solution for Valid Anagram. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Valid Anagram 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Valid Anagram 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Valid Anagram. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Valid Anagram. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Valid Anagram. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Valid Anagram. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(1)",

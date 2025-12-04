@@ -13,13 +13,13 @@
   },
   "aplSolution": "ReverseList ← {⌽⍵}\n\n⍝ Recursive version\nReverseListRecursive ← {\n    ≢⍵ ≤ 1: ⍵\n    head ← ⊃⍵\n    rest ← ∇ 1↓⍵\n    rest, head\n}\n\n⍝ Example\nlist ← 1 2 3 4 5\nresult ← ReverseList list\n⍝ Result: 5 4 3 2 1",
   "explanation": {
-    "en": "⌽ is APL's reverse operator - the simplest possible solution! Just one character to reverse any array. The recursive version demonstrates: reverse rest of list, then append head.",
-    "zh-CN": "⌽ 是 APL 的反转操作符 - 最简单的解法！只需一个字符就能反转任何数组。递归版本展示了：反转列表的其余部分，然后附加头部。",
-    "zh-TW": "⌽ 是 APL 的反轉運算子 - 最簡單的解法！只需一個字元就能反轉任何陣列。遞迴版本展示了：反轉串列的其餘部分，然後附加頭部。",
-    "ja": "⌽ は APL の反転演算子です - 最もシンプルなソリューション！任意の配列を反転するには 1 文字だけです。再帰バージョンは次のことを示しています：リストの残りを反転し、次に先頭を追加します。",
-    "es": "⌽ es el operador de inversión de APL - ¡la solución más simple posible! Solo un carácter para invertir cualquier array. La versión recursiva demuestra: invierte el resto de la lista, luego añade la cabeza.",
-    "de": "⌽ ist APLs Umkehroperator - die einfachste mögliche Lösung! Nur ein Zeichen, um ein beliebiges Array umzukehren. Die rekursive Version zeigt: Kehre den Rest der Liste um, dann füge den Kopf hinzu.",
-    "fr": "⌽ est l'opérateur d'inversion d'APL - la solution la plus simple possible ! Un seul caractère pour inverser n'importe quel tableau. La version récursive démontre : inversez le reste de la liste, puis ajoutez la tête."
+    "en": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Reverse Linked List 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。使用 tally (≢) 计算数组长度。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Reverse Linked List 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。使用 tally (≢) 計算陣列長度。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)"

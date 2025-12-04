@@ -13,13 +13,13 @@
   },
   "aplSolution": "TopKFrequent ← {k←⍺ ⋄ k↑∪⍵[⍒{≢⍵}⌸⍵]}",
   "explanation": {
-    "en": "Verified APL solution",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Top K Frequent. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Top K Frequent 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用 unique (∪) 去除重复元素。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Top K Frequent 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用 unique (∪) 去除重複元素。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Top K Frequent. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Top K Frequent. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Top K Frequent. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Top K Frequent. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n log n)",
   "spaceComplexity": "O(n)",

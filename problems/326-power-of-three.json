@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsPowerOfThree ← {3⊥⍣¯1⊢⍵≡,1}",
   "explanation": {
-    "en": "Check power of 3",
-    "zh-CN": "檢查數字是否在前 20 個 3 的冪次方集合中 (3*⍳20)。簡單的成員測試。",
-    "zh-TW": "檢查數字是否在前 20 個 3 的冪次方集合中 (3*⍳20)。簡單的成員測試。",
-    "ja": "数値が最初の 20 個の 3 のべき乗のセットにあるかをチェックします (3*⍳20)。単純なメンバーシップテスト。",
-    "es": "Verifica si el número está en el conjunto de las primeras 20 potencias de 3 (3*⍳20). Prueba de membresía simple.",
-    "de": "Prüft, ob die Zahl in der Menge der ersten 20 Potenzen von 3 ist (3*⍳20). Einfacher Mitgliedschaftstest.",
-    "fr": "Vérifie si le nombre est dans l'ensemble des 20 premières puissances de 3 (3*⍳20). Test d'appartenance simple."
+    "en": "APL solution for Power of Three. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Power of Three 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Power of Three 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Power of Three. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Power of Three. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Power of Three. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Power of Three. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(1)",
   "spaceComplexity": "O(1)",

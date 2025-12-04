@@ -13,13 +13,13 @@
   },
   "aplSolution": "TitleToNumber ← {26⊥(⎕A⍳⍵)-⎕IO}",
   "explanation": {
-    "en": "Converts Excel column to number: finds positions in alphabet (⎕A⍳⍵), adjusts for 0-indexing (-⎕IO), treats as base-26 number (26⊥). Like base conversion.",
-    "zh-CN": "将 Excel 列转换为数字：在字母表中找到位置 (⎕A⍳⍵)，调整为 0 索引 (-⎕IO)，视为 26 进制数 (26⊥)。类似进制转换。",
-    "zh-TW": "將 Excel 列轉換為數字：在字母表中找到位置 (⎕A⍳⍵)，調整為 0 索引 (-⎕IO)，視為 26 進制數 (26⊥)。類似進制轉換。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Excel Sheet Column Number. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Excel Sheet Column Number 的 APL 解决方案。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Excel Sheet Column Number 的 APL 解決方案。使用 iota (⍳) 生成索引範圍或查找元素位置。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Excel Sheet Column Number. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Excel Sheet Column Number. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Excel Sheet Column Number. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Excel Sheet Column Number. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

@@ -13,13 +13,13 @@
   },
   "aplSolution": "HammingWeight ← {+/2⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Converts to binary digits (2⊥⍣¯1⊢⍵), sums the bits (+/). Counts number of 1-bits in binary representation (Hamming weight).",
-    "zh-CN": "转换为二进制数字 (2⊥⍣¯1⊢⍵)，对位求和 (+/)。计算二进制表示中 1 位的数量（汉明重量）。",
-    "zh-TW": "轉換為二進制數字 (2⊥⍣¯1⊢⍵)，對位求和 (+/)。計算二進制表示中 1 位的數量（漢明重量）。",
-    "ja": "エンコード (⊤⍨32⍴2) を使用して数値を 32 ビットバイナリに変換し、+/ でビットを合計します。エンコード演算子 ⊤ は指定された基数に変換します。",
-    "es": "Convierte el número a binario de 32 bits usando codificación (⊤⍨32⍴2), luego suma los bits con +/. El operador de codificación ⊤ convierte a la base especificada.",
-    "de": "Konvertiert die Zahl in 32-Bit-Binär mit Kodierung (⊤⍨32⍴2), dann summiert die Bits mit +/. Der Kodierungsoperator ⊤ konvertiert zur angegebenen Basis.",
-    "fr": "Convertit le nombre en binaire 32 bits en utilisant l'encodage (⊤⍨32⍴2), puis somme les bits avec +/. L'opérateur d'encodage ⊤ convertit vers la base spécifiée."
+    "en": "APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Number of 1 Bits 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Number of 1 Bits 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Number of 1 Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(1)",
   "spaceComplexity": "O(1)",

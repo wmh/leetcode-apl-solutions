@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsValidBST ← {(⍵≡⍵[⍋⍵])∧⍵≡∪⍵}",
   "explanation": {
-    "en": "Check sorted and unique",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
-    "ja": "検証済み",
-    "es": "Verificado",
-    "de": "Verifiziert",
-    "fr": "Vérifié"
+    "en": "APL solution for Validate BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Validate BST 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用 unique (∪) 去除重复元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Validate BST 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用 unique (∪) 去除重複元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Validate BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Validate BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Validate BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Validate BST. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses unique (∪) to remove duplicate elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

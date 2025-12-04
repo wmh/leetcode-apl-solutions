@@ -13,13 +13,13 @@
   },
   "aplSolution": "ReverseBits ← {2⊥⌽32↑2⊥⍣¯1⊢⍵}",
   "explanation": {
-    "en": "Converts to binary (2⊥⍣¯1⊢⍵), pads to 32 bits (32↑), reverses bits (⌽), converts back to decimal (2⊥). Handles 32-bit integer reversal.",
-    "zh-CN": "转换为二进制 (2⊥⍣¯1⊢⍵)，填充到 32 位 (32↑)，反转位 (⌽)，转换回十进制 (2⊥)。处理 32 位整数反转。",
-    "zh-TW": "轉換為二進制 (2⊥⍣¯1⊢⍵)，填充到 32 位 (32↑)，反轉位 (⌽)，轉換回十進制 (2⊥)。處理 32 位整數反轉。",
-    "ja": "32 ビットバイナリにエンコード (⊤⍨32⍴2)、反転 (⌽)、10 進数にデコード (2⊥)。",
-    "es": "Codifica a binario de 32 bits (⊤⍨32⍴2), invierte (⌽), decodifica a decimal (2⊥).",
-    "de": "Kodiert zu 32-Bit-Binär (⊤⍨32⍴2), kehrt um (⌽), dekodiert zurück zu Dezimal (2⊥).",
-    "fr": "Encode en binaire 32 bits (⊤⍨32⍴2), inverse (⌽), décode en décimal (2⊥)."
+    "en": "APL solution for Reverse Bits. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Reverse Bits 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Reverse Bits 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Reverse Bits. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Reverse Bits. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Reverse Bits. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Reverse Bits. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(1)",
   "spaceComplexity": "O(1)",

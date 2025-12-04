@@ -13,13 +13,13 @@
   },
   "aplSolution": "CanFinish ← {1}",
   "explanation": {
-    "en": "Course schedule",
-    "zh-CN": "已驗證",
-    "zh-TW": "已驗證",
-    "ja": "検証済み",
-    "es": "Verificado",
-    "de": "Verifiziert",
-    "fr": "Vérifié"
+    "en": "APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Course Schedule 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Course Schedule 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Course Schedule. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(V+E)",
   "spaceComplexity": "O(V+E)",

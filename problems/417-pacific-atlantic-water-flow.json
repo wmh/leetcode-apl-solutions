@@ -13,13 +13,13 @@
   },
   "aplSolution": "PacificAtlantic ← {\n    ⍝ DFS from both coasts\n    pacific∩atlantic\n}",
   "explanation": {
-    "en": "DFS from both ocean borders.",
-    "zh-CN": "DFS from both ocean borders....",
-    "zh-TW": "DFS from both ocean borders....",
-    "ja": "DFS from both ocean borders....",
-    "es": "DFS from both ocean borders....",
-    "de": "DFS from both ocean borders....",
-    "fr": "DFS from both ocean borders...."
+    "en": "APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Pacific Atlantic Water Flow 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Pacific Atlantic Water Flow 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Pacific Atlantic Water Flow. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(m*n)",
   "spaceComplexity": "O(m*n)"

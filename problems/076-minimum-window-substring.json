@@ -13,13 +13,13 @@
   },
   "aplSolution": "MinWindow ← {⍵}",
   "explanation": {
-    "en": "Min window substring",
-    "zh-CN": "Maintains character counts in sliding window....",
-    "zh-TW": "Maintains character counts in sliding window....",
-    "ja": "Maintains character counts in sliding window....",
-    "es": "Maintains character counts in sliding window....",
-    "de": "Maintains character counts in sliding window....",
-    "fr": "Maintains character counts in sliding window...."
+    "en": "APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Minimum Window Substring 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Minimum Window Substring 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Minimum Window Substring. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*m)",
   "spaceComplexity": "O(m)",

@@ -13,13 +13,13 @@
   },
   "aplSolution": "BuildTree ← {⍵}",
   "explanation": {
-    "en": "Build from pre/in",
-    "zh-CN": "Recursively splits based on root position....",
-    "zh-TW": "Recursively splits based on root position....",
-    "ja": "Recursively splits based on root position....",
-    "es": "Recursively splits based on root position....",
-    "de": "Recursively splits based on root position....",
-    "fr": "Recursively splits based on root position...."
+    "en": "APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Construct Binary Tree from Preorder and Inorder 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Construct Binary Tree from Preorder and Inorder 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Construct Binary Tree from Preorder and Inorder. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

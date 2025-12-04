@@ -13,13 +13,13 @@
   },
   "aplSolution": "MissingNumber ← {⊃(⍳1+⌈/⍵)~⍵}",
   "explanation": {
-    "en": "Creates range from 1 to max+1 (⍳1+⌈/⍵), removes present numbers using without (~⍵), takes first missing (⊃). Finds the missing number in sequence.",
-    "zh-CN": "创建从 1 到 max+1 的范围 (⍳1+⌈/⍵)，使用 without (~⍵) 移除存在的数字，取第一个缺失的 (⊃)。找到序列中缺失的数字。",
-    "zh-TW": "創建從 1 到 max+1 的範圍 (⍳1+⌈/⍵)，使用 without (~⍵) 移除存在的數字，取第一個缺失的 (⊃)。找到序列中缺失的數字。",
-    "ja": "0 から n までの和の公式を使用します：n×(n+1)÷2。期待される合計から実際の合計を引きます。結果が欠落している数値です。(≢⍵) は n を与えるので、n×(n+1)÷2 - (+/⍵) を計算します。ここで +/⍵ は要素の合計です。",
-    "es": "Utiliza la fórmula para la suma de 0 a n: n×(n+1)÷2. Calcula la suma esperada menos la suma real. El resultado es el número que falta. (≢⍵) da n, así que calculamos n×(n+1)÷2 - (+/⍵) donde +/⍵ es la suma de elementos.",
-    "de": "Verwendet die Formel für die Summe von 0 bis n: n×(n+1)÷2. Berechnet die erwartete Summe minus die tatsächliche Summe. Das Ergebnis ist die fehlende Zahl. (≢⍵) gibt n, also berechnen wir n×(n+1)÷2 - (+/⍵), wobei +/⍵ die Summe der Elemente ist.",
-    "fr": "Utilise la formule pour la somme de 0 à n : n×(n+1)÷2. Calcule la somme attendue moins la somme réelle. Le résultat est le nombre manquant. (≢⍵) donne n, donc nous calculons n×(n+1)÷2 - (+/⍵) où +/⍵ est la somme des éléments."
+    "en": "APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Missing Number 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引范围或查找元素位置。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Missing Number 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引範圍或查找元素位置。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Missing Number. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

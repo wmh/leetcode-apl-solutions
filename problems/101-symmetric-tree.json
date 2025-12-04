@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsSymmetric ← {⍵≡⌽⍵}",
   "explanation": {
-    "en": "Compare with reverse",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Symmetric Tree. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Symmetric Tree 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Symmetric Tree 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Symmetric Tree. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Symmetric Tree. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Symmetric Tree. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Symmetric Tree. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

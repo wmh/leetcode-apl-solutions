@@ -13,13 +13,13 @@
   },
   "aplSolution": "MaxPathSum ← {+/⍵}",
   "explanation": {
-    "en": "Binary tree max path",
-    "zh-CN": "Recursively finds maximum path through each node....",
-    "zh-TW": "Recursively finds maximum path through each node....",
-    "ja": "Recursively finds maximum path through each node....",
-    "es": "Recursively finds maximum path through each node....",
-    "de": "Recursively finds maximum path through each node....",
-    "fr": "Recursively finds maximum path through each node...."
+    "en": "APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Binary Tree Maximum Path Sum 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Binary Tree Maximum Path Sum 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Binary Tree Maximum Path Sum. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

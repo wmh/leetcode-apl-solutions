@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsSameTree ← {⍺≡⍵}",
   "explanation": {
-    "en": "Uses match operator (≡) to check if two trees are identical. Works recursively on nested array structures.",
-    "zh-CN": "使用匹配运算符 (≡) 检查两个树是否相同。递归地作用于嵌套数组结构。",
-    "zh-TW": "使用匹配運算符 (≡) 檢查兩個樹是否相同。遞歸地作用於嵌套陣列結構。",
-    "ja": "マッチ演算子 (≡) を使用します。配列が構造と値において同一である場合は 1 を返し、そうでない場合は 0 を返します。これは最も簡単な解決策です - たった 1 つの記号！",
-    "es": "Utiliza el operador de coincidencia (≡) que devuelve 1 si los arrays son idénticos en estructura y valores, 0 en caso contrario. ¡Esta es la solución más simple posible: solo un símbolo!",
-    "de": "Verwendet den Übereinstimmungsoperator (≡), der 1 zurückgibt, wenn Arrays in Struktur und Werten identisch sind, andernfalls 0. Dies ist die einfachst mögliche Lösung - nur ein Symbol!",
-    "fr": "Utilise l'opérateur de correspondance (≡) qui renvoie 1 si les tableaux sont identiques en structure et en valeurs, 0 sinon. C'est la solution la plus simple possible - juste un symbole !"
+    "en": "APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Same Tree 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Same Tree 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Same Tree. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

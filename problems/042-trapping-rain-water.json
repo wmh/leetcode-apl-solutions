@@ -13,13 +13,13 @@
   },
   "aplSolution": "Trap ← {+/0⌈(⌊/⌈\\⍵,⌈\\⌽⍵)-⍵}",
   "explanation": {
-    "en": "Trapping rain water",
-    "zh-CN": "已驗證的 APL 解決方案",
-    "zh-TW": "已驗證的 APL 解決方案",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Trapping Rain Water 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用扫描 (\\) 计算运行操作：+\\ 是运行和，×\\ 是运行积，⌈\\ 是运行最大值，⌊\\ 是运行最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Trapping Rain Water 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用掃描 (\\) 計算運行操作：+\\ 是運行和，×\\ 是運行積，⌈\\ 是運行最大值，⌊\\ 是運行最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Trapping Rain Water. Uses reverse (⌽) to flip array elements. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

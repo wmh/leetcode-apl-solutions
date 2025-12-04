@@ -13,13 +13,13 @@
   },
   "aplSolution": "FindMin ← {⌊/⍵}",
   "explanation": {
-    "en": "Simple minimum with rotation consideration.",
-    "zh-CN": "Simple minimum with rotation consideration....",
-    "zh-TW": "Simple minimum with rotation consideration....",
-    "ja": "Simple minimum with rotation consideration....",
-    "es": "Simple minimum with rotation consideration....",
-    "de": "Simple minimum with rotation consideration....",
-    "fr": "Simple minimum with rotation consideration...."
+    "en": "APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Find Minimum in Rotated Sorted Array 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Find Minimum in Rotated Sorted Array 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Find Minimum in Rotated Sorted Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)"

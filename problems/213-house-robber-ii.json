@@ -13,13 +13,13 @@
   },
   "aplSolution": "RobII ← {⌈/(+/¯1↓⍵)(+/1↓⍵)}",
   "explanation": {
-    "en": "House robber II (circular): compares two cases - rob first house excluding last (+/¯1↓⍵), or rob last excluding first (+/1↓⍵), takes maximum (⌈/). Handles circular constraint.",
-    "zh-CN": "打家劫舍 II（环形）：比较两种情况 - 抢第一间房排除最后一间 (+/¯1↓⍵)，或抢最后一间排除第一间 (+/1↓⍵)，取最大值 (⌈/)。处理环形约束。",
-    "zh-TW": "打家劫舍 II（環形）：比較兩種情況 - 搶第一間房排除最後一間 (+/¯1↓⍵)，或搶最後一間排除第一間 (+/1↓⍵)，取最大值 (⌈/)。處理環形約束。",
-    "ja": "Considers two cases: rob first or rob last....",
-    "es": "Considers two cases: rob first or rob last....",
-    "de": "Considers two cases: rob first or rob last....",
-    "fr": "Considers two cases: rob first or rob last...."
+    "en": "APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "House Robber II 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "House Robber II 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for House Robber II. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

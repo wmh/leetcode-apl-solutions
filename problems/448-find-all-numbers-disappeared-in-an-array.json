@@ -13,13 +13,13 @@
   },
   "aplSolution": "FindDisappearedNumbers ← {(⍳⌈/⍵)~⍵}",
   "explanation": {
-    "en": "Missing numbers",
-    "zh-CN": "生成 1 到 n 的範圍 (⍳≢⍵)，然後使用 without (~) 刪除數組中的元素。波浪號操作符返回左參數中不在右參數中的元素。",
-    "zh-TW": "生成 1 到 n 的範圍 (⍳≢⍵)，然後使用 without (~) 刪除陣列中的元素。波浪號運算子返回左參數中不在右參數中的元素。",
-    "ja": "1 から n までの範囲を生成し (⍳≢⍵)、without (~) を使用して配列内の要素を削除します。チルダ演算子は、右引数にない左引数の要素を返します。",
-    "es": "Genera el rango de 1 a n (⍳≢⍵) y luego elimina elementos en el array usando without (~). El operador tilde devuelve elementos en el argumento izquierdo que no están en el derecho.",
-    "de": "Generiert Bereich 1 bis n (⍳≢⍵) und entfernt dann Elemente im Array mit without (~). Der Tilde-Operator gibt Elemente im linken Argument zurück, die nicht im rechten sind.",
-    "fr": "Génère la plage de 1 à n (⍳≢⍵) puis supprime les éléments du tableau en utilisant without (~). L'opérateur tilde renvoie les éléments de l'argument gauche qui ne sont pas dans le droit."
+    "en": "APL solution for Find All Numbers Disappeared in an Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Find All Numbers Disappeared in an Array 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Find All Numbers Disappeared in an Array 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引範圍或查找元素位置。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Find All Numbers Disappeared in an Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Find All Numbers Disappeared in an Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Find All Numbers Disappeared in an Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Find All Numbers Disappeared in an Array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

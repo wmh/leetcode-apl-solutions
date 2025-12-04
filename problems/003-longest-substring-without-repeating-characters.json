@@ -13,13 +13,13 @@
   },
   "aplSolution": "LengthOfLongestSubstring ← {⌈/≢¨∪¨{⍵↑¨⊂⍵}⍨⍳≢⍵}",
   "explanation": {
-    "en": "Generates all substrings with {⍵↑¨⊂⍵}⍨⍳≢⍵, applies unique (∪¨) to each, counts length (≢¨), takes maximum (⌈/). Checks uniqueness of characters in each substring.",
-    "zh-CN": "用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子串，对每个应用 unique (∪¨)，计算长度 (≢¨)，取最大值 (⌈/)。检查每个子串的字符唯一性。",
-    "zh-TW": "用 {⍵↑¨⊂⍵}⍨⍳≢⍵ 生成所有子串，對每個應用 unique (∪¨)，計算長度 (≢¨)，取最大值 (⌈/)。檢查每個子串的字符唯一性。",
-    "ja": "バージョン 2：すべての部分文字列を生成し、それぞれの一意性をチェックし ((≢⍵)=≢∪⍵)、最大長を返します。ネストされた drop/take を使用して部分文字列を作成します。",
-    "es": "Versión 2: Genera todas las subcadenas, verifica cada una para unicidad ((≢⍵)=≢∪⍵), devuelve la longitud máxima. Usa drops/takes anidados para crear subcadenas.",
-    "de": "Version 2: Generiert alle Teilzeichenketten, prüft jede auf Eindeutigkeit ((≢⍵)=≢∪⍵), gibt maximale Länge zurück. Verwendet verschachtelte Drops/Takes, um Teilzeichenketten zu erstellen.",
-    "fr": "Version 2 : Génère toutes les sous-chaînes, vérifie chacune pour l'unicité ((≢⍵)=≢∪⍵), renvoie la longueur maximale. Utilise des drops/takes imbriqués pour créer des sous-chaînes."
+    "en": "APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Longest Substring Without Repeating Characters 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 unique (∪) 去除重复元素。使用 tally (≢) 计算数组长度。使用 iota (⍳) 生成索引范围或查找元素位置。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Longest Substring Without Repeating Characters 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 unique (∪) 去除重複元素。使用 tally (≢) 計算陣列長度。使用 iota (⍳) 生成索引範圍或查找元素位置。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Longest Substring Without Repeating Characters. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses unique (∪) to remove duplicate elements. Uses tally (≢) to count array length. Uses iota (⍳) to generate index ranges or find element positions. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",

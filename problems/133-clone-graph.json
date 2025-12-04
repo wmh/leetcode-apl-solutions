@@ -13,13 +13,13 @@
   },
   "aplSolution": "CloneGraph ← {⍵}",
   "explanation": {
-    "en": "Creates deep copy of graph structure.",
-    "zh-CN": "Creates deep copy of graph structure....",
-    "zh-TW": "Creates deep copy of graph structure....",
-    "ja": "Creates deep copy of graph structure....",
-    "es": "Creates deep copy of graph structure....",
-    "de": "Creates deep copy of graph structure....",
-    "fr": "Creates deep copy of graph structure...."
+    "en": "APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Clone Graph 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Clone Graph 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Clone Graph. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)"

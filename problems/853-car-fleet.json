@@ -13,13 +13,13 @@
   },
   "aplSolution": "CarFleet ← {\n    sorted←⍵[⍒⍵[;1]]\n    times←(⍺-sorted[;1])÷sorted[;2]\n    1+≢⍸times>⌈\\times\n}",
   "explanation": {
-    "en": "Sorts by position and calculates arrival times.",
-    "zh-CN": "Sorts by position and calculates arrival times....",
-    "zh-TW": "Sorts by position and calculates arrival times....",
-    "ja": "Sorts by position and calculates arrival times....",
-    "es": "Sorts by position and calculates arrival times....",
-    "de": "Sorts by position and calculates arrival times....",
-    "fr": "Sorts by position and calculates arrival times...."
+    "en": "APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Car Fleet 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用扫描 (\\) 计算运行操作：+\\ 是运行和，×\\ 是运行积，⌈\\ 是运行最大值，⌊\\ 是运行最小值。使用 where (⍸) 查找真值/非零元素的索引。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Car Fleet 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用掃描 (\\) 計算運行操作：+\\ 是運行和，×\\ 是運行積，⌈\\ 是運行最大值，⌊\\ 是運行最小值。使用 where (⍸) 查找真值/非零元素的索引。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Car Fleet. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses where (⍸) to find indices of true/non-zero elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)"

@@ -13,13 +13,13 @@
   },
   "aplSolution": "CharacterReplacement ← {\n    k←⍺ ⋄ maxLen←0\n    {maxLen⌈←≢⍵}¨⊆⍵\n    maxLen\n}",
   "explanation": {
-    "en": "Slides window and counts character frequencies.",
-    "zh-CN": "Slides window and counts character frequencies....",
-    "zh-TW": "Slides window and counts character frequencies....",
-    "ja": "Slides window and counts character frequencies....",
-    "es": "Slides window and counts character frequencies....",
-    "de": "Slides window and counts character frequencies....",
-    "fr": "Slides window and counts character frequencies...."
+    "en": "APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Longest Repeating Character Replacement 的 APL 解决方案。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Longest Repeating Character Replacement 的 APL 解決方案。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Longest Repeating Character Replacement. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)"

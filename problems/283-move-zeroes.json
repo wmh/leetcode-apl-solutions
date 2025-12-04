@@ -13,13 +13,13 @@
   },
   "aplSolution": "MoveZeroes ← {(⍵~0),⍵⌿⍨⍵=0}",
   "explanation": {
-    "en": "Removes zeros from array (⍵~0), concatenates with zeros (,), generates zeros using compress (⍵⌿⍨⍵=0). Moves all zeros to end while maintaining order.",
-    "zh-CN": "从数组中移除零 (⍵~0)，与零连接 (,)，使用压缩生成零 (⍵⌿⍨⍵=0)。将所有零移到末尾同时保持顺序。",
-    "zh-TW": "從陣列中移除零 (⍵~0)，與零連接 (,)，使用壓縮生成零 (⍵⌿⍨⍵=0)。將所有零移到末尾同時保持順序。",
-    "ja": "非ゼロをフィルタリング (⍵/⍨⍵≠0) し、ゼロと連結します (⍵/⍨⍵=0)。圧縮 (/) はマスクが真である要素を保持します。結果は非ゼロの後にゼロが続きます。",
-    "es": "Filtra los no ceros (⍵/⍨⍵≠0) y concatena con los ceros (⍵/⍨⍵=0). La compresión (/) mantiene los elementos donde la máscara es verdadera. El resultado son no ceros seguidos de ceros.",
-    "de": "Filtert Nicht-Nullen (⍵/⍨⍵≠0) und verkettet mit Nullen (⍵/⍨⍵=0). Kompression (/) behält Elemente, wo die Maske wahr ist. Das Ergebnis sind Nicht-Nullen gefolgt von Nullen.",
-    "fr": "Filtre les non-zéros (⍵/⍨⍵≠0) et concatène avec les zéros (⍵/⍨⍵=0). La compression (/) garde les éléments où le masque est vrai. Le résultat est non-zéros suivis de zéros."
+    "en": "APL solution for Move Zeroes. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Move Zeroes 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Move Zeroes 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Move Zeroes. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Move Zeroes. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Move Zeroes. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Move Zeroes. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

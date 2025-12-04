@@ -13,13 +13,13 @@
   },
   "aplSolution": "ReverseList ← {⌽⍵}",
   "explanation": {
-    "en": "Reverse linked list represented as array. The ⌽ operator reverses elements along the last axis of an array. For a simple vector [1,2,3,4,5], ⌽⍵ produces [5,4,3,2,1]. This is the simplest APL solution possible - just a single built-in operator. In traditional linked list implementations, this would require pointer manipulation, but APL's array-oriented approach makes it trivial.",
-    "zh-CN": "反转表示为数组的链表。⌽ 运算符沿数组的最后一个轴反转元素。对于简单向量 [1,2,3,4,5]，⌽⍵ 产生 [5,4,3,2,1]。这是可能的最简单的 APL 解决方案 - 只需一个内置运算符。在传统的链表实现中，这需要指针操作，但 APL 的面向数组方法使其变得微不足道。",
-    "zh-TW": "反轉表示為陣列的鏈表。⌽ 運算符沿陣列的最後一個軸反轉元素。對於簡單向量 [1,2,3,4,5]，⌽⍵ 產生 [5,4,3,2,1]。這是可能的最簡單的 APL 解決方案 - 只需一個內建運算符。在傳統的鏈表實現中，這需要指標操作，但 APL 的面向陣列方法使其變得微不足道。",
-    "ja": "Reverse linked list represented as array. The ⌽ operator reverses elements along the last axis of an array. For a simple vector [1,2,3,4,5], ⌽⍵ produces [5,4,3,2,1]. This is the simplest APL solution possible - just a single built-in operator. In traditional linked list implementations, this would require pointer manipulation, but APL's array-oriented approach makes it trivial.",
-    "es": "Reverse linked list represented as array. The ⌽ operator reverses elements along the last axis of an array. For a simple vector [1,2,3,4,5], ⌽⍵ produces [5,4,3,2,1]. This is the simplest APL solution possible - just a single built-in operator. In traditional linked list implementations, this would require pointer manipulation, but APL's array-oriented approach makes it trivial.",
-    "de": "Reverse linked list represented as array. The ⌽ operator reverses elements along the last axis of an array. For a simple vector [1,2,3,4,5], ⌽⍵ produces [5,4,3,2,1]. This is the simplest APL solution possible - just a single built-in operator. In traditional linked list implementations, this would require pointer manipulation, but APL's array-oriented approach makes it trivial.",
-    "fr": "Reverse linked list represented as array. The ⌽ operator reverses elements along the last axis of an array. For a simple vector [1,2,3,4,5], ⌽⍵ produces [5,4,3,2,1]. This is the simplest APL solution possible - just a single built-in operator. In traditional linked list implementations, this would require pointer manipulation, but APL's array-oriented approach makes it trivial."
+    "en": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Reverse Linked List 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Reverse Linked List 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Reverse Linked List. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

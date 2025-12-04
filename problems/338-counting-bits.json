@@ -13,13 +13,13 @@
   },
   "aplSolution": "CountBits ← {+/¨2⊥⍣¯1¨⍳⍵+1}",
   "explanation": {
-    "en": "Generates range 0 to n (⍳⍵+1), converts each to binary (2⊥⍣¯1¨), sums bits in each (+/¨). Returns array of bit counts for 0 to n.",
-    "zh-CN": "生成范围 0 到 n (⍳⍵+1)，将每个转换为二进制 (2⊥⍣¯1¨)，对每个中的位求和 (+/¨)。返回 0 到 n 的位计数数组。",
-    "zh-TW": "生成範圍 0 到 n (⍳⍵+1)，將每個轉換為二進制 (2⊥⍣¯1¨)，對每個中的位求和 (+/¨)。返回 0 到 n 的位計數陣列。",
-    "ja": "0 から n までの各数値 (⍳⍵+1) について、基数 2 エンコードを使用して 2 進数に変換し (⊤⍨32⍴2)、ビットを合計します (+/)。¨ 演算子は各数値に操作を適用します。",
-    "es": "Para cada número de 0 a n (⍳⍵+1), convierte a binario usando codificación base-2 (⊤⍨32⍴2), luego suma los bits (+/). El operador ¨ aplica la operación a cada número.",
-    "de": "Für jede Zahl von 0 bis n (⍳⍵+1) konvertiert in Binär mit Basis-2-Kodierung (⊤⍨32⍴2), dann summiert die Bits (+/). Der ¨-Operator wendet die Operation auf jede Zahl an.",
-    "fr": "Pour chaque nombre de 0 à n (⍳⍵+1), convertit en binaire en utilisant l'encodage base-2 (⊤⍨32⍴2), puis somme les bits (+/). L'opérateur ¨ applique l'opération à chaque nombre."
+    "en": "APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Counting Bits 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引范围或查找元素位置。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Counting Bits 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 iota (⍳) 生成索引範圍或查找元素位置。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Counting Bits. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses iota (⍳) to generate index ranges or find element positions. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*log(n))",
   "spaceComplexity": "O(n)",

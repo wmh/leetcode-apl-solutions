@@ -13,13 +13,13 @@
   },
   "aplSolution": "GroupAnagrams ← {⍵⌸⍨⍋¨⍵}",
   "explanation": {
-    "en": "Groups anagrams by sorted form: sorts each word (⍋¨⍵), uses key operator (⌸⍨) to group words with same sorted form. Words that sort identically are anagrams.",
-    "zh-CN": "按排序形式分组字谜：对每个单词排序 (⍋¨⍵)，使用键运算符 (⌸⍨) 将具有相同排序形式的单词分组。排序相同的单词是字谜。",
-    "zh-TW": "按排序形式分組字謎：對每個單詞排序 (⍋¨⍵)，使用鍵運算符 (⌸⍨) 將具有相同排序形式的單詞分組。排序相同的單詞是字謎。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Group Anagrams 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Group Anagrams 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Group Anagrams. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*k*log k)",
   "spaceComplexity": "O(n*k)",

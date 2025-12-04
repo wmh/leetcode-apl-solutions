@@ -13,13 +13,13 @@
   },
   "aplSolution": "CountSubstrings ← {\n    ≢{⍵/⍨⍵≡¨⌽¨⍵}substrings\n}",
   "explanation": {
-    "en": "Expands around each center.",
-    "zh-CN": "Expands around each center....",
-    "zh-TW": "Expands around each center....",
-    "ja": "Expands around each center....",
-    "es": "Expands around each center....",
-    "de": "Expands around each center....",
-    "fr": "Expands around each center...."
+    "en": "APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Palindromic Substrings 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Palindromic Substrings 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Palindromic Substrings. Uses reverse (⌽) to flip array elements. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(1)"

@@ -13,13 +13,13 @@
   },
   "aplSolution": "LongestCommonPrefix ← {0=≢⍵:'' ⋄ ⊃∧⌿=⍨↑⍵}",
   "explanation": {
-    "en": "Stacks strings into matrix (↑⍵), compares all characters in each column (=⍨), reduces with AND (∧⌿), extracts common prefix (⊃). Returns empty string if no input.",
-    "zh-CN": "将字符串堆叠成矩阵 (↑⍵)，比较每列的所有字符 (=⍨)，用 AND 归约 (∧⌿)，提取公共前缀 (⊃)。如果无输入返回空字符串。",
-    "zh-TW": "將字符串堆疊成矩陣 (↑⍵)，比較每列的所有字符 (=⍨)，用 AND 歸約 (∧⌿)，提取公共前綴 (⊃)。如果無輸入返回空字符串。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Longest Common Prefix. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Longest Common Prefix 的 APL 解决方案。使用 tally (≢) 计算数组长度。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Longest Common Prefix 的 APL 解決方案。使用 tally (≢) 計算陣列長度。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Longest Common Prefix. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Longest Common Prefix. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Longest Common Prefix. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Longest Common Prefix. Uses tally (≢) to count array length. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*m)",
   "spaceComplexity": "O(1)",

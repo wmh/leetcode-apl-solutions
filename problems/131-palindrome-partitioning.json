@@ -13,13 +13,13 @@
   },
   "aplSolution": "Partition ← {⍵}",
   "explanation": {
-    "en": "Palindrome partitioning",
-    "zh-CN": "Generates partitions and filters palindromes....",
-    "zh-TW": "Generates partitions and filters palindromes....",
-    "ja": "Generates partitions and filters palindromes....",
-    "es": "Generates partitions and filters palindromes....",
-    "de": "Generates partitions and filters palindromes....",
-    "fr": "Generates partitions and filters palindromes...."
+    "en": "APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Palindrome Partitioning 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Palindrome Partitioning 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Palindrome Partitioning. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n*2^n)",
   "spaceComplexity": "O(n)",

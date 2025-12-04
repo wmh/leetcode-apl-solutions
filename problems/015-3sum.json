@@ -13,13 +13,13 @@
   },
   "aplSolution": "ThreeSum ← {∪↓(⊂⍵)[⍸0=+⌿⍵∘.+⍵∘.+⍵]}",
   "explanation": {
-    "en": "Creates triple outer product (⍵∘.+⍵∘.+⍵) of all three-number sums. Finds positions where sum equals 0 (⍸0=+⌿), extracts unique triplets (∪↓).",
-    "zh-CN": "创建所有三数之和的三重外积 (⍵∘.+⍵∘.+⍵)。找到和为 0 的位置 (⍸0=+⌿)，提取唯一三元组 (∪↓)。",
-    "zh-TW": "創建所有三數之和的三重外積 (⍵∘.+⍵∘.+⍵)。找到和為 0 的位置 (⍸0=+⌿)，提取唯一三元組 (∪↓)。",
-    "ja": "検証済み",
-    "es": "Verificado",
-    "de": "Verifiziert",
-    "fr": "Vérifié"
+    "en": "APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "3Sum 的 APL 解决方案。使用外积 (∘.) 创建所有配对组合的矩阵。使用 where (⍸) 查找真值/非零元素的索引。使用 unique (∪) 去除重复元素。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "3Sum 的 APL 解決方案。使用外積 (∘.) 創建所有配對組合的矩陣。使用 where (⍸) 查找真值/非零元素的索引。使用 unique (∪) 去除重複元素。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for 3Sum. Uses outer product (∘.) to create matrix of all pair combinations. Uses where (⍸) to find indices of true/non-zero elements. Uses unique (∪) to remove duplicate elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",

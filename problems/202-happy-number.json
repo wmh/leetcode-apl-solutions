@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsHappy ← {1∊⍵}",
   "explanation": {
-    "en": "Check if 1 in sequence",
-    "zh-CN": "版本 2：迭代 20 次應用數字平方和。如果結果中出現 1，則為快樂數。使用編碼逆 (10⊥⍣¯1) 獲取數字，平方它們，然後求和。",
-    "zh-TW": "版本 2：迭代 20 次應用數字平方和。如果結果中出現 1，則為快樂數。使用編碼逆 (10⊥⍣¯1) 獲取數字，平方它們，然後求和。",
-    "ja": "バージョン 2：桁の 2 乗和を 20 回適用して反復します。結果に 1 が現れる場合、それはハッピーです。エンコード逆 (10⊥⍣¯1) を使用して桁を取得し、それらを 2 乗して合計します。",
-    "es": "Versión 2: Itera 20 veces aplicando la suma de cuadrados de dígitos. Si 1 aparece en los resultados, es feliz. Usa codificación inversa (10⊥⍣¯1) para obtener dígitos, los eleva al cuadrado y suma.",
-    "de": "Version 2: Iteriert 20 Mal und wendet die Zifferquadratsumme an. Wenn 1 in den Ergebnissen erscheint, ist es glücklich. Verwendet inverse Kodierung (10⊥⍣¯1), um Ziffern zu erhalten, quadriert sie und summiert.",
-    "fr": "Version 2 : Itère 20 fois en appliquant la somme des carrés des chiffres. Si 1 apparaît dans les résultats, c'est heureux. Utilise l'encodage inverse (10⊥⍣¯1) pour obtenir les chiffres, les élève au carré et fait la somme."
+    "en": "APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Happy Number 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Happy Number 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Happy Number. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)",

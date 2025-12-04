@@ -13,13 +13,13 @@
   },
   "aplSolution": "ReverseString ← {⌽⍵}",
   "explanation": {
-    "en": "Direct reversal using ⌽⍵. Single APL symbol reverses the entire string/array.",
-    "zh-CN": "使用 ⌽⍵ 直接反转。单个 APL 符号反转整个字符串/数组。",
-    "zh-TW": "使用 ⌽⍵ 直接反轉。單個 APL 符號反轉整個字符串/陣列。",
-    "ja": "APL のリバース演算子 (⌽) を使用します。これは最も簡単な解決策です - たった 1 つの記号！リバース演算子は任意のベクトルで機能します。",
-    "es": "Utiliza el operador de reversión de APL (⌽). ¡Esta es la solución más simple: solo un símbolo! El operador de reversión funciona en cualquier vector.",
-    "de": "Verwendet APLs Umkehroperator (⌽). Dies ist die einfachste Lösung - nur ein Symbol! Der Umkehroperator funktioniert mit jedem Vektor.",
-    "fr": "Utilise l'opérateur d'inversion d'APL (⌽). C'est la solution la plus simple - juste un symbole ! L'opérateur d'inversion fonctionne sur n'importe quel vecteur."
+    "en": "APL solution for Reverse String. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Reverse String 的 APL 解决方案。使用反转 (⌽) 翻转数组元素。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Reverse String 的 APL 解決方案。使用反轉 (⌽) 翻轉陣列元素。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Reverse String. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Reverse String. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Reverse String. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Reverse String. Uses reverse (⌽) to flip array elements. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

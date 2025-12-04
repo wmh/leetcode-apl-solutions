@@ -13,13 +13,13 @@
   },
   "aplSolution": "IsSubsequence ← {⍺≡⍵/⍨⍺∊⍵}",
   "explanation": {
-    "en": "Filters ⍵ to elements in ⍺ (⍵/⍨⍺∊⍵), compares with ⍺ (⍺≡). True if filtered version equals original, meaning ⍺ is subsequence of ⍵.",
-    "zh-CN": "将 ⍵ 过滤为 ⍺ 中的元素 (⍵/⍨⍺∊⍵)，与 ⍺ 比较 (⍺≡)。如果过滤版本等于原始版本则为真，意味着 ⍺ 是 ⍵ 的子序列。",
-    "zh-TW": "將 ⍵ 過濾為 ⍺ 中的元素 (⍵/⍨⍺∊⍵)，與 ⍺ 比較 (⍺≡)。如果過濾版本等於原始版本則為真，意味著 ⍺ 是 ⍵ 的子序列。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Is Subsequence. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Is Subsequence 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Is Subsequence 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Is Subsequence. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Is Subsequence. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Is Subsequence. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Is Subsequence. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

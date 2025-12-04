@@ -13,13 +13,13 @@
   },
   "aplSolution": "Merge ← {(⍺,⍵)[⍋⍺,⍵]}",
   "explanation": {
-    "en": "Same as merge two lists: concatenates arrays (⍺,⍵), gets sort order with grade up (⍋), indexes to produce sorted result.",
-    "zh-CN": "与合并两个列表相同：连接数组 (⍺,⍵)，用升序 (⍋) 获取排序顺序，索引产生排序结果。",
-    "zh-TW": "與合併兩個列表相同：連接陣列 (⍺,⍵)，用升序 (⍋) 獲取排序順序，索引產生排序結果。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Merge Sorted Array. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Merge Sorted Array 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Merge Sorted Array 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Merge Sorted Array. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Merge Sorted Array. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Merge Sorted Array. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Merge Sorted Array. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n+m)",
   "spaceComplexity": "O(1)",

@@ -13,13 +13,13 @@
   },
   "aplSolution": "MergeTwoLists ← {(⍺,⍵)[⍋⍺,⍵]}",
   "explanation": {
-    "en": "Concatenates two arrays (⍺,⍵), sorts using grade up (⍋), indexes to get sorted result. Simple merge for sorted lists represented as arrays.",
-    "zh-CN": "连接两个数组 (⍺,⍵)，使用升序排序 (⍋)，索引得到排序结果。表示为数组的有序列表的简单合并。",
-    "zh-TW": "連接兩個陣列 (⍺,⍵)，使用升序排序 (⍋)，索引得到排序結果。表示為陣列的有序列表的簡單合併。",
-    "ja": "両方のリストを連結 (⍺,⍵) してから、昇順でソート (⍋)。昇順は配列をソートするインデックスを返します。バージョン 2 はよりクリーン：連結してからソートされた位置でインデックス。",
-    "es": "Concatena ambas listas (⍺,⍵) luego ordena por grado ascendente (⍋). El grado ascendente devuelve índices que ordenarían el array. La versión 2 es más limpia: concatenar luego indexar por posiciones ordenadas.",
-    "de": "Verkettet beide Listen (⍺,⍵) und sortiert dann nach aufsteigendem Grad (⍋). Aufsteigender Grad gibt Indizes zurück, die das Array sortieren würden. Version 2 ist sauberer: verketten und dann nach sortierten Positionen indizieren.",
-    "fr": "Concatène les deux listes (⍺,⍵) puis trie par ordre croissant (⍋). L'ordre croissant renvoie les indices qui trieraient le tableau. La version 2 est plus propre : concaténer puis indexer par positions triées."
+    "en": "APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Merge Two Sorted Lists 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Merge Two Sorted Lists 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Merge Two Sorted Lists. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O((n+m)*log(n+m))",
   "spaceComplexity": "O(n+m)",

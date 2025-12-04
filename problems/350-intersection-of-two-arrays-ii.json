@@ -13,13 +13,13 @@
   },
   "aplSolution": "IntersectII ← {⍺∩⍵}",
   "explanation": {
-    "en": "Array intersection",
-    "zh-CN": "使用 APL 的交集運算符 (∩)，它正確處理重複項。",
-    "zh-TW": "使用 APL 的交集運算子 (∩)，它正確處理重複項。",
-    "ja": "APL の交差演算子 (∩) を使用します。これは重複を正しく処理します。",
-    "es": "Utiliza el operador de intersección de APL (∩) que maneja duplicados correctamente.",
-    "de": "Verwendet APLs Schnittmengenoperator (∩), der Duplikate korrekt behandelt.",
-    "fr": "Utilise l'opérateur d'intersection d'APL (∩) qui gère correctement les doublons."
+    "en": "APL solution for Intersection of Two Arrays II. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Intersection of Two Arrays II 的 APL 解决方案。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Intersection of Two Arrays II 的 APL 解決方案。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Intersection of Two Arrays II. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Intersection of Two Arrays II. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Intersection of Two Arrays II. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Intersection of Two Arrays II. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n+m)",
   "spaceComplexity": "O(min(n,m))",

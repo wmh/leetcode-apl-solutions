@@ -13,13 +13,13 @@
   },
   "aplSolution": "LowestCommonAncestor ← {\n    ⍝ Find split point\n    ⊃⍸(⍺≤⍵)∧(⍵≤⍺)\n}",
   "explanation": {
-    "en": "Uses BST property to find split point.",
-    "zh-CN": "Uses BST property to find split point....",
-    "zh-TW": "Uses BST property to find split point....",
-    "ja": "Uses BST property to find split point....",
-    "es": "Uses BST property to find split point....",
-    "de": "Uses BST property to find split point....",
-    "fr": "Uses BST property to find split point...."
+    "en": "APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Lowest Common Ancestor of BST 的 APL 解决方案。使用 where (⍸) 查找真值/非零元素的索引。使用封闭 (⊂) 包装元素或展开 (⊃) 解包/提取。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Lowest Common Ancestor of BST 的 APL 解決方案。使用 where (⍸) 查找真值/非零元素的索引。使用封閉 (⊂) 包裝元素或展開 (⊃) 解包/提取。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Lowest Common Ancestor of BST. Uses where (⍸) to find indices of true/non-zero elements. Uses enclose (⊂) to wrap elements or disclose (⊃) to unwrap/extract. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(log n)",
   "spaceComplexity": "O(1)"

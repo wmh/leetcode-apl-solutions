@@ -13,13 +13,13 @@
   },
   "aplSolution": "LongestConsecutive ← {⌈/≢¨⍵⌸⍨1++\\1,2≠/⍵[⍋⍵]}",
   "explanation": {
-    "en": "Finds longest consecutive sequence: sorts array (⍵[⍋⍵]), finds gaps (2≠/), groups consecutive runs using scan (1++\\1,) and key (⌸⍨), counts length of each (≢¨), takes max (⌈/).",
-    "zh-CN": "找到最长连续序列：对数组排序 (⍵[⍋⍵])，找到间隙 (2≠/)，使用扫描 (1++\\1,) 和键 (⌸⍨) 分组连续运行，计算每个长度 (≢¨)，取最大值 (⌈/)。",
-    "zh-TW": "找到最長連續序列：對陣列排序 (⍵[⍋⍵])，找到間隙 (2≠/)，使用掃描 (1++\\1,) 和鍵 (⌸⍨) 分組連續運行，計算每個長度 (≢¨)，取最大值 (⌈/)。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "APL solution for Longest Consecutive. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Longest Consecutive 的 APL 解决方案。使用等级 (⍋/⍒) 排序 - 返回将对数组排序的索引。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用扫描 (\\) 计算运行操作：+\\ 是运行和，×\\ 是运行积，⌈\\ 是运行最大值，⌊\\ 是运行最小值。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Longest Consecutive 的 APL 解決方案。使用等級 (⍋/⍒) 排序 - 返回將對陣列排序的索引。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用掃描 (\\) 計算運行操作：+\\ 是運行和，×\\ 是運行積，⌈\\ 是運行最大值，⌊\\ 是運行最小值。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Longest Consecutive. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Longest Consecutive. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Longest Consecutive. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Longest Consecutive. Uses grade (⍋/⍒) for sorting - returns indices that would sort the array. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses scan (\\) to compute running operations: +\\ is running sum, ×\\ is running product, ⌈\\ is running max, ⌊\\ is running min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n log n)",
   "spaceComplexity": "O(1)",

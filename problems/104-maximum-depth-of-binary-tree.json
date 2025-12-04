@@ -13,13 +13,13 @@
   },
   "aplSolution": "MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}",
   "explanation": {
-    "en": "Recursive depth calculation: returns 0 for empty (0=≢⍵), otherwise 1 plus maximum depth of children (1+⌈/∇¨⍵). Self-reference (∇) enables recursion.",
-    "zh-CN": "递归深度计算：空节点返回 0 (0=≢⍵)，否则返回 1 加子节点最大深度 (1+⌈/∇¨⍵)。自引用 (∇) 启用递归。",
-    "zh-TW": "遞歸深度計算：空節點返回 0 (0=≢⍵)，否則返回 1 加子節點最大深度 (1+⌈/∇¨⍵)。自引用 (∇) 啟用遞歸。",
-    "ja": "再帰的に深さをカウントします。ベースケース：空のツリーは深さ 0。再帰ケース：1 + 子の最大深さ。自己参照 (∇) を使用して各子を再帰し、⌈/ で最大値を取ります。",
-    "es": "Cuenta recursivamente la profundidad. Caso base: árbol vacío tiene profundidad 0. Caso recursivo: 1 + profundidad máxima de los hijos. Usa autorreferencia (∇) para recurrir sobre cada hijo, luego toma el máximo con ⌈/.",
-    "de": "Zählt rekursiv die Tiefe. Basisfall: leerer Baum hat Tiefe 0. Rekursiver Fall: 1 + maximale Tiefe der Kinder. Verwendet Selbstreferenz (∇), um über jedes Kind zu rekurrieren, dann nimmt das Maximum mit ⌈/.",
-    "fr": "Compte récursivement la profondeur. Cas de base : l'arbre vide a une profondeur de 0. Cas récursif : 1 + profondeur maximale des enfants. Utilise l'auto-référence (∇) pour récurrer sur chaque enfant, puis prend le maximum avec ⌈/."
+    "en": "APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "zh-CN": "Maximum Depth of Binary Tree 的 APL 解决方案。使用归约 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 tally (≢) 计算数组长度。实现使用 APL 的面向数组原语进行简洁表达。",
+    "zh-TW": "Maximum Depth of Binary Tree 的 APL 解決方案。使用歸約 (/) 聚合值：+/ 求和，×/ 相乘，⌈/ 找最大值，⌊/ 找最小值。使用 tally (≢) 計算陣列長度。實現使用 APL 的面向陣列原語進行簡潔表達。",
+    "ja": "APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "es": "APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "de": "APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression.",
+    "fr": "APL solution for Maximum Depth of Binary Tree. Uses reduction (/) to aggregate values: +/ sums, ×/ multiplies, ⌈/ finds max, ⌊/ finds min. Uses tally (≢) to count array length. Implementation uses APL's array-oriented primitives for concise expression."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(h)",
