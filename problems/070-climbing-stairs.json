@@ -13,13 +13,13 @@
   },
   "aplSolution": "ClimbStairs ← {⊃(+⌿⍣(⍵-1))1 1}",
   "explanation": {
-    "en": "Fibonacci via repeated sum reduction: starts with (1 1), applies sum reduction (+⌿) ⍵-1 times using power operator (⍣), extracts first element (⊃). Result is Fibonacci(n+1).",
-    "zh-CN": "通过重复求和归约计算斐波那契：从 (1 1) 开始，使用幂运算符 (⍣) 应用求和归约 (+⌿) ⍵-1 次，提取第一个元素 (⊃)。结果是 Fibonacci(n+1)。",
-    "zh-TW": "通過重複求和歸約計算斐波那契：從 (1 1) 開始，使用冪運算符 (⍣) 應用求和歸約 (+⌿) ⍵-1 次，提取第一個元素 (⊃)。結果是 Fibonacci(n+1)。",
-    "ja": "これはフィボナッチ数列です！冪演算子 (⍣⍵) を使用して n 回反復し、1 1 から始めます。各反復では最後の 2 つの数値の合計を追加します ({⍵,+/¯2↑⍵})。最終結果の最初の要素を取ります (⊃)。",
-    "es": "¡Esta es la secuencia de Fibonacci! Itera n veces con el operador de potencia (⍣⍵), comenzando con 1 1. Cada iteración agrega la suma de los últimos 2 números ({⍵,+/¯2↑⍵}). Toma el primer elemento (⊃) del resultado final.",
-    "de": "Dies ist die Fibonacci-Folge! Iteriert n-mal mit dem Potenzoperator (⍣⍵), beginnend mit 1 1. Jede Iteration fügt die Summe der letzten 2 Zahlen hinzu ({⍵,+/¯2↑⍵}). Nimmt das erste Element (⊃) des Endergebnisses.",
-    "fr": "C'est la suite de Fibonacci ! Itère n fois avec l'opérateur de puissance (⍣⍵), en commençant par 1 1. Chaque itération ajoute la somme des 2 derniers nombres ({⍵,+/¯2↑⍵}). Prend le premier élément (⊃) du résultat final."
+    "en": "Compute Fibonacci number using repeated sum reduction. Algorithm: Start with pair (1,1) representing F(1) and F(2). Apply sum reduction +⌿ repeatedly n-1 times to compute next Fibonacci numbers. The power operator ⍣ controls repetition. After k iterations, we have (F(k), F(k+1)). Extract first element with ⊃ to get F(n). Example: n=5, start (1,1), after 1 iter (1,2), after 2 iter (2,3), after 3 iter (3,5), after 4 iter (5,8). Result is 5 which is F(5).",
+    "zh-CN": "使用重复求和归约计算斐波那契数。算法：从对 (1,1) 开始，表示 F(1) 和 F(2)。重复应用求和归约 +⌿ n-1 次以计算下一个斐波那契数。幂运算符 ⍣ 控制重复次数。经过 k 次迭代后，我们有 (F(k), F(k+1))。用 ⊃ 提取第一个元素得到 F(n)。示例：n=5，开始 (1,1)，1 次迭代后 (1,2)，2 次后 (2,3)，3 次后 (3,5)，4 次后 (5,8)。结果是 5，即 F(5)。",
+    "zh-TW": "使用重複求和歸約計算斐波那契數。演算法：從對 (1,1) 開始，表示 F(1) 和 F(2)。重複應用求和歸約 +⌿ n-1 次以計算下一個斐波那契數。冪運算符 ⍣ 控制重複次數。經過 k 次迭代後，我們有 (F(k), F(k+1))。用 ⊃ 提取第一個元素得到 F(n)。示例：n=5，開始 (1,1)，1 次迭代後 (1,2)，2 次後 (2,3)，3 次後 (3,5)，4 次後 (5,8)。結果是 5，即 F(5)。",
+    "ja": "Compute Fibonacci number using repeated sum reduction. Algorithm: Start with pair (1,1) representing F(1) and F(2). Apply sum reduction +⌿ repeatedly n-1 times to compute next Fibonacci numbers. The power operator ⍣ controls repetition. After k iterations, we have (F(k), F(k+1)). Extract first element with ⊃ to get F(n). Example: n=5, start (1,1), after 1 iter (1,2), after 2 iter (2,3), after 3 iter (3,5), after 4 iter (5,8). Result is 5 which is F(5).",
+    "es": "Compute Fibonacci number using repeated sum reduction. Algorithm: Start with pair (1,1) representing F(1) and F(2). Apply sum reduction +⌿ repeatedly n-1 times to compute next Fibonacci numbers. The power operator ⍣ controls repetition. After k iterations, we have (F(k), F(k+1)). Extract first element with ⊃ to get F(n). Example: n=5, start (1,1), after 1 iter (1,2), after 2 iter (2,3), after 3 iter (3,5), after 4 iter (5,8). Result is 5 which is F(5).",
+    "de": "Compute Fibonacci number using repeated sum reduction. Algorithm: Start with pair (1,1) representing F(1) and F(2). Apply sum reduction +⌿ repeatedly n-1 times to compute next Fibonacci numbers. The power operator ⍣ controls repetition. After k iterations, we have (F(k), F(k+1)). Extract first element with ⊃ to get F(n). Example: n=5, start (1,1), after 1 iter (1,2), after 2 iter (2,3), after 3 iter (3,5), after 4 iter (5,8). Result is 5 which is F(5).",
+    "fr": "Compute Fibonacci number using repeated sum reduction. Algorithm: Start with pair (1,1) representing F(1) and F(2). Apply sum reduction +⌿ repeatedly n-1 times to compute next Fibonacci numbers. The power operator ⍣ controls repetition. After k iterations, we have (F(k), F(k+1)). Extract first element with ⊃ to get F(n). Example: n=5, start (1,1), after 1 iter (1,2), after 2 iter (2,3), after 3 iter (3,5), after 4 iter (5,8). Result is 5 which is F(5)."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

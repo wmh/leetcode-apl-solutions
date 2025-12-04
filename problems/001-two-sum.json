@@ -13,13 +13,13 @@
   },
   "aplSolution": "TwoSum ← {(⊃⍸⍺=+/∘.,⍨⍵)}",
   "explanation": {
-    "en": "Uses outer product (∘.+) to create a matrix of all possible pair sums. Compares with target (⍺=) to find matching positions. ⍸ extracts the indices, ⊃ takes the first pair.",
-    "zh-CN": "使用外积 (∘.+) 创建所有可能的两数之和矩阵。与目标值比较 (⍺=) 找到匹配位置。⍸ 提取索引，⊃ 取第一对结果。",
-    "zh-TW": "使用外積 (∘.+) 創建所有可能的兩數之和矩陣。與目標值比較 (⍺=) 找到匹配位置。⍸ 提取索引，⊃ 取第一對結果。",
-    "ja": "配列と自身の外積 (∘.+) を作成して、すべての可能な合計を取得します。マスクを使用して同じインデックスのペアを除外します (∘.≠⍨⍳≢arr)。⍸ で合計が目標と等しい位置を見つけます。2↑ で最初の 2 つのインデックスを取得します。",
-    "es": "Crea el producto exterior (∘.+) del array consigo mismo para obtener todas las sumas posibles. Usa una máscara para excluir pares del mismo índice (∘.≠⍨⍳≢arr). Encuentra posiciones donde la suma es igual al objetivo con ⍸. Toma los primeros 2 índices con 2↑.",
-    "de": "Erstellt das äußere Produkt (∘.+) des Arrays mit sich selbst, um alle möglichen Summen zu erhalten. Verwendet eine Maske, um Paare mit demselben Index auszuschließen (∘.≠⍨⍳≢arr). Findet Positionen, wo die Summe dem Ziel entspricht, mit ⍸. Nimmt die ersten 2 Indizes mit 2↑.",
-    "fr": "Crée le produit extérieur (∘.+) du tableau avec lui-même pour obtenir toutes les sommes possibles. Utilise un masque pour exclure les paires du même index (∘.≠⍨⍳≢arr). Trouve les positions où la somme est égale à la cible avec ⍸. Prend les 2 premiers indices avec 2↑."
+    "en": "Algorithm: Create all possible pair sums using outer product. Step 1: ⍵∘.+⍵ creates a matrix where element [i,j] is nums[i]+nums[j]. Step 2: Compare this matrix with target (⍺=) to get boolean matrix. Step 3: ⍸ finds the [row,col] indices where value is 1 (true). Step 4: ⊃ extracts the first matching pair of indices. This is O(n²) time and space.",
+    "zh-CN": "算法：使用外积创建所有可能的配对和。步骤 1：⍵∘.+⍵ 创建一个矩阵，其中元素 [i,j] 是 nums[i]+nums[j]。步骤 2：将此矩阵与目标值比较 (⍺=) 得到布尔矩阵。步骤 3：⍸ 找到值为 1（真）的 [行,列] 索引。步骤 4：⊃ 提取第一对匹配的索引。时间和空间复杂度都是 O(n²)。",
+    "zh-TW": "演算法：使用外積創建所有可能的配對和。步驟 1：⍵∘.+⍵ 創建一個矩陣，其中元素 [i,j] 是 nums[i]+nums[j]。步驟 2：將此矩陣與目標值比較 (⍺=) 得到布林矩陣。步驟 3：⍸ 找到值為 1（真）的 [行,列] 索引。步驟 4：⊃ 提取第一對匹配的索引。時間和空間複雜度都是 O(n²)。",
+    "ja": "Algorithm: Create all possible pair sums using outer product. Step 1: ⍵∘.+⍵ creates a matrix where element [i,j] is nums[i]+nums[j]. Step 2: Compare this matrix with target (⍺=) to get boolean matrix. Step 3: ⍸ finds the [row,col] indices where value is 1 (true). Step 4: ⊃ extracts the first matching pair of indices. This is O(n²) time and space.",
+    "es": "Algorithm: Create all possible pair sums using outer product. Step 1: ⍵∘.+⍵ creates a matrix where element [i,j] is nums[i]+nums[j]. Step 2: Compare this matrix with target (⍺=) to get boolean matrix. Step 3: ⍸ finds the [row,col] indices where value is 1 (true). Step 4: ⊃ extracts the first matching pair of indices. This is O(n²) time and space.",
+    "de": "Algorithm: Create all possible pair sums using outer product. Step 1: ⍵∘.+⍵ creates a matrix where element [i,j] is nums[i]+nums[j]. Step 2: Compare this matrix with target (⍺=) to get boolean matrix. Step 3: ⍸ finds the [row,col] indices where value is 1 (true). Step 4: ⊃ extracts the first matching pair of indices. This is O(n²) time and space.",
+    "fr": "Algorithm: Create all possible pair sums using outer product. Step 1: ⍵∘.+⍵ creates a matrix where element [i,j] is nums[i]+nums[j]. Step 2: Compare this matrix with target (⍺=) to get boolean matrix. Step 3: ⍸ finds the [row,col] indices where value is 1 (true). Step 4: ⊃ extracts the first matching pair of indices. This is O(n²) time and space."
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n²)",

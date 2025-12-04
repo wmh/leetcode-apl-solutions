@@ -13,13 +13,13 @@
   },
   "aplSolution": "MaxSubArray ← {⌈/+\\0⌈⍵}",
   "explanation": {
-    "en": "Kadane's algorithm: uses scan with max (⌈\\) to keep only positive running sums by comparing with 0, running sum (+\\), takes maximum (⌈/). Efficiently finds max subarray sum.",
-    "zh-CN": "Kadane 算法：使用最大值扫描 (⌈\\) 通过与 0 比较只保留正数运行和，运行求和 (+\\)，取最大值 (⌈/)。高效找到最大子数组和。",
-    "zh-TW": "Kadane 算法：使用最大值掃描 (⌈\\) 通過與 0 比較只保留正數運行和，運行求和 (+\\)，取最大值 (⌈/)。高效找到最大子陣列和。",
-    "ja": "Kadane のアルゴリズムを使用します。バージョン 3 が最もシンプル：累積和と実行中の最大値 (⌈\\)、すべて負の配列を処理するために 0 を前に追加します。実行中の最大和の最大値を取ります。",
-    "es": "Utiliza el algoritmo de Kadane. La versión 3 es la más simple: suma acumulativa con máximo en ejecución (⌈\\), anteponiendo 0 para manejar arrays todos negativos. Toma el máximo de las sumas máximas en ejecución.",
-    "de": "Verwendet Kadanes Algorithmus. Version 3 ist am einfachsten: kumulative Summe mit laufendem Maximum (⌈\\), voranstellen von 0, um all-negative Arrays zu behandeln. Nimmt das Maximum der laufenden maximalen Summen.",
-    "fr": "Utilise l'algorithme de Kadane. La version 3 est la plus simple : somme cumulative avec maximum courant (⌈\\), préfixe 0 pour gérer les tableaux tous négatifs. Prend le maximum des sommes maximales courantes."
+    "en": "Kadane's algorithm implementation. Step 1: Prepend 0 to array (0,⍵) to handle all-negative case. Step 2: ⌈\\ computes running maximum - at each position, it's max(current_value, previous_max). This resets negative running sums to 0. Step 3: +\\ computes running sum (prefix sum). Step 4: ⌈/ takes the maximum of all running sums. The combination of ⌈\\ and +\\ implements the core Kadane logic: only keep positive accumulated sums.",
+    "zh-CN": "Kadane 算法实现。步骤 1：在数组前添加 0 (0,⍵) 以处理全负数情况。步骤 2：⌈\\ 计算运行最大值 - 在每个位置，它是 max(当前值, 前一个最大值)。这会将负数运行和重置为 0。步骤 3：+\\ 计算运行总和（前缀和）。步骤 4：⌈/ 取所有运行总和的最大值。⌈\\ 和 +\\ 的组合实现了 Kadane 核心逻辑：只保留正数累积和。",
+    "zh-TW": "Kadane 演算法實現。步驟 1：在陣列前添加 0 (0,⍵) 以處理全負數情況。步驟 2：⌈\\ 計算運行最大值 - 在每個位置，它是 max(當前值, 前一個最大值)。這會將負數運行和重置為 0。步驟 3：+\\ 計算運行總和（前綴和）。步驟 4：⌈/ 取所有運行總和的最大值。⌈\\ 和 +\\ 的組合實現了 Kadane 核心邏輯：只保留正數累積和。",
+    "ja": "Kadane's algorithm implementation. Step 1: Prepend 0 to array (0,⍵) to handle all-negative case. Step 2: ⌈\\ computes running maximum - at each position, it's max(current_value, previous_max). This resets negative running sums to 0. Step 3: +\\ computes running sum (prefix sum). Step 4: ⌈/ takes the maximum of all running sums. The combination of ⌈\\ and +\\ implements the core Kadane logic: only keep positive accumulated sums.",
+    "es": "Kadane's algorithm implementation. Step 1: Prepend 0 to array (0,⍵) to handle all-negative case. Step 2: ⌈\\ computes running maximum - at each position, it's max(current_value, previous_max). This resets negative running sums to 0. Step 3: +\\ computes running sum (prefix sum). Step 4: ⌈/ takes the maximum of all running sums. The combination of ⌈\\ and +\\ implements the core Kadane logic: only keep positive accumulated sums.",
+    "de": "Kadane's algorithm implementation. Step 1: Prepend 0 to array (0,⍵) to handle all-negative case. Step 2: ⌈\\ computes running maximum - at each position, it's max(current_value, previous_max). This resets negative running sums to 0. Step 3: +\\ computes running sum (prefix sum). Step 4: ⌈/ takes the maximum of all running sums. The combination of ⌈\\ and +\\ implements the core Kadane logic: only keep positive accumulated sums.",
+    "fr": "Kadane's algorithm implementation. Step 1: Prepend 0 to array (0,⍵) to handle all-negative case. Step 2: ⌈\\ computes running maximum - at each position, it's max(current_value, previous_max). This resets negative running sums to 0. Step 3: +\\ computes running sum (prefix sum). Step 4: ⌈/ takes the maximum of all running sums. The combination of ⌈\\ and +\\ implements the core Kadane logic: only keep positive accumulated sums."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(1)",

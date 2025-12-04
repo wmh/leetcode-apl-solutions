@@ -13,13 +13,13 @@
   },
   "aplSolution": "ContainsDuplicate ← {(≢⍵)≠≢∪⍵}",
   "explanation": {
-    "en": "Compares length of original array (≢⍵) with length of unique elements (≢∪⍵). Returns 1 (true) if different, indicating duplicates exist.",
-    "zh-CN": "比较原数组长度 (≢⍵) 与唯一元素长度 (≢∪⍵)。如果不同则返回 1（真），表示存在重复。",
-    "zh-TW": "比較原陣列長度 (≢⍵) 與唯一元素長度 (≢∪⍵)。如果不同則返回 1（真），表示存在重複。",
-    "ja": "配列の長さ（≢⍵）と一意の要素の長さ（≢∪⍵）を比較します。それらが異なる場合、重複がある必要があります。≢ 演算子は長さを与え、∪ は一意の要素を与え、≠ はそれらが等しくないかどうかをチェックします。",
-    "es": "Compara la longitud del array (≢⍵) con la longitud de los elementos únicos (≢∪⍵). Si difieren, debe haber duplicados. El operador ≢ da la longitud, ∪ da elementos únicos y ≠ verifica si no son iguales.",
-    "de": "Vergleicht die Länge des Arrays (≢⍵) mit der Länge der eindeutigen Elemente (≢∪⍵). Wenn sie sich unterscheiden, müssen Duplikate vorhanden sein. Der ≢-Operator gibt die Länge, ∪ gibt eindeutige Elemente und ≠ prüft, ob sie nicht gleich sind.",
-    "fr": "Compare la longueur du tableau (≢⍵) avec la longueur des éléments uniques (≢∪⍵). S'ils diffèrent, il doit y avoir des doublons. L'opérateur ≢ donne la longueur, ∪ donne des éléments uniques et ≠ vérifie s'ils ne sont pas égaux."
+    "en": "Check for duplicates by comparing array length with unique length. Step 1: ≢⍵ counts total elements in original array. Step 2: ∪⍵ removes duplicate elements, keeping only unique values. Step 3: ≢∪⍵ counts unique elements. Step 4: ≠ compares the two counts - if they're different, duplicates exist. Returns 1 (true) if duplicates found, 0 (false) otherwise. Example: [1,2,3,1] has length 4 but 3 unique values, so 4≠3 returns 1.",
+    "zh-CN": "通过比较数组长度与唯一长度来检查重复项。步骤 1：≢⍵ 计算原始数组中的总元素数。步骤 2：∪⍵ 删除重复元素，仅保留唯一值。步骤 3：≢∪⍵ 计算唯一元素数。步骤 4：≠ 比较两个计数 - 如果它们不同，则存在重复项。如果找到重复项则返回 1（真），否则返回 0（假）。示例：[1,2,3,1] 长度为 4 但只有 3 个唯一值，所以 4≠3 返回 1。",
+    "zh-TW": "通過比較陣列長度與唯一長度來檢查重複項。步驟 1：≢⍵ 計算原始陣列中的總元素數。步驟 2：∪⍵ 刪除重複元素，僅保留唯一值。步驟 3：≢∪⍵ 計算唯一元素數。步驟 4：≠ 比較兩個計數 - 如果它們不同，則存在重複項。如果找到重複項則返回 1（真），否則返回 0（假）。示例：[1,2,3,1] 長度為 4 但只有 3 個唯一值，所以 4≠3 返回 1。",
+    "ja": "Check for duplicates by comparing array length with unique length. Step 1: ≢⍵ counts total elements in original array. Step 2: ∪⍵ removes duplicate elements, keeping only unique values. Step 3: ≢∪⍵ counts unique elements. Step 4: ≠ compares the two counts - if they're different, duplicates exist. Returns 1 (true) if duplicates found, 0 (false) otherwise. Example: [1,2,3,1] has length 4 but 3 unique values, so 4≠3 returns 1.",
+    "es": "Check for duplicates by comparing array length with unique length. Step 1: ≢⍵ counts total elements in original array. Step 2: ∪⍵ removes duplicate elements, keeping only unique values. Step 3: ≢∪⍵ counts unique elements. Step 4: ≠ compares the two counts - if they're different, duplicates exist. Returns 1 (true) if duplicates found, 0 (false) otherwise. Example: [1,2,3,1] has length 4 but 3 unique values, so 4≠3 returns 1.",
+    "de": "Check for duplicates by comparing array length with unique length. Step 1: ≢⍵ counts total elements in original array. Step 2: ∪⍵ removes duplicate elements, keeping only unique values. Step 3: ≢∪⍵ counts unique elements. Step 4: ≠ compares the two counts - if they're different, duplicates exist. Returns 1 (true) if duplicates found, 0 (false) otherwise. Example: [1,2,3,1] has length 4 but 3 unique values, so 4≠3 returns 1.",
+    "fr": "Check for duplicates by comparing array length with unique length. Step 1: ≢⍵ counts total elements in original array. Step 2: ∪⍵ removes duplicate elements, keeping only unique values. Step 3: ≢∪⍵ counts unique elements. Step 4: ≠ compares the two counts - if they're different, duplicates exist. Returns 1 (true) if duplicates found, 0 (false) otherwise. Example: [1,2,3,1] has length 4 but 3 unique values, so 4≠3 returns 1."
   },
   "timeComplexity": "O(n)",
   "spaceComplexity": "O(n)",

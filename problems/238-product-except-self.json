@@ -13,13 +13,13 @@
   },
   "aplSolution": "ProductExceptSelf ← {(×\\1,¯1↓⍵)×⌽×\\1,¯1↓⌽⍵}",
   "explanation": {
-    "en": "Product except self: left products (×\\1,¯1↓⍵) scan from left with 1 prepended, right products (⌽×\\1,¯1↓⌽⍵) scan reversed array, multiply together (×). No division needed.",
-    "zh-CN": "除自身外的乘积：左乘积 (×\\1,¯1↓⍵) 从左扫描前置 1，右乘积 (⌽×\\1,¯1↓⌽⍵) 扫描反转数组，相乘 (×)。无需除法。",
-    "zh-TW": "除自身外的乘積：左乘積 (×\\1,¯1↓⍵) 從左掃描前置 1，右乘積 (⌽×\\1,¯1↓⌽⍵) 掃描反轉陣列，相乘 (×)。無需除法。",
-    "ja": "検証済みの APL ソリューション",
-    "es": "Solución APL verificada",
-    "de": "Verifizierte APL-Lösung",
-    "fr": "Solution APL vérifiée"
+    "en": "Product of array except self without division. Strategy: multiply left products by right products. Step 1: ×\\1,¯1↓⍵ - prepend 1 (1,), drop last element (¯1↓⍵), compute running product (×\\). This gives product of all elements to the left of each position. Step 2: ⌽×\\1,¯1↓⌽⍵ - reverse array (⌽⍵), drop last (¯1↓), prepend 1, running product, reverse back. This gives product of all elements to the right. Step 3: × multiplies left and right products element-wise. Example: [1,2,3,4], left=[1,1,2,6], right=[24,12,4,1], result=[24,12,8,6].",
+    "zh-CN": "不使用除法计算除自身外的数组乘积。策略：左侧乘积乘以右侧乘积。步骤 1：×\\1,¯1↓⍵ - 前置 1 (1,)，删除最后一个元素 (¯1↓⍵)，计算运行乘积 (×\\)。这给出每个位置左侧所有元素的乘积。步骤 2：⌽×\\1,¯1↓⌽⍵ - 反转数组 (⌽⍵)，删除最后一个 (¯1↓)，前置 1，运行乘积，反转回来。这给出右侧所有元素的乘积。步骤 3：× 逐元素相乘左右乘积。示例：[1,2,3,4]，left=[1,1,2,6]，right=[24,12,4,1]，result=[24,12,8,6]。",
+    "zh-TW": "不使用除法計算除自身外的陣列乘積。策略：左側乘積乘以右側乘積。步驟 1：×\\1,¯1↓⍵ - 前置 1 (1,)，刪除最後一個元素 (¯1↓⍵)，計算運行乘積 (×\\)。這給出每個位置左側所有元素的乘積。步驟 2：⌽×\\1,¯1↓⌽⍵ - 反轉陣列 (⌽⍵)，刪除最後一個 (¯1↓)，前置 1，運行乘積，反轉回來。這給出右側所有元素的乘積。步驟 3：× 逐元素相乘左右乘積。示例：[1,2,3,4]，left=[1,1,2,6]，right=[24,12,4,1]，result=[24,12,8,6]。",
+    "ja": "Product of array except self without division. Strategy: multiply left products by right products. Step 1: ×\\1,¯1↓⍵ - prepend 1 (1,), drop last element (¯1↓⍵), compute running product (×\\). This gives product of all elements to the left of each position. Step 2: ⌽×\\1,¯1↓⌽⍵ - reverse array (⌽⍵), drop last (¯1↓), prepend 1, running product, reverse back. This gives product of all elements to the right. Step 3: × multiplies left and right products element-wise. Example: [1,2,3,4], left=[1,1,2,6], right=[24,12,4,1], result=[24,12,8,6].",
+    "es": "Product of array except self without division. Strategy: multiply left products by right products. Step 1: ×\\1,¯1↓⍵ - prepend 1 (1,), drop last element (¯1↓⍵), compute running product (×\\). This gives product of all elements to the left of each position. Step 2: ⌽×\\1,¯1↓⌽⍵ - reverse array (⌽⍵), drop last (¯1↓), prepend 1, running product, reverse back. This gives product of all elements to the right. Step 3: × multiplies left and right products element-wise. Example: [1,2,3,4], left=[1,1,2,6], right=[24,12,4,1], result=[24,12,8,6].",
+    "de": "Product of array except self without division. Strategy: multiply left products by right products. Step 1: ×\\1,¯1↓⍵ - prepend 1 (1,), drop last element (¯1↓⍵), compute running product (×\\). This gives product of all elements to the left of each position. Step 2: ⌽×\\1,¯1↓⌽⍵ - reverse array (⌽⍵), drop last (¯1↓), prepend 1, running product, reverse back. This gives product of all elements to the right. Step 3: × multiplies left and right products element-wise. Example: [1,2,3,4], left=[1,1,2,6], right=[24,12,4,1], result=[24,12,8,6].",
+    "fr": "Product of array except self without division. Strategy: multiply left products by right products. Step 1: ×\\1,¯1↓⍵ - prepend 1 (1,), drop last element (¯1↓⍵), compute running product (×\\). This gives product of all elements to the left of each position. Step 2: ⌽×\\1,¯1↓⌽⍵ - reverse array (⌽⍵), drop last (¯1↓), prepend 1, running product, reverse back. This gives product of all elements to the right. Step 3: × multiplies left and right products element-wise. Example: [1,2,3,4], left=[1,1,2,6], right=[24,12,4,1], result=[24,12,8,6]."
   },
   "timeComplexity": "O(n²)",
   "spaceComplexity": "O(n)",
