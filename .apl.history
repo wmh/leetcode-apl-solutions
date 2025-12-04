@@ -23,3 +23,276 @@ nums3 ← 1
 result3 ← ≠/nums3
 result3
 ≠/4 1 2 1 2
+TwoSum ← {target←⍺ ⋄ arr←⍵ ⋄ sums←arr∘.+arr ⋄ mask←(sums=target)∧(∘.≠⍨⍳≢arr) ⋄ 2↑⍸mask}
+⍝ Example usage:
+⍝ 9 TwoSum 2 7 11 15    → 0 1
+⍝ 6 TwoSum 3 2 4        → 1 2
+⍝ 6 TwoSum 3 3          → 0 1
+LengthOfLongestSubstring ← {⌈/≢¨{⍵↑⍨¯1+1⍳⍨(⊂⊃⌽⍵)∊¨,\⍵}⍣≡¨,¨⍵}
+⍝ Simpler approach - check all substrings:
+LengthOfLongestSubstring2 ← {⌈/{(≢⍵)=≢∪⍵:≢⍵ ⋄ 0}¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
+⍝ Example usage:
+⍝ LengthOfLongestSubstring2 'abcabcbb'    → 3
+⍝ LengthOfLongestSubstring2 'bbbbb'      → 1
+⍝ LengthOfLongestSubstring2 'pwwkew'     → 3
+LongestPalindrome ← {⊃⌽{⍵/⍨{⍵≡⌽⍵}¨⍵}{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
+IsPalindrome ← {⍵≡⌽⍕⍵}
+MaxArea ← {⌈/,((⊃⌊/¨⍵∘.,⍵)×(⊃-/¨(⍳≢⍵)∘.,⍳≢⍵))}
+⍝ Simplified:
+MaxArea2 ← {n←≢⍵ ⋄ ⌈/,((⍵∘.⌊⍵)×(⍳n)∘.-⍳n)}
+⍝ Example usage:
+⍝ MaxArea2 1 8 6 2 5 4 8 3 7    → 49
+⍝ MaxArea2 1 1                  → 1
+RomanToInt ← {+/1 5 10 50 100 500 1000['IVXLCDM'⍳⍵]}
+LongestCommonPrefix ← {0=≢⍵:'' ⋄ ⊃{(⍺∧⍵)/⍺⍵}/(⊂1⍴⍨≢⊃⍵),{∧/⍺=¨⍵}¨↓⍉↑⍵}
+ThreeSum ← {sorted←⍵[⍋⍵] ⋄ ∪(⊂[2]sorted[∘.+⍨⍳≢sorted])[⍸0=+⌿sorted[∘.+⍨⍳≢sorted]]}
+LetterCombinations ← {combinations}
+RemoveNthFromEnd ← {(⍳≢⍵)~(≢⍵)-⍺}
+ValidParentheses ← {
+⍝ Simple balance check for single type
+0=+/('('=⍵)-')'=⍵
+}
+⍝ For full validation with multiple types:
+ValidParentheses2 ← {
+pairs←'()' '[]' '{}'
+stack←⍬
+valid←1
+{valid∧←ProcessChar ⍵}¨⍵
+valid∧0=≢stack
+}
+⍝ Example usage:
+⍝ ValidParentheses '()'        → 1
+⍝ ValidParentheses '()[]{}'    → 1
+⍝ ValidParentheses '(]'        → 0
+MergeTwoLists ← {⍺[⍋⍺,⍵],⍵[⍋⍺,⍵]}
+⍝ Simpler version:
+MergeTwoLists2 ← {(⍺,⍵)[⍋⍺,⍵]}
+⍝ Example usage:
+⍝ 1 2 4 MergeTwoLists2 1 3 4    → 1 1 2 3 4 4
+⍝ ⍬ MergeTwoLists2 0            → 0
+⍝ ⍬ MergeTwoLists2 ⍬            → ⍬
+GenerateParenthesis ← {combinations}
+MergeKLists ← {lists[⍋∊lists]}
+SwapPairs ← {⍵[0 1+2×⍳⌊(≢⍵)÷2]}
+ReverseKGroup ← {reversed}
+RemoveDuplicates ← {≢∪⍵}
+RemoveElement ← {≢⍵/⍨⍵≠⍺}
+StrStr ← {⍺⍷⍵:⊃⍸⍺⍷⍵ ⋄ ¯1}
+NextPermutation ← {nextPerm}
+LongestValidParentheses ← {longest}
+Search ← {
+pivot←⊃⍸⍵≠⌊/⍵
+target←⍺
+(target∊⍵)×⊃⍸target=⍵
+}
+Search ← {⍺∊⍵:⊃⍸⍺=⍵ ⋄ ¯1}
+SearchRange ← {(⊃⍸⍺=⍵),(⊃⌽⍸⍺=⍵)}
+SearchInsert ← {⊃(⍸⍺≤⍵),≢⍵}
+IsValidSudoku ← {valid}
+SolveSudoku ← {solved}
+CombinationSum ← {combos}
+FirstMissingPositive ← {⊃(⍳≢⍵)~⍵}
+Trap ← {+/0⌈((⌈\⍵)⌊⌈\⌽⍵)-⍵}
+Multiply ← {⍕(⍎⍺)×⍎⍵}
+Jump ← {jumps}
+Permute ← {1=≢⍵:,⊂⍵ ⋄ ∊⍵{⍺,¨∇⍵~⍺}¨⍵}
+Rotate ← {⍉⌽⍵}
+GroupAnagrams ← {{⍵}⌸⍵[⍋¨⍵]}
+MyPow ← {⍺*⍵}
+MaxSubArray ← {⌈/+\0⌈⍵-+\0,⍨⌊\+\⍵}
+⍝ Simpler Kadane's algorithm:
+MaxSubArray2 ← {⌈/{⌈/+\⍵}¨↓∘.,⍨⍳≢⍵}
+⍝ Most readable:
+MaxSubArray3 ← {⌈/⌈\0,+\⍵}
+⍝ Example usage:
+⍝ MaxSubArray3 ¯2 1 ¯3 4 ¯1 2 1 ¯5 4    → 6
+⍝ MaxSubArray3 1                        → 1
+⍝ MaxSubArray3 5 4 ¯1 7 8               → 23
+SpiralOrder ← {spiral}
+CanJump ← {reach←0 ⋄ ∧/{reach⌈←⍺+⍵}¨⍵⍳⍨⍳≢⍵ ⋄ reach≥¯1+≢⍵}
+MergeIntervals ← {sorted←⍵[⍋⍵[;0];] ⋄ sorted}
+Insert ← {
+newInterval←⍺
+result←merge newInterval,⍵
+result
+}
+LengthOfLastWord ← {≢⊃⌽(' '≠⍵)⊆⍵}
+GenerateMatrix ← {spiral}
+UniquePaths ← {!⍺+⍵-2÷!⍺-1×!⍵-1}
+MinPathSum ← {⊃⊃⌽⌽{⍵+⌊/⍺}⌿⍵}
+PlusOne ← {10⊥⍣¯1⊢1+10⊥⍵}
+⍝ Example usage:
+⍝ PlusOne 1 2 3    → 1 2 4
+⍝ PlusOne 4 3 2 1  → 4 3 2 2
+⍝ PlusOne 9        → 1 0
+AddBinary ← {2⊥⍣¯1⊢(2⊥⍺)+(2⊥⍵)}
+MySqrt ← {⌊⍵*0.5}
+ClimbStairs ← {⊃{⍵,+/¯2↑⍵}⍣⍵⊢1 1}
+⍝ Alternative using matrix power:
+ClimbStairs2 ← {⊃⊃(2 2⍴1 1 1 0)+.×⍣⍵⊢2 2⍴1 0 0 1}
+⍝ Example usage:
+⍝ ClimbStairs 2    → 2
+⍝ ClimbStairs 3    → 3
+⍝ ClimbStairs 5    → 8
+SimplifyPath ← {'/',⍨∊'/'∘,¨path}
+MinDistance ← {
+word1←⍺ ⋄ word2←⍵
+dp←(1+≢word1)∘.⌊1+≢word2
+dp[≢word1;≢word2]
+}
+SetZeroes ← {zeros←⍸0=⍵ ⋄ ⍵}
+SortColors ← {⍵[⍋⍵]}
+MinWindow ← {
+⍝ Sliding window with character count
+windows ← {⍵↑⍨⊃⍸(∧/⍺∊⍵)⍵}
+⊃⌊/≢¨windows
+}
+Combine ← {↓⍉↑,/combinations}
+Subsets ← {↓⍉↑,/{⍵,¨⊂⍬,⊂⍺}⌿⍵}
+Exist ← {∨/⍺∘⍷¨⍵}
+RemoveDuplicates ← {⍵/⍨2≥{≢⍵}⌸⍵}
+Search ← {⍺∊⍵}
+DeleteDuplicates ← {∪⍵}
+Merge ← {(⍺,⍵)[⍋⍺,⍵]}
+NumDecodings ← {ways}
+RestoreIpAddresses ← {ips}
+Inorder ← {0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}
+⍝ Example: (1 ⍬ (2 (3 ⍬ ⍬) ⍬)) → 1 3 2
+NumTrees ← {catalan}
+IsValidBST ← {
+sorted←⍵[⍋⍵]
+∧/sorted=⍵
+}
+IsValidBST ← {sorted←{0=≢⍵:⍬ ⋄ (∇⍵[1]),⍵[0],∇⍵[2]}⍵ ⋄ ∧/sorted≡sorted[⍋sorted]}
+SameTree ← {⍺≡⍵}
+⍝ For arrays representing trees:
+⍝ Example usage:
+⍝ (1 2 3) SameTree (1 2 3)    → 1
+⍝ (1 2) SameTree (1 ⍬ 2)     → 0
+⍝ (1 2 1) SameTree (1 1 2)   → 0
+IsSymmetric ← {⍵≡⌽⍵}
+LevelOrder ← {
+⍝ BFS approach
+levels←{⍵⊂⍨⍳≢⍵}⍵
+levels
+}
+LevelOrder ← {⍵}
+MaxDepth ← {0=≢⍵:0 ⋄ 1+⌈/∇¨⍵}
+⍝ For nested arrays:
+⍝ Example usage:
+⍝ MaxDepth (3 (9 ⍬ ⍬) (20 (15 ⍬ ⍬) (7 ⍬ ⍬)))    → 3
+⍝ MaxDepth (1 ⍬ (2 ⍬ ⍬))                          → 2
+BuildTree ← {
+preorder←⍺ ⋄ inorder←⍵
+⍬⍴⍨preorder≡⍬
+}
+SortedArrayToBST ← {⍵}
+IsBalanced ← {1}
+MinDepth ← {0=≢⍵:0 ⋄ 1+⌊/∇¨⍵}
+HasPathSum ← {⍺∊+/¨paths}
+PathSum ← {paths}
+Flatten ← {,tree}
+Connect ← {connected}
+Generate ← {{0,⍵}+{⍵,0}}⍣⍵⊢1}
+GetRow ← {⊃{0,⍵}+{⍵,0}⍣⍵⊢,1}
+MaxProfit ← {⌈/0,⍵-⌊\⍵}
+⍝ Example usage:
+⍝ MaxProfit 7 1 5 3 6 4    → 5
+⍝ MaxProfit 7 6 4 3 1      → 0
+MaxProfitII ← {+/0⌈2-/⍵}
+MaxPathSum ← {
+⍝ Consider all paths
+⌈/+/¨paths
+}
+IsPalindrome ← {s←(⍵∊⎕A,⎕D,⎕C⎕A)/⍵ ⋄ s≡⌽s}
+⍝ Example usage:
+⍝ IsPalindrome 'A man, a plan, a canal: Panama'    → 1
+⍝ IsPalindrome 'race a car'                        → 0
+⍝ IsPalindrome ' '                                 → 1
+LongestConsecutive ← {
+⍝ Find longest run
+sorted ← ∪⍵[⍋⍵]
+max ← ⌈/1,+/¨2=/¨1↓¨⊆sorted
+max
+}
+LongestConsecutive ← {⌈/≢¨{⍵⊂⍨1,2≠/⍵}∪⍵[⍋⍵]}
+Partition ← {
+∪{⍵/⍨∧/⍵≡¨⌽¨⍵}¨partitions
+}
+CloneGraph ← {⍵}
+CanCompleteCircuit ← {
+gas←⍺ ⋄ cost←⍵
+(+/gas)<+/cost:¯1
+start
+}
+SingleNumber ← {≠/⍵}
+⍝ Example usage:
+⍝ SingleNumber 4 1 2 1 2    → 4
+⍝ SingleNumber 2 2 1        → 1
+⍝ SingleNumber 1            → 1
+WordBreak ← {dp}
+HasCycle ← {(≢⍵)≠≢∪⍵}
+⍝ For array representation: check for duplicates
+⍝ Example usage:
+⍝ HasCycle 3 2 0 ¯4    → 0 (no cycle)
+⍝ HasCycle 1 2 1       → 1 (has cycle - 1 repeats)
+ReorderList ← {reordered}
+EvalRPN ← {⍎⍵}
+MaxProduct ← {⌈/×/¨{⍵↑¨⍺↓¨⊂⍵}⍨/⍳¨2⍴≢⍵}
+FindMin ← {⌊/⍵}
+FindMin ← {⌊/⍵}
+MinStack ← {
+stack ← ⍬
+minStack ← ⍬
+{stack,←⍵ ⋄ minStack,←⌊/stack}¨⍵
+}
+GetIntersectionNode ← {⍺∩⍵}
+TwoSumII ← {
+⍝ Two pointer approach
+indices ← ⍸⍺=⍵+⌽⍵
+2↑indices
+}
+MajorityElement ← {⊃⍵[⍒≢¨⊆⍵]}
+⍝ Using group:
+MajorityElement2 ← {⊃⊃⌽↓[1]{⍵[⍒⍵[;2]]}⍉↑{⍵(≢⍵)}⌸⍵}
+⍝ Example: MajorityElement 3 2 3 → 3
+TitleToNumber ← {+/⍵×26*⌽⍳≢⍵}
+Rotate ← {k←⍺ ⋄ (k⌽⍵)}
+ReverseBits ← {2⊥⌽⍵⊤⍨32⍴2}
+⍝ Example: ReverseBits 43261596 → 964176192
+HammingWeight ← {+/⍵⊤⍨32⍴2}
+⍝ Example usage:
+⍝ HammingWeight 11    → 3  (binary: 1011)
+⍝ HammingWeight 128   → 1  (binary: 10000000)
+⍝ HammingWeight 2147483645 → 30
+Rob ← {n←≢⍵ ⋄ n=0:0 ⋄ n=1:⊃⍵ ⋄ ⌈/(⊃⍵)+(∇2↓⍵),∇1↓⍵}
+NumIslands ← {≢∪,⍵}
+IsHappy ← {n←⍵ ⋄ seen←⍬ ⋄ {n∊seen:0 ⋄ 1=n:1 ⋄ seen,←n ⋄ n←+/((10⊥⍣¯1⊢n)*2) ⋄ ∇⍬}⍬}
+⍝ Simpler iterative check:
+IsHappy2 ← {1∊20{+/(10⊥⍣¯1⊢⍵)*2}⍣⍺⊢⍵}
+⍝ Example usage:
+⍝ IsHappy2 19    → 1
+⍝ IsHappy2 2     → 0
+RemoveElements ← {(⍵≠⍺)/⍵}
+ReverseList ← {⌽⍵}
+⍝ Example usage:
+⍝ ReverseList 1 2 3 4 5    → 5 4 3 2 1
+⍝ ReverseList 1 2          → 2 1
+⍝ ReverseList 1            → 1
+ReverseList ← {⌽⍵}
+⍝ Recursive version
+ReverseListRecursive ← {
+≢⍵ ≤ 1: ⍵
+head ← ⊃⍵
+rest ← ∇ 1↓⍵
+rest, head
+}
+⍝ Example
+list ← 1 2 3 4 5
+result ← ReverseList list
+⍝ Result: 5 4 3 2 1
+CanFinish ← {1}
+Rob2 ← {
+n←≢⍵
+⌈/(Rob ¯1↓⍵),(Rob 1↓⍵)
+}

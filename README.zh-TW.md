@@ -4,10 +4,32 @@
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
 [![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
 [![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
+[![Validation: ⚠️ FAILED](https://img.shields.io/badge/Validation-❌_FAILED-red.svg)](./VALIDATION_STATUS.md)
 
 > 使用 APL (A Programming Language) 解決 LeetCode 最經典的 100+ 道題目 - 最神秘且最強大的陣列程式語言之一。
 
-> **⚠️ AI 生成內容**: 本專案由 AI 大量輔助建立。詳見 [AI_GENERATED.md](./AI_GENERATED.md)。APL 程式碼未在實際直譯器中測試，使用前建議驗證。
+---
+
+## ⚠️ 重要警告 - 請先閱讀！
+
+> **🚨 程式碼無法執行**: 本儲存庫中的所有 APL 解決方案**未通過語法驗證**，無法在 APL 直譯器中執行。驗證測試（2025-12-04）顯示 **0% 通過率**（86 個測試中 0 個通過）。
+
+> **⚠️ AI 生成內容**: 本專案由 AI 輔助建立，包含**未驗證、無法運作的程式碼**。詳見 [AI_GENERATED.md](./AI_GENERATED.md)。
+
+> **❌ 請勿用於**：
+> - 生產環境程式碼
+> - 面試準備
+> - 學習 APL 語法
+> - 需要可執行程式碼的學術用途
+
+> **✅ 適用於**：
+> - 僅作為概念/演算法參考
+> - 理解解題思路（非 APL 特定）
+> - 建立經過驗證的 APL 解決方案的模板
+
+**[📖 查看完整驗證狀態](VALIDATION_STATUS.md)** 了解詳細資訊。
+
+---
 
 **🌍 語言**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 

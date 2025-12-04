@@ -4,12 +4,32 @@
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
 [![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
 [![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
+[![Validation: ⚠️ FAILED](https://img.shields.io/badge/Validation-❌_FAILED-red.svg)](./VALIDATION_STATUS.md)
 
 > Solving LeetCode's top 100+ classic problems using APL (A Programming Language) - one of the most esoteric and powerful array programming languages.
 
-> **⚠️ AI-Generated Content**: This project was created with significant AI assistance. See [AI_GENERATED.md](./AI_GENERATED.md) for details.
+---
 
-> **🚨 IMPORTANT**: APL code has **NOT been validated** in an actual interpreter. The solutions may contain syntax errors or incorrect implementations. **[See Validation Status](VALIDATION_STATUS.md)** for details. Do not use for production or interviews without testing!
+## ⚠️ CRITICAL WARNING - READ FIRST!
+
+> **🚨 CODE DOES NOT WORK**: All APL solutions in this repository **FAIL syntax validation** and will not run in APL interpreters. Validation testing (2025-12-04) showed **0% pass rate** (0 out of 86 tested).
+
+> **⚠️ AI-Generated Content**: This project was created with AI assistance and contains **unvalidated, non-working code**. See [AI_GENERATED.md](./AI_GENERATED.md) for details.
+
+> **❌ DO NOT USE FOR**: 
+> - Production code
+> - Interview preparation  
+> - Learning APL syntax
+> - Academic purposes requiring working code
+
+> **✅ SUITABLE FOR**:
+> - Conceptual/algorithmic reference only
+> - Understanding problem-solving approaches (not APL-specific)
+> - Template for creating validated APL solutions
+
+**[📖 Read Full Validation Status](VALIDATION_STATUS.md)** for complete details.
+
+---
 
 **🌍 Languages**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 

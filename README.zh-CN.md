@@ -4,12 +4,32 @@
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
 [![Problems: 100+](https://img.shields.io/badge/Problems-100+-green.svg)](https://leetcode.com/)
 [![AI Generated](https://img.shields.io/badge/AI-Generated-purple.svg)](./AI_GENERATED.md)
+[![Validation: ⚠️ FAILED](https://img.shields.io/badge/Validation-❌_FAILED-red.svg)](./VALIDATION_STATUS.md)
 
 > 使用 APL (A Programming Language) 解决 LeetCode 最经典的 100+ 道题目 - 最神秘且最强大的数组编程语言之一。
 
-> **⚠️ AI 生成内容**: 本项目由 AI 大量辅助创建。详见 [AI_GENERATED.md](./AI_GENERATED.md)。
+---
 
-> **🚨 重要提醒**: APL 代码**尚未在实际解释器中验证**。解决方案可能包含语法错误或不正确的实现。**[查看验证状态](VALIDATION_STATUS.md)** 了解详情。请勿在生产环境或面试中使用未经测试的代码！
+## ⚠️ 重要警告 - 请先阅读！
+
+> **🚨 代码无法运行**: 本仓库中的所有 APL 解决方案**未通过语法验证**，无法在 APL 解释器中运行。验证测试（2025-12-04）显示 **0% 通过率**（86 个测试中 0 个通过）。
+
+> **⚠️ AI 生成内容**: 本项目由 AI 辅助创建，包含**未验证、无法工作的代码**。详见 [AI_GENERATED.md](./AI_GENERATED.md)。
+
+> **❌ 请勿用于**：
+> - 生产代码
+> - 面试准备
+> - 学习 APL 语法
+> - 需要可运行代码的学术用途
+
+> **✅ 适用于**：
+> - 仅作为概念/算法参考
+> - 理解解题思路（非 APL 特定）
+> - 创建经过验证的 APL 解决方案的模板
+
+**[📖 查看完整验证状态](VALIDATION_STATUS.md)** 了解详细信息。
+
+---
 
 **🌍 语言**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 

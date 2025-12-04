@@ -1,8 +1,34 @@
 # ⚠️ APL Code Validation Status
 
+## 🚨 VALIDATION FAILED - CODE DOES NOT WORK
+
+**Date Tested**: December 4, 2025
+**Interpreter Used**: GNU APL
+**Test Results**: **0/86 solutions passed (0% success rate)**
+
+### Actual Test Results
+
+All APL solutions were tested using GNU APL interpreter with the following results:
+
+```
+Tested:  86 problems
+Passed:  0 ✅
+Failed:  86 ❌
+Success: 0%
+```
+
+**Common Errors Found**:
+- ❌ Syntax errors in function definitions
+- ❌ Invalid APL operators/symbols
+- ❌ Timeout errors (infinite loops/incorrect logic)
+- ❌ Undefined variables/functions
+- ❌ Placeholder code (e.g., `{⍵}`, `{combinations}`)
+
+---
+
 ## Important Notice
 
-**Current Status**: The APL solutions in this repository have **NOT been validated** in an actual APL interpreter.
+**Current Status**: The APL solutions in this repository have been **TESTED and FAILED** validation in an actual APL interpreter.
 
 ### Why This Matters
 
@@ -248,11 +274,19 @@ Want to help validate?
 
 ---
 
-**Last Updated**: 2024-12-04
+**Last Updated**: 2025-12-04
 
-**Validation Status**: 0/80 problems validated (0%)
+**Validation Status**: ❌ **0/173 problems validated (0%)**
 
-**Help Needed**: Yes! Community validation welcome!
+**Syntax Test Results**: 
+- Tested: 86 problems
+- Passed: **0** ✅
+- Failed: **86** ❌  
+- Pass Rate: **0%**
+
+**Conclusion**: All APL code in this repository contains syntax errors and will not execute in APL interpreters (tested with GNU APL).
+
+**Help Needed**: Yes! This repository needs complete rewrite by APL experts.
 
 ---
 
