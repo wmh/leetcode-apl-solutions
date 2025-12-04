@@ -3,8 +3,22 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Language: APL](https://img.shields.io/badge/Language-APL-blue.svg)](https://aplwiki.com/)
 [![Problems: 173](https://img.shields.io/badge/Problems-173-green.svg)](https://leetcode.com/)
+[![AI Generated](https://img.shields.io/badge/AI-生成-purple.svg)](https://zh.wikipedia.org/wiki/人工智慧)
 
 > 使用 APL 解決 LeetCode 問題
+
+## ⚠️ AI 生成內容聲明
+
+**本專案使用 AI 輔助創建。** 本儲存庫中的所有 APL 解決方案和解釋均由人工智慧生成。雖然已盡力確保程式碼品質：
+
+- 解決方案可能包含錯誤或非最佳方法
+- 程式碼未在生產環境的 APL 直譯器中進行廣泛測試
+- 解釋基於程式碼分析，可能不反映 APL 最佳實踐
+- 這主要是一個教育/實驗性專案
+
+**請自行斟酌使用。歡迎貢獻和糾正！**
+
+---
 
 **🌍 語言**: [English](./README.md) | [繁體中文](./README.zh-TW.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 
